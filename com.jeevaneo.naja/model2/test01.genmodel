@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.borgoltz.test.emf/src"
+    modelPluginID="org.borgoltz.test.emf" modelName="Test01" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>../../org.borgoltz.tests.ecore/test01.ecore</foreignModel>
+  <genPackages prefix="Test01" disposableProviderFactory="true" ecorePackage="test01.ecore#/">
+    <genClasses ecoreClass="test01.ecore#//Person">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Person/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Person/login"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Person/imputations"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Person/totalAvailability"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Person/leftAvailability"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Person/freedom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Person/planifications"/>
+    </genClasses>
+    <genClasses ecoreClass="test01.ecore#//Task">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Task/totalLoad"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Task/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Task/imputations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Task/planifications"/>
+    </genClasses>
+    <genClasses ecoreClass="test01.ecore#//Imputation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Imputation/date"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Imputation/comment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Imputation/resource"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Imputation/task"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Imputation/load"/>
+    </genClasses>
+    <genClasses ecoreClass="test01.ecore#//Planification">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Planification/resource"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference test01.ecore#//Planification/task"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute test01.ecore#//Planification/load"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
