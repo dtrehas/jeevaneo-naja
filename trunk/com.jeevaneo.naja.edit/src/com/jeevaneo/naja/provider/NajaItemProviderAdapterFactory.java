@@ -214,6 +214,29 @@ public class NajaItemProviderAdapterFactory extends NajaAdapterFactory implement
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.jeevaneo.naja.Schedule} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ScheduleItemProvider scheduleItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.jeevaneo.naja.Schedule}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createScheduleAdapter() {
+		if (scheduleItemProvider == null) {
+			scheduleItemProvider = new ScheduleItemProvider(this);
+		}
+
+		return scheduleItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -318,6 +341,7 @@ public class NajaItemProviderAdapterFactory extends NajaAdapterFactory implement
 		if (planificationItemProvider != null) planificationItemProvider.dispose();
 		if (projectItemProvider != null) projectItemProvider.dispose();
 		if (categoryItemProvider != null) categoryItemProvider.dispose();
+		if (scheduleItemProvider != null) scheduleItemProvider.dispose();
 	}
 
 }

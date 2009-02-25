@@ -13,6 +13,7 @@ import com.jeevaneo.naja.NajaPackage;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Project;
+import com.jeevaneo.naja.Schedule;
 import com.jeevaneo.naja.Task;
 
 import org.eclipse.emf.ecore.EAttribute;
@@ -70,6 +71,13 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * @generated
 	 */
 	private EClass categoryEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass scheduleEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -200,6 +208,24 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 */
 	public EReference getPerson_Planifications() {
 		return (EReference)personEClass.getEStructuralFeatures().get(5);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getPerson_AvailabilityStartDate() {
+		return (EAttribute)personEClass.getEStructuralFeatures().get(6);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getPerson_AvailableSchedules() {
+		return (EReference)personEClass.getEStructuralFeatures().get(7);
 	}
 
 	/**
@@ -549,6 +575,42 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getSchedule() {
+		return scheduleEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getSchedule_Date() {
+		return (EAttribute)scheduleEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getSchedule_Load() {
+		return (EAttribute)scheduleEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getSchedule_Label() {
+		return (EAttribute)scheduleEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public NajaFactory getNajaFactory() {
 		return (NajaFactory)getEFactoryInstance();
 	}
@@ -579,6 +641,8 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEAttribute(personEClass, PERSON__TOTAL_AVAILABILITY);
 		createEAttribute(personEClass, PERSON__LEFT_AVAILABILITY);
 		createEReference(personEClass, PERSON__PLANIFICATIONS);
+		createEAttribute(personEClass, PERSON__AVAILABILITY_START_DATE);
+		createEReference(personEClass, PERSON__AVAILABLE_SCHEDULES);
 
 		taskEClass = createEClass(TASK);
 		createEAttribute(taskEClass, TASK__TOTAL_LOAD);
@@ -622,6 +686,11 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEAttribute(categoryEClass, CATEGORY__TOTAL_LOAD);
 		createEAttribute(categoryEClass, CATEGORY__UNAFFECTED_LOAD);
 		createEAttribute(categoryEClass, CATEGORY__PRIORITY);
+
+		scheduleEClass = createEClass(SCHEDULE);
+		createEAttribute(scheduleEClass, SCHEDULE__DATE);
+		createEAttribute(scheduleEClass, SCHEDULE__LOAD);
+		createEAttribute(scheduleEClass, SCHEDULE__LABEL);
 	}
 
 	/**
@@ -661,6 +730,8 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEAttribute(getPerson_TotalAvailability(), ecorePackage.getEInt(), "totalAvailability", "0", 0, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPerson_LeftAvailability(), ecorePackage.getEInt(), "leftAvailability", "0", 1, 1, Person.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEReference(getPerson_Planifications(), this.getPlanification(), this.getPlanification_Resource(), "planifications", null, 0, -1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getPerson_AvailabilityStartDate(), ecorePackage.getEDate(), "availabilityStartDate", null, 1, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getPerson_AvailableSchedules(), this.getSchedule(), null, "availableSchedules", null, 0, -1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, !IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 
 		initEClass(taskEClass, Task.class, "Task", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getTask_TotalLoad(), ecorePackage.getEInt(), "totalLoad", null, 1, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -704,6 +775,11 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEAttribute(getCategory_TotalLoad(), ecorePackage.getEInt(), "totalLoad", null, 1, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCategory_UnaffectedLoad(), ecorePackage.getEInt(), "unaffectedLoad", null, 1, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCategory_Priority(), ecorePackage.getEInt(), "priority", "0", 0, 1, Category.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(scheduleEClass, Schedule.class, "Schedule", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getSchedule_Date(), ecorePackage.getEDate(), "date", null, 1, 1, Schedule.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getSchedule_Load(), ecorePackage.getEInt(), "load", null, 1, 1, Schedule.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getSchedule_Label(), ecorePackage.getEString(), "label", null, 1, 1, Schedule.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

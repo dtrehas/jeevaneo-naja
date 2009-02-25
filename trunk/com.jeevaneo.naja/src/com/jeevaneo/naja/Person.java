@@ -6,6 +6,7 @@
  */
 package com.jeevaneo.naja;
 
+import java.util.Date;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EObject;
@@ -24,6 +25,8 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Person#getTotalAvailability <em>Total Availability</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getLeftAvailability <em>Left Availability</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getPlanifications <em>Planifications</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Person#getAvailabilityStartDate <em>Availability Start Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Person#getAvailableSchedules <em>Available Schedules</em>}</li>
  * </ul>
  * </p>
  *
@@ -173,5 +176,47 @@ public interface Person extends EObject {
 	 * @generated
 	 */
 	EList<Planification> getPlanifications();
+
+	/**
+	 * Returns the value of the '<em><b>Availability Start Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Availability Start Date</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Availability Start Date</em>' attribute.
+	 * @see #setAvailabilityStartDate(Date)
+	 * @see com.jeevaneo.naja.NajaPackage#getPerson_AvailabilityStartDate()
+	 * @model required="true"
+	 * @generated
+	 */
+	Date getAvailabilityStartDate();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.Person#getAvailabilityStartDate <em>Availability Start Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Availability Start Date</em>' attribute.
+	 * @see #getAvailabilityStartDate()
+	 * @generated
+	 */
+	void setAvailabilityStartDate(Date value);
+
+	/**
+	 * Returns the value of the '<em><b>Available Schedules</b></em>' containment reference list.
+	 * The list contents are of type {@link com.jeevaneo.naja.Schedule}.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Available Schedules</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Available Schedules</em>' containment reference list.
+	 * @see com.jeevaneo.naja.NajaPackage#getPerson_AvailableSchedules()
+	 * @model containment="true" derived="true"
+	 * @generated
+	 */
+	EList<Schedule> getAvailableSchedules();
 
 } // Person

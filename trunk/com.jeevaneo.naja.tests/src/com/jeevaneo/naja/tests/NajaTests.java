@@ -40,6 +40,7 @@ public class NajaTests extends TestSuite {
 		suite.addTestSuite(PlanificationTest.class);
 		suite.addTestSuite(ProjectTest.class);
 		suite.addTestSuite(CategoryTest.class);
+		suite.addTestSuite(ScheduleTest.class);
 		return suite;
 	}
 

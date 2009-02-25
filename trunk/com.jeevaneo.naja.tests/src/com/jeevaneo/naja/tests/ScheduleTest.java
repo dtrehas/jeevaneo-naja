@@ -7,7 +7,7 @@
 package com.jeevaneo.naja.tests;
 
 import com.jeevaneo.naja.NajaFactory;
-import com.jeevaneo.naja.Person;
+import com.jeevaneo.naja.Schedule;
 
 import junit.framework.TestCase;
 
@@ -15,26 +15,25 @@ import junit.textui.TestRunner;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Person</b></em>'.
+ * A test case for the model object '<em><b>Schedule</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are tested:
  * <ul>
- *   <li>{@link com.jeevaneo.naja.Person#getLeftAvailability() <em>Left Availability</em>}</li>
- *   <li>{@link com.jeevaneo.naja.Person#getAvailableSchedules() <em>Available Schedules</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Schedule#getLabel() <em>Label</em>}</li>
  * </ul>
  * </p>
  * @generated
  */
-public class PersonTest extends TestCase {
+public class ScheduleTest extends TestCase {
 
 	/**
-	 * The fixture for this Person test case.
+	 * The fixture for this Schedule test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected Person fixture = null;
+	protected Schedule fixture = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -42,36 +41,36 @@ public class PersonTest extends TestCase {
 	 * @generated
 	 */
 	public static void main(String[] args) {
-		TestRunner.run(PersonTest.class);
+		TestRunner.run(ScheduleTest.class);
 	}
 
 	/**
-	 * Constructs a new Person test case with the given name.
+	 * Constructs a new Schedule test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public PersonTest(String name) {
+	public ScheduleTest(String name) {
 		super(name);
 	}
 
 	/**
-	 * Sets the fixture for this Person test case.
+	 * Sets the fixture for this Schedule test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void setFixture(Person fixture) {
+	protected void setFixture(Schedule fixture) {
 		this.fixture = fixture;
 	}
 
 	/**
-	 * Returns the fixture for this Person test case.
+	 * Returns the fixture for this Schedule test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected Person getFixture() {
+	protected Schedule getFixture() {
 		return fixture;
 	}
 
@@ -83,7 +82,7 @@ public class PersonTest extends TestCase {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(NajaFactory.eINSTANCE.createPerson());
+		setFixture(NajaFactory.eINSTANCE.createSchedule());
 	}
 
 	/**
@@ -98,42 +97,29 @@ public class PersonTest extends TestCase {
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Person#getLeftAvailability() <em>Left Availability</em>}' feature getter.
+	 * Tests the '{@link com.jeevaneo.naja.Schedule#getLabel() <em>Label</em>}' feature getter.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Person#getLeftAvailability()
+	 * @see com.jeevaneo.naja.Schedule#getLabel()
 	 * @generated
 	 */
-	public void testGetLeftAvailability() {
+	public void testGetLabel() {
 		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Person#isSetLeftAvailability() <em>isSetLeftAvailability()</em>}' method.
+	 * Tests the '{@link com.jeevaneo.naja.Schedule#isSetLabel() <em>isSetLabel()</em>}' method.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Person#isSetLeftAvailability()
+	 * @see com.jeevaneo.naja.Schedule#isSetLabel()
 	 * @generated
 	 */
-	public void testIsSetLeftAvailability() {
+	public void testIsSetLabel() {
 		// TODO: implement this test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}
 
-	/**
-	 * Tests the '{@link com.jeevaneo.naja.Person#getAvailableSchedules() <em>Available Schedules</em>}' feature getter.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Person#getAvailableSchedules()
-	 * @generated
-	 */
-	public void testGetAvailableSchedules() {
-		// TODO: implement this feature getter test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
-} //PersonTest
+} //ScheduleTest

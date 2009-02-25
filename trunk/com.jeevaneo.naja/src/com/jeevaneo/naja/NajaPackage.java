@@ -124,13 +124,31 @@ public interface NajaPackage extends EPackage {
 	int PERSON__PLANIFICATIONS = 5;
 
 	/**
+	 * The feature id for the '<em><b>Availability Start Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__AVAILABILITY_START_DATE = 6;
+
+	/**
+	 * The feature id for the '<em><b>Available Schedules</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__AVAILABLE_SCHEDULES = 7;
+
+	/**
 	 * The number of structural features of the '<em>Person</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PERSON_FEATURE_COUNT = 6;
+	int PERSON_FEATURE_COUNT = 8;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
@@ -526,6 +544,53 @@ public interface NajaPackage extends EPackage {
 
 
 	/**
+	 * The meta object id for the '{@link com.jeevaneo.naja.impl.ScheduleImpl <em>Schedule</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.impl.ScheduleImpl
+	 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getSchedule()
+	 * @generated
+	 */
+	int SCHEDULE = 6;
+
+	/**
+	 * The feature id for the '<em><b>Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SCHEDULE__DATE = 0;
+
+	/**
+	 * The feature id for the '<em><b>Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SCHEDULE__LOAD = 1;
+
+	/**
+	 * The feature id for the '<em><b>Label</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SCHEDULE__LABEL = 2;
+
+	/**
+	 * The number of structural features of the '<em>Schedule</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SCHEDULE_FEATURE_COUNT = 3;
+
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Person <em>Person</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -600,6 +665,28 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getPerson_Planifications();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Person#getAvailabilityStartDate <em>Availability Start Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Availability Start Date</em>'.
+	 * @see com.jeevaneo.naja.Person#getAvailabilityStartDate()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_AvailabilityStartDate();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link com.jeevaneo.naja.Person#getAvailableSchedules <em>Available Schedules</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Available Schedules</em>'.
+	 * @see com.jeevaneo.naja.Person#getAvailableSchedules()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EReference getPerson_AvailableSchedules();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Task <em>Task</em>}'.
@@ -1015,6 +1102,49 @@ public interface NajaPackage extends EPackage {
 	EAttribute getCategory_Priority();
 
 	/**
+	 * Returns the meta object for class '{@link com.jeevaneo.naja.Schedule <em>Schedule</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Schedule</em>'.
+	 * @see com.jeevaneo.naja.Schedule
+	 * @generated
+	 */
+	EClass getSchedule();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Schedule#getDate <em>Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Date</em>'.
+	 * @see com.jeevaneo.naja.Schedule#getDate()
+	 * @see #getSchedule()
+	 * @generated
+	 */
+	EAttribute getSchedule_Date();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Schedule#getLoad <em>Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Load</em>'.
+	 * @see com.jeevaneo.naja.Schedule#getLoad()
+	 * @see #getSchedule()
+	 * @generated
+	 */
+	EAttribute getSchedule_Load();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Schedule#getLabel <em>Label</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Label</em>'.
+	 * @see com.jeevaneo.naja.Schedule#getLabel()
+	 * @see #getSchedule()
+	 * @generated
+	 */
+	EAttribute getSchedule_Label();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1093,6 +1223,22 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EReference PERSON__PLANIFICATIONS = eINSTANCE.getPerson_Planifications();
+
+		/**
+		 * The meta object literal for the '<em><b>Availability Start Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__AVAILABILITY_START_DATE = eINSTANCE.getPerson_AvailabilityStartDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Available Schedules</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PERSON__AVAILABLE_SCHEDULES = eINSTANCE.getPerson_AvailableSchedules();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
@@ -1407,6 +1553,40 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute CATEGORY__PRIORITY = eINSTANCE.getCategory_Priority();
+
+		/**
+		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ScheduleImpl <em>Schedule</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.jeevaneo.naja.impl.ScheduleImpl
+		 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getSchedule()
+		 * @generated
+		 */
+		EClass SCHEDULE = eINSTANCE.getSchedule();
+
+		/**
+		 * The meta object literal for the '<em><b>Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SCHEDULE__DATE = eINSTANCE.getSchedule_Date();
+
+		/**
+		 * The meta object literal for the '<em><b>Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SCHEDULE__LOAD = eINSTANCE.getSchedule_Load();
+
+		/**
+		 * The meta object literal for the '<em><b>Label</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute SCHEDULE__LABEL = eINSTANCE.getSchedule_Label();
 
 	}
 
