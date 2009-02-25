@@ -96,6 +96,10 @@ public class NajaAdapterFactory extends AdapterFactoryImpl {
 				return createCategoryAdapter();
 			}
 			@Override
+			public Adapter caseSchedule(Schedule object) {
+				return createScheduleAdapter();
+			}
+			@Override
 			public Adapter defaultCase(EObject object) {
 				return createEObjectAdapter();
 			}
@@ -196,6 +200,20 @@ public class NajaAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createCategoryAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link com.jeevaneo.naja.Schedule <em>Schedule</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.jeevaneo.naja.Schedule
+	 * @generated
+	 */
+	public Adapter createScheduleAdapter() {
 		return null;
 	}
 

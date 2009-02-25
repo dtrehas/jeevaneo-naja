@@ -18,6 +18,7 @@ import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.common.util.ResourceLocator;
 
+import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
 import org.eclipse.emf.edit.provider.IItemLabelProvider;
@@ -70,6 +71,7 @@ public class PersonItemProvider
 			addTotalAvailabilityPropertyDescriptor(object);
 			addLeftAvailabilityPropertyDescriptor(object);
 			addPlanificationsPropertyDescriptor(object);
+			addAvailabilityStartDatePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -207,6 +209,58 @@ public class PersonItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Availability Start Date feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addAvailabilityStartDatePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Person_availabilityStartDate_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Person_availabilityStartDate_feature", "_UI_Person_type"),
+				 NajaPackage.Literals.PERSON__AVAILABILITY_START_DATE,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
+	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
+	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
+		if (childrenFeatures == null) {
+			super.getChildrenFeatures(object);
+			childrenFeatures.add(NajaPackage.Literals.PERSON__AVAILABLE_SCHEDULES);
+		}
+		return childrenFeatures;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected EStructuralFeature getChildFeature(Object object, Object child) {
+		// Check the type of the specified child object and return the proper feature to use for
+		// adding (see {@link AddCommand}) it as a child.
+
+		return super.getChildFeature(object, child);
+	}
+
+	/**
 	 * This returns Person.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -247,7 +301,11 @@ public class PersonItemProvider
 			case NajaPackage.PERSON__LOGIN:
 			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
 			case NajaPackage.PERSON__LEFT_AVAILABILITY:
+			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
+				return;
+			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
 		super.notifyChanged(notification);

@@ -66,6 +66,7 @@ public class NajaFactoryImpl extends EFactoryImpl implements NajaFactory {
 			case NajaPackage.PLANIFICATION: return createPlanification();
 			case NajaPackage.PROJECT: return createProject();
 			case NajaPackage.CATEGORY: return createCategory();
+			case NajaPackage.SCHEDULE: return createSchedule();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -129,6 +130,16 @@ public class NajaFactoryImpl extends EFactoryImpl implements NajaFactory {
 	public Category createCategory() {
 		CategoryImpl category = new CategoryImpl();
 		return category;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Schedule createSchedule() {
+		ScheduleImpl schedule = new ScheduleImpl();
+		return schedule;
 	}
 
 	/**

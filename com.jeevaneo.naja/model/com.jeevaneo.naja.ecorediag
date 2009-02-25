@@ -19,6 +19,10 @@
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/leftAvailability"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_B7DQkfx-Ed28oekAVuFVpg"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_yt8B4AM7Ed6MVOI3Hba9IA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/availabilityStartDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yt8B4QM7Ed6MVOI3Hba9IA"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_R-CxofqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_R-CxovqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_R-Cxo_qSEd2_8NSLID6Jxg"/>
@@ -183,6 +187,34 @@
     <styles xmi:type="notation:ShapeStyle" xmi:id="_wmo5wfyOEd28oekAVuFVpg" fontHeight="10" fillColor="13761016" lineColor="0"/>
     <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.ecore#//Category"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wmo5wvyOEd28oekAVuFVpg" x="450" y="160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_T6EW8QM5Ed6MVOI3Hba9IA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_T6EW9AM5Ed6MVOI3Hba9IA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_T6OH8AM5Ed6MVOI3Hba9IA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_VA2Y0AM5Ed6MVOI3Hba9IA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Schedule/date"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VA2Y0QM5Ed6MVOI3Hba9IA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_b_b7kAM5Ed6MVOI3Hba9IA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Schedule/load"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b_b7kQM5Ed6MVOI3Hba9IA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sLCosANTEd6MVOI3Hba9IA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Schedule/label"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sLCosQNTEd6MVOI3Hba9IA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_T6OH8QM5Ed6MVOI3Hba9IA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_T6OH8gM5Ed6MVOI3Hba9IA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_T6OH8wM5Ed6MVOI3Hba9IA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_T6OH9AM5Ed6MVOI3Hba9IA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_T6OH9QM5Ed6MVOI3Hba9IA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_T6OH9gM5Ed6MVOI3Hba9IA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_T6OH9wM5Ed6MVOI3Hba9IA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_T6EW8gM5Ed6MVOI3Hba9IA" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.ecore#//Schedule"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T6EW8wM5Ed6MVOI3Hba9IA" x="76" y="521"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_PW2s8fqSEd2_8NSLID6Jxg"/>
   <element xmi:type="ecore:EPackage" href="com.jeevaneo.naja.ecore#/"/>
@@ -418,5 +450,18 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_smvGY_6WEd2TepS0va_v1g" points="[-13, -7, 150, 80]$[-152, -90, 11, -3]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sm43ZP6WEd2TepS0va_v1g" id="(0.08609272,0.33333334)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sm43Zf6WEd2TepS0va_v1g" id="(0.92715234,0.31578946)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_qOD2EAM8Ed6MVOI3Hba9IA" type="3002" source="_R95AoPqSEd2_8NSLID6Jxg" target="_T6EW8QM5Ed6MVOI3Hba9IA">
+    <children xmi:type="notation:Node" xmi:id="_qOD2FAM8Ed6MVOI3Hba9IA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qOD2FQM8Ed6MVOI3Hba9IA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_qOD2FgM8Ed6MVOI3Hba9IA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qOD2FwM8Ed6MVOI3Hba9IA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_qOD2EQM8Ed6MVOI3Hba9IA" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qOD2EgM8Ed6MVOI3Hba9IA" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//Person/availableSchedules"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qOD2EwM8Ed6MVOI3Hba9IA" points="[1, 9, -26, -150]$[14, 135, -13, -24]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qOD2GAM8Ed6MVOI3Hba9IA" id="(0.34574467,0.9133858)"/>
   </edges>
 </notation:Diagram>
