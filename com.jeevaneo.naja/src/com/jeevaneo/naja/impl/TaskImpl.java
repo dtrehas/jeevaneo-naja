@@ -370,7 +370,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 			}
 			else
 			{
-				if(ret.after(p.getFirstDate()))
+				if(null!=p.getFirstDate() && ret.after(p.getFirstDate()))
 				{
 					ret = p.getFirstDate();
 				}
@@ -394,7 +394,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 			}
 			else
 			{
-				if(ret.before(imp.getDate()))
+				if(null!=imp.getDate() && ret.before(imp.getDate()))
 				{
 					ret = imp.getDate();
 				}
@@ -408,7 +408,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 			}
 			else
 			{
-				if(ret.after(p.getLastDate()))
+				if(null!=p.getLastDate() && ret.before(p.getLastDate()))
 				{
 					ret = p.getLastDate();
 				}

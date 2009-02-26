@@ -433,10 +433,12 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 		// TODO continue!!
 		int i = 0;
+		int leftAvailability = totalAvailability;
 		for (Date date : dates) {
 			Schedule schedule = NajaFactory.eINSTANCE.createSchedule();
 			schedule.setDate(date);
-			schedule.setLoad(8);
+			schedule.setLoad(Math.min(8, leftAvailability));
+			leftAvailability -= schedule.getLoad();
 			getAvailableSchedules().add(schedule);
 		}
 
@@ -547,7 +549,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(firstDate);
 		cal.add(Calendar.DAY_OF_WEEK, -1);
-		int leftDays = totalAvailability;
+		int leftDays = totalAvailability/8 + (totalAvailability%8==0?0:1);
 		while (leftDays > 0) {
 			cal.add(Calendar.DAY_OF_WEEK, 1);
 			if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY
@@ -791,15 +793,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 	}
 
 	public static void main(String[] args) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-
-		try {
-			System.out.println(sdf.parse("2009-05-01"));
-			System.out.println(bankHolidays.contains(sdf.parse("2009-05-01")));
-
-		} catch (ParseException e) {
-			throw new RuntimeException(e);
-		}
+		System.out.println(17%8);
+		System.out.println(17/8);
 	}
 
 } // PersonImpl
