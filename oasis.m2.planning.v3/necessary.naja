@@ -25,9 +25,9 @@
   <planifications task="//@categories.9/@subcategories.0/@subcategories.0/@tasks.1" load="20">
     <resource href="pbr.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-03-12T00:00:00.000+0100" load="8"/>
-      <schedules date="2009-03-13T00:00:00.000+0100" load="8"/>
-      <schedules date="2009-03-16T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <categories name="BE Offline">
