@@ -233,13 +233,31 @@ public interface NajaPackage extends EPackage {
 	int TASK__CATEGORY = 7;
 
 	/**
+	 * The feature id for the '<em><b>First Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK__FIRST_DATE = 8;
+
+	/**
+	 * The feature id for the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK__LAST_DATE = 9;
+
+	/**
 	 * The number of structural features of the '<em>Task</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TASK_FEATURE_COUNT = 8;
+	int TASK_FEATURE_COUNT = 10;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.ImputationImpl <em>Imputation</em>}' class.
@@ -361,13 +379,40 @@ public interface NajaPackage extends EPackage {
 	int PLANIFICATION__COMMENT = 4;
 
 	/**
+	 * The feature id for the '<em><b>Virtual Imputation</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__VIRTUAL_IMPUTATION = 5;
+
+	/**
+	 * The feature id for the '<em><b>First Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__FIRST_DATE = 6;
+
+	/**
+	 * The feature id for the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__LAST_DATE = 7;
+
+	/**
 	 * The number of structural features of the '<em>Planification</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PLANIFICATION_FEATURE_COUNT = 5;
+	int PLANIFICATION_FEATURE_COUNT = 8;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.ProjectImpl <em>Project</em>}' class.
@@ -534,13 +579,31 @@ public interface NajaPackage extends EPackage {
 	int CATEGORY__PRIORITY = 6;
 
 	/**
+	 * The feature id for the '<em><b>First Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CATEGORY__FIRST_DATE = 7;
+
+	/**
+	 * The feature id for the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CATEGORY__LAST_DATE = 8;
+
+	/**
 	 * The number of structural features of the '<em>Category</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CATEGORY_FEATURE_COUNT = 7;
+	int CATEGORY_FEATURE_COUNT = 9;
 
 
 	/**
@@ -588,6 +651,80 @@ public interface NajaPackage extends EPackage {
 	 * @ordered
 	 */
 	int SCHEDULE_FEATURE_COUNT = 3;
+
+
+	/**
+	 * The meta object id for the '{@link com.jeevaneo.naja.impl.VirtualImputationImpl <em>Virtual Imputation</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.impl.VirtualImputationImpl
+	 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getVirtualImputation()
+	 * @generated
+	 */
+	int VIRTUAL_IMPUTATION = 7;
+
+	/**
+	 * The feature id for the '<em><b>Total Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION__TOTAL_LOAD = 0;
+
+	/**
+	 * The feature id for the '<em><b>First Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION__FIRST_DATE = 1;
+
+	/**
+	 * The feature id for the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION__LAST_DATE = 2;
+
+	/**
+	 * The feature id for the '<em><b>Planification</b></em>' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION__PLANIFICATION = 3;
+
+	/**
+	 * The feature id for the '<em><b>Schedules</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION__SCHEDULES = 4;
+
+	/**
+	 * The feature id for the '<em><b>Label</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION__LABEL = 5;
+
+	/**
+	 * The number of structural features of the '<em>Virtual Imputation</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int VIRTUAL_IMPUTATION_FEATURE_COUNT = 6;
 
 
 	/**
@@ -787,6 +924,28 @@ public interface NajaPackage extends EPackage {
 	EReference getTask_Category();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Task#getFirstDate <em>First Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>First Date</em>'.
+	 * @see com.jeevaneo.naja.Task#getFirstDate()
+	 * @see #getTask()
+	 * @generated
+	 */
+	EAttribute getTask_FirstDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Task#getLastDate <em>Last Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Last Date</em>'.
+	 * @see com.jeevaneo.naja.Task#getLastDate()
+	 * @see #getTask()
+	 * @generated
+	 */
+	EAttribute getTask_LastDate();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Imputation <em>Imputation</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -915,6 +1074,39 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getPlanification_Comment();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link com.jeevaneo.naja.Planification#getVirtualImputation <em>Virtual Imputation</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Virtual Imputation</em>'.
+	 * @see com.jeevaneo.naja.Planification#getVirtualImputation()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EReference getPlanification_VirtualImputation();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Planification#getFirstDate <em>First Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>First Date</em>'.
+	 * @see com.jeevaneo.naja.Planification#getFirstDate()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EAttribute getPlanification_FirstDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Planification#getLastDate <em>Last Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Last Date</em>'.
+	 * @see com.jeevaneo.naja.Planification#getLastDate()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EAttribute getPlanification_LastDate();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Project <em>Project</em>}'.
@@ -1102,6 +1294,28 @@ public interface NajaPackage extends EPackage {
 	EAttribute getCategory_Priority();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Category#getFirstDate <em>First Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>First Date</em>'.
+	 * @see com.jeevaneo.naja.Category#getFirstDate()
+	 * @see #getCategory()
+	 * @generated
+	 */
+	EAttribute getCategory_FirstDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Category#getLastDate <em>Last Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Last Date</em>'.
+	 * @see com.jeevaneo.naja.Category#getLastDate()
+	 * @see #getCategory()
+	 * @generated
+	 */
+	EAttribute getCategory_LastDate();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Schedule <em>Schedule</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1143,6 +1357,82 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getSchedule_Label();
+
+	/**
+	 * Returns the meta object for class '{@link com.jeevaneo.naja.VirtualImputation <em>Virtual Imputation</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Virtual Imputation</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation
+	 * @generated
+	 */
+	EClass getVirtualImputation();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.VirtualImputation#getTotalLoad <em>Total Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Total Load</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation#getTotalLoad()
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	EAttribute getVirtualImputation_TotalLoad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.VirtualImputation#getFirstDate <em>First Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>First Date</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation#getFirstDate()
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	EAttribute getVirtualImputation_FirstDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.VirtualImputation#getLastDate <em>Last Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Last Date</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation#getLastDate()
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	EAttribute getVirtualImputation_LastDate();
+
+	/**
+	 * Returns the meta object for the container reference '{@link com.jeevaneo.naja.VirtualImputation#getPlanification <em>Planification</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the container reference '<em>Planification</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation#getPlanification()
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	EReference getVirtualImputation_Planification();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link com.jeevaneo.naja.VirtualImputation#getSchedules <em>Schedules</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Schedules</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation#getSchedules()
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	EReference getVirtualImputation_Schedules();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.VirtualImputation#getLabel <em>Label</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Label</em>'.
+	 * @see com.jeevaneo.naja.VirtualImputation#getLabel()
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	EAttribute getVirtualImputation_Label();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -1315,6 +1605,22 @@ public interface NajaPackage extends EPackage {
 		EReference TASK__CATEGORY = eINSTANCE.getTask_Category();
 
 		/**
+		 * The meta object literal for the '<em><b>First Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TASK__FIRST_DATE = eINSTANCE.getTask_FirstDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Last Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TASK__LAST_DATE = eINSTANCE.getTask_LastDate();
+
+		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ImputationImpl <em>Imputation</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1413,6 +1719,30 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute PLANIFICATION__COMMENT = eINSTANCE.getPlanification_Comment();
+
+		/**
+		 * The meta object literal for the '<em><b>Virtual Imputation</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PLANIFICATION__VIRTUAL_IMPUTATION = eINSTANCE.getPlanification_VirtualImputation();
+
+		/**
+		 * The meta object literal for the '<em><b>First Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANIFICATION__FIRST_DATE = eINSTANCE.getPlanification_FirstDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Last Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANIFICATION__LAST_DATE = eINSTANCE.getPlanification_LastDate();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ProjectImpl <em>Project</em>}' class.
@@ -1555,6 +1885,22 @@ public interface NajaPackage extends EPackage {
 		EAttribute CATEGORY__PRIORITY = eINSTANCE.getCategory_Priority();
 
 		/**
+		 * The meta object literal for the '<em><b>First Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CATEGORY__FIRST_DATE = eINSTANCE.getCategory_FirstDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Last Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CATEGORY__LAST_DATE = eINSTANCE.getCategory_LastDate();
+
+		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ScheduleImpl <em>Schedule</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1587,6 +1933,64 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute SCHEDULE__LABEL = eINSTANCE.getSchedule_Label();
+
+		/**
+		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.VirtualImputationImpl <em>Virtual Imputation</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.jeevaneo.naja.impl.VirtualImputationImpl
+		 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getVirtualImputation()
+		 * @generated
+		 */
+		EClass VIRTUAL_IMPUTATION = eINSTANCE.getVirtualImputation();
+
+		/**
+		 * The meta object literal for the '<em><b>Total Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VIRTUAL_IMPUTATION__TOTAL_LOAD = eINSTANCE.getVirtualImputation_TotalLoad();
+
+		/**
+		 * The meta object literal for the '<em><b>First Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VIRTUAL_IMPUTATION__FIRST_DATE = eINSTANCE.getVirtualImputation_FirstDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Last Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VIRTUAL_IMPUTATION__LAST_DATE = eINSTANCE.getVirtualImputation_LastDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Planification</b></em>' container reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference VIRTUAL_IMPUTATION__PLANIFICATION = eINSTANCE.getVirtualImputation_Planification();
+
+		/**
+		 * The meta object literal for the '<em><b>Schedules</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference VIRTUAL_IMPUTATION__SCHEDULES = eINSTANCE.getVirtualImputation_Schedules();
+
+		/**
+		 * The meta object literal for the '<em><b>Label</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute VIRTUAL_IMPUTATION__LABEL = eINSTANCE.getVirtualImputation_Label();
 
 	}
 

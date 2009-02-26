@@ -9,15 +9,24 @@ package com.jeevaneo.naja.impl;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+import org.eclipse.emf.common.notify.impl.AdapterImpl;
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
+import org.eclipse.emf.ecore.util.InternalEList;
+
+import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Task;
+import com.jeevaneo.naja.VirtualImputation;
+import java.util.Collection;
+import java.util.Date;
 import com.jeevaneo.naja.NajaPackage;
 
 
@@ -33,6 +42,9 @@ import com.jeevaneo.naja.NajaPackage;
  *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getTask <em>Task</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getLoad <em>Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getComment <em>Comment</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getVirtualImputation <em>Virtual Imputation</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getFirstDate <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getLastDate <em>Last Date</em>}</li>
  * </ul>
  * </p>
  *
@@ -110,12 +122,80 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	protected String comment = COMMENT_EDEFAULT;
 
 	/**
+	 * The cached value of the '{@link #getVirtualImputation() <em>Virtual Imputation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @see #getVirtualImputation()
 	 * @generated
+	 * @ordered
+	 */
+	protected VirtualImputation virtualImputation;
+
+	/**
+	 * The default value of the '{@link #getFirstDate() <em>First Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getFirstDate()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final Date FIRST_DATE_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getFirstDate() <em>First Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getFirstDate()
+	 * @generated
+	 * @ordered
+	 */
+	protected Date firstDate = FIRST_DATE_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getLastDate() <em>Last Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getLastDate()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final Date LAST_DATE_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getLastDate() <em>Last Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getLastDate()
+	 * @generated
+	 * @ordered
+	 */
+	protected Date lastDate = LAST_DATE_EDEFAULT;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
 	 */
 	protected PlanificationImpl() {
 		super();
+		
+		eAdapters().add(new AdapterImpl() {
+
+			@Override
+			public void notifyChanged(Notification msg) {
+				super.notifyChanged(msg);
+				switch(msg.getFeatureID(Planification.class))
+				{
+				case NajaPackage.PLANIFICATION__LOAD:
+					if(null!=getResource())
+					{
+						((PersonImpl)getResource()).recomputeAvailableSchedules();
+					}
+					break;
+				}
+			}
+			
+		});
 	}
 
 	/**
@@ -293,9 +373,82 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public VirtualImputation getVirtualImputation() {
+		return virtualImputation;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetVirtualImputation(VirtualImputation newVirtualImputation, NotificationChain msgs) {
+		VirtualImputation oldVirtualImputation = virtualImputation;
+		virtualImputation = newVirtualImputation;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION, oldVirtualImputation, newVirtualImputation);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setVirtualImputation(VirtualImputation newVirtualImputation) {
+		if (newVirtualImputation != virtualImputation) {
+			NotificationChain msgs = null;
+			if (virtualImputation != null)
+				msgs = ((InternalEObject)virtualImputation).eInverseRemove(this, NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION, VirtualImputation.class, msgs);
+			if (newVirtualImputation != null)
+				msgs = ((InternalEObject)newVirtualImputation).eInverseAdd(this, NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION, VirtualImputation.class, msgs);
+			msgs = basicSetVirtualImputation(newVirtualImputation, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION, newVirtualImputation, newVirtualImputation));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public Date getFirstDate() {
+		if(null!=getVirtualImputation())
+		{
+			return getVirtualImputation().getFirstDate();
+		}
+		return null;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public Date getLastDate() {
+		if(null!=getVirtualImputation())
+		{
+			return getVirtualImputation().getLastDate();
+		}
+		return null;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated NOT
 	 */
 	public String getLabel() {
+		if(null!=getVirtualImputation())
+		{
+			return getVirtualImputation().getLabel();
+		}
 		return String.format(/*"%s: "+*/"%d on %s"/*, getResource()==null?"nobody!":getResource().getName()*/, load, getTask()==null?"nothing!":getTask().getName());
 	}
 
@@ -313,6 +466,7 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
@@ -324,6 +478,10 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				if (task != null)
 					msgs = ((InternalEObject)task).eInverseRemove(this, NajaPackage.TASK__PLANIFICATIONS, Task.class, msgs);
 				return basicSetTask((Task)otherEnd, msgs);
+			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+				if (virtualImputation != null)
+					msgs = ((InternalEObject)virtualImputation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION, null, msgs);
+				return basicSetVirtualImputation((VirtualImputation)otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -340,6 +498,8 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return basicSetResource(null, msgs);
 			case NajaPackage.PLANIFICATION__TASK:
 				return basicSetTask(null, msgs);
+			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+				return basicSetVirtualImputation(null, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -364,6 +524,12 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return new Integer(getLoad());
 			case NajaPackage.PLANIFICATION__COMMENT:
 				return getComment();
+			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+				return getVirtualImputation();
+			case NajaPackage.PLANIFICATION__FIRST_DATE:
+				return getFirstDate();
+			case NajaPackage.PLANIFICATION__LAST_DATE:
+				return getLastDate();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -373,6 +539,7 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
@@ -387,6 +554,9 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return;
 			case NajaPackage.PLANIFICATION__COMMENT:
 				setComment((String)newValue);
+				return;
+			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+				setVirtualImputation((VirtualImputation)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -412,6 +582,9 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 			case NajaPackage.PLANIFICATION__COMMENT:
 				setComment(COMMENT_EDEFAULT);
 				return;
+			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+				setVirtualImputation((VirtualImputation)null);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -425,7 +598,7 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case NajaPackage.PLANIFICATION__LABEL:
-				return isSetLabel();
+				return LABEL_EDEFAULT == null ? getLabel() != null : !LABEL_EDEFAULT.equals(getLabel());
 			case NajaPackage.PLANIFICATION__RESOURCE:
 				return resource != null;
 			case NajaPackage.PLANIFICATION__TASK:
@@ -434,6 +607,12 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return load != LOAD_EDEFAULT;
 			case NajaPackage.PLANIFICATION__COMMENT:
 				return COMMENT_EDEFAULT == null ? comment != null : !COMMENT_EDEFAULT.equals(comment);
+			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+				return virtualImputation != null;
+			case NajaPackage.PLANIFICATION__FIRST_DATE:
+				return FIRST_DATE_EDEFAULT == null ? firstDate != null : !FIRST_DATE_EDEFAULT.equals(firstDate);
+			case NajaPackage.PLANIFICATION__LAST_DATE:
+				return LAST_DATE_EDEFAULT == null ? lastDate != null : !LAST_DATE_EDEFAULT.equals(lastDate);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -452,6 +631,10 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 		result.append(load);
 		result.append(", comment: ");
 		result.append(comment);
+		result.append(", firstDate: ");
+		result.append(firstDate);
+		result.append(", lastDate: ");
+		result.append(lastDate);
 		result.append(')');
 		return result.toString();
 	}

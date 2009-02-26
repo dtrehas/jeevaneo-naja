@@ -129,6 +129,12 @@ public class NajaSwitch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case NajaPackage.VIRTUAL_IMPUTATION: {
+				VirtualImputation virtualImputation = (VirtualImputation)theEObject;
+				T result = caseVirtualImputation(virtualImputation);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -235,6 +241,21 @@ public class NajaSwitch<T> {
 	 * @generated
 	 */
 	public T caseSchedule(Schedule object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Virtual Imputation</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Virtual Imputation</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseVirtualImputation(VirtualImputation object) {
 		return null;
 	}
 

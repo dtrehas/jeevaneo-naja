@@ -11,6 +11,7 @@ import java.util.Date;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.common.notify.NotificationChain;
+import org.eclipse.emf.common.notify.impl.AdapterImpl;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
@@ -124,10 +125,28 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	protected ImputationImpl() {
 		super();
+		
+		eAdapters().add(new AdapterImpl() {
+
+			@Override
+			public void notifyChanged(Notification msg) {
+				super.notifyChanged(msg);
+				switch(msg.getFeatureID(Imputation.class))
+				{
+				case NajaPackage.IMPUTATION__LOAD:
+					if(null!=getResource())
+					{
+						((PersonImpl)getResource()).recomputeAvailableSchedules();
+					}
+					break;
+				}
+			}
+			
+		});
 	}
 
 	/**

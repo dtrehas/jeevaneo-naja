@@ -19,7 +19,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="availabilityStartDate"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="availableSchedules" unique="false"
-        upperBound="-1" eType="#//Schedule" derived="true" containment="true" resolveProxies="false"/>
+        upperBound="-1" eType="#//Schedule" derived="true" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Task">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalLoad" lowerBound="1"
@@ -37,6 +37,11 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="category" eType="#//Category"
         eOpposite="#//Category/tasks"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstDate" unique="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate" changeable="false"
+        volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+        changeable="false" volatile="true" transient="true" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Imputation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -50,13 +55,19 @@
   <eClassifiers xsi:type="ecore:EClass" name="Planification">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" unique="false" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" changeable="false"
-        volatile="true" transient="true" unsettable="true" derived="true"/>
+        volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="resource" lowerBound="1"
         eType="#//Person" eOpposite="#//Person/planifications"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="task" lowerBound="1" eType="#//Task"
         eOpposite="#//Task/planifications"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="load" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="virtualImputation" eType="#//VirtualImputation"
+        containment="true" eOpposite="#//VirtualImputation/planification"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+        changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+        changeable="false" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Project">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -93,6 +104,10 @@
         volatile="true" transient="true" unsettable="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="priority" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         defaultValueLiteral="0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+        changeable="false" volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
+        changeable="false" volatile="true" transient="true" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Schedule">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="date" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
@@ -100,5 +115,22 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" ordered="false"
         unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
         changeable="false" volatile="true" transient="true" unsettable="true" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualImputation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalLoad" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" changeable="false"
+        volatile="true" transient="true" defaultValueLiteral="0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstDate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate" changeable="false"
+        volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate" changeable="false"
+        volatile="true" transient="true" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="planification" lowerBound="1"
+        eType="#//Planification" eOpposite="#//Planification/virtualImputation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="schedules" lowerBound="1"
+        upperBound="-1" eType="#//Schedule" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        changeable="false" volatile="true" transient="true" derived="true"/>
   </eClassifiers>
 </ecore:EPackage>

@@ -12,11 +12,13 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
+import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+import org.eclipse.emf.common.notify.impl.AdapterImpl;
 import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
@@ -32,6 +34,7 @@ import com.jeevaneo.naja.NajaPackage;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Schedule;
+import com.jeevaneo.naja.VirtualImputation;
 
 /**
  * <!-- begin-user-doc --> An implementation of the model object '
@@ -171,10 +174,121 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * @generated
+	 * 
+	 * @generated NOT
 	 */
 	protected PersonImpl() {
 		super();
+		eAdapters().add(new AdapterImpl() {
+
+			private void addImputation(Imputation imputation) {
+				System.out.println("Added an imputation on " + getName() + " "
+						+ imputation);
+				// reserveSchedule(imputation);
+				recomputeAvailableSchedules();
+			}
+
+			private void changeImputation(Imputation imputation) {
+				System.out.println("Changed an imputation on " + getName()
+						+ " " + imputation);
+				recomputeAvailableSchedules();
+			}
+
+			private void removeImputation(Imputation imputation) {
+				System.out.println("Removed an imputation from " + getName()
+						+ imputation);
+				// releaseSchedule(imputation);
+				recomputeAvailableSchedules();
+			}
+
+			private void addPlanification(Planification newPlan) {
+				System.out.println("Added a planification on " + getName()
+						+ " " + newPlan);
+				recomputeAvailableSchedules();
+			}
+
+			private void removePlanification(Planification oldPlan) {
+				System.out.println("Removed a planification from " + getName()
+						+ oldPlan);
+				recomputeAvailableSchedules();
+			}
+
+			@Override
+			public void notifyChanged(Notification msg) {
+				super.notifyChanged(msg);
+//				 System.out.println("OH! " + msg);
+//				if (!msg.wasSet())
+//					return;
+
+				switch (msg.getFeatureID(Person.class)) {
+				case NajaPackage.PERSON__IMPUTATIONS:
+					switch (msg.getEventType()) {
+					case Notification.ADD:
+						addImputation((Imputation) msg.getNewValue());
+						break;
+					case Notification.ADD_MANY:
+						List<Imputation> imps = (List<Imputation>) msg
+								.getNewValue();
+						for (Imputation imp : imps) {
+							addImputation(imp);
+						}
+						break;
+					case Notification.REMOVE:
+						removeImputation((Imputation) msg.getOldValue());
+						break;
+					case Notification.REMOVE_MANY:
+						List<Imputation> imputs = (List<Imputation>) msg
+								.getOldValue();
+						for (Imputation imp : imputs) {
+							removeImputation(imp);
+						}
+						break;
+					}
+					break;
+				case NajaPackage.PERSON__PLANIFICATIONS:
+					switch (msg.getEventType()) {
+					case Notification.ADD:
+						addPlanification((Planification) msg.getNewValue());
+						break;
+					case Notification.ADD_MANY:
+						List<Planification> plans = (List<Planification>) msg
+								.getNewValue();
+						for (Planification plan : plans) {
+							addPlanification(plan);
+						}
+						break;
+					case Notification.REMOVE:
+						removePlanification((Planification) msg.getOldValue());
+						break;
+					case Notification.REMOVE_MANY:
+						List<Planification> planifs = (List<Planification>) msg
+								.getOldValue();
+						for (Planification planif : planifs) {
+							removePlanification(planif);
+						}
+					}
+					break;
+
+				case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+					switch (msg.getEventType()) {
+					case Notification.ADD:
+					case Notification.ADD_MANY:
+						// Collections.sort(getAvailableSchedules(),
+						// new Comparator<Schedule>() {
+						//
+						// @Override
+						// public int compare(Schedule o1, Schedule o2) {
+						// // TODO check nulls
+						// return o1.getDate().compareTo(
+						// o2.getDate());
+						// }
+						// });
+						break;
+					}
+				}
+			}
+
+		});
 	}
 
 	/**
@@ -304,17 +418,22 @@ public class PersonImpl extends EObjectImpl implements Person {
 					oldAvailabilityStartDate, availabilityStartDate));
 	}
 
-	private void recomputeAvailableSchedules() {
+	void recomputeAvailableSchedules() {
+		getAvailableSchedules().clear();
+		if(null==availabilityStartDate)
+		{
+			return;
+		}
+		
 		// fill it with all "opened" schedules then remove the imputations
 		SortedSet<Date> dates = findOpenedDates(availabilityStartDate,
 				totalAvailability);
+
 		
-		getAvailableSchedules().clear();
-		
+
 		// TODO continue!!
 		int i = 0;
 		for (Date date : dates) {
-			System.out.println("" + i++ + "Found opened : " + date);
 			Schedule schedule = NajaFactory.eINSTANCE.createSchedule();
 			schedule.setDate(date);
 			schedule.setLoad(8);
@@ -322,25 +441,103 @@ public class PersonImpl extends EObjectImpl implements Person {
 		}
 
 		for (Imputation imputation : getImputations()) {
-			Date date = imputation.getDate();
+			reserveSchedule(imputation);
+		}
+
+		for (Planification planification : getPlanifications()) {
+
+			
+			VirtualImputation virtualImputation = NajaFactory.eINSTANCE
+					.createVirtualImputation();
+			planification.setVirtualImputation(virtualImputation);
 
 			Iterator<Schedule> iterator = getAvailableSchedules().iterator();
-			while (iterator.hasNext()) {
+			while (iterator.hasNext()
+					&& virtualImputation.getTotalLoad() < planification
+							.getLoad()) {
 				Schedule schedule = iterator.next();
-				System.out.println("Check: " + date + " vs " + schedule.getDate() + " : " + date.equals(schedule.getDate()));
-				if (date.equals(schedule.getDate())) {
-					schedule.setLoad(schedule.getLoad() - imputation.getLoad());
-					System.out.println("Changed " + schedule);
-					if (0 == schedule.getLoad()) {
-						iterator.remove();
-					}
-					break;
+
+				int leftToImpute = planification.getLoad()
+						- virtualImputation.getTotalLoad();
+				if (schedule.getLoad() > leftToImpute) {
+					// split it in two
+					schedule.setLoad(schedule.getLoad()-leftToImpute);
+					
+					Schedule stillAvailableSchedule = NajaFactory.eINSTANCE
+					.createSchedule();
+					stillAvailableSchedule.setDate(schedule.getDate());
+					stillAvailableSchedule.setLoad(leftToImpute);
+					virtualImputation.getSchedules().add(stillAvailableSchedule);
+					leftToImpute=0;
 				}
+				else
+				{
+					//consume the whole sched
+					iterator.remove();
+					virtualImputation.getSchedules().add(schedule);
+					leftToImpute -= schedule.getLoad();
+				}				
 			}
 		}
-		
-		for (Planification planification : getPlanifications()) {
-			//TODO!
+	}
+
+	private void releaseSchedule(Imputation imputation) {
+		Date date = imputation.getDate();
+
+		Iterator<Schedule> iterator = getAvailableSchedules().iterator();
+		Schedule schedule = null;
+		while (iterator.hasNext()) {
+			Schedule tmpSchedule = iterator.next();
+			if (date.equals(tmpSchedule.getDate())) {
+				schedule = tmpSchedule;
+				break;
+			}
+		}
+		if (null == schedule) {
+			schedule = NajaFactory.eINSTANCE.createSchedule();
+			schedule.setDate(date);
+			schedule.setLoad(0);
+			getAvailableSchedules().add(schedule);
+		}
+		schedule.setLoad(schedule.getLoad() + imputation.getLoad());
+	}
+
+	private void reserveSchedule(Imputation imputation) {
+		Date date = imputation.getDate();
+		if (null == date) {
+			System.err.println("Imputation with null date will be ignored!");
+			return;
+		}
+
+		Schedule schedule = null;
+		Iterator<Schedule> iterator = getAvailableSchedules().iterator();
+		while (iterator.hasNext()) {
+			Schedule tempSchedule = iterator.next();
+			if (tempSchedule.getDate().equals(date)) {
+				schedule = tempSchedule;
+				if (tempSchedule.getLoad() < imputation.getLoad()) {
+					System.err.println("Resource " + getName()
+							+ " is not available enough for imputation on "
+							+ date);
+					imputation.setResource(null);
+					return;
+					// throw new IllegalStateException("User " + getName()+
+					// " is not available for imputation on " + date);
+				}
+				tempSchedule.setLoad(tempSchedule.getLoad()
+						- imputation.getLoad());
+				if (0 == tempSchedule.getLoad()) {
+					iterator.remove();
+				}
+				break;
+			}
+		}
+		if (null == schedule) {
+			System.err.println("Resource " + getName()
+					+ " is not available for imputation on " + date);
+			imputation.setResource(null);
+			// throw new IllegalStateException("User " + getName()+
+			// " is not available for imputation on " + date);
 		}
 	}
 
@@ -373,9 +570,16 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 		// TODO externalize and make parametrizable
 		try {
+			bankHolidays.add(sdf.parse("2009-01-01"));
+			bankHolidays.add(sdf.parse("2009-01-04"));
+			bankHolidays.add(sdf.parse("2009-04-13"));
 			bankHolidays.add(sdf.parse("2009-05-01"));
 			bankHolidays.add(sdf.parse("2009-05-08"));
 			bankHolidays.add(sdf.parse("2009-07-14"));
+			bankHolidays.add(sdf.parse("2009-08-15"));
+			bankHolidays.add(sdf.parse("2009-11-01"));
+			bankHolidays.add(sdf.parse("2009-11-11"));
+			bankHolidays.add(sdf.parse("2009-12-25"));
 		} catch (ParseException e) {
 			throw new RuntimeException(e);
 		}

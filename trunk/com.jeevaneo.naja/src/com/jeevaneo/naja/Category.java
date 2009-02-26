@@ -6,6 +6,7 @@
  */
 package com.jeevaneo.naja;
 
+import java.util.Date;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EObject;
@@ -25,6 +26,8 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Category#getTotalLoad <em>Total Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getUnaffectedLoad <em>Unaffected Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getPriority <em>Priority</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getFirstDate <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getLastDate <em>Last Date</em>}</li>
  * </ul>
  * </p>
  *
@@ -201,5 +204,35 @@ public interface Category extends EObject {
 	 * @generated
 	 */
 	void setPriority(int value);
+
+	/**
+	 * Returns the value of the '<em><b>First Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>First Date</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>First Date</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getCategory_FirstDate()
+	 * @model transient="true" changeable="false" volatile="true" derived="true"
+	 * @generated
+	 */
+	Date getFirstDate();
+
+	/**
+	 * Returns the value of the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Last Date</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Last Date</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getCategory_LastDate()
+	 * @model transient="true" changeable="false" volatile="true" derived="true"
+	 * @generated
+	 */
+	Date getLastDate();
 
 } // Category
