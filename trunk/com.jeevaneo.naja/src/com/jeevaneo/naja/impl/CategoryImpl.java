@@ -249,7 +249,7 @@ public class CategoryImpl extends EObjectImpl implements Category {
 			if (null == ret) {
 				ret = t.getFirstDate();
 			} else {
-				if (null!=ret && null!=t.getFirstDate() && ret.after(t.getFirstDate())) {
+				if (null!=t.getFirstDate() && ret.after(t.getFirstDate())) {
 					ret = t.getFirstDate();
 				}
 			}
@@ -258,7 +258,7 @@ public class CategoryImpl extends EObjectImpl implements Category {
 			if (null == ret) {
 				ret = c.getFirstDate();
 			} else {
-				if (null!=ret && null!=c.getFirstDate()&& ret.after(c.getFirstDate())) {
+				if (null!=c.getFirstDate()&& ret.after(c.getFirstDate())) {
 					ret = c.getFirstDate();
 				}
 			}
