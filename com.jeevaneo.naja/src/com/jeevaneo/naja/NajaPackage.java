@@ -406,13 +406,22 @@ public interface NajaPackage extends EPackage {
 	int PLANIFICATION__LAST_DATE = 7;
 
 	/**
+	 * The feature id for the '<em><b>Max Load Per Day</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__MAX_LOAD_PER_DAY = 8;
+
+	/**
 	 * The number of structural features of the '<em>Planification</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PLANIFICATION_FEATURE_COUNT = 8;
+	int PLANIFICATION_FEATURE_COUNT = 9;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.ProjectImpl <em>Project</em>}' class.
@@ -1109,6 +1118,17 @@ public interface NajaPackage extends EPackage {
 	EAttribute getPlanification_LastDate();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Planification#getMaxLoadPerDay <em>Max Load Per Day</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Max Load Per Day</em>'.
+	 * @see com.jeevaneo.naja.Planification#getMaxLoadPerDay()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EAttribute getPlanification_MaxLoadPerDay();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Project <em>Project</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1743,6 +1763,14 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute PLANIFICATION__LAST_DATE = eINSTANCE.getPlanification_LastDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Max Load Per Day</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANIFICATION__MAX_LOAD_PER_DAY = eINSTANCE.getPlanification_MaxLoadPerDay();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ProjectImpl <em>Project</em>}' class.

@@ -30,32 +30,24 @@ import com.jeevaneo.naja.Task;
  * <p>
  * The following features are implemented:
  * <ul>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getName <em>Name</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getSubcategories <em>
- * Subcategories</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getParentCategory <em>Parent
- * Category</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getTasks <em>Tasks</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getTotalLoad <em>Total Load
- * </em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getUnaffectedLoad <em>
- * Unaffected Load</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getPriority <em>Priority</em>}
- * </li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getFirstDate <em>First Date
- * </em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getLastDate <em>Last Date
- * </em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getName <em>Name</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getSubcategories <em>Subcategories</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getParentCategory <em>Parent Category</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getTasks <em>Tasks</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getTotalLoad <em>Total Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getUnaffectedLoad <em>Unaffected Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getPriority <em>Priority</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getFirstDate <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getLastDate <em>Last Date</em>}</li>
  * </ul>
  * </p>
- * 
+ *
  * @generated
  */
 public class CategoryImpl extends EObjectImpl implements Category {
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @see #getName()
 	 * @generated
 	 * @ordered
@@ -65,7 +57,6 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @see #getName()
 	 * @generated
 	 * @ordered
@@ -73,10 +64,9 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected String name = NAME_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getSubcategories()
-	 * <em>Subcategories</em>}' containment reference list. <!-- begin-user-doc
+	 * The cached value of the '{@link #getSubcategories() <em>Subcategories</em>}' containment reference list.
+	 * <!-- begin-user-doc
 	 * --> <!-- end-user-doc -->
-	 * 
 	 * @see #getSubcategories()
 	 * @generated
 	 * @ordered
@@ -84,9 +74,8 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected EList<Category> subcategories;
 
 	/**
-	 * The cached value of the '{@link #getTasks() <em>Tasks</em>}' containment
-	 * reference list. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The cached value of the '{@link #getTasks() <em>Tasks</em>}' containment reference list.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getTasks()
 	 * @generated
 	 * @ordered
@@ -94,9 +83,8 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected EList<Task> tasks;
 
 	/**
-	 * The default value of the '{@link #getTotalLoad() <em>Total Load</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The default value of the '{@link #getTotalLoad() <em>Total Load</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getTotalLoad()
 	 * @generated
 	 * @ordered
@@ -104,10 +92,9 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected static final int TOTAL_LOAD_EDEFAULT = 0;
 
 	/**
-	 * The default value of the '{@link #getUnaffectedLoad()
-	 * <em>Unaffected Load</em>}' attribute. <!-- begin-user-doc --> <!--
+	 * The default value of the '{@link #getUnaffectedLoad() <em>Unaffected Load</em>}' attribute.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
 	 * @see #getUnaffectedLoad()
 	 * @generated
 	 * @ordered
@@ -115,9 +102,8 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected static final int UNAFFECTED_LOAD_EDEFAULT = 0;
 
 	/**
-	 * The default value of the '{@link #getPriority() <em>Priority</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The default value of the '{@link #getPriority() <em>Priority</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getPriority()
 	 * @generated
 	 * @ordered
@@ -125,9 +111,8 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected static final int PRIORITY_EDEFAULT = 0;
 
 	/**
-	 * The cached value of the '{@link #getPriority() <em>Priority</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The cached value of the '{@link #getPriority() <em>Priority</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getPriority()
 	 * @generated
 	 * @ordered
@@ -135,9 +120,8 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected int priority = PRIORITY_EDEFAULT;
 
 	/**
-	 * The default value of the '{@link #getFirstDate() <em>First Date</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The default value of the '{@link #getFirstDate() <em>First Date</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getFirstDate()
 	 * @generated
 	 * @ordered
@@ -145,9 +129,8 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected static final Date FIRST_DATE_EDEFAULT = null;
 
 	/**
-	 * The default value of the '{@link #getLastDate() <em>Last Date</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The default value of the '{@link #getLastDate() <em>Last Date</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getLastDate()
 	 * @generated
 	 * @ordered
@@ -156,7 +139,6 @@ public class CategoryImpl extends EObjectImpl implements Category {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	protected CategoryImpl() {
@@ -165,7 +147,6 @@ public class CategoryImpl extends EObjectImpl implements Category {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
@@ -197,19 +178,16 @@ public class CategoryImpl extends EObjectImpl implements Category {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public boolean isSetUnaffectedLoad() {
-		// TODO: implement this method to return whether the 'Unaffected Load'
-		// attribute is set
+		// TODO: implement this method to return whether the 'Unaffected Load' attribute is set
 		// Ensure that you remove @generated or mark it @generated NOT
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public int getPriority() {
@@ -298,19 +276,16 @@ public class CategoryImpl extends EObjectImpl implements Category {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public boolean isSetTotalLoad() {
-		// TODO: implement this method to return whether the 'Total Load'
-		// attribute is set
+		// TODO: implement this method to return whether the 'Total Load' attribute is set
 		// Ensure that you remove @generated or mark it @generated NOT
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public String getName() {
@@ -319,98 +294,78 @@ public class CategoryImpl extends EObjectImpl implements Category {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					NajaPackage.CATEGORY__NAME, oldName, name));
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.CATEGORY__NAME, oldName, name));
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public EList<Category> getSubcategories() {
 		if (subcategories == null) {
-			subcategories = new EObjectContainmentWithInverseEList<Category>(
-					Category.class, this, NajaPackage.CATEGORY__SUBCATEGORIES,
-					NajaPackage.CATEGORY__PARENT_CATEGORY);
+			subcategories = new EObjectContainmentWithInverseEList<Category>(Category.class, this, NajaPackage.CATEGORY__SUBCATEGORIES, NajaPackage.CATEGORY__PARENT_CATEGORY);
 		}
 		return subcategories;
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public Category getParentCategory() {
-		if (eContainerFeatureID != NajaPackage.CATEGORY__PARENT_CATEGORY)
-			return null;
-		return (Category) eContainer();
+		if (eContainerFeatureID != NajaPackage.CATEGORY__PARENT_CATEGORY) return null;
+		return (Category)eContainer();
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public NotificationChain basicSetParentCategory(Category newParentCategory,
 			NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject) newParentCategory,
-				NajaPackage.CATEGORY__PARENT_CATEGORY, msgs);
+		msgs = eBasicSetContainer((InternalEObject)newParentCategory, NajaPackage.CATEGORY__PARENT_CATEGORY, msgs);
 		return msgs;
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public void setParentCategory(Category newParentCategory) {
-		if (newParentCategory != eInternalContainer()
-				|| (eContainerFeatureID != NajaPackage.CATEGORY__PARENT_CATEGORY && newParentCategory != null)) {
+		if (newParentCategory != eInternalContainer() || (eContainerFeatureID != NajaPackage.CATEGORY__PARENT_CATEGORY && newParentCategory != null)) {
 			if (EcoreUtil.isAncestor(this, newParentCategory))
-				throw new IllegalArgumentException(
-						"Recursive containment not allowed for " + toString());
+				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
 			NotificationChain msgs = null;
 			if (eInternalContainer() != null)
 				msgs = eBasicRemoveFromContainer(msgs);
 			if (newParentCategory != null)
-				msgs = ((InternalEObject) newParentCategory).eInverseAdd(this,
-						NajaPackage.CATEGORY__SUBCATEGORIES, Category.class,
-						msgs);
+				msgs = ((InternalEObject)newParentCategory).eInverseAdd(this, NajaPackage.CATEGORY__SUBCATEGORIES, Category.class, msgs);
 			msgs = basicSetParentCategory(newParentCategory, msgs);
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					NajaPackage.CATEGORY__PARENT_CATEGORY, newParentCategory,
-					newParentCategory));
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.CATEGORY__PARENT_CATEGORY, newParentCategory, newParentCategory));
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public EList<Task> getTasks() {
 		if (tasks == null) {
-			tasks = new EObjectContainmentWithInverseEList<Task>(Task.class,
-					this, NajaPackage.CATEGORY__TASKS,
-					NajaPackage.TASK__CATEGORY);
+			tasks = new EObjectContainmentWithInverseEList<Task>(Task.class, this, NajaPackage.CATEGORY__TASKS, NajaPackage.TASK__CATEGORY);
 		}
 		return tasks;
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@SuppressWarnings("unchecked")
@@ -418,186 +373,170 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	public NotificationChain eInverseAdd(InternalEObject otherEnd,
 			int featureID, NotificationChain msgs) {
 		switch (featureID) {
-		case NajaPackage.CATEGORY__SUBCATEGORIES:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getSubcategories())
-					.basicAdd(otherEnd, msgs);
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			if (eInternalContainer() != null)
-				msgs = eBasicRemoveFromContainer(msgs);
-			return basicSetParentCategory((Category) otherEnd, msgs);
-		case NajaPackage.CATEGORY__TASKS:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getTasks())
-					.basicAdd(otherEnd, msgs);
+			case NajaPackage.CATEGORY__SUBCATEGORIES:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getSubcategories()).basicAdd(otherEnd, msgs);
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				if (eInternalContainer() != null)
+					msgs = eBasicRemoveFromContainer(msgs);
+				return basicSetParentCategory((Category)otherEnd, msgs);
+			case NajaPackage.CATEGORY__TASKS:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getTasks()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd,
 			int featureID, NotificationChain msgs) {
 		switch (featureID) {
-		case NajaPackage.CATEGORY__SUBCATEGORIES:
-			return ((InternalEList<?>) getSubcategories()).basicRemove(
-					otherEnd, msgs);
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			return basicSetParentCategory(null, msgs);
-		case NajaPackage.CATEGORY__TASKS:
-			return ((InternalEList<?>) getTasks()).basicRemove(otherEnd, msgs);
+			case NajaPackage.CATEGORY__SUBCATEGORIES:
+				return ((InternalEList<?>)getSubcategories()).basicRemove(otherEnd, msgs);
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				return basicSetParentCategory(null, msgs);
+			case NajaPackage.CATEGORY__TASKS:
+				return ((InternalEList<?>)getTasks()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public NotificationChain eBasicRemoveFromContainerFeature(
 			NotificationChain msgs) {
 		switch (eContainerFeatureID) {
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			return eInternalContainer().eInverseRemove(this,
-					NajaPackage.CATEGORY__SUBCATEGORIES, Category.class, msgs);
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				return eInternalContainer().eInverseRemove(this, NajaPackage.CATEGORY__SUBCATEGORIES, Category.class, msgs);
 		}
 		return super.eBasicRemoveFromContainerFeature(msgs);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-		case NajaPackage.CATEGORY__NAME:
-			return getName();
-		case NajaPackage.CATEGORY__SUBCATEGORIES:
-			return getSubcategories();
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			return getParentCategory();
-		case NajaPackage.CATEGORY__TASKS:
-			return getTasks();
-		case NajaPackage.CATEGORY__TOTAL_LOAD:
-			return new Integer(getTotalLoad());
-		case NajaPackage.CATEGORY__UNAFFECTED_LOAD:
-			return new Integer(getUnaffectedLoad());
-		case NajaPackage.CATEGORY__PRIORITY:
-			return new Integer(getPriority());
-		case NajaPackage.CATEGORY__FIRST_DATE:
-			return getFirstDate();
-		case NajaPackage.CATEGORY__LAST_DATE:
-			return getLastDate();
+			case NajaPackage.CATEGORY__NAME:
+				return getName();
+			case NajaPackage.CATEGORY__SUBCATEGORIES:
+				return getSubcategories();
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				return getParentCategory();
+			case NajaPackage.CATEGORY__TASKS:
+				return getTasks();
+			case NajaPackage.CATEGORY__TOTAL_LOAD:
+				return new Integer(getTotalLoad());
+			case NajaPackage.CATEGORY__UNAFFECTED_LOAD:
+				return new Integer(getUnaffectedLoad());
+			case NajaPackage.CATEGORY__PRIORITY:
+				return new Integer(getPriority());
+			case NajaPackage.CATEGORY__FIRST_DATE:
+				return getFirstDate();
+			case NajaPackage.CATEGORY__LAST_DATE:
+				return getLastDate();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-		case NajaPackage.CATEGORY__NAME:
-			setName((String) newValue);
-			return;
-		case NajaPackage.CATEGORY__SUBCATEGORIES:
-			getSubcategories().clear();
-			getSubcategories()
-					.addAll((Collection<? extends Category>) newValue);
-			return;
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			setParentCategory((Category) newValue);
-			return;
-		case NajaPackage.CATEGORY__TASKS:
-			getTasks().clear();
-			getTasks().addAll((Collection<? extends Task>) newValue);
-			return;
-		case NajaPackage.CATEGORY__PRIORITY:
-			setPriority(((Integer) newValue).intValue());
-			return;
+			case NajaPackage.CATEGORY__NAME:
+				setName((String)newValue);
+				return;
+			case NajaPackage.CATEGORY__SUBCATEGORIES:
+				getSubcategories().clear();
+				getSubcategories().addAll((Collection<? extends Category>)newValue);
+				return;
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				setParentCategory((Category)newValue);
+				return;
+			case NajaPackage.CATEGORY__TASKS:
+				getTasks().clear();
+				getTasks().addAll((Collection<? extends Task>)newValue);
+				return;
+			case NajaPackage.CATEGORY__PRIORITY:
+				setPriority(((Integer)newValue).intValue());
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-		case NajaPackage.CATEGORY__NAME:
-			setName(NAME_EDEFAULT);
-			return;
-		case NajaPackage.CATEGORY__SUBCATEGORIES:
-			getSubcategories().clear();
-			return;
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			setParentCategory((Category) null);
-			return;
-		case NajaPackage.CATEGORY__TASKS:
-			getTasks().clear();
-			return;
-		case NajaPackage.CATEGORY__PRIORITY:
-			setPriority(PRIORITY_EDEFAULT);
-			return;
+			case NajaPackage.CATEGORY__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+			case NajaPackage.CATEGORY__SUBCATEGORIES:
+				getSubcategories().clear();
+				return;
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				setParentCategory((Category)null);
+				return;
+			case NajaPackage.CATEGORY__TASKS:
+				getTasks().clear();
+				return;
+			case NajaPackage.CATEGORY__PRIORITY:
+				setPriority(PRIORITY_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-		case NajaPackage.CATEGORY__NAME:
-			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT
-					.equals(name);
-		case NajaPackage.CATEGORY__SUBCATEGORIES:
-			return subcategories != null && !subcategories.isEmpty();
-		case NajaPackage.CATEGORY__PARENT_CATEGORY:
-			return getParentCategory() != null;
-		case NajaPackage.CATEGORY__TASKS:
-			return tasks != null && !tasks.isEmpty();
-		case NajaPackage.CATEGORY__TOTAL_LOAD:
-			return isSetTotalLoad();
-		case NajaPackage.CATEGORY__UNAFFECTED_LOAD:
-			return isSetUnaffectedLoad();
-		case NajaPackage.CATEGORY__PRIORITY:
-			return priority != PRIORITY_EDEFAULT;
-		case NajaPackage.CATEGORY__FIRST_DATE:
-			return FIRST_DATE_EDEFAULT == null ? getFirstDate() != null
-					: !FIRST_DATE_EDEFAULT.equals(getFirstDate());
-		case NajaPackage.CATEGORY__LAST_DATE:
-			return LAST_DATE_EDEFAULT == null ? getLastDate() != null
-					: !LAST_DATE_EDEFAULT.equals(getLastDate());
+			case NajaPackage.CATEGORY__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+			case NajaPackage.CATEGORY__SUBCATEGORIES:
+				return subcategories != null && !subcategories.isEmpty();
+			case NajaPackage.CATEGORY__PARENT_CATEGORY:
+				return getParentCategory() != null;
+			case NajaPackage.CATEGORY__TASKS:
+				return tasks != null && !tasks.isEmpty();
+			case NajaPackage.CATEGORY__TOTAL_LOAD:
+				return isSetTotalLoad();
+			case NajaPackage.CATEGORY__UNAFFECTED_LOAD:
+				return isSetUnaffectedLoad();
+			case NajaPackage.CATEGORY__PRIORITY:
+				return priority != PRIORITY_EDEFAULT;
+			case NajaPackage.CATEGORY__FIRST_DATE:
+				return FIRST_DATE_EDEFAULT == null ? getFirstDate() != null : !FIRST_DATE_EDEFAULT.equals(getFirstDate());
+			case NajaPackage.CATEGORY__LAST_DATE:
+				return LAST_DATE_EDEFAULT == null ? getLastDate() != null : !LAST_DATE_EDEFAULT.equals(getLastDate());
 		}
 		return super.eIsSet(featureID);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public String toString() {
-		if (eIsProxy())
-			return super.toString();
+		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");

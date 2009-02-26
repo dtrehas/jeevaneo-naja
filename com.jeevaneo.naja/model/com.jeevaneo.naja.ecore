@@ -68,6 +68,8 @@
         changeable="false" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
         changeable="false" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxLoadPerDay" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="8"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Project">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

@@ -26,6 +26,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Planification#getVirtualImputation <em>Virtual Imputation</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getMaxLoadPerDay <em>Max Load Per Day</em>}</li>
  * </ul>
  * </p>
  *
@@ -214,5 +215,32 @@ public interface Planification extends EObject {
 	 * @generated
 	 */
 	Date getLastDate();
+
+	/**
+	 * Returns the value of the '<em><b>Max Load Per Day</b></em>' attribute.
+	 * The default value is <code>"8"</code>.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Max Load Per Day</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Max Load Per Day</em>' attribute.
+	 * @see #setMaxLoadPerDay(int)
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_MaxLoadPerDay()
+	 * @model default="8" required="true"
+	 * @generated
+	 */
+	int getMaxLoadPerDay();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.Planification#getMaxLoadPerDay <em>Max Load Per Day</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Max Load Per Day</em>' attribute.
+	 * @see #getMaxLoadPerDay()
+	 * @generated
+	 */
+	void setMaxLoadPerDay(int value);
 
 } // Planification

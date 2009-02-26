@@ -475,6 +475,15 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getPlanification_MaxLoadPerDay() {
+		return (EAttribute)planificationEClass.getEStructuralFeatures().get(8);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getProject() {
 		return projectEClass;
 	}
@@ -806,6 +815,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEReference(planificationEClass, PLANIFICATION__VIRTUAL_IMPUTATION);
 		createEAttribute(planificationEClass, PLANIFICATION__FIRST_DATE);
 		createEAttribute(planificationEClass, PLANIFICATION__LAST_DATE);
+		createEAttribute(planificationEClass, PLANIFICATION__MAX_LOAD_PER_DAY);
 
 		projectEClass = createEClass(PROJECT);
 		createEAttribute(projectEClass, PROJECT__NAME);
@@ -910,6 +920,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEReference(getPlanification_VirtualImputation(), this.getVirtualImputation(), this.getVirtualImputation_Planification(), "virtualImputation", null, 0, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPlanification_FirstDate(), ecorePackage.getEDate(), "firstDate", null, 0, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPlanification_LastDate(), ecorePackage.getEDate(), "lastDate", null, 0, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getPlanification_MaxLoadPerDay(), ecorePackage.getEInt(), "maxLoadPerDay", "8", 1, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(projectEClass, Project.class, "Project", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getProject_Name(), ecorePackage.getEString(), "name", null, 1, 1, Project.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
