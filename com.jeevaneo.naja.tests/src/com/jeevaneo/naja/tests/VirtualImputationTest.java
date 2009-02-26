@@ -7,7 +7,7 @@
 package com.jeevaneo.naja.tests;
 
 import com.jeevaneo.naja.NajaFactory;
-import com.jeevaneo.naja.Task;
+import com.jeevaneo.naja.VirtualImputation;
 
 import junit.framework.TestCase;
 
@@ -15,27 +15,28 @@ import junit.textui.TestRunner;
 
 /**
  * <!-- begin-user-doc -->
- * A test case for the model object '<em><b>Task</b></em>'.
+ * A test case for the model object '<em><b>Virtual Imputation</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are tested:
  * <ul>
- *   <li>{@link com.jeevaneo.naja.Task#getUnaffectedLoad() <em>Unaffected Load</em>}</li>
- *   <li>{@link com.jeevaneo.naja.Task#getFirstDate() <em>First Date</em>}</li>
- *   <li>{@link com.jeevaneo.naja.Task#getLastDate() <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.VirtualImputation#getTotalLoad() <em>Total Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.VirtualImputation#getFirstDate() <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.VirtualImputation#getLastDate() <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.VirtualImputation#getLabel() <em>Label</em>}</li>
  * </ul>
  * </p>
  * @generated
  */
-public class TaskTest extends TestCase {
+public class VirtualImputationTest extends TestCase {
 
 	/**
-	 * The fixture for this Task test case.
+	 * The fixture for this Virtual Imputation test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected Task fixture = null;
+	protected VirtualImputation fixture = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -43,36 +44,36 @@ public class TaskTest extends TestCase {
 	 * @generated
 	 */
 	public static void main(String[] args) {
-		TestRunner.run(TaskTest.class);
+		TestRunner.run(VirtualImputationTest.class);
 	}
 
 	/**
-	 * Constructs a new Task test case with the given name.
+	 * Constructs a new Virtual Imputation test case with the given name.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public TaskTest(String name) {
+	public VirtualImputationTest(String name) {
 		super(name);
 	}
 
 	/**
-	 * Sets the fixture for this Task test case.
+	 * Sets the fixture for this Virtual Imputation test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void setFixture(Task fixture) {
+	protected void setFixture(VirtualImputation fixture) {
 		this.fixture = fixture;
 	}
 
 	/**
-	 * Returns the fixture for this Task test case.
+	 * Returns the fixture for this Virtual Imputation test case.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected Task getFixture() {
+	protected VirtualImputation getFixture() {
 		return fixture;
 	}
 
@@ -84,7 +85,7 @@ public class TaskTest extends TestCase {
 	 */
 	@Override
 	protected void setUp() throws Exception {
-		setFixture(NajaFactory.eINSTANCE.createTask());
+		setFixture(NajaFactory.eINSTANCE.createVirtualImputation());
 	}
 
 	/**
@@ -99,36 +100,23 @@ public class TaskTest extends TestCase {
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Task#getUnaffectedLoad() <em>Unaffected Load</em>}' feature getter.
+	 * Tests the '{@link com.jeevaneo.naja.VirtualImputation#getTotalLoad() <em>Total Load</em>}' feature getter.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Task#getUnaffectedLoad()
+	 * @see com.jeevaneo.naja.VirtualImputation#getTotalLoad()
 	 * @generated
 	 */
-	public void testGetUnaffectedLoad() {
+	public void testGetTotalLoad() {
 		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Task#isSetUnaffectedLoad() <em>isSetUnaffectedLoad()</em>}' method.
+	 * Tests the '{@link com.jeevaneo.naja.VirtualImputation#getFirstDate() <em>First Date</em>}' feature getter.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Task#isSetUnaffectedLoad()
-	 * @generated
-	 */
-	public void testIsSetUnaffectedLoad() {
-		// TODO: implement this test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
-	/**
-	 * Tests the '{@link com.jeevaneo.naja.Task#getFirstDate() <em>First Date</em>}' feature getter.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Task#getFirstDate()
+	 * @see com.jeevaneo.naja.VirtualImputation#getFirstDate()
 	 * @generated
 	 */
 	public void testGetFirstDate() {
@@ -138,10 +126,10 @@ public class TaskTest extends TestCase {
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Task#getLastDate() <em>Last Date</em>}' feature getter.
+	 * Tests the '{@link com.jeevaneo.naja.VirtualImputation#getLastDate() <em>Last Date</em>}' feature getter.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Task#getLastDate()
+	 * @see com.jeevaneo.naja.VirtualImputation#getLastDate()
 	 * @generated
 	 */
 	public void testGetLastDate() {
@@ -150,4 +138,17 @@ public class TaskTest extends TestCase {
 		fail();
 	}
 
-} //TaskTest
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.VirtualImputation#getLabel() <em>Label</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.VirtualImputation#getLabel()
+	 * @generated
+	 */
+	public void testGetLabel() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+} //VirtualImputationTest

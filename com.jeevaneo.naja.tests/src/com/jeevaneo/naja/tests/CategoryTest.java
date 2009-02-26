@@ -22,6 +22,8 @@ import junit.textui.TestRunner;
  * <ul>
  *   <li>{@link com.jeevaneo.naja.Category#getTotalLoad() <em>Total Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getUnaffectedLoad() <em>Unaffected Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getFirstDate() <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getLastDate() <em>Last Date</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -145,6 +147,32 @@ public class CategoryTest extends TestCase {
 	 */
 	public void testIsSetUnaffectedLoad() {
 		// TODO: implement this test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Category#getFirstDate() <em>First Date</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Category#getFirstDate()
+	 * @generated
+	 */
+	public void testGetFirstDate() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Category#getLastDate() <em>Last Date</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Category#getLastDate()
+	 * @generated
+	 */
+	public void testGetLastDate() {
+		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}
