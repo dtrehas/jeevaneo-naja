@@ -9,7 +9,7 @@ package com.jeevaneo.naja.provider;
 
 import com.jeevaneo.naja.NajaFactory;
 import com.jeevaneo.naja.NajaPackage;
-import com.jeevaneo.naja.Planification;
+import com.jeevaneo.naja.VirtualImputation;
 
 import java.util.Collection;
 import java.util.List;
@@ -20,6 +20,7 @@ import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.util.ResourceLocator;
 
 import org.eclipse.emf.ecore.EStructuralFeature;
+
 import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
 import org.eclipse.emf.edit.provider.IItemLabelProvider;
@@ -32,12 +33,12 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 /**
- * This is the item provider adapter for a {@link com.jeevaneo.naja.Planification} object.
+ * This is the item provider adapter for a {@link com.jeevaneo.naja.VirtualImputation} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
  */
-public class PlanificationItemProvider
+public class VirtualImputationItemProvider
 	extends ItemProviderAdapter
 	implements
 		IEditingDomainItemProvider,
@@ -51,7 +52,7 @@ public class PlanificationItemProvider
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public PlanificationItemProvider(AdapterFactory adapterFactory) {
+	public VirtualImputationItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
@@ -66,123 +67,32 @@ public class PlanificationItemProvider
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addLabelPropertyDescriptor(object);
-			addResourcePropertyDescriptor(object);
-			addTaskPropertyDescriptor(object);
-			addLoadPropertyDescriptor(object);
-			addCommentPropertyDescriptor(object);
+			addTotalLoadPropertyDescriptor(object);
 			addFirstDatePropertyDescriptor(object);
 			addLastDatePropertyDescriptor(object);
+			addLabelPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
 
 	/**
-	 * This adds a property descriptor for the Label feature.
+	 * This adds a property descriptor for the Total Load feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addLabelPropertyDescriptor(Object object) {
+	protected void addTotalLoadPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Planification_label_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_label_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__LABEL,
-				 false,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Resource feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addResourcePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Planification_resource_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_resource_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__RESOURCE,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Task feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addTaskPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Planification_task_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_task_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__TASK,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Load feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addLoadPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Planification_load_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_load_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__LOAD,
+				 getString("_UI_VirtualImputation_totalLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_VirtualImputation_totalLoad_feature", "_UI_VirtualImputation_type"),
+				 NajaPackage.Literals.VIRTUAL_IMPUTATION__TOTAL_LOAD,
 				 true,
 				 false,
 				 false,
 				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Comment feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addCommentPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Planification_comment_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_comment_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__COMMENT,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -198,10 +108,10 @@ public class PlanificationItemProvider
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Planification_firstDate_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_firstDate_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__FIRST_DATE,
-				 false,
+				 getString("_UI_VirtualImputation_firstDate_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_VirtualImputation_firstDate_feature", "_UI_VirtualImputation_type"),
+				 NajaPackage.Literals.VIRTUAL_IMPUTATION__FIRST_DATE,
+				 true,
 				 false,
 				 false,
 				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
@@ -220,10 +130,32 @@ public class PlanificationItemProvider
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Planification_lastDate_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_lastDate_feature", "_UI_Planification_type"),
-				 NajaPackage.Literals.PLANIFICATION__LAST_DATE,
+				 getString("_UI_VirtualImputation_lastDate_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_VirtualImputation_lastDate_feature", "_UI_VirtualImputation_type"),
+				 NajaPackage.Literals.VIRTUAL_IMPUTATION__LAST_DATE,
+				 true,
 				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Label feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addLabelPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_VirtualImputation_label_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_VirtualImputation_label_feature", "_UI_VirtualImputation_type"),
+				 NajaPackage.Literals.VIRTUAL_IMPUTATION__LABEL,
+				 true,
 				 false,
 				 false,
 				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
@@ -243,7 +175,7 @@ public class PlanificationItemProvider
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(NajaPackage.Literals.PLANIFICATION__VIRTUAL_IMPUTATION);
+			childrenFeatures.add(NajaPackage.Literals.VIRTUAL_IMPUTATION__SCHEDULES);
 		}
 		return childrenFeatures;
 	}
@@ -262,14 +194,14 @@ public class PlanificationItemProvider
 	}
 
 	/**
-	 * This returns Planification.gif.
+	 * This returns VirtualImputation.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage("full/obj16/Planification"));
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/VirtualImputation"));
 	}
 
 	/**
@@ -280,10 +212,8 @@ public class PlanificationItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((Planification)object).getLabel();
-		return label == null || label.length() == 0 ?
-			getString("_UI_Planification_type") :
-			getString("_UI_Planification_type") + " " + label;
+		VirtualImputation virtualImputation = (VirtualImputation)object;
+		return getString("_UI_VirtualImputation_type") + " " + virtualImputation.getTotalLoad();
 	}
 
 	/**
@@ -297,15 +227,14 @@ public class PlanificationItemProvider
 	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
-		switch (notification.getFeatureID(Planification.class)) {
-			case NajaPackage.PLANIFICATION__LABEL:
-			case NajaPackage.PLANIFICATION__LOAD:
-			case NajaPackage.PLANIFICATION__COMMENT:
-			case NajaPackage.PLANIFICATION__FIRST_DATE:
-			case NajaPackage.PLANIFICATION__LAST_DATE:
+		switch (notification.getFeatureID(VirtualImputation.class)) {
+			case NajaPackage.VIRTUAL_IMPUTATION__TOTAL_LOAD:
+			case NajaPackage.VIRTUAL_IMPUTATION__FIRST_DATE:
+			case NajaPackage.VIRTUAL_IMPUTATION__LAST_DATE:
+			case NajaPackage.VIRTUAL_IMPUTATION__LABEL:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
-			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
+			case NajaPackage.VIRTUAL_IMPUTATION__SCHEDULES:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -325,8 +254,8 @@ public class PlanificationItemProvider
 
 		newChildDescriptors.add
 			(createChildParameter
-				(NajaPackage.Literals.PLANIFICATION__VIRTUAL_IMPUTATION,
-				 NajaFactory.eINSTANCE.createVirtualImputation()));
+				(NajaPackage.Literals.VIRTUAL_IMPUTATION__SCHEDULES,
+				 NajaFactory.eINSTANCE.createSchedule()));
 	}
 
 	/**

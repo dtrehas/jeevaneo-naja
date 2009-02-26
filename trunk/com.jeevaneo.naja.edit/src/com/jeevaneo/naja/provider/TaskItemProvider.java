@@ -71,6 +71,8 @@ public class TaskItemProvider
 			addUnaffectedLoadPropertyDescriptor(object);
 			addPriorityPropertyDescriptor(object);
 			addLabelPropertyDescriptor(object);
+			addFirstDatePropertyDescriptor(object);
+			addLastDatePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -230,6 +232,50 @@ public class TaskItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the First Date feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addFirstDatePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Task_firstDate_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Task_firstDate_feature", "_UI_Task_type"),
+				 NajaPackage.Literals.TASK__FIRST_DATE,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Last Date feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addLastDatePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Task_lastDate_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Task_lastDate_feature", "_UI_Task_type"),
+				 NajaPackage.Literals.TASK__LAST_DATE,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This returns Task.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -271,6 +317,8 @@ public class TaskItemProvider
 			case NajaPackage.TASK__UNAFFECTED_LOAD:
 			case NajaPackage.TASK__PRIORITY:
 			case NajaPackage.TASK__LABEL:
+			case NajaPackage.TASK__FIRST_DATE:
+			case NajaPackage.TASK__LAST_DATE:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

@@ -237,6 +237,29 @@ public class NajaItemProviderAdapterFactory extends NajaAdapterFactory implement
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.jeevaneo.naja.VirtualImputation} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected VirtualImputationItemProvider virtualImputationItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.jeevaneo.naja.VirtualImputation}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createVirtualImputationAdapter() {
+		if (virtualImputationItemProvider == null) {
+			virtualImputationItemProvider = new VirtualImputationItemProvider(this);
+		}
+
+		return virtualImputationItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -342,6 +365,7 @@ public class NajaItemProviderAdapterFactory extends NajaAdapterFactory implement
 		if (projectItemProvider != null) projectItemProvider.dispose();
 		if (categoryItemProvider != null) categoryItemProvider.dispose();
 		if (scheduleItemProvider != null) scheduleItemProvider.dispose();
+		if (virtualImputationItemProvider != null) virtualImputationItemProvider.dispose();
 	}
 
 }
