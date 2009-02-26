@@ -8,6 +8,7 @@ package com.jeevaneo.naja.impl;
 
 import java.util.Collection;
 
+import java.util.Date;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
@@ -40,6 +41,8 @@ import com.jeevaneo.naja.NajaPackage;
  *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getPriority <em>Priority</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getLabel <em>Label</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getCategory <em>Category</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getFirstDate <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getLastDate <em>Last Date</em>}</li>
  * </ul>
  * </p>
  *
@@ -146,6 +149,26 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 * @ordered
 	 */
 	protected String label = LABEL_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getFirstDate() <em>First Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getFirstDate()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final Date FIRST_DATE_EDEFAULT = null;
+
+	/**
+	 * The default value of the '{@link #getLastDate() <em>Last Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getLastDate()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final Date LAST_DATE_EDEFAULT = null;
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
@@ -319,6 +342,82 @@ public class TaskImpl extends EObjectImpl implements Task {
 	}
 
 	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public Date getFirstDate() {
+		Date ret = null;
+		for(Imputation imp : getImputations())
+		{
+			if(null==ret)
+			{
+				ret = imp.getDate();
+			}
+			else
+			{
+				if(ret.after(imp.getDate()))
+				{
+					ret = imp.getDate();
+				}
+			}
+		}
+		for(Planification p : getPlanifications())
+		{
+			if(null==ret)
+			{
+				ret = p.getFirstDate();
+			}
+			else
+			{
+				if(ret.after(p.getFirstDate()))
+				{
+					ret = p.getFirstDate();
+				}
+			}
+		}
+		return ret;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public Date getLastDate() {
+		Date ret = null;
+		for(Imputation imp : getImputations())
+		{
+			if(null==ret)
+			{
+				ret = imp.getDate();
+			}
+			else
+			{
+				if(ret.before(imp.getDate()))
+				{
+					ret = imp.getDate();
+				}
+			}
+		}
+		for(Planification p : getPlanifications())
+		{
+			if(null==ret)
+			{
+				ret = p.getLastDate();
+			}
+			else
+			{
+				if(ret.after(p.getLastDate()))
+				{
+					ret = p.getLastDate();
+				}
+			}
+		}
+		return ret;
+	}
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -405,6 +504,10 @@ public class TaskImpl extends EObjectImpl implements Task {
 				return getLabel();
 			case NajaPackage.TASK__CATEGORY:
 				return getCategory();
+			case NajaPackage.TASK__FIRST_DATE:
+				return getFirstDate();
+			case NajaPackage.TASK__LAST_DATE:
+				return getLastDate();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -499,6 +602,10 @@ public class TaskImpl extends EObjectImpl implements Task {
 				return LABEL_EDEFAULT == null ? label != null : !LABEL_EDEFAULT.equals(label);
 			case NajaPackage.TASK__CATEGORY:
 				return getCategory() != null;
+			case NajaPackage.TASK__FIRST_DATE:
+				return FIRST_DATE_EDEFAULT == null ? getFirstDate() != null : !FIRST_DATE_EDEFAULT.equals(getFirstDate());
+			case NajaPackage.TASK__LAST_DATE:
+				return LAST_DATE_EDEFAULT == null ? getLastDate() != null : !LAST_DATE_EDEFAULT.equals(getLastDate());
 		}
 		return super.eIsSet(featureID);
 	}

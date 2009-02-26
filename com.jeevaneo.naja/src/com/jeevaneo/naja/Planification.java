@@ -6,6 +6,8 @@
  */
 package com.jeevaneo.naja;
 
+import java.util.Date;
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -21,6 +23,9 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Planification#getTask <em>Task</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getLoad <em>Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getComment <em>Comment</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getVirtualImputation <em>Virtual Imputation</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getFirstDate <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getLastDate <em>Last Date</em>}</li>
  * </ul>
  * </p>
  *
@@ -38,22 +43,11 @@ public interface Planification extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Label</em>' attribute.
-	 * @see #isSetLabel()
 	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_Label()
-	 * @model unique="false" unsettable="true" required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true"
 	 * @generated
 	 */
 	String getLabel();
-
-	/**
-	 * Returns whether the value of the '{@link com.jeevaneo.naja.Planification#getLabel <em>Label</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Label</em>' attribute is set.
-	 * @see #getLabel()
-	 * @generated
-	 */
-	boolean isSetLabel();
 
 	/**
 	 * Returns the value of the '<em><b>Resource</b></em>' reference.
@@ -162,5 +156,63 @@ public interface Planification extends EObject {
 	 * @generated
 	 */
 	void setComment(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Virtual Imputation</b></em>' containment reference.
+	 * It is bidirectional and its opposite is '{@link com.jeevaneo.naja.VirtualImputation#getPlanification <em>Planification</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Virtual Imputation</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Virtual Imputation</em>' containment reference.
+	 * @see #setVirtualImputation(VirtualImputation)
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_VirtualImputation()
+	 * @see com.jeevaneo.naja.VirtualImputation#getPlanification
+	 * @model opposite="planification" containment="true"
+	 * @generated
+	 */
+	VirtualImputation getVirtualImputation();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.Planification#getVirtualImputation <em>Virtual Imputation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Virtual Imputation</em>' containment reference.
+	 * @see #getVirtualImputation()
+	 * @generated
+	 */
+	void setVirtualImputation(VirtualImputation value);
+
+	/**
+	 * Returns the value of the '<em><b>First Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>First Date</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>First Date</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_FirstDate()
+	 * @model changeable="false" derived="true"
+	 * @generated
+	 */
+	Date getFirstDate();
+
+	/**
+	 * Returns the value of the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Last Date</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Last Date</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_LastDate()
+	 * @model changeable="false" derived="true"
+	 * @generated
+	 */
+	Date getLastDate();
 
 } // Planification
