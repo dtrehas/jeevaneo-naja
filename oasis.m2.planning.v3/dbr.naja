@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Damien Brossard" login="97261j" totalAvailability="736" availabilityStartDate="2009-02-16T00:00:00.000+0100">
+<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Damien Brossard" login="97261j" totalAvailability="772" availabilityStartDate="2009-02-16T00:00:00.000+0100">
+  <planifications href="M2.naja#//@planifications.3"/>
   <planifications href="M2.naja#//@planifications.23"/>
   <planifications href="M2.naja#//@planifications.26"/>
   <planifications href="M2.naja#//@planifications.29"/>
-  <planifications href="M2.naja#//@planifications.3"/>
   <planifications href="conges.naja#//@planifications.5"/>
   <planifications href="M2.naja#//@planifications.28"/>
   <planifications href="M2.naja#//@planifications.80"/>
