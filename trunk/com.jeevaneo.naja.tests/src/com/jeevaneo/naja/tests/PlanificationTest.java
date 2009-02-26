@@ -21,6 +21,8 @@ import junit.textui.TestRunner;
  * The following features are tested:
  * <ul>
  *   <li>{@link com.jeevaneo.naja.Planification#getLabel() <em>Label</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getFirstDate() <em>First Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getLastDate() <em>Last Date</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -110,14 +112,27 @@ public class PlanificationTest extends TestCase {
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Planification#isSetLabel() <em>isSetLabel()</em>}' method.
+	 * Tests the '{@link com.jeevaneo.naja.Planification#getFirstDate() <em>First Date</em>}' feature getter.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Planification#isSetLabel()
+	 * @see com.jeevaneo.naja.Planification#getFirstDate()
 	 * @generated
 	 */
-	public void testIsSetLabel() {
-		// TODO: implement this test method
+	public void testGetFirstDate() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Planification#getLastDate() <em>Last Date</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Planification#getLastDate()
+	 * @generated
+	 */
+	public void testGetLastDate() {
+		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}

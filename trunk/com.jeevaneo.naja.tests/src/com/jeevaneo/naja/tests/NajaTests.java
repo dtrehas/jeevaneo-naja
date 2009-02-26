@@ -41,6 +41,7 @@ public class NajaTests extends TestSuite {
 		suite.addTestSuite(ProjectTest.class);
 		suite.addTestSuite(CategoryTest.class);
 		suite.addTestSuite(ScheduleTest.class);
+		suite.addTestSuite(VirtualImputationTest.class);
 		return suite;
 	}
 
