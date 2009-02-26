@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="com.jeevaneo.naja.presentation.NajaModelWizardID"
+            name="%_UI_NajaModelWizard_label"
+            class="com.jeevaneo.naja.presentation.NajaModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/NajaModelFile.gif">
+         <description>%_UI_NajaModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="com.jeevaneo.naja.presentation.NajaEditorID"
+            name="%_UI_NajaEditor_label"
+            icon="icons/full/obj16/NajaModelFile.gif"
+            extensions="naja"
+            class="com.jeevaneo.naja.presentation.NajaEditor"
+            contributorClass="com.jeevaneo.naja.presentation.NajaActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
