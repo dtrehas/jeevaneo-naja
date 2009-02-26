@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Pierre Brunin" login="97488r" totalAvailability="736" availabilityStartDate="2009-02-15T00:00:00.000+0100">
+  <planifications href="M2.naja#//@planifications.39"/>
+  <planifications href="conges.naja#//@planifications.2"/>
+  <planifications href="M2.naja#//@planifications.4"/>
+  <planifications href="M2.naja#//@planifications.37"/>
+  <planifications href="M2.naja#//@planifications.43"/>
+  <planifications href="M2.naja#//@planifications.44"/>
+  <planifications href="M2.naja#//@planifications.48"/>
+  <planifications href="M2.naja#//@planifications.15"/>
+  <planifications href="M2.naja#//@planifications.50"/>
+  <planifications href="M2.naja#//@planifications.51"/>
+  <planifications href="M2.naja#//@planifications.52"/>
+  <planifications href="M2.naja#//@planifications.60"/>
+  <planifications href="necessary.naja#//@planifications.3"/>
+  <planifications href="M2.naja#//@planifications.81"/>
+  <planifications href="M2.naja#//@planifications.83"/>
+  <planifications href="M2.naja#//@planifications.86"/>
+  <planifications href="M2.naja#//@planifications.102"/>
+</jeevaneo-naja:Person>
