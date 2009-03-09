@@ -40,5 +40,27 @@
          </action>
       </actionSet>
    </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="com.jeevaneo.naja.contribution1"
+            objectClass="com.jeevaneo.naja.Category">
+         <menu
+               id="com.jeevaneo.naja.menu1"
+               label="Naja export"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.popup.actions.CsvExportAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.newAction"
+               label="New Action"
+               menubarPath="com.jeevaneo.naja.menu1/group1">
+         </action>
+      </objectContribution>
+   </extension>
 
 </plugin>
