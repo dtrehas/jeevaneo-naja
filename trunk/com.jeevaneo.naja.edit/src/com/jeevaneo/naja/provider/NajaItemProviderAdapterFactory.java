@@ -260,6 +260,52 @@ public class NajaItemProviderAdapterFactory extends NajaAdapterFactory implement
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link com.jeevaneo.naja.TaskMapping} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TaskMappingItemProvider taskMappingItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.jeevaneo.naja.TaskMapping}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTaskMappingAdapter() {
+		if (taskMappingItemProvider == null) {
+			taskMappingItemProvider = new TaskMappingItemProvider(this);
+		}
+
+		return taskMappingItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link com.jeevaneo.naja.TaskMappings} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected TaskMappingsItemProvider taskMappingsItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link com.jeevaneo.naja.TaskMappings}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createTaskMappingsAdapter() {
+		if (taskMappingsItemProvider == null) {
+			taskMappingsItemProvider = new TaskMappingsItemProvider(this);
+		}
+
+		return taskMappingsItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -366,6 +412,8 @@ public class NajaItemProviderAdapterFactory extends NajaAdapterFactory implement
 		if (categoryItemProvider != null) categoryItemProvider.dispose();
 		if (scheduleItemProvider != null) scheduleItemProvider.dispose();
 		if (virtualImputationItemProvider != null) virtualImputationItemProvider.dispose();
+		if (taskMappingItemProvider != null) taskMappingItemProvider.dispose();
+		if (taskMappingsItemProvider != null) taskMappingsItemProvider.dispose();
 	}
 
 }
