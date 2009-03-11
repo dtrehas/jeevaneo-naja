@@ -199,7 +199,7 @@ public class TimeEntryItemProvider
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(TimeentriesPackage.Literals.TIME_ENTRY__IMPUTATIONS);
+			childrenFeatures.add(TimeentriesPackage.Literals.TIME_ENTRY__IMPUTATION);
 		}
 		return childrenFeatures;
 	}
@@ -260,7 +260,7 @@ public class TimeEntryItemProvider
 			case TimeentriesPackage.TIME_ENTRY__EXTERNAL_ID:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
-			case TimeentriesPackage.TIME_ENTRY__IMPUTATIONS:
+			case TimeentriesPackage.TIME_ENTRY__IMPUTATION:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -280,7 +280,7 @@ public class TimeEntryItemProvider
 
 		newChildDescriptors.add
 			(createChildParameter
-				(TimeentriesPackage.Literals.TIME_ENTRY__IMPUTATIONS,
+				(TimeentriesPackage.Literals.TIME_ENTRY__IMPUTATION,
 				 NajaFactory.eINSTANCE.createImputation()));
 	}
 
