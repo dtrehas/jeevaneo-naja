@@ -26,7 +26,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getLoad <em>Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getResource <em>Resource</em>}</li>
  *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getExternalId <em>External Id</em>}</li>
- *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputations <em>Imputations</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation <em>Imputation</em>}</li>
  * </ul>
  * </p>
  *
@@ -166,19 +166,29 @@ public interface TimeEntry extends EObject {
 	void setExternalId(TaskMapping value);
 
 	/**
-	 * Returns the value of the '<em><b>Imputations</b></em>' containment reference list.
-	 * The list contents are of type {@link com.jeevaneo.naja.Imputation}.
+	 * Returns the value of the '<em><b>Imputation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Imputations</em>' containment reference list isn't clear,
+	 * If the meaning of the '<em>Imputation</em>' containment reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Imputations</em>' containment reference list.
-	 * @see com.jeevaneo.naja.timeentries.TimeentriesPackage#getTimeEntry_Imputations()
+	 * @return the value of the '<em>Imputation</em>' containment reference.
+	 * @see #setImputation(Imputation)
+	 * @see com.jeevaneo.naja.timeentries.TimeentriesPackage#getTimeEntry_Imputation()
 	 * @model containment="true"
 	 * @generated
 	 */
-	EList<Imputation> getImputations();
+	Imputation getImputation();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation <em>Imputation</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Imputation</em>' containment reference.
+	 * @see #getImputation()
+	 * @generated
+	 */
+	void setImputation(Imputation value);
 
 } // TimeEntry

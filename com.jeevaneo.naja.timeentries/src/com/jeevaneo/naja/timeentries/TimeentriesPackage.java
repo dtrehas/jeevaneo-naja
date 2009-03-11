@@ -152,13 +152,13 @@ public interface TimeentriesPackage extends EPackage {
 	int TIME_ENTRY__EXTERNAL_ID = 4;
 
 	/**
-	 * The feature id for the '<em><b>Imputations</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Imputation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TIME_ENTRY__IMPUTATIONS = 5;
+	int TIME_ENTRY__IMPUTATION = 5;
 
 	/**
 	 * The number of structural features of the '<em>Time Entry</em>' class.
@@ -268,15 +268,15 @@ public interface TimeentriesPackage extends EPackage {
 	EReference getTimeEntry_ExternalId();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputations <em>Imputations</em>}'.
+	 * Returns the meta object for the containment reference '{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation <em>Imputation</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Imputations</em>'.
-	 * @see com.jeevaneo.naja.timeentries.TimeEntry#getImputations()
+	 * @return the meta object for the containment reference '<em>Imputation</em>'.
+	 * @see com.jeevaneo.naja.timeentries.TimeEntry#getImputation()
 	 * @see #getTimeEntry()
 	 * @generated
 	 */
-	EReference getTimeEntry_Imputations();
+	EReference getTimeEntry_Imputation();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -377,12 +377,12 @@ public interface TimeentriesPackage extends EPackage {
 		EReference TIME_ENTRY__EXTERNAL_ID = eINSTANCE.getTimeEntry_ExternalId();
 
 		/**
-		 * The meta object literal for the '<em><b>Imputations</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Imputation</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference TIME_ENTRY__IMPUTATIONS = eINSTANCE.getTimeEntry_Imputations();
+		EReference TIME_ENTRY__IMPUTATION = eINSTANCE.getTimeEntry_Imputation();
 
 	}
 
