@@ -98,6 +98,24 @@ public interface NajaFactory extends EFactory {
 	VirtualImputation createVirtualImputation();
 
 	/**
+	 * Returns a new object of class '<em>Task Mapping</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Task Mapping</em>'.
+	 * @generated
+	 */
+	TaskMapping createTaskMapping();
+
+	/**
+	 * Returns a new object of class '<em>Task Mappings</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Task Mappings</em>'.
+	 * @generated
+	 */
+	TaskMappings createTaskMappings();
+
+	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

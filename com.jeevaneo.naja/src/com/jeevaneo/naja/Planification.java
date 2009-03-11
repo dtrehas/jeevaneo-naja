@@ -27,6 +27,9 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Planification#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getLastDate <em>Last Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getMaxLoadPerDay <em>Max Load Per Day</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getImputations <em>Imputations</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getUnimputedLoad <em>Unimputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getImputedLoad <em>Imputed Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -242,5 +245,53 @@ public interface Planification extends EObject {
 	 * @generated
 	 */
 	void setMaxLoadPerDay(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Imputations</b></em>' reference list.
+	 * The list contents are of type {@link com.jeevaneo.naja.Imputation}.
+	 * It is bidirectional and its opposite is '{@link com.jeevaneo.naja.Imputation#getPlanification <em>Planification</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Imputations</em>' reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Imputations</em>' reference list.
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_Imputations()
+	 * @see com.jeevaneo.naja.Imputation#getPlanification
+	 * @model opposite="planification"
+	 * @generated
+	 */
+	EList<Imputation> getImputations();
+
+	/**
+	 * Returns the value of the '<em><b>Unimputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Unimputed Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Unimputed Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_UnimputedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getUnimputedLoad();
+
+	/**
+	 * Returns the value of the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Imputed Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Imputed Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_ImputedLoad()
+	 * @model required="true" transient="true" changeable="false"
+	 * @generated
+	 */
+	int getImputedLoad();
 
 } // Planification

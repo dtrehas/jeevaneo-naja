@@ -23,6 +23,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Imputation#getResource <em>Resource</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Imputation#getTask <em>Task</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Imputation#getLoad <em>Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Imputation#getPlanification <em>Planification</em>}</li>
  * </ul>
  * </p>
  *
@@ -164,5 +165,33 @@ public interface Imputation extends EObject {
 	 * @generated
 	 */
 	void setLoad(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Planification</b></em>' reference.
+	 * It is bidirectional and its opposite is '{@link com.jeevaneo.naja.Planification#getImputations <em>Imputations</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Planification</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Planification</em>' reference.
+	 * @see #setPlanification(Planification)
+	 * @see com.jeevaneo.naja.NajaPackage#getImputation_Planification()
+	 * @see com.jeevaneo.naja.Planification#getImputations
+	 * @model opposite="imputations"
+	 * @generated
+	 */
+	Planification getPlanification();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.Imputation#getPlanification <em>Planification</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Planification</em>' reference.
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	void setPlanification(Planification value);
 
 } // Imputation

@@ -135,6 +135,18 @@ public class NajaSwitch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case NajaPackage.TASK_MAPPING: {
+				TaskMapping taskMapping = (TaskMapping)theEObject;
+				T result = caseTaskMapping(taskMapping);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case NajaPackage.TASK_MAPPINGS: {
+				TaskMappings taskMappings = (TaskMappings)theEObject;
+				T result = caseTaskMappings(taskMappings);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -256,6 +268,36 @@ public class NajaSwitch<T> {
 	 * @generated
 	 */
 	public T caseVirtualImputation(VirtualImputation object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Task Mapping</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Task Mapping</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTaskMapping(TaskMapping object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Task Mappings</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Task Mappings</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseTaskMappings(TaskMappings object) {
 		return null;
 	}
 

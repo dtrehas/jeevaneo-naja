@@ -15,7 +15,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import java.util.logging.SimpleFormatter;
 
+import org.eclipse.emf.common.EMFPlugin;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.notify.impl.AdapterImpl;
@@ -182,34 +184,34 @@ public class PersonImpl extends EObjectImpl implements Person {
 		eAdapters().add(new AdapterImpl() {
 
 			private void addImputation(Imputation imputation) {
-				System.out.println("Added an imputation on " + getName() + " "
-						+ imputation);
+//				System.out.println("Added an imputation on " + getName() + " "
+//						+ imputation);
 				// reserveSchedule(imputation);
 				recomputeAvailableSchedules();
 			}
 
 			private void changeImputation(Imputation imputation) {
-				System.out.println("Changed an imputation on " + getName()
-						+ " " + imputation);
+//				System.out.println("Changed an imputation on " + getName()
+//						+ " " + imputation);
 				recomputeAvailableSchedules();
 			}
 
 			private void removeImputation(Imputation imputation) {
-				System.out.println("Removed an imputation from " + getName()
-						+ imputation);
+//				System.out.println("Removed an imputation from " + getName()
+//						+ imputation);
 				// releaseSchedule(imputation);
 				recomputeAvailableSchedules();
 			}
 
 			private void addPlanification(Planification newPlan) {
-				System.out.println("Added a planification on " + getName()
-						+ " " + newPlan);
+//				System.out.println("Added a planification on " + getName()
+//						+ " " + newPlan);
 				recomputeAvailableSchedules();
 			}
 
 			private void removePlanification(Planification oldPlan) {
-				System.out.println("Removed a planification from " + getName()
-						+ oldPlan);
+//				System.out.println("Removed a planification from " + getName()
+//						+ oldPlan);
 				recomputeAvailableSchedules();
 			}
 
@@ -444,7 +446,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 			getAvailableSchedules().add(schedule);
 		}
 
-		for (Imputation imputation : getImputations()) {
+		for (Imputation imputation : getImputations()) {			
 			reserveSchedule(imputation);
 		}
 
@@ -515,32 +517,39 @@ public class PersonImpl extends EObjectImpl implements Person {
 		Iterator<Schedule> iterator = getAvailableSchedules().iterator();
 		while (iterator.hasNext()) {
 			Schedule tempSchedule = iterator.next();
-			if (tempSchedule.getDate().equals(date)) {
+			if (sameDay(tempSchedule.getDate(),date)) {
 				schedule = tempSchedule;
-				if (tempSchedule.getLoad() < imputation.getLoad()) {
-					System.err.println("Resource " + getName()
-							+ " is not available enough for imputation on "
-							+ date);
-					imputation.setResource(null);
-					return;
-					// throw new IllegalStateException("User " + getName()+
-					// " is not available for imputation on " + date);
-				}
+//				if (tempSchedule.getLoad() < imputation.getLoad()) {
+//					System.err.println("Resource " + getName()
+//							+ " is not available enough for imputation on "
+//							+ date);
+//					
+//					imputation.setResource(null);
+//					return;
+//					// throw new IllegalStateException("User " + getName()+
+//					// " is not available for imputation on " + date);
+//				}
 				tempSchedule.setLoad(tempSchedule.getLoad()
 						- imputation.getLoad());
-				if (0 == tempSchedule.getLoad()) {
+				if (0 >= tempSchedule.getLoad()) {
 					iterator.remove();
 				}
 				break;
 			}
 		}
-		if (null == schedule) {
-			System.err.println("Resource " + getName()
-					+ " is not available for imputation on " + date);
-			imputation.setResource(null);
-			// throw new IllegalStateException("User " + getName()+
-			// " is not available for imputation on " + date);
-		}
+//		if (null == schedule) {
+//			System.err.println("Resource " + getName()
+//					+ " is not available for imputation on " + date);
+//			imputation.setResource(null);
+//			// throw new IllegalStateException("User " + getName()+
+//			// " is not available for imputation on " + date);
+//		}
+	}
+
+	private final static SimpleDateFormat dayFormat = new SimpleDateFormat("yyyyMMdd");
+	private boolean sameDay(Date date, Date date2) {			
+//		return dayFormat.format(date).equals(dayFormat.format(date2));
+		return date.equals(date2);
 	}
 
 	private SortedSet<Date> findOpenedDates(Date firstDate,
@@ -578,6 +587,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 			bankHolidays.add(sdf.parse("2009-04-13"));
 			bankHolidays.add(sdf.parse("2009-05-01"));
 			bankHolidays.add(sdf.parse("2009-05-08"));
+			bankHolidays.add(sdf.parse("2009-05-21"));
+			bankHolidays.add(sdf.parse("2009-06-01"));
 			bankHolidays.add(sdf.parse("2009-07-14"));
 			bankHolidays.add(sdf.parse("2009-08-15"));
 			bankHolidays.add(sdf.parse("2009-11-01"));

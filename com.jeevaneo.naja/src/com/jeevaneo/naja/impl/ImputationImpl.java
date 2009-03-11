@@ -17,9 +17,11 @@ import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
+import org.eclipse.emf.ecore.resource.Resource;
 
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.Person;
+import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Task;
 import com.jeevaneo.naja.NajaPackage;
 
@@ -36,6 +38,7 @@ import com.jeevaneo.naja.NajaPackage;
  *   <li>{@link com.jeevaneo.naja.impl.ImputationImpl#getResource <em>Resource</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.ImputationImpl#getTask <em>Task</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.ImputationImpl#getLoad <em>Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.ImputationImpl#getPlanification <em>Planification</em>}</li>
  * </ul>
  * </p>
  *
@@ -123,6 +126,16 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 	protected int load = LOAD_EDEFAULT;
 
 	/**
+	 * The cached value of the '{@link #getPlanification() <em>Planification</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getPlanification()
+	 * @generated
+	 * @ordered
+	 */
+	protected Planification planification;
+
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated NOT
@@ -141,6 +154,28 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 					if(null!=getResource())
 					{
 						((PersonImpl)getResource()).recomputeAvailableSchedules();
+					}
+					break;
+					
+				case NajaPackage.IMPUTATION__PLANIFICATION:
+					Planification newPlanification = (Planification) msg.getNewValue();
+					if(null!=newPlanification)
+					{
+						Person newResource = newPlanification.getResource();
+						if(null!=newResource && !newResource.equals(getResource()))
+						{
+							setResource(newResource);
+						}
+						
+						Task newTask = newPlanification.getTask();
+						if(null!=newTask && !newTask.equals(getTask()))
+						{
+							setTask(newPlanification.getTask());
+						}
+					}
+					else
+					{
+						//TODO should nullify this.resource and this.task???
 					}
 					break;
 				}
@@ -347,6 +382,66 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public Planification getPlanification() {
+		if (planification != null && planification.eIsProxy()) {
+			InternalEObject oldPlanification = (InternalEObject)planification;
+			planification = (Planification)eResolveProxy(oldPlanification);
+			if (planification != oldPlanification) {
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, NajaPackage.IMPUTATION__PLANIFICATION, oldPlanification, planification));
+			}
+		}
+		return planification;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Planification basicGetPlanification() {
+		return planification;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetPlanification(Planification newPlanification, NotificationChain msgs) {
+		Planification oldPlanification = planification;
+		planification = newPlanification;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, NajaPackage.IMPUTATION__PLANIFICATION, oldPlanification, newPlanification);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setPlanification(Planification newPlanification) {
+		if (newPlanification != planification) {
+			NotificationChain msgs = null;
+			if (planification != null)
+				msgs = ((InternalEObject)planification).eInverseRemove(this, NajaPackage.PLANIFICATION__IMPUTATIONS, Planification.class, msgs);
+			if (newPlanification != null)
+				msgs = ((InternalEObject)newPlanification).eInverseAdd(this, NajaPackage.PLANIFICATION__IMPUTATIONS, Planification.class, msgs);
+			msgs = basicSetPlanification(newPlanification, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.IMPUTATION__PLANIFICATION, newPlanification, newPlanification));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
@@ -358,6 +453,10 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				if (task != null)
 					msgs = ((InternalEObject)task).eInverseRemove(this, NajaPackage.TASK__IMPUTATIONS, Task.class, msgs);
 				return basicSetTask((Task)otherEnd, msgs);
+			case NajaPackage.IMPUTATION__PLANIFICATION:
+				if (planification != null)
+					msgs = ((InternalEObject)planification).eInverseRemove(this, NajaPackage.PLANIFICATION__IMPUTATIONS, Planification.class, msgs);
+				return basicSetPlanification((Planification)otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -374,6 +473,8 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				return basicSetResource(null, msgs);
 			case NajaPackage.IMPUTATION__TASK:
 				return basicSetTask(null, msgs);
+			case NajaPackage.IMPUTATION__PLANIFICATION:
+				return basicSetPlanification(null, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -398,6 +499,9 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				return basicGetTask();
 			case NajaPackage.IMPUTATION__LOAD:
 				return new Integer(getLoad());
+			case NajaPackage.IMPUTATION__PLANIFICATION:
+				if (resolve) return getPlanification();
+				return basicGetPlanification();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -424,6 +528,9 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				return;
 			case NajaPackage.IMPUTATION__LOAD:
 				setLoad(((Integer)newValue).intValue());
+				return;
+			case NajaPackage.IMPUTATION__PLANIFICATION:
+				setPlanification((Planification)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -452,6 +559,9 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 			case NajaPackage.IMPUTATION__LOAD:
 				setLoad(LOAD_EDEFAULT);
 				return;
+			case NajaPackage.IMPUTATION__PLANIFICATION:
+				setPlanification((Planification)null);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -474,6 +584,8 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				return task != null;
 			case NajaPackage.IMPUTATION__LOAD:
 				return load != LOAD_EDEFAULT;
+			case NajaPackage.IMPUTATION__PLANIFICATION:
+				return planification != null;
 		}
 		return super.eIsSet(featureID);
 	}
