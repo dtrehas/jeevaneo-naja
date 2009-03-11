@@ -35,5 +35,37 @@
             contributorClass="com.jeevaneo.naja.timeentries.presentation.TimeentriesActionBarContributor">
       </editor>
    </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="com.jeevaneo.naja.timeentries.popup.actions.contribution"
+            objectClass="org.eclipse.emf.ecore.EObject">
+         <menu
+               id="com.jeevaneo.naja.timeentries.menu"
+               label="Naja Time Entries"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.timeentries.popup.actions.GenerateImputationsAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.timeentries.popup.actions.GenerateImputationsAction"
+               label="Generate imputations"
+               menubarPath="com.jeevaneo.naja.timeentries.menu/group1">
+         </action>
+         <visibility>
+            <or>
+               <objectClass
+                     name="com.jeevaneo.naja.timeentries.TimeEntry">
+               </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.timeentries.TimeEntries">
+               </objectClass>
+            </or>
+         </visibility>
+      </objectContribution>
+   </extension>
 
 </plugin>
