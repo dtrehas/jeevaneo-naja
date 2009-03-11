@@ -335,8 +335,8 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_-prAUvrFEd2_8NSLID6Jxg" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//Imputation/resource"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-prAU_rFEd2_8NSLID6Jxg" points="[-30, -3, -36, 149]$[5, -140, -1, 12]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FjOh9PueEd2ckrhUzzIPNw" id="(0.22058824,0.4556962)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FjOh9fueEd2ckrhUzzIPNw" id="(0.5862069,0.8095238)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_25nRog5_Ed6L1KEIgBQg0w" id="(0.22058824,0.4556962)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_25nRow5_Ed6L1KEIgBQg0w" id="(0.5862069,0.8095238)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_B6JSkPrGEd2_8NSLID6Jxg" type="3002" source="_q-hrYPrFEd2_8NSLID6Jxg" target="_VeARYPqSEd2_8NSLID6Jxg">
     <children xmi:type="notation:Node" xmi:id="_B6JSlPrGEd2_8NSLID6Jxg" type="4011">
