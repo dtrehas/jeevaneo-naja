@@ -19,31 +19,49 @@
    <extension
          point="org.eclipse.ui.actionSets">
       <actionSet
-            id="org.borgoltz.test.emf.actionSet"
-            label="Sample Action Set"
+            id="com.jeevaneo.naja.actionSet"
+            label="Naja"
             visible="true">
          <menu
-               id="sampleMenu"
-               label="Sample &amp;Menu">
+               id="najaMenu"
+               label="&amp;Naja">
             <separator
-                  name="sampleGroup">
+                  name="najaGroup">
             </separator>
          </menu>
          <action
-               class="org.borgoltz.test.emf.actions.TestAction"
+               class="com.jeevaneo.naja.popup.actions.ExportCategoriesAsCsvAction"
                icon="icons/sample.gif"
-               id="org.borgoltz.test.emf.actions.TestAction"
-               label="&amp;Sample Action"
-               menubarPath="sampleMenu/sampleGroup"
-               toolbarPath="sampleGroup"
-               tooltip="Hello, Eclipse world">
+               id="com.jeevaneo.naja.popup.actions.ExportCategoriesAsCsvAction"
+               label="Export &amp;categories as CSV"
+               menubarPath="najaMenu/najaGroup"
+               toolbarPath="najaGroup"
+               tooltip="Export categories as CSV">
+         </action>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportTasksAsCsvAction"
+               icon="icons/sample.gif"
+               id="com.jeevaneo.naja.popup.actions.ExportCategoriesAsCsvAction"
+               label="&amp;Export Tasks as CSV"
+               menubarPath="najaMenu/najaGroup"
+               toolbarPath="najaGroup"
+               tooltip="Export Tasks as CSV">
+         </action>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportTasksWithoutExternalIdAsCsvAction"
+               icon="icons/sample.gif"
+               id="com.jeevaneo.naja.popup.actions.ExportCategoriesAsCsvAction"
+               label="&amp;Export tasks without external-id as CSV"
+               menubarPath="najaMenu/najaGroup"
+               toolbarPath="najaGroup"
+               tooltip="Export tasks without external-id as CSV">
          </action>
       </actionSet>
    </extension>
    <extension
          point="org.eclipse.ui.popupMenus">
       <objectContribution
-            id="com.jeevaneo.naja.contribution1"
+            id="com.jeevaneo.naja.actons.categories"
             objectClass="com.jeevaneo.naja.Category">
          <menu
                id="com.jeevaneo.naja.menu1"
@@ -54,12 +72,60 @@
             </separator>
          </menu>
          <action
-               class="com.jeevaneo.naja.popup.actions.CsvExportAction"
+               class="com.jeevaneo.naja.popup.actions.ExportCategoriesAsCsvAction"
                enablesFor="*"
                id="com.jeevaneo.naja.newAction"
-               label="New Action"
+               label="Export Categories as CSV"
                menubarPath="com.jeevaneo.naja.menu1/group1">
          </action>
+      </objectContribution>
+      <objectContribution
+            id="com.jeevaneo.naja.actons.projects"
+            objectClass="com.jeevaneo.naja.Project">
+         <menu
+               id="com.jeevaneo.naja.menu1"
+               label="Naja export"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportTasksAsCsvAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.newAction"
+               label="Export Tasks as CSV"
+               menubarPath="com.jeevaneo.naja.menu1/group1">
+         </action>
+      </objectContribution>
+      <objectContribution
+            id="com.jeevaneo.naja.actons.task.mappings"
+            objectClass="org.eclipse.emf.ecore.EObject">
+         <menu
+               id="com.jeevaneo.naja.menu1"
+               label="Naja export"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportTasksWithoutMappingAsCsvAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.popup.actions.ExportTasksWithoutMappingAsCsvAction2"
+               label="Export Tasks without mapping as CSV"
+               menubarPath="com.jeevaneo.naja.menu1/group1">
+         </action>
+         <enablement>
+            <or>
+               <objectClass
+                     name="com.jeevaneo.naja.Project">
+               </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.TaskMappings">
+               </objectClass>
+            </or>
+         </enablement>
       </objectContribution>
    </extension>
 

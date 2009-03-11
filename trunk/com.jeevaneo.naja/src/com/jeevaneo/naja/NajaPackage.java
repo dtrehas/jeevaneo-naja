@@ -315,13 +315,22 @@ public interface NajaPackage extends EPackage {
 	int IMPUTATION__LOAD = 4;
 
 	/**
+	 * The feature id for the '<em><b>Planification</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int IMPUTATION__PLANIFICATION = 5;
+
+	/**
 	 * The number of structural features of the '<em>Imputation</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int IMPUTATION_FEATURE_COUNT = 5;
+	int IMPUTATION_FEATURE_COUNT = 6;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.PlanificationImpl <em>Planification</em>}' class.
@@ -415,13 +424,40 @@ public interface NajaPackage extends EPackage {
 	int PLANIFICATION__MAX_LOAD_PER_DAY = 8;
 
 	/**
+	 * The feature id for the '<em><b>Imputations</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__IMPUTATIONS = 9;
+
+	/**
+	 * The feature id for the '<em><b>Unimputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__UNIMPUTED_LOAD = 10;
+
+	/**
+	 * The feature id for the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PLANIFICATION__IMPUTED_LOAD = 11;
+
+	/**
 	 * The number of structural features of the '<em>Planification</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PLANIFICATION_FEATURE_COUNT = 9;
+	int PLANIFICATION_FEATURE_COUNT = 12;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.ProjectImpl <em>Project</em>}' class.
@@ -737,6 +773,72 @@ public interface NajaPackage extends EPackage {
 
 
 	/**
+	 * The meta object id for the '{@link com.jeevaneo.naja.impl.TaskMappingImpl <em>Task Mapping</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.impl.TaskMappingImpl
+	 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getTaskMapping()
+	 * @generated
+	 */
+	int TASK_MAPPING = 8;
+
+	/**
+	 * The feature id for the '<em><b>External Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK_MAPPING__EXTERNAL_ID = 0;
+
+	/**
+	 * The feature id for the '<em><b>Task</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK_MAPPING__TASK = 1;
+
+	/**
+	 * The number of structural features of the '<em>Task Mapping</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK_MAPPING_FEATURE_COUNT = 2;
+
+	/**
+	 * The meta object id for the '{@link com.jeevaneo.naja.impl.TaskMappingsImpl <em>Task Mappings</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.impl.TaskMappingsImpl
+	 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getTaskMappings()
+	 * @generated
+	 */
+	int TASK_MAPPINGS = 9;
+
+	/**
+	 * The feature id for the '<em><b>Mappings</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK_MAPPINGS__MAPPINGS = 0;
+
+	/**
+	 * The number of structural features of the '<em>Task Mappings</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK_MAPPINGS_FEATURE_COUNT = 1;
+
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Person <em>Person</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1020,6 +1122,17 @@ public interface NajaPackage extends EPackage {
 	EAttribute getImputation_Load();
 
 	/**
+	 * Returns the meta object for the reference '{@link com.jeevaneo.naja.Imputation#getPlanification <em>Planification</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Planification</em>'.
+	 * @see com.jeevaneo.naja.Imputation#getPlanification()
+	 * @see #getImputation()
+	 * @generated
+	 */
+	EReference getImputation_Planification();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Planification <em>Planification</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1127,6 +1240,39 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getPlanification_MaxLoadPerDay();
+
+	/**
+	 * Returns the meta object for the reference list '{@link com.jeevaneo.naja.Planification#getImputations <em>Imputations</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Imputations</em>'.
+	 * @see com.jeevaneo.naja.Planification#getImputations()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EReference getPlanification_Imputations();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Planification#getUnimputedLoad <em>Unimputed Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Unimputed Load</em>'.
+	 * @see com.jeevaneo.naja.Planification#getUnimputedLoad()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EAttribute getPlanification_UnimputedLoad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Planification#getImputedLoad <em>Imputed Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Imputed Load</em>'.
+	 * @see com.jeevaneo.naja.Planification#getImputedLoad()
+	 * @see #getPlanification()
+	 * @generated
+	 */
+	EAttribute getPlanification_ImputedLoad();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Project <em>Project</em>}'.
@@ -1455,6 +1601,59 @@ public interface NajaPackage extends EPackage {
 	EAttribute getVirtualImputation_Label();
 
 	/**
+	 * Returns the meta object for class '{@link com.jeevaneo.naja.TaskMapping <em>Task Mapping</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Task Mapping</em>'.
+	 * @see com.jeevaneo.naja.TaskMapping
+	 * @generated
+	 */
+	EClass getTaskMapping();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.TaskMapping#getExternalId <em>External Id</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>External Id</em>'.
+	 * @see com.jeevaneo.naja.TaskMapping#getExternalId()
+	 * @see #getTaskMapping()
+	 * @generated
+	 */
+	EAttribute getTaskMapping_ExternalId();
+
+	/**
+	 * Returns the meta object for the reference '{@link com.jeevaneo.naja.TaskMapping#getTask <em>Task</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Task</em>'.
+	 * @see com.jeevaneo.naja.TaskMapping#getTask()
+	 * @see #getTaskMapping()
+	 * @generated
+	 */
+	EReference getTaskMapping_Task();
+
+	/**
+	 * Returns the meta object for class '{@link com.jeevaneo.naja.TaskMappings <em>Task Mappings</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Task Mappings</em>'.
+	 * @see com.jeevaneo.naja.TaskMappings
+	 * @generated
+	 */
+	EClass getTaskMappings();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link com.jeevaneo.naja.TaskMappings#getMappings <em>Mappings</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Mappings</em>'.
+	 * @see com.jeevaneo.naja.TaskMappings#getMappings()
+	 * @see #getTaskMappings()
+	 * @generated
+	 */
+	EReference getTaskMappings_Mappings();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1691,6 +1890,14 @@ public interface NajaPackage extends EPackage {
 		EAttribute IMPUTATION__LOAD = eINSTANCE.getImputation_Load();
 
 		/**
+		 * The meta object literal for the '<em><b>Planification</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference IMPUTATION__PLANIFICATION = eINSTANCE.getImputation_Planification();
+
+		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.PlanificationImpl <em>Planification</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1771,6 +1978,30 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute PLANIFICATION__MAX_LOAD_PER_DAY = eINSTANCE.getPlanification_MaxLoadPerDay();
+
+		/**
+		 * The meta object literal for the '<em><b>Imputations</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PLANIFICATION__IMPUTATIONS = eINSTANCE.getPlanification_Imputations();
+
+		/**
+		 * The meta object literal for the '<em><b>Unimputed Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANIFICATION__UNIMPUTED_LOAD = eINSTANCE.getPlanification_UnimputedLoad();
+
+		/**
+		 * The meta object literal for the '<em><b>Imputed Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PLANIFICATION__IMPUTED_LOAD = eINSTANCE.getPlanification_ImputedLoad();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ProjectImpl <em>Project</em>}' class.
@@ -2019,6 +2250,50 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute VIRTUAL_IMPUTATION__LABEL = eINSTANCE.getVirtualImputation_Label();
+
+		/**
+		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.TaskMappingImpl <em>Task Mapping</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.jeevaneo.naja.impl.TaskMappingImpl
+		 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getTaskMapping()
+		 * @generated
+		 */
+		EClass TASK_MAPPING = eINSTANCE.getTaskMapping();
+
+		/**
+		 * The meta object literal for the '<em><b>External Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TASK_MAPPING__EXTERNAL_ID = eINSTANCE.getTaskMapping_ExternalId();
+
+		/**
+		 * The meta object literal for the '<em><b>Task</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TASK_MAPPING__TASK = eINSTANCE.getTaskMapping_Task();
+
+		/**
+		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.TaskMappingsImpl <em>Task Mappings</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.jeevaneo.naja.impl.TaskMappingsImpl
+		 * @see com.jeevaneo.naja.impl.NajaPackageImpl#getTaskMappings()
+		 * @generated
+		 */
+		EClass TASK_MAPPINGS = eINSTANCE.getTaskMappings();
+
+		/**
+		 * The meta object literal for the '<em><b>Mappings</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TASK_MAPPINGS__MAPPINGS = eINSTANCE.getTaskMappings_Mappings();
 
 	}
 

@@ -16,6 +16,8 @@ import com.jeevaneo.naja.Project;
 import com.jeevaneo.naja.Schedule;
 import com.jeevaneo.naja.Task;
 
+import com.jeevaneo.naja.TaskMapping;
+import com.jeevaneo.naja.TaskMappings;
 import com.jeevaneo.naja.VirtualImputation;
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -86,6 +88,20 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * @generated
 	 */
 	private EClass virtualImputationEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass taskMappingEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass taskMappingsEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -394,6 +410,15 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EReference getImputation_Planification() {
+		return (EReference)imputationEClass.getEStructuralFeatures().get(5);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getPlanification() {
 		return planificationEClass;
 	}
@@ -477,6 +502,33 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 */
 	public EAttribute getPlanification_MaxLoadPerDay() {
 		return (EAttribute)planificationEClass.getEStructuralFeatures().get(8);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getPlanification_Imputations() {
+		return (EReference)planificationEClass.getEStructuralFeatures().get(9);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getPlanification_UnimputedLoad() {
+		return (EAttribute)planificationEClass.getEStructuralFeatures().get(10);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getPlanification_ImputedLoad() {
+		return (EAttribute)planificationEClass.getEStructuralFeatures().get(11);
 	}
 
 	/**
@@ -754,6 +806,51 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getTaskMapping() {
+		return taskMappingEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getTaskMapping_ExternalId() {
+		return (EAttribute)taskMappingEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getTaskMapping_Task() {
+		return (EReference)taskMappingEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getTaskMappings() {
+		return taskMappingsEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getTaskMappings_Mappings() {
+		return (EReference)taskMappingsEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public NajaFactory getNajaFactory() {
 		return (NajaFactory)getEFactoryInstance();
 	}
@@ -805,6 +902,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEReference(imputationEClass, IMPUTATION__RESOURCE);
 		createEReference(imputationEClass, IMPUTATION__TASK);
 		createEAttribute(imputationEClass, IMPUTATION__LOAD);
+		createEReference(imputationEClass, IMPUTATION__PLANIFICATION);
 
 		planificationEClass = createEClass(PLANIFICATION);
 		createEAttribute(planificationEClass, PLANIFICATION__LABEL);
@@ -816,6 +914,9 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEAttribute(planificationEClass, PLANIFICATION__FIRST_DATE);
 		createEAttribute(planificationEClass, PLANIFICATION__LAST_DATE);
 		createEAttribute(planificationEClass, PLANIFICATION__MAX_LOAD_PER_DAY);
+		createEReference(planificationEClass, PLANIFICATION__IMPUTATIONS);
+		createEAttribute(planificationEClass, PLANIFICATION__UNIMPUTED_LOAD);
+		createEAttribute(planificationEClass, PLANIFICATION__IMPUTED_LOAD);
 
 		projectEClass = createEClass(PROJECT);
 		createEAttribute(projectEClass, PROJECT__NAME);
@@ -850,6 +951,13 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEReference(virtualImputationEClass, VIRTUAL_IMPUTATION__PLANIFICATION);
 		createEReference(virtualImputationEClass, VIRTUAL_IMPUTATION__SCHEDULES);
 		createEAttribute(virtualImputationEClass, VIRTUAL_IMPUTATION__LABEL);
+
+		taskMappingEClass = createEClass(TASK_MAPPING);
+		createEAttribute(taskMappingEClass, TASK_MAPPING__EXTERNAL_ID);
+		createEReference(taskMappingEClass, TASK_MAPPING__TASK);
+
+		taskMappingsEClass = createEClass(TASK_MAPPINGS);
+		createEReference(taskMappingsEClass, TASK_MAPPINGS__MAPPINGS);
 	}
 
 	/**
@@ -910,6 +1018,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEReference(getImputation_Resource(), this.getPerson(), this.getPerson_Imputations(), "resource", null, 1, 1, Imputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getImputation_Task(), this.getTask(), this.getTask_Imputations(), "task", null, 1, 1, Imputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getImputation_Load(), ecorePackage.getEInt(), "load", null, 1, 1, Imputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getImputation_Planification(), this.getPlanification(), this.getPlanification_Imputations(), "planification", null, 0, 1, Imputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(planificationEClass, Planification.class, "Planification", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getPlanification_Label(), ecorePackage.getEString(), "label", null, 1, 1, Planification.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, IS_ORDERED);
@@ -921,6 +1030,9 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEAttribute(getPlanification_FirstDate(), ecorePackage.getEDate(), "firstDate", null, 0, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPlanification_LastDate(), ecorePackage.getEDate(), "lastDate", null, 0, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPlanification_MaxLoadPerDay(), ecorePackage.getEInt(), "maxLoadPerDay", "8", 1, 1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getPlanification_Imputations(), this.getImputation(), this.getImputation_Planification(), "imputations", null, 0, -1, Planification.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getPlanification_UnimputedLoad(), ecorePackage.getEInt(), "unimputedLoad", null, 1, 1, Planification.class, IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
+		initEAttribute(getPlanification_ImputedLoad(), ecorePackage.getEInt(), "imputedLoad", null, 1, 1, Planification.class, IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(projectEClass, Project.class, "Project", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getProject_Name(), ecorePackage.getEString(), "name", null, 1, 1, Project.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -955,6 +1067,13 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEReference(getVirtualImputation_Planification(), this.getPlanification(), this.getPlanification_VirtualImputation(), "planification", null, 1, 1, VirtualImputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getVirtualImputation_Schedules(), this.getSchedule(), null, "schedules", null, 1, -1, VirtualImputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getVirtualImputation_Label(), ecorePackage.getEString(), "label", null, 1, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+
+		initEClass(taskMappingEClass, TaskMapping.class, "TaskMapping", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getTaskMapping_ExternalId(), ecorePackage.getEString(), "externalId", null, 1, 1, TaskMapping.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getTaskMapping_Task(), this.getTask(), null, "task", null, 1, 1, TaskMapping.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(taskMappingsEClass, TaskMappings.class, "TaskMappings", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getTaskMappings_Mappings(), this.getTaskMapping(), null, "mappings", null, 0, -1, TaskMappings.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

@@ -104,6 +104,14 @@ public class NajaAdapterFactory extends AdapterFactoryImpl {
 				return createVirtualImputationAdapter();
 			}
 			@Override
+			public Adapter caseTaskMapping(TaskMapping object) {
+				return createTaskMappingAdapter();
+			}
+			@Override
+			public Adapter caseTaskMappings(TaskMappings object) {
+				return createTaskMappingsAdapter();
+			}
+			@Override
 			public Adapter defaultCase(EObject object) {
 				return createEObjectAdapter();
 			}
@@ -232,6 +240,34 @@ public class NajaAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createVirtualImputationAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link com.jeevaneo.naja.TaskMapping <em>Task Mapping</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.jeevaneo.naja.TaskMapping
+	 * @generated
+	 */
+	public Adapter createTaskMappingAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link com.jeevaneo.naja.TaskMappings <em>Task Mappings</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.jeevaneo.naja.TaskMappings
+	 * @generated
+	 */
+	public Adapter createTaskMappingsAdapter() {
 		return null;
 	}
 

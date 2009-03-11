@@ -29,6 +29,10 @@
       <plugin id="com.jeevaneo.naja.edit"/>
       <plugin id="com.jeevaneo.naja.editor"/>
       <plugin id="com.jeevaneo.naja.tests"/>
+      <plugin id="com.jeevaneo.naja.timeentries"/>
+      <plugin id="com.jeevaneo.naja.timeentries.edit"/>
+      <plugin id="com.jeevaneo.naja.timeentries.editor"/>
+      <plugin id="com.jeevaneo.naja.timeentries.tests"/>
       <plugin id="javax.servlet"/>
       <plugin id="org.apache.commons.logging"/>
       <plugin id="org.apache.lucene"/>

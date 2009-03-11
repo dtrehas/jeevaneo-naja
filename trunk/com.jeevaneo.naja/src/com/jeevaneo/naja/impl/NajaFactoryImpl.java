@@ -68,6 +68,8 @@ public class NajaFactoryImpl extends EFactoryImpl implements NajaFactory {
 			case NajaPackage.CATEGORY: return createCategory();
 			case NajaPackage.SCHEDULE: return createSchedule();
 			case NajaPackage.VIRTUAL_IMPUTATION: return createVirtualImputation();
+			case NajaPackage.TASK_MAPPING: return createTaskMapping();
+			case NajaPackage.TASK_MAPPINGS: return createTaskMappings();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -151,6 +153,26 @@ public class NajaFactoryImpl extends EFactoryImpl implements NajaFactory {
 	public VirtualImputation createVirtualImputation() {
 		VirtualImputationImpl virtualImputation = new VirtualImputationImpl();
 		return virtualImputation;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public TaskMapping createTaskMapping() {
+		TaskMappingImpl taskMapping = new TaskMappingImpl();
+		return taskMapping;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public TaskMappings createTaskMappings() {
+		TaskMappingsImpl taskMappings = new TaskMappingsImpl();
+		return taskMappings;
 	}
 
 	/**

@@ -6,21 +6,26 @@
  */
 package com.jeevaneo.naja.impl;
 
+import com.jeevaneo.naja.Imputation;
 import java.util.Date;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.common.notify.impl.AdapterImpl;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
 
+import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 import com.jeevaneo.naja.NajaPackage;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Task;
 import com.jeevaneo.naja.VirtualImputation;
+import java.util.Collection;
 
 /**
  * <!-- begin-user-doc --> An implementation of the model object '
@@ -37,6 +42,9 @@ import com.jeevaneo.naja.VirtualImputation;
  *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getLastDate <em>Last Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getMaxLoadPerDay <em>Max Load Per Day</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getImputations <em>Imputations</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getUnimputedLoad <em>Unimputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PlanificationImpl#getImputedLoad <em>Imputed Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -173,6 +181,56 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	protected int maxLoadPerDay = MAX_LOAD_PER_DAY_EDEFAULT;
 
 	/**
+	 * The cached value of the '{@link #getImputations() <em>Imputations</em>}' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getImputations()
+	 * @generated
+	 * @ordered
+	 */
+	protected EList<Imputation> imputations;
+
+	/**
+	 * The default value of the '{@link #getUnimputedLoad() <em>Unimputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getUnimputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int UNIMPUTED_LOAD_EDEFAULT = 0;
+
+	/**
+	 * The cached value of the '{@link #getUnimputedLoad() <em>Unimputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getUnimputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected int unimputedLoad = UNIMPUTED_LOAD_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getImputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int IMPUTED_LOAD_EDEFAULT = 0;
+
+	/**
+	 * The cached value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getImputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected int imputedLoad = IMPUTED_LOAD_EDEFAULT;
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * 
 	 * @generated NOT
@@ -188,12 +246,31 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				switch (msg.getFeatureID(Planification.class)) {
 				case NajaPackage.PLANIFICATION__LOAD:
 				case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
-					if (null != getResource()) {
-						((PersonImpl) getResource())
-								.recomputeAvailableSchedules();
-					}
+					recomputeDerivedLoads();
+					recomputeResourceSchedules();
+					break;
+					
+				case NajaPackage.PLANIFICATION__IMPUTATIONS:
+					//recompute imputedLoad and unimputedLoad
+					recomputeDerivedLoads();
 					break;
 				}
+			}
+
+			private void recomputeResourceSchedules() {
+				if (null != getResource()) {
+					((PersonImpl) getResource())
+							.recomputeAvailableSchedules();
+				}
+			}
+
+			private void recomputeDerivedLoads() {
+				imputedLoad=0;
+				for(Imputation imputation : getImputations())
+				{
+					imputedLoad += imputation.getLoad();
+				}
+				unimputedLoad = getLoad()-imputedLoad;
 			}
 
 		});
@@ -341,6 +418,24 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	}
 
 	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public int getUnimputedLoad() {
+		return unimputedLoad;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public int getImputedLoad() {
+		return imputedLoad;
+	}
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -444,6 +539,18 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	}
 
 	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EList<Imputation> getImputations() {
+		if (imputations == null) {
+			imputations = new EObjectWithInverseResolvingEList<Imputation>(Imputation.class, this, NajaPackage.PLANIFICATION__IMPUTATIONS, NajaPackage.IMPUTATION__PLANIFICATION);
+		}
+		return imputations;
+	}
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * 
 	 * @generated NOT
@@ -490,6 +597,8 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				if (virtualImputation != null)
 					msgs = ((InternalEObject)virtualImputation).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION, null, msgs);
 				return basicSetVirtualImputation((VirtualImputation)otherEnd, msgs);
+			case NajaPackage.PLANIFICATION__IMPUTATIONS:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getImputations()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -508,6 +617,8 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return basicSetTask(null, msgs);
 			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
 				return basicSetVirtualImputation(null, msgs);
+			case NajaPackage.PLANIFICATION__IMPUTATIONS:
+				return ((InternalEList<?>)getImputations()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -539,6 +650,12 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return getLastDate();
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
 				return new Integer(getMaxLoadPerDay());
+			case NajaPackage.PLANIFICATION__IMPUTATIONS:
+				return getImputations();
+			case NajaPackage.PLANIFICATION__UNIMPUTED_LOAD:
+				return new Integer(getUnimputedLoad());
+			case NajaPackage.PLANIFICATION__IMPUTED_LOAD:
+				return new Integer(getImputedLoad());
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -569,6 +686,10 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
 				setMaxLoadPerDay(((Integer)newValue).intValue());
 				return;
+			case NajaPackage.PLANIFICATION__IMPUTATIONS:
+				getImputations().clear();
+				getImputations().addAll((Collection<? extends Imputation>)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -597,6 +718,9 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return;
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
 				setMaxLoadPerDay(MAX_LOAD_PER_DAY_EDEFAULT);
+				return;
+			case NajaPackage.PLANIFICATION__IMPUTATIONS:
+				getImputations().clear();
 				return;
 		}
 		super.eUnset(featureID);
@@ -627,6 +751,12 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				return LAST_DATE_EDEFAULT == null ? lastDate != null : !LAST_DATE_EDEFAULT.equals(lastDate);
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
 				return maxLoadPerDay != MAX_LOAD_PER_DAY_EDEFAULT;
+			case NajaPackage.PLANIFICATION__IMPUTATIONS:
+				return imputations != null && !imputations.isEmpty();
+			case NajaPackage.PLANIFICATION__UNIMPUTED_LOAD:
+				return unimputedLoad != UNIMPUTED_LOAD_EDEFAULT;
+			case NajaPackage.PLANIFICATION__IMPUTED_LOAD:
+				return imputedLoad != IMPUTED_LOAD_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}
@@ -650,6 +780,10 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 		result.append(lastDate);
 		result.append(", maxLoadPerDay: ");
 		result.append(maxLoadPerDay);
+		result.append(", unimputedLoad: ");
+		result.append(unimputedLoad);
+		result.append(", imputedLoad: ");
+		result.append(imputedLoad);
 		result.append(')');
 		return result.toString();
 	}
