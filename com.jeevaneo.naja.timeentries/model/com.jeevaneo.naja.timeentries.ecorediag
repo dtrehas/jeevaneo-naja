@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_ZSJ4oA4_Ed6p5fdKn6-kmg" type="EcoreTools" name="com.jeevaneo.naja.timeentries" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_1_BswA4_Ed6p5fdKn6-kmg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_1_Bsww4_Ed6p5fdKn6-kmg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_1_BsxA4_Ed6p5fdKn6-kmg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_HEeKwA5AEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntries/comment"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HEeKwQ5AEd6p5fdKn6-kmg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1_BsxQ4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1_Bsxg4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1_Bsxw4_Ed6p5fdKn6-kmg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1_BsyA4_Ed6p5fdKn6-kmg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1_BsyQ4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1_Bsyg4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1_Bsyw4_Ed6p5fdKn6-kmg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_1_BswQ4_Ed6p5fdKn6-kmg" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntries"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_Bswg4_Ed6p5fdKn6-kmg" x="130" y="55"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-Qw5cA4_Ed6p5fdKn6-kmg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_-Qw5cw4_Ed6p5fdKn6-kmg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-Qw5dA4_Ed6p5fdKn6-kmg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_EF45wA5AEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/comment"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EF45wQ5AEd6p5fdKn6-kmg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_KhdPAA5AEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/day"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KhdPAQ5AEd6p5fdKn6-kmg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_TEoJ8A5AEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/load"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_TEoJ8Q5AEd6p5fdKn6-kmg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-Qw5dQ4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-Qw5dg4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-Qw5dw4_Ed6p5fdKn6-kmg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-Qw5eA4_Ed6p5fdKn6-kmg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-Qw5eQ4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-Qw5eg4_Ed6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-Qw5ew4_Ed6p5fdKn6-kmg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-Qw5cQ4_Ed6p5fdKn6-kmg" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Qw5cg4_Ed6p5fdKn6-kmg" x="130" y="240"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_6pFZYA5FEd6p5fdKn6-kmg" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6pPKYA5FEd6p5fdKn6-kmg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6pPKYQ5FEd6p5fdKn6-kmg" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_6pFZYw5FEd6p5fdKn6-kmg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_6pFZZA5FEd6p5fdKn6-kmg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_6pFZZQ5FEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6pFZZg5FEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6pFZZw5FEd6p5fdKn6-kmg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_6pFZaA5FEd6p5fdKn6-kmg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_6pFZaQ5FEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6pFZag5FEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6pFZaw5FEd6p5fdKn6-kmg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_6pFZYQ5FEd6p5fdKn6-kmg" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="platform:/resource/com.jeevaneo.naja/model/com.jeevaneo.naja.ecore#//TaskMapping"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pFZYg5FEd6p5fdKn6-kmg" x="125" y="405"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_0V0mYA5XEd6p5fdKn6-kmg" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0V0mbA5XEd6p5fdKn6-kmg" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0V0mbQ5XEd6p5fdKn6-kmg" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_0V0mYw5XEd6p5fdKn6-kmg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_0V0mZA5XEd6p5fdKn6-kmg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0V0mZQ5XEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0V0mZg5XEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0V0mZw5XEd6p5fdKn6-kmg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_0V0maA5XEd6p5fdKn6-kmg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_0V0maQ5XEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0V0mag5XEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0V0maw5XEd6p5fdKn6-kmg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_0V0mYQ5XEd6p5fdKn6-kmg" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="platform:/resource/com.jeevaneo.naja/model/com.jeevaneo.naja.ecore#//Imputation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0V0mYg5XEd6p5fdKn6-kmg" x="390" y="360"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ZSJ4oQ4_Ed6p5fdKn6-kmg"/>
+  <element xmi:type="ecore:EPackage" href="com.jeevaneo.naja.timeentries.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="__7ANsA4_Ed6p5fdKn6-kmg" type="3002" source="_1_BswA4_Ed6p5fdKn6-kmg" target="_-Qw5cA4_Ed6p5fdKn6-kmg">
+    <children xmi:type="notation:Node" xmi:id="__7ANtA4_Ed6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__7ANtQ4_Ed6p5fdKn6-kmg" x="-16" y="-37"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="__7ANtg4_Ed6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__7ANtw4_Ed6p5fdKn6-kmg" x="4" y="-29"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="__7ANsQ4_Ed6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="__7ANsg4_Ed6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntries/entries"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__7ANsw4_Ed6p5fdKn6-kmg" points="[5, 20, -8, -80]$[57, 80, 44, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7KUeMA5FEd6p5fdKn6-kmg" type="3002" source="_-Qw5cA4_Ed6p5fdKn6-kmg" target="_6pFZYA5FEd6p5fdKn6-kmg">
+    <children xmi:type="notation:Node" xmi:id="_7KUeNA5FEd6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7KUeNQ5FEd6p5fdKn6-kmg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7KUeNg5FEd6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7KUeNw5FEd6p5fdKn6-kmg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7KUeMQ5FEd6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7KUeMg5FEd6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/externalId"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7KUeMw5FEd6p5fdKn6-kmg" points="[70, 26, -214, -90]$[354, 89, 70, -27]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_9T0cIA5XEd6p5fdKn6-kmg" type="3002" source="_-Qw5cA4_Ed6p5fdKn6-kmg" target="_0V0mYA5XEd6p5fdKn6-kmg">
+    <children xmi:type="notation:Node" xmi:id="_9T0cJA5XEd6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9T0cJQ5XEd6p5fdKn6-kmg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_9T0cJg5XEd6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9T0cJw5XEd6p5fdKn6-kmg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_9T0cIQ5XEd6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9T0cIg5XEd6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/imputations"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9T0cIw5XEd6p5fdKn6-kmg" points="[68, 36, -192, -92]$[192, 118, -68, -10]"/>
+  </edges>
+</notation:Diagram>
