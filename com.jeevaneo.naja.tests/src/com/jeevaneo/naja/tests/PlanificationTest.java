@@ -23,6 +23,7 @@ import junit.textui.TestRunner;
  *   <li>{@link com.jeevaneo.naja.Planification#getLabel() <em>Label</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getFirstDate() <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Planification#getLastDate() <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Planification#getUnimputedLoad() <em>Unimputed Load</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -132,6 +133,19 @@ public class PlanificationTest extends TestCase {
 	 * @generated
 	 */
 	public void testGetLastDate() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Planification#getUnimputedLoad() <em>Unimputed Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Planification#getUnimputedLoad()
+	 * @generated
+	 */
+	public void testGetUnimputedLoad() {
 		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();

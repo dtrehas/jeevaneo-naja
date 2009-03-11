@@ -7,8 +7,8 @@
 package com.jeevaneo.naja.provider;
 
 
-import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.NajaPackage;
+import com.jeevaneo.naja.TaskMapping;
 
 import java.util.Collection;
 import java.util.List;
@@ -30,12 +30,12 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 /**
- * This is the item provider adapter for a {@link com.jeevaneo.naja.Imputation} object.
+ * This is the item provider adapter for a {@link com.jeevaneo.naja.TaskMapping} object.
  * <!-- begin-user-doc -->
  * <!-- end-user-doc -->
  * @generated
  */
-public class ImputationItemProvider
+public class TaskMappingItemProvider
 	extends ItemProviderAdapter
 	implements
 		IEditingDomainItemProvider,
@@ -49,7 +49,7 @@ public class ImputationItemProvider
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public ImputationItemProvider(AdapterFactory adapterFactory) {
+	public TaskMappingItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
@@ -64,78 +64,30 @@ public class ImputationItemProvider
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addCommentPropertyDescriptor(object);
-			addDatePropertyDescriptor(object);
-			addResourcePropertyDescriptor(object);
+			addExternalIdPropertyDescriptor(object);
 			addTaskPropertyDescriptor(object);
-			addLoadPropertyDescriptor(object);
-			addPlanificationPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
 
 	/**
-	 * This adds a property descriptor for the Comment feature.
+	 * This adds a property descriptor for the External Id feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addCommentPropertyDescriptor(Object object) {
+	protected void addExternalIdPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Imputation_comment_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Imputation_comment_feature", "_UI_Imputation_type"),
-				 NajaPackage.Literals.IMPUTATION__COMMENT,
+				 getString("_UI_TaskMapping_externalId_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_TaskMapping_externalId_feature", "_UI_TaskMapping_type"),
+				 NajaPackage.Literals.TASK_MAPPING__EXTERNAL_ID,
 				 true,
 				 false,
 				 false,
 				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Date feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addDatePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Imputation_date_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Imputation_date_feature", "_UI_Imputation_type"),
-				 NajaPackage.Literals.IMPUTATION__DATE,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Resource feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addResourcePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Imputation_resource_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Imputation_resource_feature", "_UI_Imputation_type"),
-				 NajaPackage.Literals.IMPUTATION__RESOURCE,
-				 true,
-				 false,
-				 true,
-				 null,
 				 null,
 				 null));
 	}
@@ -151,9 +103,9 @@ public class ImputationItemProvider
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Imputation_task_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Imputation_task_feature", "_UI_Imputation_type"),
-				 NajaPackage.Literals.IMPUTATION__TASK,
+				 getString("_UI_TaskMapping_task_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_TaskMapping_task_feature", "_UI_TaskMapping_type"),
+				 NajaPackage.Literals.TASK_MAPPING__TASK,
 				 true,
 				 false,
 				 true,
@@ -163,58 +115,14 @@ public class ImputationItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the Load feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addLoadPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Imputation_load_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Imputation_load_feature", "_UI_Imputation_type"),
-				 NajaPackage.Literals.IMPUTATION__LOAD,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Planification feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addPlanificationPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Imputation_planification_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Imputation_planification_feature", "_UI_Imputation_type"),
-				 NajaPackage.Literals.IMPUTATION__PLANIFICATION,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This returns Imputation.gif.
+	 * This returns TaskMapping.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage("full/obj16/Imputation"));
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/TaskMapping"));
 	}
 
 	/**
@@ -225,10 +133,10 @@ public class ImputationItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((Imputation)object).getComment();
+		String label = ((TaskMapping)object).getExternalId();
 		return label == null || label.length() == 0 ?
-			getString("_UI_Imputation_type") :
-			getString("_UI_Imputation_type") + " " + label;
+			getString("_UI_TaskMapping_type") :
+			getString("_UI_TaskMapping_type") + " " + label;
 	}
 
 	/**
@@ -242,10 +150,8 @@ public class ImputationItemProvider
 	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
-		switch (notification.getFeatureID(Imputation.class)) {
-			case NajaPackage.IMPUTATION__COMMENT:
-			case NajaPackage.IMPUTATION__DATE:
-			case NajaPackage.IMPUTATION__LOAD:
+		switch (notification.getFeatureID(TaskMapping.class)) {
+			case NajaPackage.TASK_MAPPING__EXTERNAL_ID:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

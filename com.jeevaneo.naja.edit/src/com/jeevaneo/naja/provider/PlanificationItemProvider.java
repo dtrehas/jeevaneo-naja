@@ -74,6 +74,9 @@ public class PlanificationItemProvider
 			addFirstDatePropertyDescriptor(object);
 			addLastDatePropertyDescriptor(object);
 			addMaxLoadPerDayPropertyDescriptor(object);
+			addImputationsPropertyDescriptor(object);
+			addUnimputedLoadPropertyDescriptor(object);
+			addImputedLoadPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -255,6 +258,72 @@ public class PlanificationItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Imputations feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addImputationsPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Planification_imputations_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_imputations_feature", "_UI_Planification_type"),
+				 NajaPackage.Literals.PLANIFICATION__IMPUTATIONS,
+				 true,
+				 false,
+				 true,
+				 null,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Unimputed Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addUnimputedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Planification_unimputedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_unimputedLoad_feature", "_UI_Planification_type"),
+				 NajaPackage.Literals.PLANIFICATION__UNIMPUTED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Imputed Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addImputedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Planification_imputedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Planification_imputedLoad_feature", "_UI_Planification_type"),
+				 NajaPackage.Literals.PLANIFICATION__IMPUTED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -327,6 +396,8 @@ public class PlanificationItemProvider
 			case NajaPackage.PLANIFICATION__FIRST_DATE:
 			case NajaPackage.PLANIFICATION__LAST_DATE:
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
+			case NajaPackage.PLANIFICATION__UNIMPUTED_LOAD:
+			case NajaPackage.PLANIFICATION__IMPUTED_LOAD:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
