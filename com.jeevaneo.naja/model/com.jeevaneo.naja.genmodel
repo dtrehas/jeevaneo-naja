@@ -27,6 +27,8 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Task/priority"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Task/label"/>
       <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Task/category"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Task/firstDate"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Task/lastDate"/>
     </genClasses>
     <genClasses ecoreClass="com.jeevaneo.naja.ecore#//Imputation">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Imputation/comment"/>
@@ -34,13 +36,21 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Imputation/resource"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Imputation/task"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Imputation/load"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Imputation/planification"/>
     </genClasses>
     <genClasses ecoreClass="com.jeevaneo.naja.ecore#//Planification">
       <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/label"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Planification/resource"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Planification/task"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/load"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/unimputedLoad"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/imputedLoad"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/comment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Planification/virtualImputation"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/firstDate"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/lastDate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Planification/maxLoadPerDay"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//Planification/imputations"/>
     </genClasses>
     <genClasses ecoreClass="com.jeevaneo.naja.ecore#//Project">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Project/name"/>
@@ -60,11 +70,28 @@
       <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Category/totalLoad"/>
       <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Category/unaffectedLoad"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Category/priority"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Category/firstDate"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Category/lastDate"/>
     </genClasses>
     <genClasses ecoreClass="com.jeevaneo.naja.ecore#//Schedule">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Schedule/date"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Schedule/load"/>
       <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//Schedule/label"/>
+    </genClasses>
+    <genClasses ecoreClass="com.jeevaneo.naja.ecore#//VirtualImputation">
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//VirtualImputation/totalLoad"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//VirtualImputation/firstDate"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//VirtualImputation/lastDate"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//VirtualImputation/planification"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//VirtualImputation/schedules"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//VirtualImputation/label"/>
+    </genClasses>
+    <genClasses ecoreClass="com.jeevaneo.naja.ecore#//TaskMapping">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.ecore#//TaskMapping/externalId"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//TaskMapping/task"/>
+    </genClasses>
+    <genClasses ecoreClass="com.jeevaneo.naja.ecore#//TaskMappings">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.ecore#//TaskMappings/mappings"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

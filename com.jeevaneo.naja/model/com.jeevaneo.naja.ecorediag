@@ -34,7 +34,7 @@
     </children>
     <styles xmi:type="notation:ShapeStyle" xmi:id="_R95AofqSEd2_8NSLID6Jxg" fontHeight="10" fillColor="13761016" lineColor="0"/>
     <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.ecore#//Person"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R95AovqSEd2_8NSLID6Jxg" x="45" y="665"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R95AovqSEd2_8NSLID6Jxg" x="25" y="810"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_VeARYPqSEd2_8NSLID6Jxg" type="1001">
     <children xmi:type="notation:Node" xmi:id="_VeARY_qSEd2_8NSLID6Jxg" type="4001"/>
@@ -134,6 +134,14 @@
       <children xmi:type="notation:Node" xmi:id="_ScEosQQaEd6p5fdKn6-kmg" type="2001">
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Planification/maxLoadPerDay"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_ScEosgQaEd6p5fdKn6-kmg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_IG0rgA4zEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Planification/unimputedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IG0rgQ4zEd6p5fdKn6-kmg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_GV5rAA40Ed6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Planification/imputedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_GV5rAQ40Ed6p5fdKn6-kmg"/>
       </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_SY15pfrGEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_SY15pvrGEd2_8NSLID6Jxg"/>
@@ -276,6 +284,44 @@
     <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.ecore#//VirtualImputation"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8blr8gOIEd6fvvANYBlGoQ" x="30" y="25" width="166" height="106"/>
   </children>
+  <children xmi:type="notation:Node" xmi:id="_RzSb8A2SEd6p5fdKn6-kmg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_R23UYA2SEd6p5fdKn6-kmg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_R3m7QA2SEd6p5fdKn6-kmg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_YK_k4A2SEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//TaskMapping/externalId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YK_k4Q2SEd6p5fdKn6-kmg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_R3m7QQ2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_R3m7Qg2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_R3m7Qw2SEd6p5fdKn6-kmg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_psd3kA2SEd6p5fdKn6-kmg" value="0.23170731707317074"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_R36dQA2SEd6p5fdKn6-kmg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_R36dQQ2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_R4XJMA2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_R4XJMQ2SEd6p5fdKn6-kmg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_psnokA2SEd6p5fdKn6-kmg" value="0.14634146341463414"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Rzl98A2SEd6p5fdKn6-kmg" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.ecore#//TaskMapping"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rzl98Q2SEd6p5fdKn6-kmg" x="1046" y="644" width="125" height="51"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ssi9YA2SEd6p5fdKn6-kmg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sssHUA2SEd6p5fdKn6-kmg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_sssHUQ2SEd6p5fdKn6-kmg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sssHUg2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sssHUw2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sssHVA2SEd6p5fdKn6-kmg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sssHVQ2SEd6p5fdKn6-kmg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sssHVg2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sssHVw2SEd6p5fdKn6-kmg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sssHWA2SEd6p5fdKn6-kmg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ssi9YQ2SEd6p5fdKn6-kmg" fontHeight="10" fillColor="13761016" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="com.jeevaneo.naja.ecore#//TaskMappings"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ssi9Yg2SEd6p5fdKn6-kmg" x="1026" y="750"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_PW2s8fqSEd2_8NSLID6Jxg"/>
   <element xmi:type="ecore:EPackage" href="com.jeevaneo.naja.ecore#/"/>
   <edges xmi:type="notation:Edge" xmi:id="_-prAUPrFEd2_8NSLID6Jxg" type="3002" source="_q-hrYPrFEd2_8NSLID6Jxg" target="_R95AoPqSEd2_8NSLID6Jxg">
@@ -378,10 +424,10 @@
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_3IAgkPyEEd28oekAVuFVpg" type="3002" source="_VeARYPqSEd2_8NSLID6Jxg" target="_SY15oPrGEd2_8NSLID6Jxg">
     <children xmi:type="notation:Node" xmi:id="_3IJqgPyEEd28oekAVuFVpg" type="4011">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_3IJqgfyEEd28oekAVuFVpg" x="-25" y="62"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3IJqgfyEEd28oekAVuFVpg" x="-8" y="-18"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_3IJqgvyEEd28oekAVuFVpg" type="4012">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_3IJqg_yEEd28oekAVuFVpg" x="-56" y="62"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3IJqg_yEEd28oekAVuFVpg" x="-55" y="-18"/>
     </children>
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_3IAgkfyEEd28oekAVuFVpg" lineColor="0"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_3IAgkvyEEd28oekAVuFVpg" fontHeight="10"/>
@@ -521,7 +567,7 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_qOD2EQM8Ed6MVOI3Hba9IA" lineColor="0"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_qOD2EgM8Ed6MVOI3Hba9IA" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//Person/availableSchedules"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qOD2EwM8Ed6MVOI3Hba9IA" points="[1, 9, -26, -150]$[14, 135, -13, -24]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qOD2EwM8Ed6MVOI3Hba9IA" points="[10, -101, -1, 566]$[11, -111, 0, 556]$[11, -627, 0, 40]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qOD2GAM8Ed6MVOI3Hba9IA" id="(0.34574467,0.9133858)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_MXH7kAOJEd6fvvANYBlGoQ" type="3002" source="_8blr8AOIEd6fvvANYBlGoQ" target="_SY15oPrGEd2_8NSLID6Jxg">
@@ -534,7 +580,7 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_MXH7kQOJEd6fvvANYBlGoQ" lineColor="0"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_MXH7kgOJEd6fvvANYBlGoQ" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//VirtualImputation/planification"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MXH7kwOJEd6fvvANYBlGoQ" points="[13, 0, -219, -5]$[164, -33, -68, -38]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MXH7kwOJEd6fvvANYBlGoQ" points="[15, 20, -366, -5]$[19, 25, -362, 0]$[304, 25, -77, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vCzQdQOJEd6fvvANYBlGoQ" id="(0.91366905,0.3164557)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vCzQdgOJEd6fvvANYBlGoQ" id="(0.5,0.5)"/>
   </edges>
@@ -549,7 +595,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_SAxrsgOJEd6fvvANYBlGoQ" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//VirtualImputation/schedules"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SAxrswOJEd6fvvANYBlGoQ" points="[-2, 8, 41, -125]$[-8, 94, 35, -39]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SA7csAOJEd6fvvANYBlGoQ" id="(0.38129497,0.9113924)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SA7csAOJEd6fvvANYBlGoQ" id="(0.40963855,0.990566)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_ojNW0AOJEd6fvvANYBlGoQ" type="3002" source="_SY15oPrGEd2_8NSLID6Jxg" target="_8blr8AOIEd6fvvANYBlGoQ">
     <children xmi:type="notation:Node" xmi:id="_ojNW1AOJEd6fvvANYBlGoQ" type="4011">
@@ -561,8 +607,62 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_ojNW0QOJEd6fvvANYBlGoQ" lineColor="0"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_ojNW0gOJEd6fvvANYBlGoQ" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//Planification/virtualImputation"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ojNW0wOJEd6fvvANYBlGoQ" points="[-68, -38, 164, -33]$[-219, -5, 13, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vCzQcQOJEd6fvvANYBlGoQ" id="(0.5,0.5)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vCzQcgOJEd6fvvANYBlGoQ" id="(0.91366905,0.3164557)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ojNW0wOJEd6fvvANYBlGoQ" points="[-77, 0, 304, 25]$[-362, 0, 19, 25]$[-366, -5, 15, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1tCQwg4yEd6p5fdKn6-kmg" id="(0.5,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1tCQww4yEd6p5fdKn6-kmg" id="(0.91366905,0.3164557)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_lXv6EA2SEd6p5fdKn6-kmg" type="3002" source="_RzSb8A2SEd6p5fdKn6-kmg" target="_VeARYPqSEd2_8NSLID6Jxg">
+    <children xmi:type="notation:Node" xmi:id="_lXv6FA2SEd6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lXv6FQ2SEd6p5fdKn6-kmg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_lXv6Fg2SEd6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lXv6Fw2SEd6p5fdKn6-kmg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_lXv6EQ2SEd6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lXv6Eg2SEd6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//TaskMapping/task"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lXv6Ew2SEd6p5fdKn6-kmg" points="[-1, -7, 6, 323]$[-22, -298, -15, 32]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lYC1AA2SEd6p5fdKn6-kmg" id="(0.504,0.085365854)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lYC1AQ2SEd6p5fdKn6-kmg" id="(0.37748346,0.7762238)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_vMbgMA2SEd6p5fdKn6-kmg" type="3002" source="_ssi9YA2SEd6p5fdKn6-kmg" target="_RzSb8A2SEd6p5fdKn6-kmg">
+    <children xmi:type="notation:Node" xmi:id="_vMbgNA2SEd6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vMbgNQ2SEd6p5fdKn6-kmg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_vMbgNg2SEd6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vMbgNw2SEd6p5fdKn6-kmg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_vMbgMQ2SEd6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vMbgMg2SEd6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//TaskMappings/mappings"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vMbgMw2SEd6p5fdKn6-kmg" points="[3, -15, -21, 60]$[-23, -75, -47, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gOQbAA4yEd6p5fdKn6-kmg" type="3002" source="_q-hrYPrFEd2_8NSLID6Jxg" target="_SY15oPrGEd2_8NSLID6Jxg">
+    <children xmi:type="notation:Node" xmi:id="_gOQbBA4yEd6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gOQbBQ4yEd6p5fdKn6-kmg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_gOQbBg4yEd6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gOQbBw4yEd6p5fdKn6-kmg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_gOQbAQ4yEd6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gOQbAg4yEd6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//Imputation/planification"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gOQbAw4yEd6p5fdKn6-kmg" points="[68, 0, 239, 816]$[591, 0, 762, 816]$[591, -816, 762, 0]$[-93, -816, 78, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tPO-Ag4yEd6p5fdKn6-kmg" id="(0.5,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tPO-Aw4yEd6p5fdKn6-kmg" id="(0.5,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_olgZ0A4yEd6p5fdKn6-kmg" type="3002" source="_SY15oPrGEd2_8NSLID6Jxg" target="_q-hrYPrFEd2_8NSLID6Jxg">
+    <children xmi:type="notation:Node" xmi:id="_olgZ1A4yEd6p5fdKn6-kmg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_olgZ1Q4yEd6p5fdKn6-kmg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_olgZ1g4yEd6p5fdKn6-kmg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_olgZ1w4yEd6p5fdKn6-kmg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_olgZ0Q4yEd6p5fdKn6-kmg" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_olgZ0g4yEd6p5fdKn6-kmg" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.ecore#//Planification/imputations"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_olgZ0w4yEd6p5fdKn6-kmg" points="[78, 0, -93, -816]$[762, 0, 591, -816]$[762, 816, 591, 0]$[239, 816, 68, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qtjEYA4yEd6p5fdKn6-kmg" id="(0.5,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qtjEYQ4yEd6p5fdKn6-kmg" id="(0.5,0.5)"/>
   </edges>
 </notation:Diagram>
