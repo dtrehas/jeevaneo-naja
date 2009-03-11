@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/com.jeevaneo.naja.timeentries/src"
+    modelPluginID="com.jeevaneo.naja.timeentries" modelName="NajaTimeEntries" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false" usedGenPackages="../../com.jeevaneo.naja/model/com.jeevaneo.naja.genmodel#//naja">
+  <foreignModel>../../com.jeevaneo.naja/model/com.jeevaneo.naja.timeentries.ecore</foreignModel>
+  <genPackages prefix="Timeentries" basePackage="com.jeevaneo.naja" disposableProviderFactory="true"
+      ecorePackage="com.jeevaneo.naja.timeentries.ecore#/">
+    <genClasses ecoreClass="com.jeevaneo.naja.timeentries.ecore#//TimeEntries">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.timeentries.ecore#//TimeEntries/entries"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.timeentries.ecore#//TimeEntries/comment"/>
+    </genClasses>
+    <genClasses ecoreClass="com.jeevaneo.naja.timeentries.ecore#//TimeEntry">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.timeentries.ecore#//TimeEntry/comment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.timeentries.ecore#//TimeEntry/day"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.timeentries.ecore#//TimeEntry/load"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.timeentries.ecore#//TimeEntry/resource"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute com.jeevaneo.naja.timeentries.ecore#//TimeEntry/externalId"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference com.jeevaneo.naja.timeentries.ecore#//TimeEntry/imputation"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
