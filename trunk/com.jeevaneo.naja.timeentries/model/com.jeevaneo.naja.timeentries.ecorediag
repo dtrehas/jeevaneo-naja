@@ -121,7 +121,7 @@
     </children>
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_9T0cIQ5XEd6p5fdKn6-kmg" lineColor="0"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_9T0cIg5XEd6p5fdKn6-kmg" fontHeight="10"/>
-    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/imputations"/>
+    <element xmi:type="ecore:EReference" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntry/imputation"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9T0cIw5XEd6p5fdKn6-kmg" points="[68, 36, -192, -92]$[192, 118, -68, -10]"/>
   </edges>
 </notation:Diagram>

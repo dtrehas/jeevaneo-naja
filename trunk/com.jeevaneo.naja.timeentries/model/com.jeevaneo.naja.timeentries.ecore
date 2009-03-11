@@ -16,8 +16,7 @@
         eType="ecore:EClass ../../com.jeevaneo.naja/model/com.jeevaneo.naja.ecore#//Person"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="externalId" lowerBound="1"
         eType="ecore:EClass ../../com.jeevaneo.naja/model/com.jeevaneo.naja.ecore#//TaskMapping"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="imputations" upperBound="-1"
-        eType="ecore:EClass ../../com.jeevaneo.naja/model/com.jeevaneo.naja.ecore#//Imputation"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imputation" eType="ecore:EClass ../../com.jeevaneo.naja/model/com.jeevaneo.naja.ecore#//Imputation"
         containment="true"/>
   </eClassifiers>
 </ecore:EPackage>

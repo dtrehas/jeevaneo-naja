@@ -198,7 +198,7 @@ public class TimeentriesPackageImpl extends EPackageImpl implements TimeentriesP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getTimeEntry_Imputations() {
+	public EReference getTimeEntry_Imputation() {
 		return (EReference)timeEntryEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -240,7 +240,7 @@ public class TimeentriesPackageImpl extends EPackageImpl implements TimeentriesP
 		createEAttribute(timeEntryEClass, TIME_ENTRY__LOAD);
 		createEReference(timeEntryEClass, TIME_ENTRY__RESOURCE);
 		createEReference(timeEntryEClass, TIME_ENTRY__EXTERNAL_ID);
-		createEReference(timeEntryEClass, TIME_ENTRY__IMPUTATIONS);
+		createEReference(timeEntryEClass, TIME_ENTRY__IMPUTATION);
 	}
 
 	/**
@@ -286,7 +286,7 @@ public class TimeentriesPackageImpl extends EPackageImpl implements TimeentriesP
 		initEAttribute(getTimeEntry_Load(), ecorePackage.getEInt(), "load", null, 1, 1, TimeEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getTimeEntry_Resource(), theNajaPackage.getPerson(), null, "resource", null, 1, 1, TimeEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getTimeEntry_ExternalId(), theNajaPackage.getTaskMapping(), null, "externalId", null, 1, 1, TimeEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getTimeEntry_Imputations(), theNajaPackage.getImputation(), null, "imputations", null, 0, -1, TimeEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getTimeEntry_Imputation(), theNajaPackage.getImputation(), null, "imputation", null, 0, 1, TimeEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
