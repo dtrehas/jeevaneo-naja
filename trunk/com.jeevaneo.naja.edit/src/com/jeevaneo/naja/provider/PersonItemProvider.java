@@ -72,6 +72,7 @@ public class PersonItemProvider
 			addLeftAvailabilityPropertyDescriptor(object);
 			addPlanificationsPropertyDescriptor(object);
 			addAvailabilityStartDatePropertyDescriptor(object);
+			addLastDatePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -231,6 +232,28 @@ public class PersonItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Last Date feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addLastDatePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Person_lastDate_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Person_lastDate_feature", "_UI_Person_type"),
+				 NajaPackage.Literals.PERSON__LAST_DATE,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -302,6 +325,7 @@ public class PersonItemProvider
 			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
 			case NajaPackage.PERSON__LEFT_AVAILABILITY:
 			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
+			case NajaPackage.PERSON__LAST_DATE:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:

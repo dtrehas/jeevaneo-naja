@@ -239,7 +239,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	public int getUnaffectedLoad() {
 		int ret = getTotalLoad();
 		for (Planification p : getPlanifications()) {
-			ret -= p.getLoad();
+			ret -= p.getUnimputedLoad();
 		}
 		for (Imputation p : getImputations()) {
 			ret -= p.getLoad();

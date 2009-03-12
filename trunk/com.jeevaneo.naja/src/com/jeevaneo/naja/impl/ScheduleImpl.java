@@ -159,17 +159,6 @@ public class ScheduleImpl extends EObjectImpl implements Schedule {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public boolean isSetLabel() {
-		// TODO: implement this method to return whether the 'Label' attribute is set
-		// Ensure that you remove @generated or mark it @generated NOT
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
@@ -232,7 +221,7 @@ public class ScheduleImpl extends EObjectImpl implements Schedule {
 			case NajaPackage.SCHEDULE__LOAD:
 				return load != LOAD_EDEFAULT;
 			case NajaPackage.SCHEDULE__LABEL:
-				return isSetLabel();
+				return LABEL_EDEFAULT == null ? getLabel() != null : !LABEL_EDEFAULT.equals(getLabel());
 		}
 		return super.eIsSet(featureID);
 	}

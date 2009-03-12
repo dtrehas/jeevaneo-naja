@@ -27,6 +27,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Person#getPlanifications <em>Planifications</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getAvailabilityStartDate <em>Availability Start Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getAvailableSchedules <em>Available Schedules</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Person#getLastDate <em>Last Date</em>}</li>
  * </ul>
  * </p>
  *
@@ -218,5 +219,20 @@ public interface Person extends EObject {
 	 * @generated
 	 */
 	EList<Schedule> getAvailableSchedules();
+
+	/**
+	 * Returns the value of the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Last Date</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Last Date</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getPerson_LastDate()
+	 * @model required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @generated
+	 */
+	Date getLastDate();
 
 } // Person

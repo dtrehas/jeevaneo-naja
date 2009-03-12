@@ -135,22 +135,11 @@ public interface Category extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Total Load</em>' attribute.
-	 * @see #isSetTotalLoad()
 	 * @see com.jeevaneo.naja.NajaPackage#getCategory_TotalLoad()
-	 * @model unsettable="true" required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @model required="true" transient="true" changeable="false" volatile="true" derived="true"
 	 * @generated
 	 */
 	int getTotalLoad();
-
-	/**
-	 * Returns whether the value of the '{@link com.jeevaneo.naja.Category#getTotalLoad <em>Total Load</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Total Load</em>' attribute is set.
-	 * @see #getTotalLoad()
-	 * @generated
-	 */
-	boolean isSetTotalLoad();
 
 	/**
 	 * Returns the value of the '<em><b>Unaffected Load</b></em>' attribute.
@@ -161,22 +150,11 @@ public interface Category extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Unaffected Load</em>' attribute.
-	 * @see #isSetUnaffectedLoad()
 	 * @see com.jeevaneo.naja.NajaPackage#getCategory_UnaffectedLoad()
-	 * @model unsettable="true" required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @model required="true" transient="true" changeable="false" volatile="true" derived="true"
 	 * @generated
 	 */
 	int getUnaffectedLoad();
-
-	/**
-	 * Returns whether the value of the '{@link com.jeevaneo.naja.Category#getUnaffectedLoad <em>Unaffected Load</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Unaffected Load</em>' attribute is set.
-	 * @see #getUnaffectedLoad()
-	 * @generated
-	 */
-	boolean isSetUnaffectedLoad();
 
 	/**
 	 * Returns the value of the '<em><b>Priority</b></em>' attribute.

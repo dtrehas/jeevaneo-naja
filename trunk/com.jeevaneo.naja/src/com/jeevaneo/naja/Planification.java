@@ -274,7 +274,7 @@ public interface Planification extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Unimputed Load</em>' attribute.
 	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_UnimputedLoad()
-	 * @model unique="false" required="true" transient="true" changeable="false" derived="true" ordered="false"
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
 	 * @generated
 	 */
 	int getUnimputedLoad();
@@ -289,7 +289,7 @@ public interface Planification extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Imputed Load</em>' attribute.
 	 * @see com.jeevaneo.naja.NajaPackage#getPlanification_ImputedLoad()
-	 * @model required="true" transient="true" changeable="false"
+	 * @model required="true" transient="true" changeable="false" volatile="true"
 	 * @generated
 	 */
 	int getImputedLoad();

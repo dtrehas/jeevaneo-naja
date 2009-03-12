@@ -142,13 +142,22 @@ public interface NajaPackage extends EPackage {
 	int PERSON__AVAILABLE_SCHEDULES = 7;
 
 	/**
+	 * The feature id for the '<em><b>Last Date</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__LAST_DATE = 8;
+
+	/**
 	 * The number of structural features of the '<em>Person</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PERSON_FEATURE_COUNT = 8;
+	int PERSON_FEATURE_COUNT = 9;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
@@ -935,6 +944,17 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getPerson_AvailableSchedules();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Person#getLastDate <em>Last Date</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Last Date</em>'.
+	 * @see com.jeevaneo.naja.Person#getLastDate()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_LastDate();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Task <em>Task</em>}'.
@@ -1748,6 +1768,14 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EReference PERSON__AVAILABLE_SCHEDULES = eINSTANCE.getPerson_AvailableSchedules();
+
+		/**
+		 * The meta object literal for the '<em><b>Last Date</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__LAST_DATE = eINSTANCE.getPerson_LastDate();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
