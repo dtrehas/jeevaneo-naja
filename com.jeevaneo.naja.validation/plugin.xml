@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.validation.constraintProviders">
+      <constraintProvider
+            cache="true"
+            mode="Batch">
+         <package
+               namespaceUri="http://naja.jeevaneo.com/1.0">
+         </package>
+         <constraints
+               categories="com.jeevaneo.naja.validation.category">
+            <constraint
+                  class="com.jeevaneo.naja.validation.PositiveLoadsConstraint"
+                  id="com.jeevaneo.naja.validation.constraint1"
+                  lang="Java"
+                  mode="Batch"
+                  name="Positive loads"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint1">
+               <message>
+                  Resource {0} is over imputed by {1} hours.
+               </message>
+               <description>
+                  Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="com.jeevaneo.naja.Person">
+               </target>
+            </constraint></constraints>
+      </constraintProvider>
+      <category
+            id="com.jeevaneo.naja.validation.category"
+            mandatory="true"
+            name="Naja constraints">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.emf.validation.constraintBindings">
+      <clientContext
+            default="false"
+            id="com.jeevaneo.naja.validation.context">
+         <selector
+               class="com.jeevaneo.naja.validation.ClientSelector">
+         </selector>
+      </clientContext>
+      <binding
+            category="com.jeevaneo.naja.validation.category"
+            context="com.jeevaneo.naja.validation.context">
+      </binding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="com.jeevaneo.naja.validation.contribution1"
+            objectClass="com.jeevaneo.naja.Person">
+         <menu
+               id="com.jeevaneo.naja.validation.menu"
+               label="Naja"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.validation.popup.actions.ValidationAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.validation.newAction"
+               label="Validate!"
+               menubarPath="com.jeevaneo.naja.validation.menu/group1">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
