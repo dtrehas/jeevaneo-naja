@@ -27,6 +27,10 @@
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/lastDate"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Pg6WEQ8FEd6p5fdKn6-kmg"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_DK5d0A8UEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/maxLoadPerDay"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DK5d0Q8UEd6p5fdKn6-kmg"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_R-CxofqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_R-CxovqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_R-Cxo_qSEd2_8NSLID6Jxg"/>

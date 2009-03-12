@@ -266,6 +266,15 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getPerson_MaxLoadPerDay() {
+		return (EAttribute)personEClass.getEStructuralFeatures().get(9);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getTask() {
 		return taskEClass;
 	}
@@ -893,6 +902,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEAttribute(personEClass, PERSON__AVAILABILITY_START_DATE);
 		createEReference(personEClass, PERSON__AVAILABLE_SCHEDULES);
 		createEAttribute(personEClass, PERSON__LAST_DATE);
+		createEAttribute(personEClass, PERSON__MAX_LOAD_PER_DAY);
 
 		taskEClass = createEClass(TASK);
 		createEAttribute(taskEClass, TASK__TOTAL_LOAD);
@@ -1010,6 +1020,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEAttribute(getPerson_AvailabilityStartDate(), ecorePackage.getEDate(), "availabilityStartDate", null, 1, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getPerson_AvailableSchedules(), this.getSchedule(), null, "availableSchedules", null, 0, -1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, !IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPerson_LastDate(), ecorePackage.getEDate(), "lastDate", null, 1, 1, Person.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getPerson_MaxLoadPerDay(), ecorePackage.getEInt(), "maxLoadPerDay", "8", 1, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(taskEClass, Task.class, "Task", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getTask_TotalLoad(), ecorePackage.getEInt(), "totalLoad", null, 1, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
