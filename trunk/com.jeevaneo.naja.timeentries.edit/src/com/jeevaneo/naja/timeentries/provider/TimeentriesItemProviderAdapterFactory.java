@@ -93,14 +93,6 @@ public class TimeentriesItemProviderAdapterFactory extends TimeentriesAdapterFac
 	public Adapter createTimeEntriesAdapter() {
 		if (timeEntriesItemProvider == null) {
 			timeEntriesItemProvider = new TimeEntriesItemProvider(this);
-			timeEntriesItemProvider.addListener(new INotifyChangedListener() {
-				
-				@Override
-				public void notifyChanged(Notification notification) {
-					System.out.println("yeah " + notification);
-			
-				}
-			});
 		}
 
 		return timeEntriesItemProvider;
@@ -124,14 +116,6 @@ public class TimeentriesItemProviderAdapterFactory extends TimeentriesAdapterFac
 	public Adapter createTimeEntryAdapter() {
 		if (timeEntryItemProvider == null) {
 			timeEntryItemProvider = new TimeEntryItemProvider(this);
-			timeEntryItemProvider.addListener(new INotifyChangedListener() {
-			
-				@Override
-				public void notifyChanged(Notification notification) {
-					System.out.println("yo " + notification);
-			
-				}
-			});
 		}
 
 		return timeEntryItemProvider;
