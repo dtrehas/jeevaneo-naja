@@ -201,16 +201,6 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	protected static final int UNIMPUTED_LOAD_EDEFAULT = 0;
 
 	/**
-	 * The cached value of the '{@link #getUnimputedLoad() <em>Unimputed Load</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getUnimputedLoad()
-	 * @generated
-	 * @ordered
-	 */
-	protected int unimputedLoad = UNIMPUTED_LOAD_EDEFAULT;
-
-	/**
 	 * The default value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -219,16 +209,6 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	 * @ordered
 	 */
 	protected static final int IMPUTED_LOAD_EDEFAULT = 0;
-
-	/**
-	 * The cached value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getImputedLoad()
-	 * @generated
-	 * @ordered
-	 */
-	protected int imputedLoad = IMPUTED_LOAD_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
@@ -246,13 +226,10 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				switch (msg.getFeatureID(Planification.class)) {
 				case NajaPackage.PLANIFICATION__LOAD:
 				case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
-					recomputeDerivedLoads();
 					recomputeResourceSchedules();
 					break;
 					
 				case NajaPackage.PLANIFICATION__IMPUTATIONS:
-					//recompute imputedLoad and unimputedLoad
-					recomputeDerivedLoads();
 					break;
 				}
 			}
@@ -263,17 +240,17 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 							.recomputeAvailableSchedules();
 				}
 			}
-
-			private void recomputeDerivedLoads() {
-				imputedLoad=0;
-				for(Imputation imputation : getImputations())
-				{
-					imputedLoad += imputation.getLoad();
-				}
-				unimputedLoad = getLoad()-imputedLoad;
-			}
-
 		});
+	}
+	
+
+	private int computeImputedLoad() {
+		int ret=0;
+		for(Imputation imputation : getImputations())
+		{
+			ret += imputation.getLoad();
+		}
+		return ret;
 	}
 
 	/**
@@ -420,19 +397,19 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	public int getUnimputedLoad() {
-		return unimputedLoad;
+		return getLoad()-getImputedLoad();
 	}
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	public int getImputedLoad() {
-		return imputedLoad;
+		return computeImputedLoad();
 	}
 
 	/**
@@ -754,9 +731,9 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 			case NajaPackage.PLANIFICATION__IMPUTATIONS:
 				return imputations != null && !imputations.isEmpty();
 			case NajaPackage.PLANIFICATION__UNIMPUTED_LOAD:
-				return unimputedLoad != UNIMPUTED_LOAD_EDEFAULT;
+				return getUnimputedLoad() != UNIMPUTED_LOAD_EDEFAULT;
 			case NajaPackage.PLANIFICATION__IMPUTED_LOAD:
-				return imputedLoad != IMPUTED_LOAD_EDEFAULT;
+				return getImputedLoad() != IMPUTED_LOAD_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}
@@ -780,10 +757,6 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 		result.append(lastDate);
 		result.append(", maxLoadPerDay: ");
 		result.append(maxLoadPerDay);
-		result.append(", unimputedLoad: ");
-		result.append(unimputedLoad);
-		result.append(", imputedLoad: ");
-		result.append(imputedLoad);
 		result.append(')');
 		return result.toString();
 	}

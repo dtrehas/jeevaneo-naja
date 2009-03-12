@@ -90,21 +90,10 @@ public interface Schedule extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Label</em>' attribute.
-	 * @see #isSetLabel()
 	 * @see com.jeevaneo.naja.NajaPackage#getSchedule_Label()
-	 * @model unique="false" unsettable="true" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
 	 * @generated
 	 */
 	String getLabel();
-
-	/**
-	 * Returns whether the value of the '{@link com.jeevaneo.naja.Schedule#getLabel <em>Label</em>}' attribute is set.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return whether the value of the '<em>Label</em>' attribute is set.
-	 * @see #getLabel()
-	 * @generated
-	 */
-	boolean isSetLabel();
 
 } // Schedule

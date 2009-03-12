@@ -109,17 +109,4 @@ public class ScheduleTest extends TestCase {
 		fail();
 	}
 
-	/**
-	 * Tests the '{@link com.jeevaneo.naja.Schedule#isSetLabel() <em>isSetLabel()</em>}' method.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Schedule#isSetLabel()
-	 * @generated
-	 */
-	public void testIsSetLabel() {
-		// TODO: implement this test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
 } //ScheduleTest

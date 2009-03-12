@@ -113,19 +113,6 @@ public class CategoryTest extends TestCase {
 	}
 
 	/**
-	 * Tests the '{@link com.jeevaneo.naja.Category#isSetTotalLoad() <em>isSetTotalLoad()</em>}' method.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Category#isSetTotalLoad()
-	 * @generated
-	 */
-	public void testIsSetTotalLoad() {
-		// TODO: implement this test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
-	/**
 	 * Tests the '{@link com.jeevaneo.naja.Category#getUnaffectedLoad() <em>Unaffected Load</em>}' feature getter.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -134,19 +121,6 @@ public class CategoryTest extends TestCase {
 	 */
 	public void testGetUnaffectedLoad() {
 		// TODO: implement this feature getter test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
-	/**
-	 * Tests the '{@link com.jeevaneo.naja.Category#isSetUnaffectedLoad() <em>isSetUnaffectedLoad()</em>}' method.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see com.jeevaneo.naja.Category#isSetUnaffectedLoad()
-	 * @generated
-	 */
-	public void testIsSetUnaffectedLoad() {
-		// TODO: implement this test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}

@@ -20,6 +20,9 @@
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="availableSchedules" unique="false"
         upperBound="-1" eType="#//Schedule" derived="true" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate" changeable="false"
+        volatile="true" transient="true" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Task">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalLoad" lowerBound="1"
@@ -76,10 +79,10 @@
         eType="#//Imputation" eOpposite="#//Imputation/planification"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="unimputedLoad" ordered="false"
         unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
-        changeable="false" transient="true" derived="true"/>
+        changeable="false" volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="imputedLoad" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" changeable="false"
-        transient="true"/>
+        volatile="true" transient="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Project">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -110,10 +113,10 @@
         eType="#//Task" containment="true" eOpposite="#//Task/category"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalLoad" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" changeable="false"
-        volatile="true" transient="true" unsettable="true" derived="true"/>
+        volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="unaffectedLoad" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" changeable="false"
-        volatile="true" transient="true" unsettable="true" derived="true"/>
+        volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="priority" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         defaultValueLiteral="0"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
@@ -126,7 +129,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="load" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" ordered="false"
         unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
-        changeable="false" volatile="true" transient="true" unsettable="true" derived="true"/>
+        changeable="false" volatile="true" transient="true" derived="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="VirtualImputation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalLoad" lowerBound="1"

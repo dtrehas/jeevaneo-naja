@@ -180,16 +180,6 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
-	public boolean isSetUnaffectedLoad() {
-		// TODO: implement this method to return whether the 'Unaffected Load' attribute is set
-		// Ensure that you remove @generated or mark it @generated NOT
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * @generated
-	 */
 	public int getPriority() {
 		return priority;
 	}
@@ -272,16 +262,6 @@ public class CategoryImpl extends EObjectImpl implements Category {
 			}
 		}
 		return ret;
-	}
-
-	/**
-	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * @generated
-	 */
-	public boolean isSetTotalLoad() {
-		// TODO: implement this method to return whether the 'Total Load' attribute is set
-		// Ensure that you remove @generated or mark it @generated NOT
-		throw new UnsupportedOperationException();
 	}
 
 	/**
@@ -517,9 +497,9 @@ public class CategoryImpl extends EObjectImpl implements Category {
 			case NajaPackage.CATEGORY__TASKS:
 				return tasks != null && !tasks.isEmpty();
 			case NajaPackage.CATEGORY__TOTAL_LOAD:
-				return isSetTotalLoad();
+				return getTotalLoad() != TOTAL_LOAD_EDEFAULT;
 			case NajaPackage.CATEGORY__UNAFFECTED_LOAD:
-				return isSetUnaffectedLoad();
+				return getUnaffectedLoad() != UNAFFECTED_LOAD_EDEFAULT;
 			case NajaPackage.CATEGORY__PRIORITY:
 				return priority != PRIORITY_EDEFAULT;
 			case NajaPackage.CATEGORY__FIRST_DATE:
