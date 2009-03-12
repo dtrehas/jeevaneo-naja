@@ -35,6 +35,35 @@
             mandatory="true"
             name="Naja constraints">
       </category>
+      <constraintProvider
+            cache="true"
+            mode="Batch">
+         <package
+               namespaceUri="http://naja.jeevaneo.com/timeentries/1.0">
+         </package>
+         <constraints
+               categories="com.jeevaneo.naja.validation.category2">
+            <constraint
+                  class="com.jeevaneo.naja.validation.TimeEntryImputationsHavePlanificationConstraint"
+                  id="com.jeevaneo.naja.validation.constraint2"
+                  lang="Java"
+                  mode="Batch"
+                  name="TimeEntry Imputations have Planifications"
+                  severity="WARNING"
+                  statusCode="com.jeevaneo.naja.validation.constraint2">
+               <message>
+                  Time entry {0} has no imputation or its imputation has no planification
+               </message>
+               <description>
+                  TimeEntrys must eventually have a generated imputation. 
+TimeEntry generated imputations may have a planification.
+               </description>
+               <target
+                     class="com.jeevaneo.naja.TimeEntry">
+               </target>
+            </constraint>
+         </constraints>
+      </constraintProvider>
    </extension>
    <extension
          point="org.eclipse.emf.validation.constraintBindings">
@@ -54,7 +83,7 @@
          point="org.eclipse.ui.popupMenus">
       <objectContribution
             id="com.jeevaneo.naja.validation.contribution1"
-            objectClass="com.jeevaneo.naja.Person">
+            objectClass="com.jeevaneo.naja.EObject">
          <menu
                id="com.jeevaneo.naja.validation.menu"
                label="Naja"
@@ -71,6 +100,26 @@
                menubarPath="com.jeevaneo.naja.validation.menu/group1">
          </action>
       </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.jeevaneo.naja.validation.startup.ValidatorRegisterer">
+      </startup>
+   </extension>
+   <extension
+         point="org.eclipse.emf.validation.constraintBindings">
+      <clientContext
+            default="false"
+            id="com.jeevaneo.naja.validation.context2">
+         <selector
+               class="com.jeevaneo.naja.validation.ClientSelector">
+         </selector>
+      </clientContext>
+      <binding
+            category="com.jeevaneo.naja.validation.category2"
+            context="com.jeevaneo.naja.validation.context2">
+      </binding>
    </extension>
 
 </plugin>
