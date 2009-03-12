@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Validation Plug-in
+Bundle-SymbolicName: com.jeevaneo.naja.validation;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.jeevaneo.naja.validation.Activator
+Bundle-Vendor: JEEVANEO
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.jeevaneo.naja;bundle-version="1.0.0",
+ org.eclipse.emf.validation,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
