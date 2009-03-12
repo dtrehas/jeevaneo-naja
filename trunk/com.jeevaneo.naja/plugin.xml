@@ -20,7 +20,7 @@
          point="org.eclipse.ui.popupMenus">
       <objectContribution
             id="com.jeevaneo.naja.actons.categories"
-            objectClass="com.jeevaneo.naja.Category">
+            objectClass="org.eclipse.emf.ecore.EObject">
          <menu
                id="com.jeevaneo.naja.menu1"
                label="Naja export"
@@ -36,6 +36,16 @@
                label="Export Categories as CSV"
                menubarPath="com.jeevaneo.naja.menu1/group1">
          </action>
+         <visibility>
+            <or>
+               <objectClass
+                     name="com.jeevaneo.naja.Category">
+               </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.Task">
+               </objectClass>
+            </or>
+         </visibility>
       </objectContribution>
       <objectContribution
             id="com.jeevaneo.naja.actons.projects"

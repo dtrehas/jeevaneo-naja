@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import org.eclipse.emf.ecore.EObject;
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.ISelection;
@@ -51,18 +52,18 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 			return;
 
 		Iterator<?> i = selection.iterator();
-		List<Category> cats = new ArrayList<Category>();
+		List<EObject> cats = new ArrayList<EObject>();
 		while (i.hasNext()) {
 			Object o = i.next();
-			if (o instanceof Category) {
-				cats.add((Category) o);
+			if (o instanceof Category || o instanceof Task) {
+				cats.add((EObject) o);
 			}
 		}
 		exportCategories(cats);
 
 	}
 
-	private void exportCategories(List<Category> cats) {
+	private void exportCategories(List<EObject> cats) {
 
 		FileDialog fd = new FileDialog(new Shell());
 		String filename = fd.open();
@@ -75,7 +76,7 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 			out = new PrintStream(fos);
 			out
 					.println("Name;Total Load in hours;Resources;First date;Last date;");
-			for (Category cat : cats) {
+			for (EObject o : cats) {
 
 				// List<Task> tsks = cat.getTasks();
 				// Set<String> nameListe = new HashSet<String>();
@@ -85,16 +86,23 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 				// nameListe.add(pln.getResource().getName());
 				// }
 				// }
+				if (o instanceof Category) {
+					Category cat = (Category) o;
 
-				Set<String> nameListe = resourceList(cat);
-				String stringNameList = "";
-				for (String name : nameListe) {
-					stringNameList = stringNameList + name + " - ";
+					String stringNameList = csl(resourceList(cat));
+
+					out.printf(
+							"%s;%s;%s;%4$tY-%4$tm-%4$td;%5$tY-%5$tm-%5$td;\n",
+							fullname(cat), cat.getTotalLoad(), stringNameList,
+							cat.getFirstDate(), cat.getLastDate());
+				} else if (o instanceof Task) {
+					Task task = (Task) o;
+					String stringNameList = csl(resourceList(task));
+					out.printf(
+							"%s;%s;%s;%4$tY-%4$tm-%4$td;%5$tY-%5$tm-%5$td;\n",
+							fullname(task), task.getTotalLoad(), stringNameList,
+							task.getFirstDate(), task.getLastDate());
 				}
-
-				out.printf("%s;%s;%s;%4$tY-%4$tm-%4$td;%5$tY-%5$tm-%5$td;\n",
-						cat.getName(), cat.getTotalLoad(), stringNameList, cat
-								.getFirstDate(), cat.getLastDate());
 			}
 			fos.flush();
 			fos.close();
@@ -111,6 +119,34 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 
 	}
 
+	private String fullname(Task task)
+	{
+		String ret = task.getName();
+		if(null!=task.getCategory())
+		{
+			ret = fullname(task.getCategory()) + "/" + ret;
+		}
+		return ret;	
+	}
+
+	private String fullname(Category cat)
+	{
+		String ret = cat.getName();
+		if(null!=cat.getParentCategory())
+		{
+			ret = fullname(cat.getParentCategory()) + "/" + ret;
+		}
+		return ret;
+	}
+	
+	private String csl(Set<String> nameListe) {
+		String stringNameList = "";
+		for (String name : nameListe) {
+			stringNameList = stringNameList + name + " - ";
+		}
+		return stringNameList;
+	}
+
 	private Set<String> resourceList(Category cat) {
 		List<Task> tsks = cat.getTasks();
 		Set<String> nameListe = new HashSet<String>();
@@ -120,8 +156,17 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 				nameListe.add(pln.getResource().getName());
 			}
 		}
-		for (Category ctg : cat.getSubcategories()){
+		for (Category ctg : cat.getSubcategories()) {
 			nameListe.addAll(resourceList(ctg));
+		}
+		return nameListe;
+	}
+
+	private Set<String> resourceList(Task tsk) {
+		Set<String> nameListe = new HashSet<String>();
+		List<Planification> plns = tsk.getPlanifications();
+		for (Planification pln : plns) {
+			nameListe.add(pln.getResource().getName());
 		}
 		return nameListe;
 	}
