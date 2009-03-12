@@ -42,31 +42,25 @@ import com.jeevaneo.naja.VirtualImputation;
  * <p>
  * The following features are implemented:
  * <ul>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getName <em>Name</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getLogin <em>Login</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getImputations <em>Imputations
- * </em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getTotalAvailability <em>Total
- * Availability</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getLeftAvailability <em>Left
- * Availability</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getPlanifications <em>
- * Planifications</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getAvailabilityStartDate <em>
- * Availability Start Date</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getAvailableSchedules <em>
- * Available Schedules</em>}</li>
- * <li>{@link com.jeevaneo.naja.impl.PersonImpl#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getName <em>Name</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getLogin <em>Login</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getImputations <em>Imputations</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getTotalAvailability <em>Total Availability</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getLeftAvailability <em>Left Availability</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getPlanifications <em>Planifications</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getAvailabilityStartDate <em>Availability Start Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getAvailableSchedules <em>Available Schedules</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.PersonImpl#getMaxLoadPerDay <em>Max Load Per Day</em>}</li>
  * </ul>
  * </p>
- * 
+ *
  * @generated
  */
 public class PersonImpl extends EObjectImpl implements Person {
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @see #getName()
 	 * @generated
 	 * @ordered
@@ -76,7 +70,6 @@ public class PersonImpl extends EObjectImpl implements Person {
 	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @see #getName()
 	 * @generated
 	 * @ordered
@@ -86,7 +79,6 @@ public class PersonImpl extends EObjectImpl implements Person {
 	/**
 	 * The default value of the '{@link #getLogin() <em>Login</em>}' attribute.
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @see #getLogin()
 	 * @generated
 	 * @ordered
@@ -96,7 +88,6 @@ public class PersonImpl extends EObjectImpl implements Person {
 	/**
 	 * The cached value of the '{@link #getLogin() <em>Login</em>}' attribute.
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @see #getLogin()
 	 * @generated
 	 * @ordered
@@ -104,9 +95,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected String login = LOGIN_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getImputations() <em>Imputations</em>}'
-	 * reference list. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The cached value of the '{@link #getImputations() <em>Imputations</em>}' reference list.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getImputations()
 	 * @generated
 	 * @ordered
@@ -114,10 +104,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected EList<Imputation> imputations;
 
 	/**
-	 * The default value of the '{@link #getTotalAvailability()
-	 * <em>Total Availability</em>}' attribute. <!-- begin-user-doc --> <!--
+	 * The default value of the '{@link #getTotalAvailability() <em>Total Availability</em>}' attribute.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
 	 * @see #getTotalAvailability()
 	 * @generated
 	 * @ordered
@@ -125,10 +114,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected static final int TOTAL_AVAILABILITY_EDEFAULT = 0;
 
 	/**
-	 * The cached value of the '{@link #getTotalAvailability()
-	 * <em>Total Availability</em>}' attribute. <!-- begin-user-doc --> <!--
+	 * The cached value of the '{@link #getTotalAvailability() <em>Total Availability</em>}' attribute.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
 	 * @see #getTotalAvailability()
 	 * @generated
 	 * @ordered
@@ -136,10 +124,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected int totalAvailability = TOTAL_AVAILABILITY_EDEFAULT;
 
 	/**
-	 * The default value of the '{@link #getLeftAvailability()
-	 * <em>Left Availability</em>}' attribute. <!-- begin-user-doc --> <!--
+	 * The default value of the '{@link #getLeftAvailability() <em>Left Availability</em>}' attribute.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
 	 * @see #getLeftAvailability()
 	 * @generated
 	 * @ordered
@@ -147,10 +134,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected static final int LEFT_AVAILABILITY_EDEFAULT = 0;
 
 	/**
-	 * The cached value of the '{@link #getPlanifications()
-	 * <em>Planifications</em>}' reference list. <!-- begin-user-doc --> <!--
+	 * The cached value of the '{@link #getPlanifications() <em>Planifications</em>}' reference list.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
 	 * @see #getPlanifications()
 	 * @generated
 	 * @ordered
@@ -158,10 +144,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected EList<Planification> planifications;
 
 	/**
-	 * The default value of the '{@link #getAvailabilityStartDate()
-	 * <em>Availability Start Date</em>}' attribute. <!-- begin-user-doc -->
+	 * The default value of the '{@link #getAvailabilityStartDate() <em>Availability Start Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * 
 	 * @see #getAvailabilityStartDate()
 	 * @generated
 	 * @ordered
@@ -169,10 +154,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected static final Date AVAILABILITY_START_DATE_EDEFAULT = null;
 
 	/**
-	 * The cached value of the '{@link #getAvailabilityStartDate()
-	 * <em>Availability Start Date</em>}' attribute. <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAvailabilityStartDate() <em>Availability Start Date</em>}' attribute.
+	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * 
 	 * @see #getAvailabilityStartDate()
 	 * @generated
 	 * @ordered
@@ -191,14 +175,33 @@ public class PersonImpl extends EObjectImpl implements Person {
 	protected EList<Schedule> availableSchedules;
 
 	/**
-	 * The default value of the '{@link #getLastDate() <em>Last Date</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * The default value of the '{@link #getLastDate() <em>Last Date</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @see #getLastDate()
 	 * @generated
 	 * @ordered
 	 */
 	protected static final Date LAST_DATE_EDEFAULT = null;
+
+	/**
+	 * The default value of the '{@link #getMaxLoadPerDay() <em>Max Load Per Day</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMaxLoadPerDay()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int MAX_LOAD_PER_DAY_EDEFAULT = 8;
+
+	/**
+	 * The cached value of the '{@link #getMaxLoadPerDay() <em>Max Load Per Day</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMaxLoadPerDay()
+	 * @generated
+	 * @ordered
+	 */
+	protected int maxLoadPerDay = MAX_LOAD_PER_DAY_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
@@ -318,6 +321,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 					break;
 
 				case NajaPackage.PERSON__TOTAL_AVAILABILITY:
+				case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
 					recomputeAvailableSchedules();
 					break;
 				}
@@ -328,7 +332,6 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
@@ -338,7 +341,6 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public String getName() {
@@ -347,20 +349,17 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					NajaPackage.PERSON__NAME, oldName, name));
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.PERSON__NAME, oldName, name));
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public String getLogin() {
@@ -369,34 +368,28 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public void setLogin(String newLogin) {
 		String oldLogin = login;
 		login = newLogin;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					NajaPackage.PERSON__LOGIN, oldLogin, login));
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.PERSON__LOGIN, oldLogin, login));
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public EList<Imputation> getImputations() {
 		if (imputations == null) {
-			imputations = new EObjectWithInverseResolvingEList<Imputation>(
-					Imputation.class, this, NajaPackage.PERSON__IMPUTATIONS,
-					NajaPackage.IMPUTATION__RESOURCE);
+			imputations = new EObjectWithInverseResolvingEList<Imputation>(Imputation.class, this, NajaPackage.PERSON__IMPUTATIONS, NajaPackage.IMPUTATION__RESOURCE);
 		}
 		return imputations;
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public int getTotalAvailability() {
@@ -425,22 +418,17 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public EList<Planification> getPlanifications() {
 		if (planifications == null) {
-			planifications = new EObjectWithInverseResolvingEList<Planification>(
-					Planification.class, this,
-					NajaPackage.PERSON__PLANIFICATIONS,
-					NajaPackage.PLANIFICATION__RESOURCE);
+			planifications = new EObjectWithInverseResolvingEList<Planification>(Planification.class, this, NajaPackage.PERSON__PLANIFICATIONS, NajaPackage.PLANIFICATION__RESOURCE);
 		}
 		return planifications;
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public Date getAvailabilityStartDate() {
@@ -476,8 +464,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 		}
 
 		// fill it with all "opened" schedules then remove the imputations
-		SortedSet<Date> dates = findOpenedDates(availabilityStartDate,
-				totalAvailability);
+		SortedSet<Date> dates = findOpenedDates(availabilityStartDate);
 
 		// TODO continue!!
 		int i = 0;
@@ -485,7 +472,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 		for (Date date : dates) {
 			Schedule schedule = NajaFactory.eINSTANCE.createSchedule();
 			schedule.setDate(date);
-			schedule.setLoad(Math.min(8, leftAvailability));
+			schedule.setLoad(Math.min(getMaxLoadPerDay(), Math.min(8, leftAvailability)));
 			leftAvailability -= schedule.getLoad();
 			getAvailableSchedules().add(schedule);
 		}
@@ -508,8 +495,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 				int leftToImpute = planification.getLoad()
 						- virtualImputation.getTotalLoad();
-				int imputeLoad = Math.min(Math.min(leftToImpute, planification
-						.getMaxLoadPerDay()), schedule.getLoad());
+				int imputeLoad = Math.min(getMaxLoadPerDay(), Math.min(Math.min(leftToImpute, planification
+						.getMaxLoadPerDay()), schedule.getLoad()));
 				if (schedule.getLoad() > imputeLoad) {
 					// split it in two
 					schedule.setLoad(schedule.getLoad() - imputeLoad);
@@ -598,14 +585,13 @@ public class PersonImpl extends EObjectImpl implements Person {
 		return date.equals(date2);
 	}
 
-	private SortedSet<Date> findOpenedDates(Date firstDate,
-			int totalAvailability) {
+	private SortedSet<Date> findOpenedDates(Date firstDate) {
 		SortedSet<Date> ret = new TreeSet<Date>();
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(firstDate);
 		cal.add(Calendar.DAY_OF_WEEK, -1);
-		int leftDays = totalAvailability / 8
-				+ (totalAvailability % 8 == 0 ? 0 : 1);
+		int leftDays = totalAvailability / getMaxLoadPerDay()
+				+ (totalAvailability % getMaxLoadPerDay() == 0 ? 0 : 1);
 		while (leftDays > 0) {
 			cal.add(Calendar.DAY_OF_WEEK, 1);
 			if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY
@@ -652,14 +638,11 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public EList<Schedule> getAvailableSchedules() {
 		if (availableSchedules == null) {
-			availableSchedules = new EObjectContainmentEList<Schedule>(
-					Schedule.class, this,
-					NajaPackage.PERSON__AVAILABLE_SCHEDULES);
+			availableSchedules = new EObjectContainmentEList<Schedule>(Schedule.class, this, NajaPackage.PERSON__AVAILABLE_SCHEDULES);
 		}
 		return availableSchedules;
 	}
@@ -695,22 +678,39 @@ public class PersonImpl extends EObjectImpl implements Person {
 	}
 
 	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public int getMaxLoadPerDay() {
+		return maxLoadPerDay;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setMaxLoadPerDay(int newMaxLoadPerDay) {
+		int oldMaxLoadPerDay = maxLoadPerDay;
+		maxLoadPerDay = newMaxLoadPerDay;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.PERSON__MAX_LOAD_PER_DAY, oldMaxLoadPerDay, maxLoadPerDay));
+	}
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	public void setTotalAvailability(int newTotalAvailability) {
 		int oldTotalAvailability = totalAvailability;
 		totalAvailability = newTotalAvailability;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET,
-					NajaPackage.PERSON__TOTAL_AVAILABILITY,
-					oldTotalAvailability, totalAvailability));
+			eNotify(new ENotificationImpl(this, Notification.SET, NajaPackage.PERSON__TOTAL_AVAILABILITY, oldTotalAvailability, totalAvailability));
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@SuppressWarnings("unchecked")
@@ -718,185 +718,175 @@ public class PersonImpl extends EObjectImpl implements Person {
 	public NotificationChain eInverseAdd(InternalEObject otherEnd,
 			int featureID, NotificationChain msgs) {
 		switch (featureID) {
-		case NajaPackage.PERSON__IMPUTATIONS:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getImputations())
-					.basicAdd(otherEnd, msgs);
-		case NajaPackage.PERSON__PLANIFICATIONS:
-			return ((InternalEList<InternalEObject>) (InternalEList<?>) getPlanifications())
-					.basicAdd(otherEnd, msgs);
+			case NajaPackage.PERSON__IMPUTATIONS:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getImputations()).basicAdd(otherEnd, msgs);
+			case NajaPackage.PERSON__PLANIFICATIONS:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getPlanifications()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd,
 			int featureID, NotificationChain msgs) {
 		switch (featureID) {
-		case NajaPackage.PERSON__IMPUTATIONS:
-			return ((InternalEList<?>) getImputations()).basicRemove(otherEnd,
-					msgs);
-		case NajaPackage.PERSON__PLANIFICATIONS:
-			return ((InternalEList<?>) getPlanifications()).basicRemove(
-					otherEnd, msgs);
-		case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
-			return ((InternalEList<?>) getAvailableSchedules()).basicRemove(
-					otherEnd, msgs);
+			case NajaPackage.PERSON__IMPUTATIONS:
+				return ((InternalEList<?>)getImputations()).basicRemove(otherEnd, msgs);
+			case NajaPackage.PERSON__PLANIFICATIONS:
+				return ((InternalEList<?>)getPlanifications()).basicRemove(otherEnd, msgs);
+			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+				return ((InternalEList<?>)getAvailableSchedules()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-		case NajaPackage.PERSON__NAME:
-			return getName();
-		case NajaPackage.PERSON__LOGIN:
-			return getLogin();
-		case NajaPackage.PERSON__IMPUTATIONS:
-			return getImputations();
-		case NajaPackage.PERSON__TOTAL_AVAILABILITY:
-			return new Integer(getTotalAvailability());
-		case NajaPackage.PERSON__LEFT_AVAILABILITY:
-			return new Integer(getLeftAvailability());
-		case NajaPackage.PERSON__PLANIFICATIONS:
-			return getPlanifications();
-		case NajaPackage.PERSON__AVAILABILITY_START_DATE:
-			return getAvailabilityStartDate();
-		case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
-			return getAvailableSchedules();
-		case NajaPackage.PERSON__LAST_DATE:
-			return getLastDate();
+			case NajaPackage.PERSON__NAME:
+				return getName();
+			case NajaPackage.PERSON__LOGIN:
+				return getLogin();
+			case NajaPackage.PERSON__IMPUTATIONS:
+				return getImputations();
+			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
+				return new Integer(getTotalAvailability());
+			case NajaPackage.PERSON__LEFT_AVAILABILITY:
+				return new Integer(getLeftAvailability());
+			case NajaPackage.PERSON__PLANIFICATIONS:
+				return getPlanifications();
+			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
+				return getAvailabilityStartDate();
+			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+				return getAvailableSchedules();
+			case NajaPackage.PERSON__LAST_DATE:
+				return getLastDate();
+			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
+				return new Integer(getMaxLoadPerDay());
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-		case NajaPackage.PERSON__NAME:
-			setName((String) newValue);
-			return;
-		case NajaPackage.PERSON__LOGIN:
-			setLogin((String) newValue);
-			return;
-		case NajaPackage.PERSON__IMPUTATIONS:
-			getImputations().clear();
-			getImputations()
-					.addAll((Collection<? extends Imputation>) newValue);
-			return;
-		case NajaPackage.PERSON__TOTAL_AVAILABILITY:
-			setTotalAvailability(((Integer) newValue).intValue());
-			return;
-		case NajaPackage.PERSON__PLANIFICATIONS:
-			getPlanifications().clear();
-			getPlanifications().addAll(
-					(Collection<? extends Planification>) newValue);
-			return;
-		case NajaPackage.PERSON__AVAILABILITY_START_DATE:
-			setAvailabilityStartDate((Date) newValue);
-			return;
-		case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
-			getAvailableSchedules().clear();
-			getAvailableSchedules().addAll(
-					(Collection<? extends Schedule>) newValue);
-			return;
+			case NajaPackage.PERSON__NAME:
+				setName((String)newValue);
+				return;
+			case NajaPackage.PERSON__LOGIN:
+				setLogin((String)newValue);
+				return;
+			case NajaPackage.PERSON__IMPUTATIONS:
+				getImputations().clear();
+				getImputations().addAll((Collection<? extends Imputation>)newValue);
+				return;
+			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
+				setTotalAvailability(((Integer)newValue).intValue());
+				return;
+			case NajaPackage.PERSON__PLANIFICATIONS:
+				getPlanifications().clear();
+				getPlanifications().addAll((Collection<? extends Planification>)newValue);
+				return;
+			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
+				setAvailabilityStartDate((Date)newValue);
+				return;
+			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+				getAvailableSchedules().clear();
+				getAvailableSchedules().addAll((Collection<? extends Schedule>)newValue);
+				return;
+			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
+				setMaxLoadPerDay(((Integer)newValue).intValue());
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-		case NajaPackage.PERSON__NAME:
-			setName(NAME_EDEFAULT);
-			return;
-		case NajaPackage.PERSON__LOGIN:
-			setLogin(LOGIN_EDEFAULT);
-			return;
-		case NajaPackage.PERSON__IMPUTATIONS:
-			getImputations().clear();
-			return;
-		case NajaPackage.PERSON__TOTAL_AVAILABILITY:
-			setTotalAvailability(TOTAL_AVAILABILITY_EDEFAULT);
-			return;
-		case NajaPackage.PERSON__PLANIFICATIONS:
-			getPlanifications().clear();
-			return;
-		case NajaPackage.PERSON__AVAILABILITY_START_DATE:
-			setAvailabilityStartDate(AVAILABILITY_START_DATE_EDEFAULT);
-			return;
-		case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
-			getAvailableSchedules().clear();
-			return;
+			case NajaPackage.PERSON__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+			case NajaPackage.PERSON__LOGIN:
+				setLogin(LOGIN_EDEFAULT);
+				return;
+			case NajaPackage.PERSON__IMPUTATIONS:
+				getImputations().clear();
+				return;
+			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
+				setTotalAvailability(TOTAL_AVAILABILITY_EDEFAULT);
+				return;
+			case NajaPackage.PERSON__PLANIFICATIONS:
+				getPlanifications().clear();
+				return;
+			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
+				setAvailabilityStartDate(AVAILABILITY_START_DATE_EDEFAULT);
+				return;
+			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+				getAvailableSchedules().clear();
+				return;
+			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
+				setMaxLoadPerDay(MAX_LOAD_PER_DAY_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-		case NajaPackage.PERSON__NAME:
-			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT
-					.equals(name);
-		case NajaPackage.PERSON__LOGIN:
-			return LOGIN_EDEFAULT == null ? login != null : !LOGIN_EDEFAULT
-					.equals(login);
-		case NajaPackage.PERSON__IMPUTATIONS:
-			return imputations != null && !imputations.isEmpty();
-		case NajaPackage.PERSON__TOTAL_AVAILABILITY:
-			return totalAvailability != TOTAL_AVAILABILITY_EDEFAULT;
-		case NajaPackage.PERSON__LEFT_AVAILABILITY:
-			return isSetLeftAvailability();
-		case NajaPackage.PERSON__PLANIFICATIONS:
-			return planifications != null && !planifications.isEmpty();
-		case NajaPackage.PERSON__AVAILABILITY_START_DATE:
-			return AVAILABILITY_START_DATE_EDEFAULT == null ? availabilityStartDate != null
-					: !AVAILABILITY_START_DATE_EDEFAULT
-							.equals(availabilityStartDate);
-		case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
-			return availableSchedules != null && !availableSchedules.isEmpty();
-		case NajaPackage.PERSON__LAST_DATE:
-			return LAST_DATE_EDEFAULT == null ? getLastDate() != null
-					: !LAST_DATE_EDEFAULT.equals(getLastDate());
+			case NajaPackage.PERSON__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+			case NajaPackage.PERSON__LOGIN:
+				return LOGIN_EDEFAULT == null ? login != null : !LOGIN_EDEFAULT.equals(login);
+			case NajaPackage.PERSON__IMPUTATIONS:
+				return imputations != null && !imputations.isEmpty();
+			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
+				return totalAvailability != TOTAL_AVAILABILITY_EDEFAULT;
+			case NajaPackage.PERSON__LEFT_AVAILABILITY:
+				return isSetLeftAvailability();
+			case NajaPackage.PERSON__PLANIFICATIONS:
+				return planifications != null && !planifications.isEmpty();
+			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
+				return AVAILABILITY_START_DATE_EDEFAULT == null ? availabilityStartDate != null : !AVAILABILITY_START_DATE_EDEFAULT.equals(availabilityStartDate);
+			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:
+				return availableSchedules != null && !availableSchedules.isEmpty();
+			case NajaPackage.PERSON__LAST_DATE:
+				return LAST_DATE_EDEFAULT == null ? getLastDate() != null : !LAST_DATE_EDEFAULT.equals(getLastDate());
+			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
+				return maxLoadPerDay != MAX_LOAD_PER_DAY_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	public String toString() {
-		if (eIsProxy())
-			return super.toString();
+		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");
@@ -907,6 +897,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 		result.append(totalAvailability);
 		result.append(", availabilityStartDate: ");
 		result.append(availabilityStartDate);
+		result.append(", maxLoadPerDay: ");
+		result.append(maxLoadPerDay);
 		result.append(')');
 		return result.toString();
 	}

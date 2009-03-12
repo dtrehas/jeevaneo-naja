@@ -151,13 +151,22 @@ public interface NajaPackage extends EPackage {
 	int PERSON__LAST_DATE = 8;
 
 	/**
+	 * The feature id for the '<em><b>Max Load Per Day</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__MAX_LOAD_PER_DAY = 9;
+
+	/**
 	 * The number of structural features of the '<em>Person</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PERSON_FEATURE_COUNT = 9;
+	int PERSON_FEATURE_COUNT = 10;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
@@ -955,6 +964,17 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getPerson_LastDate();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Person#getMaxLoadPerDay <em>Max Load Per Day</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Max Load Per Day</em>'.
+	 * @see com.jeevaneo.naja.Person#getMaxLoadPerDay()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_MaxLoadPerDay();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Task <em>Task</em>}'.
@@ -1776,6 +1796,14 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute PERSON__LAST_DATE = eINSTANCE.getPerson_LastDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Max Load Per Day</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__MAX_LOAD_PER_DAY = eINSTANCE.getPerson_MaxLoadPerDay();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
