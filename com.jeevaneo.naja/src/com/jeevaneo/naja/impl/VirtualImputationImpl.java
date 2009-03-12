@@ -251,7 +251,7 @@ public class VirtualImputationImpl extends EObjectImpl implements
 		}
 		return String
 				.format(
-						"%s : %d hours on %s between %4$tY-%4$tm-%4$td and %5$tY-%5$tm-%5$td",
+						"%s : %d hours left on %s between %4$tY-%4$tm-%4$td and %5$tY-%5$tm-%5$td",
 						who, getTotalLoad(), what, firstDate, lastDate);
 	}
 

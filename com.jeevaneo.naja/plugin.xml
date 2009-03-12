@@ -12,7 +12,7 @@
 
    <extension point="org.eclipse.emf.ecore.generated_package">
       <package
-            uri="http://Naja/1.0"
+            uri="http://naja.jeevaneo.com/1.0"
             class="com.jeevaneo.naja.NajaPackage"
             genModel="model/Naja.genmodel"/>
    </extension>

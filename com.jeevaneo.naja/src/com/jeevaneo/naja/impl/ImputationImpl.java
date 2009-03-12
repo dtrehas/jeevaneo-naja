@@ -158,25 +158,25 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 					break;
 					
 				case NajaPackage.IMPUTATION__PLANIFICATION:
-					Planification newPlanification = (Planification) msg.getNewValue();
-					if(null!=newPlanification)
-					{
-						Person newResource = newPlanification.getResource();
-						if(null!=newResource && !newResource.equals(getResource()))
-						{
-							setResource(newResource);
-						}
-						
-						Task newTask = newPlanification.getTask();
-						if(null!=newTask && !newTask.equals(getTask()))
-						{
-							setTask(newPlanification.getTask());
-						}
-					}
-					else
-					{
-						//TODO should nullify this.resource and this.task???
-					}
+//					Planification newPlanification = (Planification) msg.getNewValue();
+//					if(null!=newPlanification)
+//					{
+//						Person newResource = newPlanification.getResource();
+//						if(null!=newResource && !newResource.equals(getResource()))
+//						{
+//							setResource(newResource);
+//						}
+//						
+//						Task newTask = newPlanification.getTask();
+//						if(null!=newTask && !newTask.equals(getTask()))
+//						{
+//							setTask(newPlanification.getTask());
+//						}
+//					}
+//					else
+//					{
+//						//TODO should nullify this.resource and this.task???
+//					}
 					break;
 				}
 			}
