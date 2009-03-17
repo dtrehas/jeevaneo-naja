@@ -269,13 +269,40 @@ public interface NajaPackage extends EPackage {
 	int TASK__LAST_DATE = 9;
 
 	/**
+	 * The feature id for the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK__IMPUTED_LOAD = 10;
+
+	/**
+	 * The feature id for the '<em><b>Total Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK__TOTAL_PLANIFIED_LOAD = 11;
+
+	/**
+	 * The feature id for the '<em><b>Unimputed Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TASK__UNIMPUTED_PLANIFIED_LOAD = 12;
+
+	/**
 	 * The number of structural features of the '<em>Task</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TASK_FEATURE_COUNT = 10;
+	int TASK_FEATURE_COUNT = 13;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.ImputationImpl <em>Imputation</em>}' class.
@@ -660,13 +687,40 @@ public interface NajaPackage extends EPackage {
 	int CATEGORY__LAST_DATE = 8;
 
 	/**
+	 * The feature id for the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CATEGORY__IMPUTED_LOAD = 9;
+
+	/**
+	 * The feature id for the '<em><b>Total Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CATEGORY__TOTAL_PLANIFIED_LOAD = 10;
+
+	/**
+	 * The feature id for the '<em><b>Unimputed Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CATEGORY__UNIMPUTED_PLANIFIED_LOAD = 11;
+
+	/**
 	 * The number of structural features of the '<em>Category</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CATEGORY_FEATURE_COUNT = 9;
+	int CATEGORY_FEATURE_COUNT = 12;
 
 
 	/**
@@ -1097,6 +1151,39 @@ public interface NajaPackage extends EPackage {
 	EAttribute getTask_LastDate();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Task#getImputedLoad <em>Imputed Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Imputed Load</em>'.
+	 * @see com.jeevaneo.naja.Task#getImputedLoad()
+	 * @see #getTask()
+	 * @generated
+	 */
+	EAttribute getTask_ImputedLoad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Task#getTotalPlanifiedLoad <em>Total Planified Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Total Planified Load</em>'.
+	 * @see com.jeevaneo.naja.Task#getTotalPlanifiedLoad()
+	 * @see #getTask()
+	 * @generated
+	 */
+	EAttribute getTask_TotalPlanifiedLoad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Task#getUnimputedPlanifiedLoad <em>Unimputed Planified Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Unimputed Planified Load</em>'.
+	 * @see com.jeevaneo.naja.Task#getUnimputedPlanifiedLoad()
+	 * @see #getTask()
+	 * @generated
+	 */
+	EAttribute getTask_UnimputedPlanifiedLoad();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Imputation <em>Imputation</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1522,6 +1609,39 @@ public interface NajaPackage extends EPackage {
 	EAttribute getCategory_LastDate();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Category#getImputedLoad <em>Imputed Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Imputed Load</em>'.
+	 * @see com.jeevaneo.naja.Category#getImputedLoad()
+	 * @see #getCategory()
+	 * @generated
+	 */
+	EAttribute getCategory_ImputedLoad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Category#getTotalPlanifiedLoad <em>Total Planified Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Total Planified Load</em>'.
+	 * @see com.jeevaneo.naja.Category#getTotalPlanifiedLoad()
+	 * @see #getCategory()
+	 * @generated
+	 */
+	EAttribute getCategory_TotalPlanifiedLoad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Category#getUnimputedPlanifiedLoad <em>Unimputed Planified Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Unimputed Planified Load</em>'.
+	 * @see com.jeevaneo.naja.Category#getUnimputedPlanifiedLoad()
+	 * @see #getCategory()
+	 * @generated
+	 */
+	EAttribute getCategory_UnimputedPlanifiedLoad();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Schedule <em>Schedule</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1896,6 +2016,30 @@ public interface NajaPackage extends EPackage {
 		EAttribute TASK__LAST_DATE = eINSTANCE.getTask_LastDate();
 
 		/**
+		 * The meta object literal for the '<em><b>Imputed Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TASK__IMPUTED_LOAD = eINSTANCE.getTask_ImputedLoad();
+
+		/**
+		 * The meta object literal for the '<em><b>Total Planified Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TASK__TOTAL_PLANIFIED_LOAD = eINSTANCE.getTask_TotalPlanifiedLoad();
+
+		/**
+		 * The meta object literal for the '<em><b>Unimputed Planified Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TASK__UNIMPUTED_PLANIFIED_LOAD = eINSTANCE.getTask_UnimputedPlanifiedLoad();
+
+		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ImputationImpl <em>Imputation</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -2214,6 +2358,30 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute CATEGORY__LAST_DATE = eINSTANCE.getCategory_LastDate();
+
+		/**
+		 * The meta object literal for the '<em><b>Imputed Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CATEGORY__IMPUTED_LOAD = eINSTANCE.getCategory_ImputedLoad();
+
+		/**
+		 * The meta object literal for the '<em><b>Total Planified Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CATEGORY__TOTAL_PLANIFIED_LOAD = eINSTANCE.getCategory_TotalPlanifiedLoad();
+
+		/**
+		 * The meta object literal for the '<em><b>Unimputed Planified Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute CATEGORY__UNIMPUTED_PLANIFIED_LOAD = eINSTANCE.getCategory_UnimputedPlanifiedLoad();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.ScheduleImpl <em>Schedule</em>}' class.

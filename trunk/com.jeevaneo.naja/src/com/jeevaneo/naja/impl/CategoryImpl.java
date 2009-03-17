@@ -39,6 +39,9 @@ import com.jeevaneo.naja.Task;
  *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getPriority <em>Priority</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getImputedLoad <em>Imputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getTotalPlanifiedLoad <em>Total Planified Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.CategoryImpl#getUnimputedPlanifiedLoad <em>Unimputed Planified Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -138,6 +141,36 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected static final Date LAST_DATE_EDEFAULT = null;
 
 	/**
+	 * The default value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getImputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int IMPUTED_LOAD_EDEFAULT = 0;
+
+	/**
+	 * The default value of the '{@link #getTotalPlanifiedLoad() <em>Total Planified Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getTotalPlanifiedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int TOTAL_PLANIFIED_LOAD_EDEFAULT = 0;
+
+	/**
+	 * The default value of the '{@link #getUnimputedPlanifiedLoad() <em>Unimputed Planified Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getUnimputedPlanifiedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int UNIMPUTED_PLANIFIED_LOAD_EDEFAULT = 0;
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -153,7 +186,12 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	protected EClass eStaticClass() {
 		return NajaPackage.Literals.CATEGORY;
 	}
-
+	
+	/**
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
+	 * 
+	 * @generated NOT
+	 */
 	public int getTotalLoad() {
 		int ret = 0;
 		for (Task t : getTasks()) {
@@ -164,7 +202,12 @@ public class CategoryImpl extends EObjectImpl implements Category {
 		}
 		return ret;
 	}
-
+	
+	/**
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
+	 * 
+	 * @generated NOT
+	 */
 	public int getUnaffectedLoad() {
 		int ret = 0;
 		for (Task t : getTasks()) {
@@ -262,6 +305,54 @@ public class CategoryImpl extends EObjectImpl implements Category {
 			}
 		}
 		return ret;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getImputedLoad() {
+		int ret = 0;
+		for (Task t : getTasks()) {
+			ret += t.getImputedLoad();
+		}
+		for (Category subcat : getSubcategories()) {
+			ret += subcat.getImputedLoad();
+		}
+		return ret;		
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getTotalPlanifiedLoad() {
+		int ret = 0;
+		for (Task t : getTasks()) {
+			ret += t.getTotalPlanifiedLoad();
+		}
+		for (Category subcat : getSubcategories()) {
+			ret += subcat.getTotalPlanifiedLoad();
+		}
+		return ret;	
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getUnimputedPlanifiedLoad() {
+		int ret = 0;
+		for (Task t : getTasks()) {
+			ret += t.getUnimputedPlanifiedLoad();
+		}
+		for (Category subcat : getSubcategories()) {
+			ret += subcat.getUnimputedPlanifiedLoad();
+		}
+		return ret;	
 	}
 
 	/**
@@ -422,6 +513,12 @@ public class CategoryImpl extends EObjectImpl implements Category {
 				return getFirstDate();
 			case NajaPackage.CATEGORY__LAST_DATE:
 				return getLastDate();
+			case NajaPackage.CATEGORY__IMPUTED_LOAD:
+				return new Integer(getImputedLoad());
+			case NajaPackage.CATEGORY__TOTAL_PLANIFIED_LOAD:
+				return new Integer(getTotalPlanifiedLoad());
+			case NajaPackage.CATEGORY__UNIMPUTED_PLANIFIED_LOAD:
+				return new Integer(getUnimputedPlanifiedLoad());
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -506,6 +603,12 @@ public class CategoryImpl extends EObjectImpl implements Category {
 				return FIRST_DATE_EDEFAULT == null ? getFirstDate() != null : !FIRST_DATE_EDEFAULT.equals(getFirstDate());
 			case NajaPackage.CATEGORY__LAST_DATE:
 				return LAST_DATE_EDEFAULT == null ? getLastDate() != null : !LAST_DATE_EDEFAULT.equals(getLastDate());
+			case NajaPackage.CATEGORY__IMPUTED_LOAD:
+				return getImputedLoad() != IMPUTED_LOAD_EDEFAULT;
+			case NajaPackage.CATEGORY__TOTAL_PLANIFIED_LOAD:
+				return getTotalPlanifiedLoad() != TOTAL_PLANIFIED_LOAD_EDEFAULT;
+			case NajaPackage.CATEGORY__UNIMPUTED_PLANIFIED_LOAD:
+				return getUnimputedPlanifiedLoad() != UNIMPUTED_PLANIFIED_LOAD_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

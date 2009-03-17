@@ -60,7 +60,7 @@ public interface VirtualImputation extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>First Date</em>' attribute.
 	 * @see com.jeevaneo.naja.NajaPackage#getVirtualImputation_FirstDate()
-	 * @model required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @model transient="true" changeable="false" volatile="true" derived="true"
 	 * @generated
 	 */
 	Date getFirstDate();
@@ -75,7 +75,7 @@ public interface VirtualImputation extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Last Date</em>' attribute.
 	 * @see com.jeevaneo.naja.NajaPackage#getVirtualImputation_LastDate()
-	 * @model required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @model transient="true" changeable="false" volatile="true" derived="true"
 	 * @generated
 	 */
 	Date getLastDate();
@@ -119,7 +119,7 @@ public interface VirtualImputation extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Schedules</em>' containment reference list.
 	 * @see com.jeevaneo.naja.NajaPackage#getVirtualImputation_Schedules()
-	 * @model containment="true" required="true"
+	 * @model containment="true"
 	 * @generated
 	 */
 	EList<Schedule> getSchedules();

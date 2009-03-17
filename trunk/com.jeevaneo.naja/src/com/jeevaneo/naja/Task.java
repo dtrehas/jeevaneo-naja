@@ -29,6 +29,9 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Task#getCategory <em>Category</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Task#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Task#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Task#getImputedLoad <em>Imputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Task#getTotalPlanifiedLoad <em>Total Planified Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Task#getUnimputedPlanifiedLoad <em>Unimputed Planified Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -261,5 +264,49 @@ public interface Task extends EObject {
 	 * @generated
 	 */
 	Date getLastDate();
+
+	/**
+	 * Returns the value of the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * <!-- begin-model-doc -->
+	 * Total sum of every imputation for that particular task.
+	 * <!-- end-model-doc -->
+	 * @return the value of the '<em>Imputed Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getTask_ImputedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getImputedLoad();
+
+	/**
+	 * Returns the value of the '<em><b>Total Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Total Planified Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Total Planified Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getTask_TotalPlanifiedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getTotalPlanifiedLoad();
+
+	/**
+	 * Returns the value of the '<em><b>Unimputed Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Unimputed Planified Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Unimputed Planified Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getTask_UnimputedPlanifiedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getUnimputedPlanifiedLoad();
 
 } // Task

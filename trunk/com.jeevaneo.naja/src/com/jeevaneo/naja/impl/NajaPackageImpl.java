@@ -374,6 +374,33 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getTask_ImputedLoad() {
+		return (EAttribute)taskEClass.getEStructuralFeatures().get(10);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getTask_TotalPlanifiedLoad() {
+		return (EAttribute)taskEClass.getEStructuralFeatures().get(11);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getTask_UnimputedPlanifiedLoad() {
+		return (EAttribute)taskEClass.getEStructuralFeatures().get(12);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getImputation() {
 		return imputationEClass;
 	}
@@ -725,6 +752,33 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getCategory_ImputedLoad() {
+		return (EAttribute)categoryEClass.getEStructuralFeatures().get(9);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getCategory_TotalPlanifiedLoad() {
+		return (EAttribute)categoryEClass.getEStructuralFeatures().get(10);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getCategory_UnimputedPlanifiedLoad() {
+		return (EAttribute)categoryEClass.getEStructuralFeatures().get(11);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getSchedule() {
 		return scheduleEClass;
 	}
@@ -915,6 +969,9 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEReference(taskEClass, TASK__CATEGORY);
 		createEAttribute(taskEClass, TASK__FIRST_DATE);
 		createEAttribute(taskEClass, TASK__LAST_DATE);
+		createEAttribute(taskEClass, TASK__IMPUTED_LOAD);
+		createEAttribute(taskEClass, TASK__TOTAL_PLANIFIED_LOAD);
+		createEAttribute(taskEClass, TASK__UNIMPUTED_PLANIFIED_LOAD);
 
 		imputationEClass = createEClass(IMPUTATION);
 		createEAttribute(imputationEClass, IMPUTATION__COMMENT);
@@ -958,6 +1015,9 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		createEAttribute(categoryEClass, CATEGORY__PRIORITY);
 		createEAttribute(categoryEClass, CATEGORY__FIRST_DATE);
 		createEAttribute(categoryEClass, CATEGORY__LAST_DATE);
+		createEAttribute(categoryEClass, CATEGORY__IMPUTED_LOAD);
+		createEAttribute(categoryEClass, CATEGORY__TOTAL_PLANIFIED_LOAD);
+		createEAttribute(categoryEClass, CATEGORY__UNIMPUTED_PLANIFIED_LOAD);
 
 		scheduleEClass = createEClass(SCHEDULE);
 		createEAttribute(scheduleEClass, SCHEDULE__DATE);
@@ -1019,7 +1079,7 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEReference(getPerson_Planifications(), this.getPlanification(), this.getPlanification_Resource(), "planifications", null, 0, -1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPerson_AvailabilityStartDate(), ecorePackage.getEDate(), "availabilityStartDate", null, 1, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getPerson_AvailableSchedules(), this.getSchedule(), null, "availableSchedules", null, 0, -1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, !IS_UNIQUE, IS_DERIVED, IS_ORDERED);
-		initEAttribute(getPerson_LastDate(), ecorePackage.getEDate(), "lastDate", null, 1, 1, Person.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getPerson_LastDate(), ecorePackage.getEDate(), "lastDate", null, 0, 1, Person.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getPerson_MaxLoadPerDay(), ecorePackage.getEInt(), "maxLoadPerDay", "8", 1, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(taskEClass, Task.class, "Task", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -1033,6 +1093,9 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEReference(getTask_Category(), this.getCategory(), this.getCategory_Tasks(), "category", null, 0, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTask_FirstDate(), ecorePackage.getEDate(), "firstDate", null, 0, 1, Task.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTask_LastDate(), ecorePackage.getEDate(), "lastDate", null, 0, 1, Task.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTask_ImputedLoad(), ecorePackage.getEInt(), "imputedLoad", null, 1, 1, Task.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
+		initEAttribute(getTask_TotalPlanifiedLoad(), ecorePackage.getEInt(), "totalPlanifiedLoad", null, 1, 1, Task.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
+		initEAttribute(getTask_UnimputedPlanifiedLoad(), ecorePackage.getEInt(), "unimputedPlanifiedLoad", null, 1, 1, Task.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
 
 		initEClass(imputationEClass, Imputation.class, "Imputation", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getImputation_Comment(), ecorePackage.getEString(), "comment", null, 0, 1, Imputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -1076,6 +1139,9 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 		initEAttribute(getCategory_Priority(), ecorePackage.getEInt(), "priority", "0", 0, 1, Category.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCategory_FirstDate(), ecorePackage.getEDate(), "firstDate", null, 0, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getCategory_LastDate(), ecorePackage.getEDate(), "lastDate", null, 0, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getCategory_ImputedLoad(), ecorePackage.getEInt(), "imputedLoad", null, 1, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
+		initEAttribute(getCategory_TotalPlanifiedLoad(), ecorePackage.getEInt(), "totalPlanifiedLoad", null, 1, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
+		initEAttribute(getCategory_UnimputedPlanifiedLoad(), ecorePackage.getEInt(), "unimputedPlanifiedLoad", null, 1, 1, Category.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
 
 		initEClass(scheduleEClass, Schedule.class, "Schedule", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getSchedule_Date(), ecorePackage.getEDate(), "date", null, 1, 1, Schedule.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -1084,10 +1150,10 @@ public class NajaPackageImpl extends EPackageImpl implements NajaPackage {
 
 		initEClass(virtualImputationEClass, VirtualImputation.class, "VirtualImputation", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getVirtualImputation_TotalLoad(), ecorePackage.getEInt(), "totalLoad", "0", 1, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getVirtualImputation_FirstDate(), ecorePackage.getEDate(), "firstDate", null, 1, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
-		initEAttribute(getVirtualImputation_LastDate(), ecorePackage.getEDate(), "lastDate", null, 1, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getVirtualImputation_FirstDate(), ecorePackage.getEDate(), "firstDate", null, 0, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
+		initEAttribute(getVirtualImputation_LastDate(), ecorePackage.getEDate(), "lastDate", null, 0, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEReference(getVirtualImputation_Planification(), this.getPlanification(), this.getPlanification_VirtualImputation(), "planification", null, 1, 1, VirtualImputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getVirtualImputation_Schedules(), this.getSchedule(), null, "schedules", null, 1, -1, VirtualImputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getVirtualImputation_Schedules(), this.getSchedule(), null, "schedules", null, 0, -1, VirtualImputation.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getVirtualImputation_Label(), ecorePackage.getEString(), "label", null, 1, 1, VirtualImputation.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 
 		initEClass(taskMappingEClass, TaskMapping.class, "TaskMapping", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);

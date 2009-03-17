@@ -24,6 +24,9 @@ import junit.textui.TestRunner;
  *   <li>{@link com.jeevaneo.naja.Category#getUnaffectedLoad() <em>Unaffected Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getFirstDate() <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getLastDate() <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getImputedLoad() <em>Imputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getTotalPlanifiedLoad() <em>Total Planified Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getUnimputedPlanifiedLoad() <em>Unimputed Planified Load</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -146,6 +149,45 @@ public class CategoryTest extends TestCase {
 	 * @generated
 	 */
 	public void testGetLastDate() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Category#getImputedLoad() <em>Imputed Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Category#getImputedLoad()
+	 * @generated
+	 */
+	public void testGetImputedLoad() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Category#getTotalPlanifiedLoad() <em>Total Planified Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Category#getTotalPlanifiedLoad()
+	 * @generated
+	 */
+	public void testGetTotalPlanifiedLoad() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Category#getUnimputedPlanifiedLoad() <em>Unimputed Planified Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Category#getUnimputedPlanifiedLoad()
+	 * @generated
+	 */
+	public void testGetUnimputedPlanifiedLoad() {
 		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();

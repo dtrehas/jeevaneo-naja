@@ -73,6 +73,9 @@ public class CategoryItemProvider
 			addPriorityPropertyDescriptor(object);
 			addFirstDatePropertyDescriptor(object);
 			addLastDatePropertyDescriptor(object);
+			addImputedLoadPropertyDescriptor(object);
+			addTotalPlanifiedLoadPropertyDescriptor(object);
+			addUnimputedPlanifiedLoadPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -210,6 +213,72 @@ public class CategoryItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Imputed Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addImputedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Category_imputedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Category_imputedLoad_feature", "_UI_Category_type"),
+				 NajaPackage.Literals.CATEGORY__IMPUTED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Total Planified Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addTotalPlanifiedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Category_totalPlanifiedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Category_totalPlanifiedLoad_feature", "_UI_Category_type"),
+				 NajaPackage.Literals.CATEGORY__TOTAL_PLANIFIED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Unimputed Planified Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addUnimputedPlanifiedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Category_unimputedPlanifiedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Category_unimputedPlanifiedLoad_feature", "_UI_Category_type"),
+				 NajaPackage.Literals.CATEGORY__UNIMPUTED_PLANIFIED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -283,6 +352,9 @@ public class CategoryItemProvider
 			case NajaPackage.CATEGORY__PRIORITY:
 			case NajaPackage.CATEGORY__FIRST_DATE:
 			case NajaPackage.CATEGORY__LAST_DATE:
+			case NajaPackage.CATEGORY__IMPUTED_LOAD:
+			case NajaPackage.CATEGORY__TOTAL_PLANIFIED_LOAD:
+			case NajaPackage.CATEGORY__UNIMPUTED_PLANIFIED_LOAD:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case NajaPackage.CATEGORY__SUBCATEGORIES:

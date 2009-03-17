@@ -28,6 +28,9 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Category#getPriority <em>Priority</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Category#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getImputedLoad <em>Imputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getTotalPlanifiedLoad <em>Total Planified Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Category#getUnimputedPlanifiedLoad <em>Unimputed Planified Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -212,5 +215,50 @@ public interface Category extends EObject {
 	 * @generated
 	 */
 	Date getLastDate();
+
+	/**
+	 * Returns the value of the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Imputed Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Imputed Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getCategory_ImputedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getImputedLoad();
+
+	/**
+	 * Returns the value of the '<em><b>Total Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Total Planified Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Total Planified Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getCategory_TotalPlanifiedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getTotalPlanifiedLoad();
+
+	/**
+	 * Returns the value of the '<em><b>Unimputed Planified Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Unimputed Planified Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Unimputed Planified Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getCategory_UnimputedPlanifiedLoad()
+	 * @model unique="false" required="true" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getUnimputedPlanifiedLoad();
 
 } // Category

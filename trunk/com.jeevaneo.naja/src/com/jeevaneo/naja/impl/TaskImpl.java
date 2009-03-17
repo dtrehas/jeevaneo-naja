@@ -43,6 +43,9 @@ import com.jeevaneo.naja.NajaPackage;
  *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getCategory <em>Category</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getFirstDate <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getLastDate <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getImputedLoad <em>Imputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getTotalPlanifiedLoad <em>Total Planified Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.TaskImpl#getUnimputedPlanifiedLoad <em>Unimputed Planified Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -169,6 +172,36 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 * @ordered
 	 */
 	protected static final Date LAST_DATE_EDEFAULT = null;
+
+	/**
+	 * The default value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getImputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int IMPUTED_LOAD_EDEFAULT = 0;
+
+	/**
+	 * The default value of the '{@link #getTotalPlanifiedLoad() <em>Total Planified Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getTotalPlanifiedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int TOTAL_PLANIFIED_LOAD_EDEFAULT = 0;
+
+	/**
+	 * The default value of the '{@link #getUnimputedPlanifiedLoad() <em>Unimputed Planified Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getUnimputedPlanifiedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int UNIMPUTED_PLANIFIED_LOAD_EDEFAULT = 0;
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
@@ -356,7 +389,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 			}
 			else
 			{
-				if(ret.after(imp.getDate()))
+				if(null!=imp.getDate() && ret.after(imp.getDate()))
 				{
 					ret = imp.getDate();
 				}
@@ -413,6 +446,48 @@ public class TaskImpl extends EObjectImpl implements Task {
 					ret = p.getLastDate();
 				}
 			}
+		}
+		return ret;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getImputedLoad() {
+		int ret = 0;
+		for(Imputation imputation : getImputations())
+		{
+			ret += imputation.getLoad();
+		}
+		return ret;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getTotalPlanifiedLoad() {
+		int ret = 0;
+		for(Planification planification : getPlanifications())
+		{
+			ret += planification.getLoad();
+		}
+		return ret;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getUnimputedPlanifiedLoad() {
+		int ret = 0;
+		for(Planification planification : getPlanifications())
+		{
+			ret += planification.getUnimputedLoad();
 		}
 		return ret;
 	}
@@ -508,6 +583,12 @@ public class TaskImpl extends EObjectImpl implements Task {
 				return getFirstDate();
 			case NajaPackage.TASK__LAST_DATE:
 				return getLastDate();
+			case NajaPackage.TASK__IMPUTED_LOAD:
+				return new Integer(getImputedLoad());
+			case NajaPackage.TASK__TOTAL_PLANIFIED_LOAD:
+				return new Integer(getTotalPlanifiedLoad());
+			case NajaPackage.TASK__UNIMPUTED_PLANIFIED_LOAD:
+				return new Integer(getUnimputedPlanifiedLoad());
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -606,6 +687,12 @@ public class TaskImpl extends EObjectImpl implements Task {
 				return FIRST_DATE_EDEFAULT == null ? getFirstDate() != null : !FIRST_DATE_EDEFAULT.equals(getFirstDate());
 			case NajaPackage.TASK__LAST_DATE:
 				return LAST_DATE_EDEFAULT == null ? getLastDate() != null : !LAST_DATE_EDEFAULT.equals(getLastDate());
+			case NajaPackage.TASK__IMPUTED_LOAD:
+				return getImputedLoad() != IMPUTED_LOAD_EDEFAULT;
+			case NajaPackage.TASK__TOTAL_PLANIFIED_LOAD:
+				return getTotalPlanifiedLoad() != TOTAL_PLANIFIED_LOAD_EDEFAULT;
+			case NajaPackage.TASK__UNIMPUTED_PLANIFIED_LOAD:
+				return getUnimputedPlanifiedLoad() != UNIMPUTED_PLANIFIED_LOAD_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

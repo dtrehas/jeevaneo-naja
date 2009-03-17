@@ -231,7 +231,7 @@ public interface Person extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Last Date</em>' attribute.
 	 * @see com.jeevaneo.naja.NajaPackage#getPerson_LastDate()
-	 * @model required="true" transient="true" changeable="false" volatile="true" derived="true"
+	 * @model transient="true" changeable="false" volatile="true" derived="true"
 	 * @generated
 	 */
 	Date getLastDate();
