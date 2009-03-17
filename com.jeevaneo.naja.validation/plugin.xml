@@ -26,9 +26,32 @@
                   Every resource should have a positive left availability.
                </description>
                <target
-                     class="com.jeevaneo.naja.Person">
+                     class="org.eclipse.emf.ecore.EObject">
                </target>
-            </constraint></constraints>
+            </constraint>
+        <constraint
+         lang="OCL"
+         severity="ERROR"
+         mode="Live"
+         name="example2.name"
+         id="example2"
+         statusCode="102">
+      <description>Mon premier test d'OCL</description>
+      <message>Hey! Tu violes mon premier test d'OCL! {0}</message>
+      <target class="com.jeevaneo.naja.Person">
+         <event name="Set">
+            <feature
+                  name="login">
+            </feature>
+         </event>
+      </target>
+      <![CDATA[
+         not self->getlogin()->contains("a")
+      ]]>
+      
+      
+   </constraint>
+</constraints>
       </constraintProvider>
       <category
             id="com.jeevaneo.naja.validation.category"
@@ -59,7 +82,7 @@
 TimeEntry generated imputations may have a planification.
                </description>
                <target
-                     class="com.jeevaneo.naja.TimeEntry">
+                     class="java.lang.Object">
                </target>
             </constraint>
          </constraints>
@@ -77,6 +100,20 @@ TimeEntry generated imputations may have a planification.
       <binding
             category="com.jeevaneo.naja.validation.category"
             context="com.jeevaneo.naja.validation.context">
+      </binding>
+   </extension>
+   <extension
+         point="org.eclipse.emf.validation.constraintBindings">
+      <clientContext
+            default="false"
+            id="com.jeevaneo.naja.validation.context2">
+         <selector
+               class="com.jeevaneo.naja.validation.ClientSelector">
+         </selector>
+      </clientContext>
+      <binding
+            category="com.jeevaneo.naja.validation.category2"
+            context="com.jeevaneo.naja.validation.context2">
       </binding>
    </extension>
    <extension
@@ -106,20 +143,6 @@ TimeEntry generated imputations may have a planification.
       <startup
             class="com.jeevaneo.naja.validation.startup.ValidatorRegisterer">
       </startup>
-   </extension>
-   <extension
-         point="org.eclipse.emf.validation.constraintBindings">
-      <clientContext
-            default="false"
-            id="com.jeevaneo.naja.validation.context2">
-         <selector
-               class="com.jeevaneo.naja.validation.ClientSelector">
-         </selector>
-      </clientContext>
-      <binding
-            category="com.jeevaneo.naja.validation.category2"
-            context="com.jeevaneo.naja.validation.context2">
-      </binding>
    </extension>
 
 </plugin>

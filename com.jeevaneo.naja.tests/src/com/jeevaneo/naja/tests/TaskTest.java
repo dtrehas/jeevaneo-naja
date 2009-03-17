@@ -23,6 +23,9 @@ import junit.textui.TestRunner;
  *   <li>{@link com.jeevaneo.naja.Task#getUnaffectedLoad() <em>Unaffected Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Task#getFirstDate() <em>First Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Task#getLastDate() <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Task#getImputedLoad() <em>Imputed Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Task#getTotalPlanifiedLoad() <em>Total Planified Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Task#getUnimputedPlanifiedLoad() <em>Unimputed Planified Load</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -145,6 +148,45 @@ public class TaskTest extends TestCase {
 	 * @generated
 	 */
 	public void testGetLastDate() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Task#getImputedLoad() <em>Imputed Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Task#getImputedLoad()
+	 * @generated
+	 */
+	public void testGetImputedLoad() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Task#getTotalPlanifiedLoad() <em>Total Planified Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Task#getTotalPlanifiedLoad()
+	 * @generated
+	 */
+	public void testGetTotalPlanifiedLoad() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Task#getUnimputedPlanifiedLoad() <em>Unimputed Planified Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Task#getUnimputedPlanifiedLoad()
+	 * @generated
+	 */
+	public void testGetUnimputedPlanifiedLoad() {
 		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();

@@ -75,6 +75,18 @@
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Task/lastDate"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_FVv7AQO_Ed6fvvANYBlGoQ"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_pnAHMBIQEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Task/imputedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pnAHMRIQEd6p5fdKn6-kmg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_raL8EBIQEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Task/totalPlanifiedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_raL8ERIQEd6p5fdKn6-kmg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ssl_IBIQEd6p5fdKn6-kmg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Task/unimputedPlanifiedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ssl_IRIQEd6p5fdKn6-kmg"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_VeARZfqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_VeARZvqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_VeARZ_qSEd2_8NSLID6Jxg"/>
@@ -218,6 +230,18 @@
       <children xmi:type="notation:Node" xmi:id="_VuZ5kAPBEd6fvvANYBlGoQ" type="2001">
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Category/lastDate"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_VuZ5kQPBEd6fvvANYBlGoQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_qYyAQBJOEd60K6yG-1Ijhg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Category/imputedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qYyAQRJOEd60K6yG-1Ijhg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_r-ahUBJOEd60K6yG-1Ijhg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Category/totalPlanifiedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_r-ahURJOEd60K6yG-1Ijhg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_s6Am4BJOEd60K6yG-1Ijhg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Category/unimputedPlanifiedLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s6Am4RJOEd60K6yG-1Ijhg"/>
       </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_wmo5xfyOEd28oekAVuFVpg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_wmo5xvyOEd28oekAVuFVpg"/>

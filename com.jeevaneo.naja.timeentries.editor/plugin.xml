@@ -66,6 +66,41 @@
             </or>
          </visibility>
       </objectContribution>
+      <objectContribution
+            id="com.jeevaneo.naja.timeentries.popup.actions.contribution2"
+            objectClass="org.eclipse.emf.ecore.EObject">
+         <menu
+               id="com.jeevaneo.naja.timeentries.menu"
+               label="Naja Ïvô|€ cleaner"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.timeentries.popup.actions.CleanPlanificationImputationsForIvoleAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.timeentries.popup.actions.GenerateImputationsAction"
+               label="Clean planifications for Ïvô|€"
+               menubarPath="com.jeevaneo.naja.timeentries.menu/group1">
+         </action>
+         <visibility>
+            <or>
+               <objectClass
+                     name="com.jeevaneo.naja.Project">
+               </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.Planification">
+               </objectClass>
+            </or>
+         </visibility>
+      </objectContribution>
+   </extension>
+   <extension
+         id="noPlanificationFound"
+         name="No planification found for Time Entry"
+         point="org.eclipse.core.resources.markers">
+        <super type="org.eclipse.emf.validation.problem"/>
    </extension>
 
 </plugin>

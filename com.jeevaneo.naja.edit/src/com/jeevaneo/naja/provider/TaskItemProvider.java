@@ -73,6 +73,9 @@ public class TaskItemProvider
 			addLabelPropertyDescriptor(object);
 			addFirstDatePropertyDescriptor(object);
 			addLastDatePropertyDescriptor(object);
+			addImputedLoadPropertyDescriptor(object);
+			addTotalPlanifiedLoadPropertyDescriptor(object);
+			addUnimputedPlanifiedLoadPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -276,6 +279,72 @@ public class TaskItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Imputed Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addImputedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Task_imputedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Task_imputedLoad_feature", "_UI_Task_type"),
+				 NajaPackage.Literals.TASK__IMPUTED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Total Planified Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addTotalPlanifiedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Task_totalPlanifiedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Task_totalPlanifiedLoad_feature", "_UI_Task_type"),
+				 NajaPackage.Literals.TASK__TOTAL_PLANIFIED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Unimputed Planified Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addUnimputedPlanifiedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Task_unimputedPlanifiedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Task_unimputedPlanifiedLoad_feature", "_UI_Task_type"),
+				 NajaPackage.Literals.TASK__UNIMPUTED_PLANIFIED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This returns Task.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -319,6 +388,9 @@ public class TaskItemProvider
 			case NajaPackage.TASK__LABEL:
 			case NajaPackage.TASK__FIRST_DATE:
 			case NajaPackage.TASK__LAST_DATE:
+			case NajaPackage.TASK__IMPUTED_LOAD:
+			case NajaPackage.TASK__TOTAL_PLANIFIED_LOAD:
+			case NajaPackage.TASK__UNIMPUTED_PLANIFIED_LOAD:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}
