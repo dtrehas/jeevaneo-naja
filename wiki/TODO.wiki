@@ -1,0 +1,12 @@
+#summary A list of what I want to do
+= Introduction =
+
+What I want to do on Naja...
+
+
+= Details =
+
+  * Better handle validations
+  * Add an *absence* management (handled as imputations for now...)
+  * Focus on imputations with dates out of the resource's availability
+  * ...
