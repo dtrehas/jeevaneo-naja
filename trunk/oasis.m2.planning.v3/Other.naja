@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Other">
+  <planifications task="//@categories.1/@tasks.0" load="226" maxLoadPerDay="3">
+    <resource href="resources/AGI_97061a.naja#/"/>
+    <virtualImputation>
+      <schedules date="2009-03-09T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-10T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-11T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-12T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-13T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-16T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-17T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-18T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-19T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-20T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-23T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-24T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-25T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-26T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-27T00:00:00.000+0100" load="3"/>
+      <schedules date="2009-03-30T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-03-31T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-01T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-02T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-03T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-06T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-07T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-08T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-09T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-10T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-14T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-15T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-16T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-17T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-20T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-21T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-22T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-23T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-24T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-27T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-28T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-29T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-04-30T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-11T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-12T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-13T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-14T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-15T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-18T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-19T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-20T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-25T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-26T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-27T00:00:00.000+0200" load="3"/>
+    </virtualImputation>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.65/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.112/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.148/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.164/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.200/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.239/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.219/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.266/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.275/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.320/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.302/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.334/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.357/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.394/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.409/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.431/@imputation"/>
+    <imputations href="TimeEntries/20090105.timeentries#//@entries.419/@imputation"/>
+  </planifications>
+  <categories name="COU/PDF">
+    <tasks totalLoad="4" name="COU/PDF">
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.159/@imputation"/>
+    </tasks>
+  </categories>
+  <categories name="LI">
+    <tasks totalLoad="264" name="LI" planifications="//@planifications.0">
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.4/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.6/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.57/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.58/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.60/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.127/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.130/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.132/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.134/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.135/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.65/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.112/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.148/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.164/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.200/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.239/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.219/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.266/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.275/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.320/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.302/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.334/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.357/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.394/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.409/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.431/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.419/@imputation"/>
+    </tasks>
+  </categories>
+</jeevaneo-naja:Project>

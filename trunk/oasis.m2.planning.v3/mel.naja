@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Mehdi El Kouhen" login="" totalAvailability="256" availabilityStartDate="2009-02-16T00:00:00.000+0100">
+  <planifications href="M2.naja#//@planifications.6"/>
+  <planifications href="conges.naja#//@planifications.0"/>
+  <planifications href="M2.naja#//@planifications.8"/>
+  <planifications href="M2.naja#//@planifications.13"/>
+  <planifications href="M2.naja#//@planifications.25"/>
+  <planifications href="M2.naja#//@planifications.32"/>
+  <planifications href="M2.naja#//@planifications.35"/>
+  <planifications href="M2.naja#//@planifications.45"/>
+  <planifications href="M2.naja#//@planifications.47"/>
+  <planifications href="M2.naja#//@planifications.16"/>
+  <planifications href="M2.naja#//@planifications.38"/>
+  <planifications href="M2.naja#//@planifications.68"/>
+  <planifications href="M2.naja#//@planifications.88"/>
+  <planifications href="M2.naja#//@planifications.91"/>
+  <planifications href="M2.naja#//@planifications.101"/>
+  <planifications href="M2.naja#//@planifications.112"/>
+  <planifications href="M2.naja#//@planifications.113"/>
+</jeevaneo-naja:Person>

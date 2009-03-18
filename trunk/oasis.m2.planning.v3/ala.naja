@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Alexandre Labaere" login="97259d" totalAvailability="1380" availabilityStartDate="2009-02-16T00:00:00.000+0100">
+  <planifications href="M2.naja#//@planifications.5"/>
+  <planifications href="M2.naja#//@planifications.73"/>
+  <planifications href="M2.naja#//@planifications.24"/>
+  <planifications href="M2.naja#//@planifications.27"/>
+  <planifications href="conges.naja#//@planifications.3"/>
+  <planifications href="M2.naja#//@planifications.14"/>
+  <planifications href="M2.naja#//@planifications.7"/>
+  <planifications href="M2.naja#//@planifications.9"/>
+  <planifications href="M2.naja#//@planifications.11"/>
+  <planifications href="M2.naja#//@planifications.12"/>
+  <planifications href="M2.naja#//@planifications.75"/>
+  <planifications href="M2.naja#//@planifications.78"/>
+  <planifications href="M2.naja#//@planifications.17"/>
+  <planifications href="M2.naja#//@planifications.87"/>
+</jeevaneo-naja:Person>
