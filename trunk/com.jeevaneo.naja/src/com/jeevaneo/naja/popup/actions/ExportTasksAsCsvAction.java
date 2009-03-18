@@ -93,7 +93,7 @@ public class ExportTasksAsCsvAction implements IObjectActionDelegate {
 				tasks.addAll(proj.getTasks());
 				for(Category cat : proj.getCategories())
 				{
-					 listTasks(cat);
+					 tasks.addAll(listTasks(cat));
 				}				
 			}
 			

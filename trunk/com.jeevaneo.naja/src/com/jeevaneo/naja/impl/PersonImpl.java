@@ -469,6 +469,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 		// TODO continue!!
 		int i = 0;
 		int leftAvailability = totalAvailability;
+		
 		for (Date date : dates) {
 			Schedule schedule = NajaFactory.eINSTANCE.createSchedule();
 			schedule.setDate(date);
@@ -590,8 +591,14 @@ public class PersonImpl extends EObjectImpl implements Person {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(firstDate);
 		cal.add(Calendar.DAY_OF_WEEK, -1);
-		int leftDays = totalAvailability / getMaxLoadPerDay()
-				+ (totalAvailability % getMaxLoadPerDay() == 0 ? 0 : 1);
+		int availability = totalAvailability;
+		//TODO imputations can be before startAvailability
+//		for(Imputation imputation:getImputations())
+//		{
+//			availability-=imputation.getLoad();
+//		}
+		int leftDays = availability / getMaxLoadPerDay()
+				+ (availability % getMaxLoadPerDay() == 0 ? 0 : 1);
 		while (leftDays > 0) {
 			cal.add(Calendar.DAY_OF_WEEK, 1);
 			if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY
