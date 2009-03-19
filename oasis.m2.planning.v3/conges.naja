@@ -243,12 +243,6 @@
   <imputations comment="Absence Christophe 05/01" date="2009-01-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/CGE_97060h.naja#/"/>
   </imputations>
-  <imputations comment="Absence Christophe demie-journée 29/01" date="2009-01-29T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/CGE_97060h.naja#/"/>
-  </imputations>
-  <imputations comment="Absence Ali demie-journée 2009-02-09" date="2009-02-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/ALA_97259d.naja#/"/>
-  </imputations>
   <imputations comment="Absence JLT du 05/01 au 09/01 (05/01)" date="2009-01-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
@@ -263,9 +257,6 @@
   </imputations>
   <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
-  </imputations>
-  <imputations comment="Absence demie journée Mehdi 2009-01-06" date="2009-01-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
   <imputations comment="Absence Mehdi 2009-01-09" date="2009-01-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
@@ -288,17 +279,8 @@
   <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-13T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
   </imputations>
-  <imputations comment="Absence Pierre demie journée 2009-01-27" date="2009-01-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/PBR_97488r.naja#/"/>
-  </imputations>
-  <imputations comment="Absence GBO demie journée 2009-01-12" date="2009-01-12T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/GBO_97589h.naja#/"/>
-  </imputations>
-  <imputations comment="Absence Ali demie journée 2009-03-02" date="2009-03-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/ALA_97259d.naja#/"/>
-  </imputations>
   <categories name="Absences">
-    <tasks totalLoad="464" name="Congés">
+    <tasks totalLoad="800" name="Congés">
       <imputations href="#//@imputations.2"/>
       <imputations href="#//@imputations.3"/>
       <imputations href="#//@imputations.7"/>
@@ -399,12 +381,6 @@
       <imputations href="#//@imputations.90"/>
       <imputations href="#//@imputations.91"/>
       <imputations href="#//@imputations.92"/>
-      <imputations href="#//@imputations.93"/>
-      <imputations href="#//@imputations.94"/>
-      <imputations href="#//@imputations.95"/>
-      <imputations href="#//@imputations.96"/>
-      <imputations href="#//@imputations.97"/>
-      <imputations href="#//@imputations.98"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
