@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Les chantier nécessaires mais pas totalement indispensables">
+  <categories name="Nécessaire pour 421">
+    <tasks totalLoad="40" name="Perfs JNI"/>
+    <tasks totalLoad="16" name="BE hybride pourtests M1" label="Nécessaire pour 421/BE hybride pour tests M1"/>
+  </categories>
+  <categories name="Préférences ">
+    <subcategories name="Perspectives">
+      <tasks totalLoad="150" name="Etude pref Persp"/>
+      <tasks totalLoad="350" name="realisation Pref Persp"/>
+    </subcategories>
+  </categories>
+  <categories name="Banalisation">
+    <tasks totalLoad="20" name="Etude Banalisation"/>
+    <tasks totalLoad="16" name="Env vars set au runtime"/>
+    <tasks totalLoad="64" name="Conf tux dans ldap"/>
+    <tasks totalLoad="64" name="Lien user-conf"/>
+    <tasks totalLoad="200" name="Admin conf. LDAP/OAO"/>
+    <tasks totalLoad="24" name="Conf 1-n"/>
+    <tasks totalLoad="200" name="Env switcher"/>
+    <tasks name="DLLs et EXE dans la même arbo "/>
+    <tasks name="Install readonly + APPDATA + conf poste"/>
+    <tasks totalLoad="80" name="AMIPRO ?? "/>
+    <tasks name="Etude utilisation TPs autres que TP8"/>
+    <tasks name="BAS-like"/>
+    <tasks totalLoad="16" name="Doc Banalisation"/>
+  </categories>
+  <categories name="API Delphi (qui reste incomplète) ">
+    <tasks totalLoad="8" name="Conception API Delphi"/>
+    <tasks totalLoad="32" name="Dev API Delphi"/>
+    <tasks totalLoad="24" name="Tests et corr API Delphi"/>
+    <tasks totalLoad="8" name="Doc Dev &amp; diffusion API Delphi"/>
+  </categories>
+  <categories name="M2-M7">
+    <subcategories name="&quot;Multi workspace + features&quot;">
+      <tasks name="Conception"/>
+      <tasks name="Réalisation "/>
+      <tasks name="Industrialisation"/>
+      <tasks name="Docs / modops"/>
+    </subcategories>
+    <tasks name="Conf BE par environnement"/>
+    <tasks name="Layer env."/>
+    <tasks name="Dev BE sans GAT"/>
+    <tasks name="Dev GAT sans install GAT (!) "/>
+    <tasks totalLoad="48" name="OAO : export/import logs "/>
+    <tasks totalLoad="72" name="OAO : palliatif IDM "/>
+    <tasks totalLoad="160" name="Dbg.exe ne compile plus"/>
+    <tasks name="Que devient BAS ? "/>
+  </categories>
+  <categories name="Poste standard">
+    <tasks totalLoad="16" name="Specs/etude"/>
+    <tasks totalLoad="44" name="Réalisation "/>
+    <tasks totalLoad="20" name="Recette"/>
+  </categories>
+  <categories name="Télédistribution : risque de blocage par HOV ">
+    <tasks totalLoad="24" name="Tester sur pré-recette"/>
+    <tasks totalLoad="8" name="Communication"/>
+  </categories>
+  <categories name="Divers">
+    <tasks totalLoad="16" name="GFI : mono instance gestor/gesplan "/>
+    <tasks totalLoad="16" name="Serena : SAP consultation "/>
+    <tasks name="*.ini"/>
+    <tasks name="Maifsgdf.ini"/>
+    <tasks totalLoad="40" name="Validation impacts Oasis (polices TT) par DI (DBL...)"/>
+    <tasks totalLoad="24" name="Mise à jour des specs LID pour prise en compte modifications par George Lucas à faire par lui-même "/>
+    <tasks totalLoad="24" name="Synchronisation des mises-à-jour d'URLs LDAP vs lanceur.ini "/>
+  </categories>
+  <categories name="Projets adhérents ">
+    <subcategories name="Geode">
+      <tasks totalLoad="40" name="Analyser l'impact GRS "/>
+    </subcategories>
+    <subcategories name="GRS">
+      <subcategories name="Correctifs">
+        <tasks name="ActiveX IE : refactoring nécessaire ? "/>
+      </subcategories>
+      <subcategories name="Etape 2">
+        <tasks totalLoad="128" name="Wrappers GAT"/>
+        <tasks totalLoad="40" name="Wrappers Geode"/>
+        <tasks totalLoad="40" name="Wrappers : suppression ACC et impacts "/>
+        <tasks totalLoad="40" name="Wrappers : Suppression DOS /COL/INF + impacts "/>
+      </subcategories>
+    </subcategories>
+  </categories>
+  <categories name="Industrialisation">
+    <subcategories name="Construction par filière">
+      <subcategories name="Sortie socle de M2">
+        <tasks totalLoad="20" name="Modop ingé pour développeurs socle "/>
+        <tasks totalLoad="40" name="Support developpeurs Socle sur ingé"/>
+      </subcategories>
+    </subcategories>
+    <tasks totalLoad="32" name="Partage unique des plugins GAT/BE/OAO"/>
+    <tasks totalLoad="24" name="Paramétrisation des conf. CC / Env"/>
+  </categories>
+  <categories name="M2 - MOE - REALISER - Lot 424">
+    <subcategories name="OAO">
+      <tasks totalLoad="500" name="V2 ??(rapports etc.)"/>
+    </subcategories>
+  </categories>
+</jeevaneo-naja:Project>
