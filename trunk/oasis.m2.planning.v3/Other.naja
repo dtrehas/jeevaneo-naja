@@ -74,14 +74,14 @@
     <imputations href="TimeEntries/20090309.timeentries#//@entries.3/@imputation"/>
   </planifications>
   <categories name="COU/PDF">
-    <tasks totalLoad="4" name="COU/PDF">
+    <tasks totalLoad="8" name="COU/PDF">
       <imputations href="TimeEntries/20090216.timeentries#//@entries.159/@imputation"/>
       <imputations href="TimeEntries/20090309.timeentries#//@entries.40/@imputation"/>
       <imputations href="TimeEntries/20090309.timeentries#//@entries.52/@imputation"/>
     </tasks>
   </categories>
   <categories name="LI">
-    <tasks totalLoad="264" name="LI" planifications="//@planifications.0">
+    <tasks totalLoad="274" name="LI" planifications="//@planifications.0">
       <imputations href="TimeEntries/20090216.timeentries#//@entries.4/@imputation"/>
       <imputations href="TimeEntries/20090216.timeentries#//@entries.6/@imputation"/>
       <imputations href="TimeEntries/20090216.timeentries#//@entries.57/@imputation"/>
