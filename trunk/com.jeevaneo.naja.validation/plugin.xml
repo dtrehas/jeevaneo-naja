@@ -51,6 +51,42 @@
       
       
    </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.Pre9thMarchConstraint"
+                  id="com.jeevaneo.naja.validation.constraint2"
+                  lang="Java"
+                  mode="Batch"
+                  name="After 8th March"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint2">
+               <message>
+                  Imputation on {0} is after march, 8th. Resource={1} load={2} comment={3}.
+               </message>
+               <description>
+                  Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.LostWeekConstraint"
+                  id="com.jeevaneo.naja.validation.constraint3"
+                  lang="Java"
+                  mode="Batch"
+                  name="Lost week"
+                  severity="WARNING"
+                  statusCode="com.jeevaneo.naja.validation.constraint3">
+               <message>
+                  Imputation on {0} is in lost week (2feb). Resource={1} load={2} comment={3}.
+               </message>
+               <description>
+                  Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
 </constraints>
       </constraintProvider>
       <category
@@ -138,11 +174,26 @@ TimeEntry generated imputations may have a planification.
          </action>
       </objectContribution>
    </extension>
+
    <extension
          point="org.eclipse.ui.startup">
       <startup
             class="com.jeevaneo.naja.validation.startup.ValidatorRegisterer">
       </startup>
+   </extension>
+   <extension
+         point="org.eclipse.emf.validation.constraintBindings">
+      <clientContext
+            default="false"
+            id="com.jeevaneo.naja.validation.context2">
+         <selector
+               class="com.jeevaneo.naja.validation.ClientSelector">
+         </selector>
+      </clientContext>
+      <binding
+            category="com.jeevaneo.naja.validation.category2"
+            context="com.jeevaneo.naja.validation.context2">
+      </binding>
    </extension>
 
 </plugin>
