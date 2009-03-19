@@ -1,40 +1,110 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Congés">
-  <imputations comment="Vacances Pierre Février" date="2009-02-16T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Pierre Février" date="2009-02-17T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélie Février" date="2009-02-23T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélie Février" date="2009-02-24T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélie Février" date="2009-02-25T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélie Février" date="2009-02-26T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélie Février" date="2009-02-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence Mehdi 27/02" date="2009-02-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélien Mars" date="2009-03-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélien Mars" date="2009-03-03T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélien Mars" date="2009-03-04T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélien Mars" date="2009-03-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Vacances Aurélien Mars" date="2009-03-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence Christophe 05/01" date="2009-01-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence JLT du 05/01 au 09/01 (05/01)" date="2009-01-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence JLT du 05/01 au 09/01 (06/01)" date="2009-01-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-07T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-08T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence demie journée Mehdi 2009-01-06" date="2009-01-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4"/>
-  <imputations comment="Absence Mehdi 2009-01-09" date="2009-01-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence Mehdi 2009-02-06" date="2009-02-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-10T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-11T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-12T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-13T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Absence Pierre demie journée 2009-01-27" date="2009-01-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4"/>
-  <imputations comment="Absence GBO demie journée 2009-01-12" date="2009-01-12T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4"/>
-  <imputations comment="Congés Alexandre 2009-01-02" date="2009-01-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Alexandre Mars" date="2009-03-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Alexandre Mars" date="2009-03-03T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Alexandre Mars" date="2009-03-04T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Alexandre Mars" date="2009-03-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
-  <imputations comment="Congés Alexandre Mars" date="2009-03-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8"/>
+  <imputations comment="Vacances Pierre Février" date="2009-02-16T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Pierre Février" date="2009-02-17T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélie Février" date="2009-02-23T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélie Février" date="2009-02-24T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélie Février" date="2009-02-25T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélie Février" date="2009-02-26T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélie Février" date="2009-02-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Mehdi 27/02" date="2009-02-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélien Mars" date="2009-03-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AGI_97061a.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélien Mars" date="2009-03-03T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AGI_97061a.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélien Mars" date="2009-03-04T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AGI_97061a.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélien Mars" date="2009-03-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AGI_97061a.naja#/"/>
+  </imputations>
+  <imputations comment="Vacances Aurélien Mars" date="2009-03-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AGI_97061a.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Christophe 05/01" date="2009-01-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/CGE_97060h.naja#/"/>
+  </imputations>
+  <imputations comment="Absence JLT du 05/01 au 09/01 (05/01)" date="2009-01-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/JLT_97940m.naja#/"/>
+  </imputations>
+  <imputations comment="Absence JLT du 05/01 au 09/01 (06/01)" date="2009-01-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/JLT_97940m.naja#/"/>
+  </imputations>
+  <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-07T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/JLT_97940m.naja#/"/>
+  </imputations>
+  <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-08T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/JLT_97940m.naja#/"/>
+  </imputations>
+  <imputations comment="Absence JLT du 05/01 au 09/01" date="2009-01-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/JLT_97940m.naja#/"/>
+  </imputations>
+  <imputations comment="Absence demie journée Mehdi 2009-01-06" date="2009-01-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Mehdi 2009-01-09" date="2009-01-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Mehdi 2009-02-06" date="2009-02-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-09T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-10T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-11T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-12T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-13T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Pierre demie journée 2009-01-27" date="2009-01-27T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
+    <resource href="resources/PBR_97488r.naja#/"/>
+  </imputations>
+  <imputations comment="Absence GBO demie journée 2009-01-12" date="2009-01-12T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="4">
+    <resource href="resources/GBO_97589h.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Alexandre 2009-01-02" date="2009-01-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Alexandre Mars" date="2009-03-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Alexandre Mars" date="2009-03-03T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Alexandre Mars" date="2009-03-04T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Alexandre Mars" date="2009-03-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Alexandre Mars" date="2009-03-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <tasks totalLoad="312" name="Congés" imputations="//@imputations.0 //@imputations.1 //@imputations.2 //@imputations.3 //@imputations.4 //@imputations.5 //@imputations.6 //@imputations.7 //@imputations.8 //@imputations.9 //@imputations.10 //@imputations.11 //@imputations.12 //@imputations.13 //@imputations.14 //@imputations.15 //@imputations.16 //@imputations.17 //@imputations.18 //@imputations.19 //@imputations.20 //@imputations.21 //@imputations.22 //@imputations.23 //@imputations.24 //@imputations.25 //@imputations.26 //@imputations.27 //@imputations.28 //@imputations.29 //@imputations.30 //@imputations.31 //@imputations.32 //@imputations.33 //@imputations.34"/>
   </categories>
