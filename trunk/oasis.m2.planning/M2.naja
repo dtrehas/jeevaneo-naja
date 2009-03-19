@@ -26,23 +26,300 @@
       <tasks totalLoad="40" name="Coord RMOA Et. 2"/>
     </subcategories>
     <subcategories name="Recette RMOX/RFU">
-      <tasks totalLoad="110" name="Coord RMOX/RFU"/>
-      <tasks totalLoad="506" name="Corr RMOX/RFU"/>
-      <tasks totalLoad="4" name="GRS Etape 1 - wrapper Siebel"/>
+      <tasks totalLoad="110" name="Coord RMOX/RFU">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.117/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.237/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.194/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.363/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.115/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.189/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.199/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.178/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.120/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.176/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.198/@imputation"/>
+      </tasks>
+      <tasks totalLoad="506" name="Corr RMOX/RFU">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.154/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.411/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.202/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.223/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.182/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.396/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.60/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.271/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.311/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.75/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.285/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.298/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.361/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.380/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.159/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.258/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.113/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.172/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.140/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.109/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.43/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.169/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.264/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.379/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.134/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.340/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.87/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.100/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.349/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.303/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.242/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.133/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.172/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.208/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.55/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.173/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.85/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.92/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.209/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.40/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.84/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.156/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.142/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.210/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.166/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.15/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.157/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.12/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.45/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.115/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.2/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.54/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.79/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.212/@imputation"/>
+      </tasks>
+      <tasks totalLoad="4" name="GRS Etape 1 - wrapper Siebel">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.167/@imputation"/>
+      </tasks>
     </subcategories>
     <subcategories name="Recette MOA Etape 1">
-      <tasks totalLoad="594" name="RMOA Etape 1 - corr"/>
-      <tasks totalLoad="60" name="RMOA Etape 1 - coord"/>
-      <tasks totalLoad="8" name="Dev Aide BE"/>
+      <tasks totalLoad="594" name="RMOA Etape 1 - corr">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.318/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.88/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.147/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.221/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.90/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.235/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.253/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.227/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.220/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.372/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.371/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.62/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.186/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.95/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.241/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.168/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.5/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.251/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.246/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.46/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.222/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.178/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.3/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.307/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.44/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.431/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.48/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.276/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.324/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.278/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.63/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.197/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.335/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.293/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.257/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.73/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.96/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.142/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.28/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.416/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.254/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.121/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.417/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.38/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.145/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.292/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.89/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.131/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.35/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.11/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.101/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.344/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.33/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.125/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.107/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.279/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.12/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.122/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.106/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.86/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.196/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.58/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.177/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.232/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.413/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.201/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.381/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.405/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.224/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.336/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.153/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.108/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.390/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.165/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.415/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.183/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.92/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.325/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.203/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.102/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.94/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.228/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.49/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.7/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.72/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.27/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.18/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.323/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.26/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.304/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.354/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.45/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.331/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.185/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.55/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.13/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.280/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.392/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.37/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.205/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.91/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.291/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.152/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.144/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.61/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.64/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.317/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.226/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.158/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.50/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.76/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.105/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.2/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.123/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.161/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.132/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.206/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.243/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.244/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.40/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.181/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.21/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.32/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.240/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.19/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.31/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.1/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.48/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.111/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.53/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.50/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.46/@imputation"/>
+      </tasks>
+      <tasks totalLoad="60" name="RMOA Etape 1 - coord">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.104/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.398/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.118/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.30/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.70/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.368/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.42/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.297/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.68/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.139/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.14/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.173/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.56/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.213/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.313/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.79/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.0/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.262/@imputation"/>
+      </tasks>
+      <tasks totalLoad="8" name="Dev Aide BE">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.93/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.315/@imputation"/>
+      </tasks>
     </subcategories>
   </categories>
   <categories name="M2 - MOE - MàDISPO - Gestion des incidents de production">
     <subcategories name="N3">
       <subcategories name="Correctifs">
-        <tasks totalLoad="974" name="Réalisation correctifs"/>
+        <tasks totalLoad="974" name="Réalisation correctifs">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.366/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.359/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.370/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.158/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.164/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.163/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.143/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.190/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.147/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.154/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.191/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.86/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.148/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.91/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.83/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.14/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.11/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.13/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.179/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.160/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.90/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.177/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.144/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.204/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.161/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.81/@imputation"/>
+        </tasks>
         <tasks totalLoad="22" name="Aide du BE"/>
       </subcategories>
-      <tasks totalLoad="376" name="Supervision"/>
+      <tasks totalLoad="376" name="Supervision">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.373/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.418/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.406/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.367/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.200/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.110/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.71/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.114/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.170/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.207/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.51/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.82/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.169/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.72/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.197/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.52/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.203/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.168/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.49/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.73/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.47/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.167/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.165/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.112/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.113/@imputation"/>
+      </tasks>
     </subcategories>
   </categories>
   <categories name="M2 - MOE - REALISER - Documentation ">
@@ -72,13 +349,29 @@
     </subcategories>
     <tasks totalLoad="40" name="Architecture"/>
     <tasks totalLoad="40" name="STG"/>
-    <tasks totalLoad="176" name="STD"/>
+    <tasks totalLoad="176" name="STD">
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.402/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.185/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.88/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.184/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.89/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.87/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.186/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.140/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.56/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.183/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.141/@imputation"/>
+    </tasks>
     <tasks totalLoad="24" name="APRE"/>
     <tasks totalLoad="16" name="Impacts delphi"/>
     <tasks totalLoad="12" name="Configuration TUX"/>
     <tasks totalLoad="8" name="FALs si corrections ou ajouts nécessaires"/>
     <tasks totalLoad="16" name="Normes de dev delphi Oasis"/>
-    <tasks totalLoad="10" name="Rédaction FAL"/>
+    <tasks totalLoad="10" name="Rédaction FAL">
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.207/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.261/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.255/@imputation"/>
+    </tasks>
   </categories>
   <categories name="M2 - MOE - REALISER - Industrialiation">
     <subcategories name="Remise des clés à NOE">
@@ -89,11 +382,21 @@
       </subcategories>
       <subcategories name="Sortir hors gat de M2">
         <tasks totalLoad="8" name="S'assurer de synchro HG Sofia/oasis"/>
-        <tasks totalLoad="28" name="Modop ingé pour développeurs hors gat"/>
+        <tasks totalLoad="28" name="Modop ingé pour développeurs hors gat">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.198/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.180/@imputation"/>
+        </tasks>
         <tasks totalLoad="8" name="BL/BLS nouveau car HG n'est plus dans 420"/>
-        <tasks totalLoad="52" name="Réalisation HG"/>
+        <tasks totalLoad="52" name="Réalisation HG">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.238/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.22/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.217/@imputation"/>
+        </tasks>
         <tasks totalLoad="40" name="Support developpeurs HorsGAT sur ingé hors gat"/>
-        <tasks totalLoad="32" name="Postes devs horsgat sofia (D Blais, Vianney etc.)"/>
+        <tasks totalLoad="32" name="Postes devs horsgat sofia (D Blais, Vianney etc.)">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.111/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.216/@imputation"/>
+        </tasks>
       </subcategories>
       <subcategories name="Sortie socle de M2">
         <tasks totalLoad="8" name="S'assurer de synchro Socle Sofia/oasis"/>
@@ -119,33 +422,145 @@
       <tasks totalLoad="48" name="Tests unitaires Dep Diff"/>
       <tasks totalLoad="8" name="Support MEP Dep Diff" label="Déploiement différentiel/Support MEP Dep Diff"/>
       <tasks totalLoad="44" name="Docs (Conception, Utilisation, STD)"/>
-      <tasks totalLoad="314" name="Réalisation passée DepDiff"/>
+      <tasks totalLoad="314" name="Réalisation passée DepDiff">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.328/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.387/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.256/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.229/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.187/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.25/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.129/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.160/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.10/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.414/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.39/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.350/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.403/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.149/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.282/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.404/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.341/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.247/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.98/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.52/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.110/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.386/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.309/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.362/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.208/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.74/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.351/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.16/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.182/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.181/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.17/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.19/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.18/@imputation"/>
+      </tasks>
     </subcategories>
     <subcategories name="Workflows de livraison">
       <tasks totalLoad="38" name="Ateliers"/>
       <tasks totalLoad="82" name="Doc workflows Livraison"/>
     </subcategories>
-    <tasks totalLoad="242" name="Coordinatin et Pilotage Indus"/>
+    <tasks totalLoad="242" name="Coordinatin et Pilotage Indus">
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.308/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.41/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.338/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.286/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.294/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.423/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.204/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.267/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.377/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.137/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.184/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.281/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.395/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.81/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.57/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.250/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.212/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.136/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.358/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.193/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.4/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.272/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.233/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.174/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.339/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.299/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.69/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.192/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.99/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.78/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.171/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.103/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.98/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.100/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.175/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.174/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.102/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.180/@imputation"/>
+    </tasks>
   </categories>
   <categories name="M2 - MOE - REALISER - Lot 424">
     <subcategories name="OAO">
       <tasks totalLoad="32" name="Correctifs V1"/>
       <tasks totalLoad="120" name="Recette V1"/>
-      <tasks totalLoad="56" name="Déploiement/auto-update"/>
+      <tasks totalLoad="56" name="Déploiement/auto-update">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.150/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.130/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.166/@imputation"/>
+      </tasks>
       <tasks totalLoad="24" name="Specs/docs V1"/>
       <tasks totalLoad="40" name="Ou=Draft"/>
       <tasks totalLoad="32" name="Affectations drafts"/>
       <tasks totalLoad="24" name="BE draft"/>
       <tasks totalLoad="56" name="Passage de connaissance DI"/>
-      <tasks totalLoad="68" name="Tests MOE"/>
+      <tasks totalLoad="68" name="Tests MOE">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.83/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.162/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.179/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.39/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.35/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.116/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.94/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.30/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.31/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.42/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.95/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.32/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.33/@imputation"/>
+      </tasks>
     </subcategories>
   </categories>
   <categories name="M2 - MOE - REALISER - Lot 421">
     <subcategories name="Indispensable pour MEP 421">
       <tasks totalLoad="16" name="Specs 421"/>
       <tasks totalLoad="32" name="Coordination 421"/>
-      <tasks totalLoad="112" name="Cache inc BE"/>
-      <tasks totalLoad="70" name="Cache inc Maifdata"/>
+      <tasks totalLoad="112" name="Cache inc BE">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.268/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.284/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.300/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.150/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.34/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.93/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.152/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.155/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.153/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.151/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.96/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.97/@imputation"/>
+      </tasks>
+      <tasks totalLoad="70" name="Cache inc Maifdata">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.47/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.34/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.97/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.80/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.145/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.146/@imputation"/>
+      </tasks>
       <tasks totalLoad="96" name="Tests, organisation, environnements"/>
       <tasks totalLoad="24" name="maidata offline"/>
       <tasks totalLoad="32" name="BE offline"/>
@@ -154,17 +569,127 @@
   </categories>
   <categories name="Récurrent">
     <subcategories name="M2 - MOE - MàDISPO - Support et logistique">
-      <tasks totalLoad="150" name="Admin GCL"/>
-      <tasks totalLoad="78" name="Support et logistique"/>
-      <tasks totalLoad="160" name="Support MEP"/>
+      <tasks totalLoad="150" name="Admin GCL">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.85/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.128/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.199/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.114/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.393/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.66/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.16/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.332/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.265/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.218/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.23/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.274/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.36/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.155/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.163/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.3/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.7/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.5/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.123/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.125/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.129/@imputation"/>
+      </tasks>
+      <tasks totalLoad="78" name="Support et logistique">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.383/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.135/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.326/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.146/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.126/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.327/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.71/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.9/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.426/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.157/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.210/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.99/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.24/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.143/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.103/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.43/@imputation"/>
+      </tasks>
+      <tasks totalLoad="160" name="Support MEP">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.365/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.345/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.391/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.355/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.337/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.347/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.374/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.397/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.410/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.424/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.20/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.118/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.119/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.128/@imputation"/>
+      </tasks>
       <tasks totalLoad="88" name="Support Recurrent NOE"/>
       <tasks totalLoad="44" name="Livraison RMOX"/>
       <tasks totalLoad="10" name="CC Maintenance"/>
       <tasks totalLoad="24" name="Présentations,POC, etc."/>
     </subcategories>
     <subcategories name="M2 - MOE - VALIDER - Coordination Module 2">
-      <tasks totalLoad="1318" name="Coordination Module"/>
-      <tasks totalLoad="22" name="Réunions"/>
+      <tasks totalLoad="1318" name="Coordination Module">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.116/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.346/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.53/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.312/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.17/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.314/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.215/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.170/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.348/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.78/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.270/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.15/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.421/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.119/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.214/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.378/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.195/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.399/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.54/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.260/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.67/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.234/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.296/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.171/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.138/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.176/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.283/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.236/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.384/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.385/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.29/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.1/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.195/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.206/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.201/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.194/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.27/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.205/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.101/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.74/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.21/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.24/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.202/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.28/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.76/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.75/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.104/@imputation"/>
+      </tasks>
+      <tasks totalLoad="22" name="Réunions">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.77/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.82/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.192/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.269/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.175/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.196/@imputation"/>
+        <imputations href="TimeEntries/20090216.timeentries#//@entries.193/@imputation"/>
+      </tasks>
     </subcategories>
   </categories>
 </jeevaneo-naja:Project>

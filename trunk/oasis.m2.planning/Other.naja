@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Other">
   <categories name="COU/PDF">
-    <tasks totalLoad="4" name="COU/PDF"/>
+    <tasks totalLoad="4" name="COU/PDF">
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.159/@imputation"/>
+    </tasks>
   </categories>
   <categories name="LI">
-    <tasks totalLoad="264" name="LI"/>
+    <tasks totalLoad="264" name="LI">
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.239/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.409/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.266/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.148/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.219/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.419/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.302/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.334/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.394/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.164/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.65/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.357/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.200/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.112/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.320/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.275/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.132/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.60/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.130/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.135/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.127/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.6/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.58/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.134/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.4/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.57/@imputation"/>
+    </tasks>
   </categories>
 </jeevaneo-naja:Project>

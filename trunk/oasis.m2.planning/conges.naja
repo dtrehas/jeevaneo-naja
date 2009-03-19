@@ -106,6 +106,48 @@
     <resource href="resources/ABO_97607k.naja#/"/>
   </imputations>
   <categories name="Absences">
-    <tasks totalLoad="312" name="Congés" imputations="//@imputations.0 //@imputations.1 //@imputations.2 //@imputations.3 //@imputations.4 //@imputations.5 //@imputations.6 //@imputations.7 //@imputations.8 //@imputations.9 //@imputations.10 //@imputations.11 //@imputations.12 //@imputations.13 //@imputations.14 //@imputations.15 //@imputations.16 //@imputations.17 //@imputations.18 //@imputations.19 //@imputations.20 //@imputations.21 //@imputations.22 //@imputations.23 //@imputations.24 //@imputations.25 //@imputations.26 //@imputations.27 //@imputations.28 //@imputations.29 //@imputations.30 //@imputations.31 //@imputations.32 //@imputations.33 //@imputations.34"/>
+    <tasks totalLoad="312" name="Congés">
+      <imputations href="#//@imputations.0"/>
+      <imputations href="#//@imputations.1"/>
+      <imputations href="#//@imputations.2"/>
+      <imputations href="#//@imputations.3"/>
+      <imputations href="#//@imputations.4"/>
+      <imputations href="#//@imputations.5"/>
+      <imputations href="#//@imputations.6"/>
+      <imputations href="#//@imputations.7"/>
+      <imputations href="#//@imputations.8"/>
+      <imputations href="#//@imputations.9"/>
+      <imputations href="#//@imputations.10"/>
+      <imputations href="#//@imputations.11"/>
+      <imputations href="#//@imputations.12"/>
+      <imputations href="#//@imputations.13"/>
+      <imputations href="#//@imputations.14"/>
+      <imputations href="#//@imputations.15"/>
+      <imputations href="#//@imputations.16"/>
+      <imputations href="#//@imputations.17"/>
+      <imputations href="#//@imputations.18"/>
+      <imputations href="#//@imputations.19"/>
+      <imputations href="#//@imputations.20"/>
+      <imputations href="#//@imputations.21"/>
+      <imputations href="#//@imputations.22"/>
+      <imputations href="#//@imputations.23"/>
+      <imputations href="#//@imputations.24"/>
+      <imputations href="#//@imputations.25"/>
+      <imputations href="#//@imputations.26"/>
+      <imputations href="#//@imputations.27"/>
+      <imputations href="#//@imputations.28"/>
+      <imputations href="#//@imputations.29"/>
+      <imputations href="#//@imputations.30"/>
+      <imputations href="#//@imputations.31"/>
+      <imputations href="#//@imputations.32"/>
+      <imputations href="#//@imputations.33"/>
+      <imputations href="#//@imputations.34"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.20/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.353/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.289/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.322/@imputation"/>
+      <imputations href="TimeEntries/20090105.timeentries#//@entries.80/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.149/@imputation"/>
+    </tasks>
   </categories>
 </jeevaneo-naja:Project>
