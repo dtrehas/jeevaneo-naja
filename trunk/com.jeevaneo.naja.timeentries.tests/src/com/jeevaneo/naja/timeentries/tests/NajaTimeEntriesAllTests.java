@@ -35,6 +35,7 @@ public class NajaTimeEntriesAllTests extends TestSuite {
 	 */
 	public static Test suite() {
 		TestSuite suite = new NajaTimeEntriesAllTests("NajaTimeEntries Tests");
+		suite.addTest(TimeentriesTests.suite());
 		return suite;
 	}
 
