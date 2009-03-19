@@ -35,6 +35,7 @@ public class TimeentriesTests extends TestSuite {
 	 */
 	public static Test suite() {
 		TestSuite suite = new TimeentriesTests("timeentries Tests");
+		suite.addTestSuite(TimeEntriesTest.class);
 		return suite;
 	}
 

@@ -17,6 +17,12 @@ import junit.textui.TestRunner;
  * <!-- begin-user-doc -->
  * A test case for the model object '<em><b>Time Entries</b></em>'.
  * <!-- end-user-doc -->
+ * <p>
+ * The following features are tested:
+ * <ul>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntries#getTotalLoad() <em>Total Load</em>}</li>
+ * </ul>
+ * </p>
  * @generated
  */
 public class TimeEntriesTest extends TestCase {
@@ -88,6 +94,19 @@ public class TimeEntriesTest extends TestCase {
 	@Override
 	protected void tearDown() throws Exception {
 		setFixture(null);
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.timeentries.TimeEntries#getTotalLoad() <em>Total Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.timeentries.TimeEntries#getTotalLoad()
+	 * @generated
+	 */
+	public void testGetTotalLoad() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
 	}
 
 } //TimeEntriesTest
