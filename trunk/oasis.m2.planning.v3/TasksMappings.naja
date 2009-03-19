@@ -253,4 +253,7 @@
   <mappings externalId="tasks/GRS_integration_wrappersGRS.task">
     <task href="M2.naja#//@categories.1/@subcategories.1/@tasks.2"/>
   </mappings>
+  <mappings externalId="pilotage">
+    <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
