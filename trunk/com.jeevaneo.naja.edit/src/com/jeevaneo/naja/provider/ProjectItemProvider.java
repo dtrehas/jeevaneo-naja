@@ -70,6 +70,7 @@ public class ProjectItemProvider
 			addNamePropertyDescriptor(object);
 			addTotalLoadPropertyDescriptor(object);
 			addUnaffectedLoadPropertyDescriptor(object);
+			addImputedLoadPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -132,6 +133,28 @@ public class ProjectItemProvider
 				 getString("_UI_Project_unaffectedLoad_feature"),
 				 getString("_UI_PropertyDescriptor_description", "_UI_Project_unaffectedLoad_feature", "_UI_Project_type"),
 				 NajaPackage.Literals.PROJECT__UNAFFECTED_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Imputed Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addImputedLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Project_imputedLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Project_imputedLoad_feature", "_UI_Project_type"),
+				 NajaPackage.Literals.PROJECT__IMPUTED_LOAD,
 				 false,
 				 false,
 				 false,
@@ -214,6 +237,7 @@ public class ProjectItemProvider
 			case NajaPackage.PROJECT__NAME:
 			case NajaPackage.PROJECT__TOTAL_LOAD:
 			case NajaPackage.PROJECT__UNAFFECTED_LOAD:
+			case NajaPackage.PROJECT__IMPUTED_LOAD:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case NajaPackage.PROJECT__PLANIFICATIONS:
