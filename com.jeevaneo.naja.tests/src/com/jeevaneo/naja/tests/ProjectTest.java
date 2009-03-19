@@ -22,6 +22,7 @@ import junit.textui.TestRunner;
  * <ul>
  *   <li>{@link com.jeevaneo.naja.Project#getTotalLoad() <em>Total Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Project#getUnaffectedLoad() <em>Unaffected Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Project#getImputedLoad() <em>Imputed Load</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -145,6 +146,19 @@ public class ProjectTest extends TestCase {
 	 */
 	public void testIsSetUnaffectedLoad() {
 		// TODO: implement this test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Project#getImputedLoad() <em>Imputed Load</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Project#getImputedLoad()
+	 * @generated
+	 */
+	public void testGetImputedLoad() {
+		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();
 	}
