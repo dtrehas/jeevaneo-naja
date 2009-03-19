@@ -37,7 +37,7 @@
     <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/MaquettePocEtc.task">
-    <task href="M2.naja#//@categories.7/@subcategories.2/@tasks.0"/>
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.6"/>
   </mappings>
   <mappings externalId="tasks/M5_COUPDF.task">
     <task href="Other.naja#//@categories.0/@tasks.0"/>
@@ -164,7 +164,9 @@
   <mappings externalId="tasks/OAO_tests.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.8"/>
   </mappings>
-  <mappings externalId="tasks/OutilsDev_lot2_partCompil.task"/>
+  <mappings externalId="tasks/OutilsDev_lot2_partCompil.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+  </mappings>
   <mappings externalId="tasks/OutilsDev_lot3_etude.task">
     <task href="M2.naja#//@categories.4/@tasks.0"/>
   </mappings>

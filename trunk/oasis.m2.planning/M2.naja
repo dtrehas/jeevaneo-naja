@@ -9,12 +9,17 @@
       <subcategories name="Oasis-isation : NOE">
         <tasks totalLoad="4" name="Modop (si mise à jour)"/>
         <tasks totalLoad="8" name="Formation"/>
-        <tasks totalLoad="38" name="support OASIS-isation NOE"/>
+        <tasks totalLoad="38" name="support OASIS-isation NOE">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.127/@imputation"/>
+        </tasks>
       </subcategories>
       <subcategories name="Fabrication :NOE">
         <tasks totalLoad="28" name="Modop Fabrication"/>
         <tasks totalLoad="20" name="Formation Fabrication NOE"/>
-        <tasks totalLoad="46" name="Support Fabrication NOE" label="Fabrication : NOE/Support Fabrication NOE"/>
+        <tasks totalLoad="46" name="Support Fabrication NOE" label="Fabrication : NOE/Support Fabrication NOE">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.376/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.408/@imputation"/>
+        </tasks>
       </subcategories>
       <tasks totalLoad="200" name="BE : NCO"/>
       <tasks totalLoad="24" name="Conf TUX : à Cécile F et François G."/>
@@ -94,6 +99,11 @@
         <imputations href="TimeEntries/20090216.timeentries#//@entries.54/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.79/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.212/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.407/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.209/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.330/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.375/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.360/@imputation"/>
       </tasks>
       <tasks totalLoad="4" name="GRS Etape 1 - wrapper Siebel">
         <imputations href="TimeEntries/20090105.timeentries#//@entries.167/@imputation"/>
@@ -233,6 +243,17 @@
         <imputations href="TimeEntries/20090216.timeentries#//@entries.53/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.50/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.46/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.428/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.249/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.422/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.369/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.189/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.329/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.427/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.342/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.305/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.310/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.190/@imputation"/>
       </tasks>
       <tasks totalLoad="60" name="RMOA Etape 1 - coord">
         <imputations href="TimeEntries/20090105.timeentries#//@entries.104/@imputation"/>
@@ -391,6 +412,9 @@
           <imputations href="TimeEntries/20090105.timeentries#//@entries.238/@imputation"/>
           <imputations href="TimeEntries/20090105.timeentries#//@entries.22/@imputation"/>
           <imputations href="TimeEntries/20090105.timeentries#//@entries.217/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.425/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.288/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.306/@imputation"/>
         </tasks>
         <tasks totalLoad="40" name="Support developpeurs HorsGAT sur ingé hors gat"/>
         <tasks totalLoad="32" name="Postes devs horsgat sofia (D Blais, Vianney etc.)">
@@ -421,7 +445,10 @@
       <tasks totalLoad="52" name="Tests avec M5 + mise en place référentiel de test"/>
       <tasks totalLoad="48" name="Tests unitaires Dep Diff"/>
       <tasks totalLoad="8" name="Support MEP Dep Diff" label="Déploiement différentiel/Support MEP Dep Diff"/>
-      <tasks totalLoad="44" name="Docs (Conception, Utilisation, STD)"/>
+      <tasks totalLoad="44" name="Docs (Conception, Utilisation, STD)">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.364/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.382/@imputation"/>
+      </tasks>
       <tasks totalLoad="314" name="Réalisation passée DepDiff">
         <imputations href="TimeEntries/20090105.timeentries#//@entries.328/@imputation"/>
         <imputations href="TimeEntries/20090105.timeentries#//@entries.387/@imputation"/>
@@ -456,10 +483,35 @@
         <imputations href="TimeEntries/20090216.timeentries#//@entries.17/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.19/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.18/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.120/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.141/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.6/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.401/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.211/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.188/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.263/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.156/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.124/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.59/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.225/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.277/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.290/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.245/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.252/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.151/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.287/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.248/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.259/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.230/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.295/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.388/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.316/@imputation"/>
       </tasks>
     </subcategories>
     <subcategories name="Workflows de livraison">
-      <tasks totalLoad="38" name="Ateliers"/>
+      <tasks totalLoad="38" name="Ateliers">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.273/@imputation"/>
+      </tasks>
       <tasks totalLoad="82" name="Doc workflows Livraison"/>
     </subcategories>
     <tasks totalLoad="242" name="Coordinatin et Pilotage Indus">
@@ -591,6 +643,10 @@
         <imputations href="TimeEntries/20090216.timeentries#//@entries.123/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.125/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.129/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.319/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.420/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.301/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.333/@imputation"/>
       </tasks>
       <tasks totalLoad="78" name="Support et logistique">
         <imputations href="TimeEntries/20090105.timeentries#//@entries.383/@imputation"/>
@@ -609,6 +665,7 @@
         <imputations href="TimeEntries/20090105.timeentries#//@entries.143/@imputation"/>
         <imputations href="TimeEntries/20090105.timeentries#//@entries.103/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.43/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.84/@imputation"/>
       </tasks>
       <tasks totalLoad="160" name="Support MEP">
         <imputations href="TimeEntries/20090105.timeentries#//@entries.365/@imputation"/>
@@ -625,10 +682,21 @@
         <imputations href="TimeEntries/20090216.timeentries#//@entries.118/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.119/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.128/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.400/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.389/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.352/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.430/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.343/@imputation"/>
       </tasks>
-      <tasks totalLoad="88" name="Support Recurrent NOE"/>
+      <tasks totalLoad="88" name="Support Recurrent NOE">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.321/@imputation"/>
+      </tasks>
       <tasks totalLoad="44" name="Livraison RMOX"/>
-      <tasks totalLoad="10" name="CC Maintenance"/>
+      <tasks totalLoad="10" name="CC Maintenance">
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.191/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.231/@imputation"/>
+        <imputations href="TimeEntries/20090105.timeentries#//@entries.356/@imputation"/>
+      </tasks>
       <tasks totalLoad="24" name="Présentations,POC, etc."/>
     </subcategories>
     <subcategories name="M2 - MOE - VALIDER - Coordination Module 2">
