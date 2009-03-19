@@ -144,6 +144,15 @@ public class TimeentriesPackageImpl extends EPackageImpl implements TimeentriesP
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getTimeEntries_TotalLoad() {
+		return (EAttribute)timeEntriesEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getTimeEntry() {
 		return timeEntryEClass;
 	}
@@ -233,6 +242,7 @@ public class TimeentriesPackageImpl extends EPackageImpl implements TimeentriesP
 		timeEntriesEClass = createEClass(TIME_ENTRIES);
 		createEReference(timeEntriesEClass, TIME_ENTRIES__ENTRIES);
 		createEAttribute(timeEntriesEClass, TIME_ENTRIES__COMMENT);
+		createEAttribute(timeEntriesEClass, TIME_ENTRIES__TOTAL_LOAD);
 
 		timeEntryEClass = createEClass(TIME_ENTRY);
 		createEAttribute(timeEntryEClass, TIME_ENTRY__COMMENT);
@@ -279,6 +289,7 @@ public class TimeentriesPackageImpl extends EPackageImpl implements TimeentriesP
 		initEClass(timeEntriesEClass, TimeEntries.class, "TimeEntries", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getTimeEntries_Entries(), this.getTimeEntry(), null, "entries", null, 0, -1, TimeEntries.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTimeEntries_Comment(), ecorePackage.getEString(), "comment", null, 0, 1, TimeEntries.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTimeEntries_TotalLoad(), ecorePackage.getEInt(), "totalLoad", null, 0, 1, TimeEntries.class, IS_TRANSIENT, IS_VOLATILE, !IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, IS_DERIVED, !IS_ORDERED);
 
 		initEClass(timeEntryEClass, TimeEntry.class, "TimeEntry", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getTimeEntry_Comment(), ecorePackage.getEString(), "comment", null, 0, 1, TimeEntry.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

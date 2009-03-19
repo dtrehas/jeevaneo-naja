@@ -20,6 +20,7 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntries#getEntries <em>Entries</em>}</li>
  *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntries#getComment <em>Comment</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntries#getTotalLoad <em>Total Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -69,5 +70,20 @@ public interface TimeEntries extends EObject {
 	 * @generated
 	 */
 	void setComment(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Total Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Total Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Total Load</em>' attribute.
+	 * @see com.jeevaneo.naja.timeentries.TimeentriesPackage#getTimeEntries_TotalLoad()
+	 * @model unique="false" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getTotalLoad();
 
 } // TimeEntries
