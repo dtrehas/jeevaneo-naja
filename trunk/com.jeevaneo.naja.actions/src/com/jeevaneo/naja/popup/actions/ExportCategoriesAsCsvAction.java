@@ -82,7 +82,7 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 		Job job = new Job("Export Categories as CSV"){
 		
 			@Override
-			protected IStatus run(IProgressMonitor monitor) {
+			protected IStatus run(final IProgressMonitor monitor) {
 				monitor.beginTask("Export categories to CSV file", (cats.size()+1)*1000);
 				monitor.subTask("Ask for file");
 				
@@ -185,7 +185,18 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 					System.gc();
 					out.flush();
 					out.close();
-
+					
+					shell.getDisplay().syncExec(new Runnable() {
+						public void run() {
+							String message = "Export successfull to "
+									+ filename + ".";
+							if (monitor.isCanceled()) {
+								message = "Export was cancelled!";
+							}
+							MessageDialog.openInformation(shell, "Naja Export",
+									message);
+						}
+					});
 					monitor.done();
 
 				} catch (IOException e) {
@@ -205,13 +216,7 @@ public class ExportCategoriesAsCsvAction implements IObjectActionDelegate {
 		};
 		
 		job.schedule();
-		String message ="Export successfull to " + filename + ".";
-		try {
-			job.join();
-		} catch (InterruptedException e) {
-			message="Export was cancelled!";
-		}
-		MessageDialog.openInformation(shell, "Naja Export",	message);
+		
 	}
 
 	private Set<String> resourceList(Category cat) {
