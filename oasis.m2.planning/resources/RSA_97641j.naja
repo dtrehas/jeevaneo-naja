@@ -45,4 +45,6 @@
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.19/@imputation"/>
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.18/@imputation"/>
   <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
 </jeevaneo-naja:Person>
