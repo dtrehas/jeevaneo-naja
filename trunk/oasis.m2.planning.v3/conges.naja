@@ -279,8 +279,23 @@
   <imputations comment="Congés Pierre du 09/02 au 13/02" date="2009-02-13T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
   </imputations>
+  <imputations comment="Congés ABO mars" date="2009-03-02T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés ABO mars" date="2009-03-03T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés ABO mars" date="2009-03-04T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés ABO mars" date="2009-03-05T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés ABO mars" date="2009-03-06T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
   <categories name="Absences">
-    <tasks totalLoad="800" name="Congés">
+    <tasks totalLoad="812" name="Congés">
       <imputations href="#//@imputations.2"/>
       <imputations href="#//@imputations.3"/>
       <imputations href="#//@imputations.7"/>
@@ -381,6 +396,11 @@
       <imputations href="#//@imputations.90"/>
       <imputations href="#//@imputations.91"/>
       <imputations href="#//@imputations.92"/>
+      <imputations href="#//@imputations.93"/>
+      <imputations href="#//@imputations.94"/>
+      <imputations href="#//@imputations.95"/>
+      <imputations href="#//@imputations.96"/>
+      <imputations href="#//@imputations.97"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
