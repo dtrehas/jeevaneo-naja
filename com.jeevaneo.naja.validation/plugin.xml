@@ -56,11 +56,11 @@
                   id="com.jeevaneo.naja.validation.constraint2"
                   lang="Java"
                   mode="Batch"
-                  name="After 8th March"
+                  name="After 14th March"
                   severity="ERROR"
                   statusCode="com.jeevaneo.naja.validation.constraint2">
                <message>
-                  Imputation on {0} is after march, 8th. Resource={1} load={2} comment={3}.
+                  Imputation on {0} is after march, 14th. Resource={1} load={2} comment={3}.
                </message>
                <description>
                   Every resource should have a positive left availability.
@@ -79,6 +79,24 @@
                   statusCode="com.jeevaneo.naja.validation.constraint3">
                <message>
                   Imputation on {0} is in lost week (2feb). Resource={1} load={2} comment={3}.
+               </message>
+               <description>
+                  Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.ReverseImputFoireuseConstraint"
+                  id="com.jeevaneo.naja.validation.constraint4"
+                  lang="Java"
+                  mode="Batch"
+                  name="Imputations reverse foireuse"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint4">
+               <message>
+                  Imputation on task {0} is present in other task&apos;s imputations! Other task={1} imputation={2}
                </message>
                <description>
                   Every resource should have a positive left availability.
