@@ -48,6 +48,7 @@ import com.jeevaneo.naja.NajaPackage;
  *   <li>{@link com.jeevaneo.naja.impl.ProjectImpl#getTotalLoad <em>Total Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.ProjectImpl#getUnaffectedLoad <em>Unaffected Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.impl.ProjectImpl#getTasks <em>Tasks</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.impl.ProjectImpl#getImputedLoad <em>Imputed Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -143,6 +144,16 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	 * @ordered
 	 */
 	protected EList<Task> tasks;
+
+	/**
+	 * The default value of the '{@link #getImputedLoad() <em>Imputed Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getImputedLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int IMPUTED_LOAD_EDEFAULT = 0;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -284,6 +295,25 @@ public class ProjectImpl extends EObjectImpl implements Project {
 	 * <!-- end-user-doc -->
 	 * @generated NOT
 	 */
+	public int getImputedLoad() {
+
+		int ret = 0;
+		for(Task task : getTasks())
+		{
+			ret += task.getImputedLoad();
+		}
+		for(Category category : getCategories())
+		{
+			ret += category.getImputedLoad();
+		}
+		return ret;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
 	public boolean isSetUnaffectedLoad() {
 		//TODO find a way not to generate that one!
 		return true;
@@ -347,6 +377,8 @@ public class ProjectImpl extends EObjectImpl implements Project {
 				return new Integer(getUnaffectedLoad());
 			case NajaPackage.PROJECT__TASKS:
 				return getTasks();
+			case NajaPackage.PROJECT__IMPUTED_LOAD:
+				return new Integer(getImputedLoad());
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -441,6 +473,8 @@ public class ProjectImpl extends EObjectImpl implements Project {
 				return isSetUnaffectedLoad();
 			case NajaPackage.PROJECT__TASKS:
 				return tasks != null && !tasks.isEmpty();
+			case NajaPackage.PROJECT__IMPUTED_LOAD:
+				return getImputedLoad() != IMPUTED_LOAD_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

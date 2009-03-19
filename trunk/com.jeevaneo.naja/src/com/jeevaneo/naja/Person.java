@@ -102,7 +102,7 @@ public interface Person extends EObject {
 	 * @return the value of the '<em>Imputations</em>' reference list.
 	 * @see com.jeevaneo.naja.NajaPackage#getPerson_Imputations()
 	 * @see com.jeevaneo.naja.Imputation#getResource
-	 * @model opposite="resource"
+	 * @model opposite="resource" ordered="false"
 	 * @generated
 	 */
 	EList<Imputation> getImputations();
