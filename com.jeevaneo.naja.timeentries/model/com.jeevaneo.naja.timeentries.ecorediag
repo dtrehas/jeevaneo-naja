@@ -7,6 +7,10 @@
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntries/comment"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_HEeKwQ5AEd6p5fdKn6-kmg"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_PyCSIBRyEd6-XayPoUibRQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.timeentries.ecore#//TimeEntries/totalLoad"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PyCSIRRyEd6-XayPoUibRQ"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_1_BsxQ4_Ed6p5fdKn6-kmg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_1_Bsxg4_Ed6p5fdKn6-kmg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_1_Bsxw4_Ed6p5fdKn6-kmg"/>

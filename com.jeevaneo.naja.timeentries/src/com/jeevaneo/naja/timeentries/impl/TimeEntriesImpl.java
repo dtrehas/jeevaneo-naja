@@ -7,6 +7,8 @@
 package com.jeevaneo.naja.timeentries.impl;
 
 import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -30,6 +32,7 @@ import com.jeevaneo.naja.timeentries.TimeentriesPackage;
  * <ul>
  *   <li>{@link com.jeevaneo.naja.timeentries.impl.TimeEntriesImpl#getEntries <em>Entries</em>}</li>
  *   <li>{@link com.jeevaneo.naja.timeentries.impl.TimeEntriesImpl#getComment <em>Comment</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.impl.TimeEntriesImpl#getTotalLoad <em>Total Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -62,6 +65,16 @@ public class TimeEntriesImpl extends EObjectImpl implements TimeEntries {
 	 * @ordered
 	 */
 	protected String comment = COMMENT_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getTotalLoad() <em>Total Load</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getTotalLoad()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int TOTAL_LOAD_EDEFAULT = 0;
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
@@ -111,6 +124,21 @@ public class TimeEntriesImpl extends EObjectImpl implements TimeEntries {
 	}
 
 	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	public int getTotalLoad() {
+		Set<TimeEntry> timeEntries = new HashSet<TimeEntry>(getEntries());
+		int ret = 0;
+		for(TimeEntry timeEntry : timeEntries)
+		{
+			ret = timeEntry.getLoad();
+		}
+		return ret;
+	}
+
+	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -135,6 +163,8 @@ public class TimeEntriesImpl extends EObjectImpl implements TimeEntries {
 				return getEntries();
 			case TimeentriesPackage.TIME_ENTRIES__COMMENT:
 				return getComment();
+			case TimeentriesPackage.TIME_ENTRIES__TOTAL_LOAD:
+				return new Integer(getTotalLoad());
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -186,6 +216,8 @@ public class TimeEntriesImpl extends EObjectImpl implements TimeEntries {
 				return entries != null && !entries.isEmpty();
 			case TimeentriesPackage.TIME_ENTRIES__COMMENT:
 				return COMMENT_EDEFAULT == null ? comment != null : !COMMENT_EDEFAULT.equals(comment);
+			case TimeentriesPackage.TIME_ENTRIES__TOTAL_LOAD:
+				return getTotalLoad() != TOTAL_LOAD_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

@@ -88,13 +88,22 @@ public interface TimeentriesPackage extends EPackage {
 	int TIME_ENTRIES__COMMENT = 1;
 
 	/**
+	 * The feature id for the '<em><b>Total Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TIME_ENTRIES__TOTAL_LOAD = 2;
+
+	/**
 	 * The number of structural features of the '<em>Time Entries</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TIME_ENTRIES_FEATURE_COUNT = 2;
+	int TIME_ENTRIES_FEATURE_COUNT = 3;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.timeentries.impl.TimeEntryImpl <em>Time Entry</em>}' class.
@@ -201,6 +210,17 @@ public interface TimeentriesPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getTimeEntries_Comment();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.timeentries.TimeEntries#getTotalLoad <em>Total Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Total Load</em>'.
+	 * @see com.jeevaneo.naja.timeentries.TimeEntries#getTotalLoad()
+	 * @see #getTimeEntries()
+	 * @generated
+	 */
+	EAttribute getTimeEntries_TotalLoad();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.timeentries.TimeEntry <em>Time Entry</em>}'.
@@ -325,6 +345,14 @@ public interface TimeentriesPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute TIME_ENTRIES__COMMENT = eINSTANCE.getTimeEntries_Comment();
+
+		/**
+		 * The meta object literal for the '<em><b>Total Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TIME_ENTRIES__TOTAL_LOAD = eINSTANCE.getTimeEntries_TotalLoad();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.timeentries.impl.TimeEntryImpl <em>Time Entry</em>}' class.
