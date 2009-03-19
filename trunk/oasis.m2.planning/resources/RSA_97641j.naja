@@ -1,77 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="SAMRY Rachid" login="97941j" totalAvailability="120" availabilityStartDate="2009-01-01T00:00:00.000+0100">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-14T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-15T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-21T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-01-22T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-01-02T00:00:00.000+0100" load="8"/>
