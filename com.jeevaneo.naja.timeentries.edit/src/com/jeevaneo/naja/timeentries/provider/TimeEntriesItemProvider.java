@@ -68,6 +68,7 @@ public class TimeEntriesItemProvider
 			super.getPropertyDescriptors(object);
 
 			addCommentPropertyDescriptor(object);
+			addTotalLoadPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -90,6 +91,28 @@ public class TimeEntriesItemProvider
 				 false,
 				 false,
 				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Total Load feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addTotalLoadPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_TimeEntries_totalLoad_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_TimeEntries_totalLoad_feature", "_UI_TimeEntries_type"),
+				 TimeentriesPackage.Literals.TIME_ENTRIES__TOTAL_LOAD,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -162,6 +185,7 @@ public class TimeEntriesItemProvider
 
 		switch (notification.getFeatureID(TimeEntries.class)) {
 			case TimeentriesPackage.TIME_ENTRIES__COMMENT:
+			case TimeentriesPackage.TIME_ENTRIES__TOTAL_LOAD:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case TimeentriesPackage.TIME_ENTRIES__ENTRIES:
