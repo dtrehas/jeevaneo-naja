@@ -13,11 +13,11 @@ import com.jeevaneo.naja.Person;
 
 public class Pre9thMarchConstraint extends AbstractModelConstraint {
 
-	private static Date march8;
+	private static Date march14;
 	static 
 	{
 		try {
-			march8 = new SimpleDateFormat("yyyyMMdd").parse("20090308");
+			march14 = new SimpleDateFormat("yyyyMMdd").parse("20090314");
 		} catch (ParseException e) {
 			throw new RuntimeException(e);
 		}
@@ -34,7 +34,7 @@ public class Pre9thMarchConstraint extends AbstractModelConstraint {
 			return ctx.createSuccessStatus();
 		}
 		Imputation imputation = (Imputation) ctx.getTarget();
-		if(null!=imputation.getDate() && imputation.getDate().after(march8))
+		if(null!=imputation.getDate() && imputation.getDate().after(march14))
 		{
 			return ctx.createFailureStatus(imputation.getDate(), imputation.getResource().getName(), imputation.getLoad(), imputation.getComment());
 		}
