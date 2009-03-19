@@ -36,6 +36,10 @@
       <schedules date="2009-04-28T00:00:00.000+0200" load="3"/>
       <schedules date="2009-04-29T00:00:00.000+0200" load="3"/>
       <schedules date="2009-04-30T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-04T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-05T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-06T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-07T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-11T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-12T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-13T00:00:00.000+0200" load="3"/>
@@ -44,10 +48,6 @@
       <schedules date="2009-05-18T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-19T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-20T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="3"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>
@@ -109,8 +109,6 @@
       <imputations href="TimeEntries/20090105.timeentries#//@entries.357/@imputation"/>
       <imputations href="TimeEntries/20090105.timeentries#//@entries.394/@imputation"/>
       <imputations href="TimeEntries/20090105.timeentries#//@entries.409/@imputation"/>
-      <imputations href="TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
-      <imputations href="TimeEntries/20090105.timeentries#//@entries.431/@imputation"/>
       <imputations href="TimeEntries/20090105.timeentries#//@entries.419/@imputation"/>
       <imputations href="TimeEntries/20090202.timeentries#//@entries.71/@imputation"/>
       <imputations href="TimeEntries/20090202.timeentries#//@entries.26/@imputation"/>
