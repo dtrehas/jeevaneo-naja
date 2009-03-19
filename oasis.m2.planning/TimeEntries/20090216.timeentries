@@ -5,6 +5,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="popup killer" date="2009-02-16T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../nice-to-have.naja#//@categories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Test sur sldap001 + doc OAO + reunion RMOA" day="20090216" load="4">
@@ -68,6 +69,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Reunion Environnement et filieres" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Filierisation SVN" day="20090218" load="2">
@@ -75,6 +77,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Filierisation SVN" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Suivi CC RMOX et REF_COR" day="20090218" load="2">
@@ -82,6 +85,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Suivi CC RMOX et REF_COR" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.4/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="N3 - qualif incident 23565" day="20090217" load="2">
@@ -177,6 +181,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Mise en place avec M5 de la plateforme de test de smartdeployer" date="2009-02-16T00:00:00.000+0100" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.1/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Mise en place avec M5 de la plateforme de test de smartdeployer" day="20090217" load="4">
@@ -184,6 +189,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Mise en place avec M5 de la plateforme de test de smartdeployer" date="2009-02-17T00:00:00.000+0100" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.1/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="COMO II" day="20090217" load="4">
@@ -199,6 +205,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Test smartdeployer" date="2009-02-18T00:00:00.000+0100" load="8">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.1/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Test smartdeployer" day="20090219" load="4">
@@ -206,6 +213,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Test smartdeployer" date="2009-02-19T00:00:00.000+0100" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.1/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Deploiment version 1,50,0,1 Sofia" day="20090219" load="4">
@@ -229,6 +237,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Test smartdeployer" date="2009-02-20T00:00:00.000+0100" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Parametrage OAO Draft + Be Draft" day="20090216" load="8">
@@ -284,6 +293,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="modification pop killer" date="2009-02-17T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../nice-to-have.naja#//@categories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Reunion environnement et filiere (Mais, qui va demeler cet echeveau ??)" day="20090218" load="2">
@@ -291,6 +301,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Reunion environnement et filiere (Mais, qui va demeler cet echeveau ??)" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Ajout de l'environnement preprod cor au catalogue " day="20090218" load="2">
@@ -298,6 +309,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Ajout de l'environnement preprod cor au catalogue " date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Test OAO + LDAP" day="20090218" load="4">
@@ -321,6 +333,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Redaction du CR reunion filiere" date="2009-02-19T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Test OAO" day="20090219" load="2">
@@ -344,6 +357,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Redaction document sur filiere et environnement" date="2009-02-20T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Qualification anomalie RMOX" day="20090216" load="4">
@@ -463,6 +477,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Maintenance et Suivi CC RMOX" date="2009-02-19T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="devs Client GCL + Support M1" day="20090220" load="6">
@@ -478,6 +493,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="CC lot921 + reset CC Fabrication REF_COR" date="2009-02-20T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Reunion environnement et filiere" day="20090218" load="2">
@@ -485,6 +501,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Reunion environnement et filiere" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="mails + adapter en double dans le packaging +" day="20090218" load="6">
@@ -492,6 +509,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="mails + adapter en double dans le packaging +" date="2009-02-18T00:00:00.000+0100" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="OASISISATION: probleme multiples sur REF_COR + conf de build avec MEL + conf cc dynamique avec AGI" day="20090219" load="8">
@@ -499,6 +517,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="OASISISATION: probleme multiples sur REF_COR + conf de build avec MEL + conf cc dynamique avec AGI" date="2009-02-19T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="OASISISATION: resolution de l'oasisisation non incrementale + le TMLanceur et DOS" day="20090220" load="8">
@@ -506,6 +525,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="OASISISATION: resolution de l'oasisisation non incrementale + le TMLanceur et DOS" date="2009-02-20T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="buckminster killer : " day="20090216" load="8">
@@ -513,6 +533,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="buckminster killer : " date="2009-02-16T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="buckminster killer :" day="20090217" load="8">
@@ -520,6 +541,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="buckminster killer :" date="2009-02-17T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="buckminster killer : passage des features au new system" day="20090218" load="8">
@@ -527,6 +549,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="buckminster killer : passage des features au new system" date="2009-02-18T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="buckminster killer : passage des features au new system" day="20090219" load="8">
@@ -534,6 +557,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="buckminster killer : passage des features au new system" date="2009-02-19T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="buckminster killer : debut conf CC" day="20090220" load="8">
@@ -541,6 +565,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="buckminster killer : debut conf CC" date="2009-02-20T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Suivi incidents N3" day="20090216" load="8">
@@ -596,6 +621,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Documentation sur filiere et environnements " date="2009-02-23T00:00:00.000+0100" load="8">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Test SmartUpdator" day="20090223" load="8">
@@ -819,6 +845,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="check cobra_hypnos statique/dynamique, derc dans trunk. Oasisisation." date="2009-02-23T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="2 OASISisations ne donnent pas le meme resultat (TMLabelDonnee, TMLabelVert). Oulalala env HG tout pourrit!" day="20090224" load="8">
@@ -826,6 +853,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="2 OASISisations ne donnent pas le meme resultat (TMLabelDonnee, TMLabelVert). Oulalala env HG tout pourrit!" date="2009-02-24T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Et pourquoi glyph.data n'est pas le meme entre SOFIA/OASIS/REF_COR, merge VEGA dans trunk." day="20090225" load="8">
@@ -833,6 +861,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Et pourquoi glyph.data n'est pas le meme entre SOFIA/OASIS/REF_COR, merge VEGA dans trunk." date="2009-02-25T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Merge de VEGA dans trunk " day="20090226" load="8">
@@ -840,6 +869,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Merge de VEGA dans trunk " date="2009-02-26T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Test de perf oasisisation, CC SOFIA Trunk, passage de connaissance AGI" day="20090227" load="8">
@@ -847,6 +877,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Test de perf oasisisation, CC SOFIA Trunk, passage de connaissance AGI" date="2009-02-27T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="N3 - suivi" day="20090224" load="6">
@@ -910,6 +941,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Redaction du CR de la reunion " date="2009-02-24T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Redaction workflow de livraison M2 en prod" day="20090225" load="4">
@@ -941,6 +973,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="reunion Hors Gat + redaction doc" date="2009-02-26T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Redaction documentation pour NOE" day="20090227" load="8">
@@ -948,6 +981,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Redaction documentation pour NOE" date="2009-02-27T00:00:00.000+0100" load="8">
       <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="deplacement module2/trunk => module2/eclipse/trunk, modification des confs, relancement du CC" day="20090223" load="2">
@@ -963,6 +997,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Point Hors GAT : identification des taches a effectuer pour la livraison de l'ingenierie hors-gat a CetE" date="2009-02-23T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Declenchement de Fabrications pour Correctifs prod, workflows" day="20090223" load="4">
@@ -978,6 +1013,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Reflexions sur ingenierie Hors-gat, workflows correctifs et evolution" date="2009-02-24T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="LI" day="20090224" load="4">
@@ -1017,6 +1053,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="reunion Hors Gat + redaction doc" date="2009-02-26T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="LI" day="20090226" load="4">
@@ -1032,6 +1069,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Passage de connaissance HG" date="2009-02-27T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="Passage de connaissance workflow fabrication pour livraisons incident en prod" day="20090227" load="2">
@@ -1055,6 +1093,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="suite buckminster killer" date="2009-02-23T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.6"/>
     </imputation>
   </entries>
   <entries comment="suite buckminster killer" day="20090224" load="8">
@@ -1062,6 +1101,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="suite buckminster killer" date="2009-02-24T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="suite buckminster killer" day="20090225" load="8">
@@ -1069,6 +1109,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="suite buckminster killer" date="2009-02-25T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="suite buckminster killer" day="20090226" load="8">
@@ -1076,6 +1117,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="suite buckminster killer" date="2009-02-26T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Suite doxygen: ajout installeur automatique graphviz et doxygen" day="20090226" load="8">
@@ -1259,6 +1301,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Remise en ordre des externals sur COR, 1X + rollback 1,48" date="2009-03-06T00:00:00.000+0100" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="Correction 250" day="20090306" load="4">
@@ -1458,6 +1501,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Test SmartUpdator" date="2009-03-03T00:00:00.000+0100" load="8">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.1/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Test SmartUpdator" day="20090304" load="4">
@@ -1465,6 +1509,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Test SmartUpdator" date="2009-03-04T00:00:00.000+0100" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.1/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Suivi RMOX" day="20090304" load="4">
@@ -1648,6 +1693,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="nouvelle inge" date="2009-03-05T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="DIMOS : solution popup fermeture GAD" day="20090306" load="8">

@@ -9,6 +9,8 @@
     <tasks totalLoad="16" name="Envois de mails"/>
     <tasks totalLoad="30" name="Popup killer">
       <imputations href="TimeEntries/20090105.timeentries#//@entries.412/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.36/@imputation"/>
+      <imputations href="TimeEntries/20090216.timeentries#//@entries.0/@imputation"/>
     </tasks>
     <tasks totalLoad="20" name="CC auto update"/>
     <tasks totalLoad="40" name="BUG CC SVN update KO sur remplacement"/>
