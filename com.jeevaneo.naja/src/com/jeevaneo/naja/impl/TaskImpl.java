@@ -7,6 +7,8 @@
 package com.jeevaneo.naja.impl;
 
 import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 import java.util.Date;
 import org.eclipse.emf.common.notify.Notification;
@@ -457,7 +459,9 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 */
 	public int getImputedLoad() {
 		int ret = 0;
-		for(Imputation imputation : getImputations())
+		Set<Imputation> imputs = new HashSet<Imputation>();
+		imputs.addAll(getImputations());
+		for(Imputation imputation : imputs)
 		{
 			ret += imputation.getLoad();
 		}
