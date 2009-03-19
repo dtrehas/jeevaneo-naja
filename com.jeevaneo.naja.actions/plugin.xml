@@ -147,5 +147,29 @@
             </or>
          </visibility>
       </objectContribution>
+      <objectContribution
+            id="com.jeevaneo.naja.actions.persons"
+            objectClass="com.jeevaneo.naja.Person">
+         <menu
+               id="com.jeevaneo.naja.menu1"
+               label="Naja export"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportOccupationAsHtmlAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.exportImputations"
+               label="Export Occupation as HTML"
+               menubarPath="com.jeevaneo.naja.menu1/group1">
+         </action>
+         <visibility>
+            <objectClass
+                  name="com.jeevaneo.naja.Person">
+            </objectClass>
+         </visibility>
+      </objectContribution>
    </extension>
 </plugin>
