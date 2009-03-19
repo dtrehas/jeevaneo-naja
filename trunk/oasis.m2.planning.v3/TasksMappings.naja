@@ -4,7 +4,7 @@
     <task href="conges.naja#//@categories.0/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/ccMaint.task">
-    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.1"/>
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/GCLAdmin.task">
     <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
@@ -53,6 +53,9 @@
   </mappings>
   <mappings externalId="tasks/Como.task">
     <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/DistribM5_deploiementPatch.task">
+    <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/Dimos_doc.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.14"/>
@@ -155,6 +158,9 @@
   <mappings externalId="tasks/OAO_packaging.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
   </mappings>
+  <mappings externalId="tasks/OAO_report.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.6"/>
+  </mappings>
   <mappings externalId="tasks/OAO_rmoa.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.1"/>
   </mappings>
@@ -165,7 +171,7 @@
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.8"/>
   </mappings>
   <mappings externalId="tasks/OutilsDev_lot2_partCompil.task">
-    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+    <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/OutilsDev_lot3_etude.task">
     <task href="M2.naja#//@categories.4/@tasks.0"/>
@@ -243,9 +249,7 @@
   <mappings externalId="tasks/aideBe.task">
     <task href="M2.naja#//@categories.1/@subcategories.2/@tasks.2"/>
   </mappings>
-  <mappings externalId="tasks/supportEtLogistique.task">
-    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.1"/>
-  </mappings>
+  <mappings externalId="tasks/supportEtLogistique.task"/>
   <mappings externalId="tasks/GRS_integration_wrappersGRS.task">
     <task href="M2.naja#//@categories.1/@subcategories.1/@tasks.2"/>
   </mappings>

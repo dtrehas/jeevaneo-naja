@@ -3,11 +3,6 @@
   <planifications task="//@categories.1/@tasks.0" load="226" maxLoadPerDay="3">
     <resource href="resources/AGI_97061a.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-03-09T00:00:00.000+0100" load="3"/>
-      <schedules date="2009-03-10T00:00:00.000+0100" load="3"/>
-      <schedules date="2009-03-11T00:00:00.000+0100" load="3"/>
-      <schedules date="2009-03-12T00:00:00.000+0100" load="3"/>
-      <schedules date="2009-03-13T00:00:00.000+0100" load="3"/>
       <schedules date="2009-03-16T00:00:00.000+0100" load="3"/>
       <schedules date="2009-03-17T00:00:00.000+0100" load="3"/>
       <schedules date="2009-03-18T00:00:00.000+0100" load="3"/>
@@ -52,6 +47,7 @@
       <schedules date="2009-05-25T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-26T00:00:00.000+0200" load="3"/>
       <schedules date="2009-05-27T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-05-28T00:00:00.000+0200" load="3"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>
@@ -73,10 +69,15 @@
     <imputations href="TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.431/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.419/@imputation"/>
+    <imputations href="TimeEntries/20090309.timeentries#//@entries.43/@imputation"/>
+    <imputations href="TimeEntries/20090309.timeentries#//@entries.60/@imputation"/>
+    <imputations href="TimeEntries/20090309.timeentries#//@entries.3/@imputation"/>
   </planifications>
   <categories name="COU/PDF">
     <tasks totalLoad="4" name="COU/PDF">
       <imputations href="TimeEntries/20090216.timeentries#//@entries.159/@imputation"/>
+      <imputations href="TimeEntries/20090309.timeentries#//@entries.40/@imputation"/>
+      <imputations href="TimeEntries/20090309.timeentries#//@entries.52/@imputation"/>
     </tasks>
   </categories>
   <categories name="LI">
@@ -111,6 +112,12 @@
       <imputations href="TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
       <imputations href="TimeEntries/20090105.timeentries#//@entries.431/@imputation"/>
       <imputations href="TimeEntries/20090105.timeentries#//@entries.419/@imputation"/>
+      <imputations href="TimeEntries/20090202.timeentries#//@entries.71/@imputation"/>
+      <imputations href="TimeEntries/20090202.timeentries#//@entries.26/@imputation"/>
+      <imputations href="TimeEntries/20090202.timeentries#//@entries.62/@imputation"/>
+      <imputations href="TimeEntries/20090309.timeentries#//@entries.43/@imputation"/>
+      <imputations href="TimeEntries/20090309.timeentries#//@entries.60/@imputation"/>
+      <imputations href="TimeEntries/20090309.timeentries#//@entries.3/@imputation"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
