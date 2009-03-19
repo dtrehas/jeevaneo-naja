@@ -27,6 +27,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Project#getTotalLoad <em>Total Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Project#getUnaffectedLoad <em>Unaffected Load</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Project#getTasks <em>Tasks</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Project#getImputedLoad <em>Imputed Load</em>}</li>
  * </ul>
  * </p>
  *
@@ -192,5 +193,20 @@ public interface Project extends EObject {
 	 * @generated
 	 */
 	EList<Task> getTasks();
+
+	/**
+	 * Returns the value of the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Imputed Load</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Imputed Load</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getProject_ImputedLoad()
+	 * @model unique="false" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getImputedLoad();
 
 } // Project

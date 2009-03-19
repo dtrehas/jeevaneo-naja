@@ -6,20 +6,18 @@
  */
 package com.jeevaneo.naja.impl;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.SortedSet;
-import java.util.TreeSet;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.notify.impl.AdapterImpl;
 import org.eclipse.emf.common.util.EList;
+import org.eclipse.emf.common.util.UniqueEList;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
@@ -185,8 +183,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * The default value of the '{@link #getMaxLoadPerDay() <em>Max Load Per Day</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+	 * <!-- begin-user-doc --> <!--
+	 * end-user-doc -->
 	 * @see #getMaxLoadPerDay()
 	 * @generated
 	 * @ordered
@@ -195,8 +193,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 	/**
 	 * The cached value of the '{@link #getMaxLoadPerDay() <em>Max Load Per Day</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+	 * <!-- begin-user-doc --> <!--
+	 * end-user-doc -->
 	 * @see #getMaxLoadPerDay()
 	 * @generated
 	 * @ordered
@@ -464,16 +462,18 @@ public class PersonImpl extends EObjectImpl implements Person {
 		}
 
 		// fill it with all "opened" schedules then remove the imputations
-		SortedSet<Date> dates = findOpenedDates(availabilityStartDate);
+		SortedSet<Date> dates = Utils.findOpenedDates(availabilityStartDate,
+				totalAvailability, maxLoadPerDay);
 
 		// TODO continue!!
 		int i = 0;
 		int leftAvailability = totalAvailability;
-		
+
 		for (Date date : dates) {
 			Schedule schedule = NajaFactory.eINSTANCE.createSchedule();
 			schedule.setDate(date);
-			schedule.setLoad(Math.min(getMaxLoadPerDay(), Math.min(8, leftAvailability)));
+			schedule.setLoad(Math.min(getMaxLoadPerDay(), Math.min(8,
+					leftAvailability)));
 			leftAvailability -= schedule.getLoad();
 			getAvailableSchedules().add(schedule);
 		}
@@ -496,8 +496,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 
 				int leftToImpute = planification.getLoad()
 						- virtualImputation.getTotalLoad();
-				int imputeLoad = Math.min(getMaxLoadPerDay(), Math.min(Math.min(leftToImpute, planification
-						.getMaxLoadPerDay()), schedule.getLoad()));
+				int imputeLoad = Math.min(getMaxLoadPerDay(), Math.min(Math
+						.min(leftToImpute, planification.getMaxLoadPerDay()),
+						schedule.getLoad()));
 				if (schedule.getLoad() > imputeLoad) {
 					// split it in two
 					schedule.setLoad(schedule.getLoad() - imputeLoad);
@@ -586,63 +587,6 @@ public class PersonImpl extends EObjectImpl implements Person {
 		return date.equals(date2);
 	}
 
-	private SortedSet<Date> findOpenedDates(Date firstDate) {
-		SortedSet<Date> ret = new TreeSet<Date>();
-		Calendar cal = Calendar.getInstance();
-		cal.setTime(firstDate);
-		cal.add(Calendar.DAY_OF_WEEK, -1);
-		int availability = totalAvailability;
-		//TODO imputations can be before startAvailability
-//		for(Imputation imputation:getImputations())
-//		{
-//			availability-=imputation.getLoad();
-//		}
-		int leftDays = availability / getMaxLoadPerDay()
-				+ (availability % getMaxLoadPerDay() == 0 ? 0 : 1);
-		while (leftDays > 0) {
-			cal.add(Calendar.DAY_OF_WEEK, 1);
-			if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY
-					|| cal.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY) {
-				// week end
-				continue;
-			}
-			if (isBankHoliday(cal.getTime())) {
-				continue;
-			}
-			ret.add(cal.getTime());
-			leftDays--;
-		}
-		return ret;
-	}
-
-	private final static SortedSet<Date> bankHolidays = new TreeSet<Date>();
-	static {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-
-		// TODO externalize and make parametrizable
-		try {
-			bankHolidays.add(sdf.parse("2009-01-01"));
-			bankHolidays.add(sdf.parse("2009-01-04"));
-			bankHolidays.add(sdf.parse("2009-04-13"));
-			bankHolidays.add(sdf.parse("2009-05-01"));
-			bankHolidays.add(sdf.parse("2009-05-08"));
-			bankHolidays.add(sdf.parse("2009-05-21"));
-			bankHolidays.add(sdf.parse("2009-06-01"));
-			bankHolidays.add(sdf.parse("2009-07-14"));
-			bankHolidays.add(sdf.parse("2009-08-15"));
-			bankHolidays.add(sdf.parse("2009-11-01"));
-			bankHolidays.add(sdf.parse("2009-11-11"));
-			bankHolidays.add(sdf.parse("2009-12-25"));
-		} catch (ParseException e) {
-			throw new RuntimeException(e);
-		}
-
-	}
-
-	private boolean isBankHoliday(Date date) {
-		return bankHolidays.contains(date);
-	}
-
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
@@ -668,13 +612,11 @@ public class PersonImpl extends EObjectImpl implements Person {
 		}
 		for (Planification planification : getPlanifications()) {
 			Date planifLast = planification.getLastDate();
-			if(null==planifLast)
-			{
+			if (null == planifLast) {
 				continue;
 			}
-			if(null==last)
-			{
-				last=planifLast;
+			if (null == last) {
+				last = planifLast;
 				continue;
 			}
 			if (last.before(planifLast)) {
@@ -685,8 +627,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 	}
 
 	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
 	public int getMaxLoadPerDay() {
@@ -694,8 +635,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 	}
 
 	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
 	public void setMaxLoadPerDay(int newMaxLoadPerDay) {

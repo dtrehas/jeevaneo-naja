@@ -587,13 +587,22 @@ public interface NajaPackage extends EPackage {
 	int PROJECT__TASKS = 7;
 
 	/**
+	 * The feature id for the '<em><b>Imputed Load</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PROJECT__IMPUTED_LOAD = 8;
+
+	/**
 	 * The number of structural features of the '<em>Project</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PROJECT_FEATURE_COUNT = 8;
+	int PROJECT_FEATURE_COUNT = 9;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.CategoryImpl <em>Category</em>}' class.
@@ -1500,6 +1509,17 @@ public interface NajaPackage extends EPackage {
 	EReference getProject_Tasks();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Project#getImputedLoad <em>Imputed Load</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Imputed Load</em>'.
+	 * @see com.jeevaneo.naja.Project#getImputedLoad()
+	 * @see #getProject()
+	 * @generated
+	 */
+	EAttribute getProject_ImputedLoad();
+
+	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Category <em>Category</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2276,6 +2296,14 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EReference PROJECT__TASKS = eINSTANCE.getProject_Tasks();
+
+		/**
+		 * The meta object literal for the '<em><b>Imputed Load</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PROJECT__IMPUTED_LOAD = eINSTANCE.getProject_ImputedLoad();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.CategoryImpl <em>Category</em>}' class.
