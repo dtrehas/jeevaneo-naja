@@ -115,6 +115,9 @@
                <objectClass
                      name="com.jeevaneo.naja.Person">
                </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.Category">
+               </objectClass>
             </or>
          </visibility>
       </objectContribution>
