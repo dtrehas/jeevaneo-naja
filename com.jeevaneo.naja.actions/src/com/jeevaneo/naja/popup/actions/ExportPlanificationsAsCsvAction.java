@@ -22,6 +22,7 @@ import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
+import com.jeevaneo.naja.Category;
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
@@ -67,9 +68,29 @@ public class ExportPlanificationsAsCsvAction implements IObjectActionDelegate {
 				planifs.addAll(((Task) o).getPlanifications());
 			} else if (o instanceof Person) {
 				planifs.addAll(((Person) o).getPlanifications());
+			}else if (o instanceof Category) {
+				planifs.addAll(planifications(((Category) o)));
 			}
 		}
 		export(planifs);
+	}
+	
+	private List<Planification> planifications(Category cat)
+	{
+		List<Planification> ret = new ArrayList<Planification>();
+		for(Task task : cat.getTasks())
+		{
+			if(null==task)
+			{
+				continue;
+			}
+			ret.addAll(task.getPlanifications());
+		}
+		for(Category subcat : cat.getSubcategories())
+		{
+			ret.addAll(planifications(subcat));
+		}
+		return ret;
 	}
 
 	private void check(Project p) {
