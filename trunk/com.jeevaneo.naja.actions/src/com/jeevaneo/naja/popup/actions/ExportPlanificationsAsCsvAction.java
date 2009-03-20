@@ -7,8 +7,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.dialogs.MessageDialog;
@@ -21,8 +23,10 @@ import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
 import com.jeevaneo.naja.Imputation;
+import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Project;
+import com.jeevaneo.naja.Task;
 
 public class ExportPlanificationsAsCsvAction implements IObjectActionDelegate {
 
@@ -51,7 +55,7 @@ public class ExportPlanificationsAsCsvAction implements IObjectActionDelegate {
 			return;
 
 		Iterator<?> i = selection.iterator();
-		List<Planification> planifs = new ArrayList<Planification>();
+		Set<Planification> planifs = new HashSet<Planification>();
 		while (i.hasNext()) {
 			Object o = i.next();
 			if (o instanceof Planification) {
@@ -59,6 +63,10 @@ public class ExportPlanificationsAsCsvAction implements IObjectActionDelegate {
 			} else if (o instanceof Project) {
 				planifs.addAll(((Project) o).getPlanifications());
 				check((Project) o);
+			} else if (o instanceof Task) {
+				planifs.addAll(((Task) o).getPlanifications());
+			} else if (o instanceof Person) {
+				planifs.addAll(((Person) o).getPlanifications());
 			}
 		}
 		export(planifs);
@@ -89,7 +97,7 @@ public class ExportPlanificationsAsCsvAction implements IObjectActionDelegate {
 		}
 	}
 
-	private void export(List<Planification> planifs) {
+	private void export(Set<Planification> planifs) {
 
 		FileDialog fd = new FileDialog(new Shell());
 		String filename = fd.open();

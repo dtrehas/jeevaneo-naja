@@ -109,6 +109,12 @@
                <objectClass
                      name="com.jeevaneo.naja.Planification">
                </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.Task">
+               </objectClass>
+               <objectClass
+                     name="com.jeevaneo.naja.Person">
+               </objectClass>
             </or>
          </visibility>
       </objectContribution>
