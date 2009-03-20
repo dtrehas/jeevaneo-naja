@@ -3437,6 +3437,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
     <imputation comment="CC: SOFIA avec nouvel inge + correction suite a la fusion entre HG SOFIA et HG" date="2009-02-05T00:00:00.000+0100" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Report de MAG dans la nouvelle inge SOFIA et OASIS" day="20090206" load="4">
@@ -3452,6 +3453,7 @@
     <externalId href="../TasksMappings.naja#tasks/Recette MOA_corr.task"/>
     <imputation comment="Corrections PRD + CC SOFIA" date="2009-02-06T00:00:00.000+0100" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>
