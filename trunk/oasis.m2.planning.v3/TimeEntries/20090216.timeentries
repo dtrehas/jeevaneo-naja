@@ -81,7 +81,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Filierisation SVN" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.0/@tasks.1"/>
       <planification href="../M2.naja#//@planifications.31"/>
     </imputation>
   </entries>
@@ -90,7 +90,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Suivi CC RMOX et REF_COR" date="2009-02-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.4/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.8"/>
       <planification href="../M2.naja#//@planifications.47"/>
     </imputation>
   </entries>
@@ -1054,7 +1054,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Redaction documentation pour NOE" date="2009-02-27T00:00:00.000+0100" load="8">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="deplacement module2/trunk => module2/eclipse/trunk, modification des confs, relancement du CC" day="20090223" load="2">
@@ -1480,7 +1480,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
     <imputation comment="Documentation HG" date="2009-03-02T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.36"/>
     </imputation>
   </entries>
@@ -1505,7 +1505,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
     <imputation comment="Documentation HG" date="2009-03-03T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.36"/>
     </imputation>
   </entries>
@@ -1556,7 +1556,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
     <imputation comment="Documentation remise des cles" date="2009-03-06T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Mis en place de JADD" day="20090302" load="8">

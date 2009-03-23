@@ -181,7 +181,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_LivraisonSofia_008_mecanisme.task"/>
     <imputation comment="Lanceur Hors-GAT : tests, docs + install sur poste JIMMY" date="2009-01-06T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="ouverture des anomalies en GCL + support " day="20090106" load="2">
@@ -893,7 +893,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_Livraison008_montagePostes.task"/>
     <imputation comment="Installation d'un client GCL pour JLT + suivi livraison des applis SGU + suivi RMOX + relancement et suivi CC de pour pre-pilote" date="2009-01-13T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.5"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Planning, estimation des charges, echanges avec Regis" day="20090113" load="2">
@@ -1021,7 +1021,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Formation support.noe pour oasisisation d'applications " date="2009-01-14T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.1/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.10"/>
     </imputation>
   </entries>
   <entries comment="Creation etoile Achernar + rollback sur departement" day="20090114" load="2">
@@ -1445,7 +1445,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_LivraisonSofia_008_formation.task"/>
     <imputation comment="Echanges avec support noe sur oasisisation" date="2009-01-19T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Correctifs RMOA - recherche solutions sur crash 41Y a la fermeture" day="20090119" load="4">
@@ -1589,7 +1589,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_LivraisonSofia_008_formation.task"/>
     <imputation comment="Reunion sur DOS avec DBL, VLA " date="2009-01-20T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="suivi des commits sur REF_INT de Support.noe, redaction du mail de synthese sur la prise en main de l'oasisisation par support NOE" day="20090120" load="2">
@@ -1733,7 +1733,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_Livraison008_montagePostes.task"/>
     <imputation comment="Installation/configuration poste DBL" date="2009-01-21T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.5"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Qualification de l'anomalie buckminster sur les installeurs de postes HG" day="20090121" load="2">
@@ -1741,7 +1741,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_LivraisonSofia_008_mecanisme.task"/>
     <imputation comment="Qualification de l'anomalie buckminster sur les installeurs de postes HG" date="2009-01-21T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Initialisation etoile Hadar + contacts SGU pour livraisons des derniers correctifs (notemment 430)" day="20090121" load="2">
@@ -1909,7 +1909,7 @@
     <externalId href="../TasksMappings.naja#tasks/HorsGAT_LivraisonSofia_008_mecanisme.task"/>
     <imputation comment="Reunion avec SRE et ABO + preparation et formation DBL sur livraison Sofia->Oasis" date="2009-01-22T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="devs client " day="20090122" load="2">
@@ -2309,7 +2309,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Refactoring HG" date="2009-01-27T00:00:00.000+0100" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="malade" day="20090127" load="4">
@@ -2453,7 +2453,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Refactoring HG" date="2009-01-28T00:00:00.000+0100" load="4">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Verification + Fermeture d'anomalies T T" day="20090128" load="4">
@@ -3013,7 +3013,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Reunion avec support NOE sur REF_COR + compte-rendu" date="2009-02-10T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
     </imputation>
   </entries>
   <entries comment="SmartDeployer" day="20090210" load="6">
@@ -3269,7 +3269,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Support NOE pour tir a blanc sur REF_COR " date="2009-02-12T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
     </imputation>
   </entries>
   <entries comment="devs client" day="20090212" load="2">
@@ -3405,7 +3405,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="PIERREisation HG" date="2009-02-02T00:00:00.000+0100" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="COUPDF: oulala les serveurs sont downs" day="20090202" load="2">
