@@ -234,9 +234,7 @@
   <mappings externalId="tasks/SocleGAT_maifDataOffline_real.task">
     <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.5"/>
   </mappings>
-  <mappings externalId="tasks/transComp.task">
-    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-  </mappings>
+  <mappings externalId="tasks/transComp.task"/>
   <mappings externalId="tasks/RMOX_cord.task">
     <task href="M2.naja#//@categories.1/@subcategories.1/@tasks.0"/>
   </mappings>
