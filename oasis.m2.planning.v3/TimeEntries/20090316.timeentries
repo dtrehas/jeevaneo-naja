@@ -130,7 +130,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  debut de la creation du document Shapo" date="2009-03-17T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" day="20090318" load="4">
@@ -138,7 +138,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" date="2009-03-18T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="N3 - Anomalie 24239  - Essaie de qualification" day="20090318" load="4">
@@ -182,7 +182,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" date="2009-03-19T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Livraison RMOX" day="20090320" load="2">
@@ -199,7 +199,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  suite du document Shapo + teste de l'outil de AGI pour la conf de build" date="2009-03-20T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Ajout des champs respInfo et respMetier dans OAO" day="20090318" load="8">
