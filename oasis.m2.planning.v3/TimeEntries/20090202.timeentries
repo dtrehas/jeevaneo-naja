@@ -509,7 +509,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="couloir REF_COR + outil d'automatisation de pose de tag pour noe" date="2009-02-05T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
     </imputation>
   </entries>
   <entries comment="Test deployer" day="20090206" load="6">
@@ -581,7 +581,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modes operatoires pour livraison REF_COR + CC" date="2009-02-06T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.1/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Suivi anomalies RMOX" day="20090206" load="2">

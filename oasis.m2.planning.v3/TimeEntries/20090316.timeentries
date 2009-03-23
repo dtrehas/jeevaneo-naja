@@ -5,7 +5,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Livraison des cles HG : Definition des livrables, outil de conf de build" date="2009-03-16T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.3"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
       <planification href="../M2.naja#//@planifications.40"/>
     </imputation>
   </entries>
@@ -14,7 +14,7 @@
     <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
     <imputation comment="Support Fabrication - COM KLIF-T pour mise a dispo des sources BE, suivi oasis-isation des applications REF_COR" date="2009-03-16T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
       <planification href="../M2.naja#//@planifications.79"/>
     </imputation>
   </entries>
@@ -50,7 +50,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop - Livraison des cles HG : outil de conf de build" date="2009-03-17T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.77"/>
     </imputation>
   </entries>
@@ -59,7 +59,7 @@
     <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
     <imputation comment="Support fabrication - Oasis-isation et fabrication REF_COR : Correction Anomalie Oasis-isation, Suivi des CC, communications KLIF-T, NOE et ds2i" date="2009-03-17T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.2"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
       <planification href="../M2.naja#//@planifications.79"/>
     </imputation>
   </entries>
@@ -68,7 +68,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop - Livraison des cles HG : outil de conf de build" date="2009-03-18T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.4/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.4/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.50"/>
     </imputation>
   </entries>
@@ -130,7 +130,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  debut de la creation du document Shapo" date="2009-03-17T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" day="20090318" load="4">
@@ -138,7 +138,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" date="2009-03-18T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="N3 - Anomalie 24239  - Essaie de qualification" day="20090318" load="4">
@@ -182,7 +182,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" date="2009-03-19T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Livraison RMOX" day="20090320" load="2">
@@ -199,7 +199,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop shapo - Livraison des cles HG :  suite du document Shapo + teste de l'outil de AGI pour la conf de build" date="2009-03-20T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="Ajout des champs respInfo et respMetier dans OAO" day="20090318" load="8">
@@ -322,7 +322,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop - Livraison des cles HG : outil de conf de build" date="2009-03-19T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@tasks.2"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.2/@tasks.2"/>
       <planification href="../M2.naja#//@planifications.41"/>
     </imputation>
   </entries>
@@ -331,7 +331,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Modop - Livraison des cles HG : outil de conf de build, relecture document shapo" date="2009-03-20T00:00:00.000+0100" load="8">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.79"/>
     </imputation>
   </entries>
@@ -605,7 +605,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Remise Cle Realisation N Builds - Splitte du builder gatbuilder en socle builder, gat buider et hg builder" date="2009-03-20T00:00:00.000+0100" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.0/@tasks.1"/>
       <planification href="../M2.naja#//@planifications.31"/>
     </imputation>
   </entries>

@@ -129,7 +129,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Doc sur SVN (cles Hors Gat)" date="2009-03-09T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@tasks.1"/>
       <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
@@ -315,7 +315,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Remise des cles HG : doc SVN" date="2009-03-11T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@tasks.1"/>
       <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
@@ -439,7 +439,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="MODOP HG - relecture document GBO sur remise des cles + point avec monique" date="2009-03-12T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.36"/>
     </imputation>
   </entries>
@@ -525,7 +525,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="MODOP HG : remise des cles : doc presentation packaging + modification" date="2009-03-13T00:00:00.000+0100" load="8">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.36"/>
     </imputation>
   </entries>
@@ -551,7 +551,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="MODOP Cle - remise des cles HG: doc overview" date="2009-03-13T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.1"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.37"/>
     </imputation>
   </entries>
