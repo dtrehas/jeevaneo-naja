@@ -1,2 +1,98 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="M7"/>
+<jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="M7">
+  <categories name="TCO à NOE">
+    <subcategories name="Lot 2">
+      <subcategories name="Ingé hors gat">
+        <tasks totalLoad="28" name="Modop ingé pour développeurs hors gat">
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.171/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.174/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.198/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.180/@imputation"/>
+          <imputations href="TimeEntries/20090309.timeentries#//@entries.62/@imputation"/>
+          <imputations href="TimeEntries/20090309.timeentries#//@entries.49/@imputation"/>
+          <imputations href="TimeEntries/20090309.timeentries#//@entries.59/@imputation"/>
+          <planifications href="M2.naja#//@planifications.36"/>
+          <planifications href="M2.naja#//@planifications.37"/>
+        </tasks>
+        <tasks totalLoad="40" name="Support developpeurs HorsGAT sur ingé hors gat">
+          <planifications href="M2.naja#//@planifications.42"/>
+          <planifications href="M2.naja#//@planifications.43"/>
+        </tasks>
+        <tasks totalLoad="32" name="Postes devs horsgat sofia (D Blais, Vianney etc.)">
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.111/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.216/@imputation"/>
+          <planifications href="M2.naja#//@planifications.44"/>
+        </tasks>
+      </subcategories>
+      <subcategories name="Oasis-isation : NOE">
+        <tasks totalLoad="8" name="Formation Oasis-isation">
+          <planifications href="M2.naja#//@planifications.72"/>
+        </tasks>
+      </subcategories>
+      <subcategories name="Fabrication :NOE">
+        <tasks totalLoad="20" name="Formation Fabrication NOE">
+          <planifications href="M2.naja#//@planifications.78"/>
+          <planifications href="M2.naja#//@planifications.132"/>
+        </tasks>
+      </subcategories>
+      <subcategories name="Industrialisation">
+        <subcategories name="Construction par filière">
+          <subcategories name="Sortie socle de M2">
+            <tasks totalLoad="20" name="Modop ingé pour développeurs socle "/>
+            <tasks totalLoad="40" name="Support developpeurs Socle sur ingé"/>
+          </subcategories>
+        </subcategories>
+        <tasks totalLoad="32" name="Partage unique des plugins GAT/BE/OAO"/>
+        <tasks totalLoad="24" name="Paramétrisation des conf. CC / Env"/>
+      </subcategories>
+      <subcategories name="Oasis-isation full industrielle">
+        <subcategories name="Proprification">
+          <tasks totalLoad="8" name="Eradiquer prolifération *.bat dans oasis_builder/conf"/>
+          <tasks totalLoad="32" name="CC: gestion dépendances et vetos"/>
+          <tasks totalLoad="4" name="CC: gestion quiet period bien effective"/>
+        </subcategories>
+        <tasks totalLoad="16" name="Envois de mails"/>
+        <tasks totalLoad="30" name="Popup killer">
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.0/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.36/@imputation"/>
+          <imputations href="TimeEntries/20090105.timeentries#//@entries.412/@imputation"/>
+          <imputations href="TimeEntries/20090309.timeentries#//@entries.50/@imputation"/>
+        </tasks>
+        <tasks totalLoad="20" name="CC auto update"/>
+        <tasks totalLoad="40" name="BUG CC SVN update KO sur remplacement"/>
+      </subcategories>
+      <subcategories name="ET TOUT CE QU'IL FAUT POUR QUE NOE SACHE MAINTENIR LE TRUC"/>
+    </subcategories>
+  </categories>
+  <categories name="M2-M7">
+    <subcategories name="&quot;Multi workspace + features&quot;">
+      <tasks name="Conception"/>
+      <tasks name="Réalisation "/>
+      <tasks name="Industrialisation"/>
+      <tasks name="Docs / modops"/>
+    </subcategories>
+    <tasks name="Conf BE par environnement"/>
+    <tasks name="Layer env."/>
+    <tasks name="Dev BE sans GAT"/>
+    <tasks name="Dev GAT sans install GAT (!) "/>
+    <tasks totalLoad="48" name="OAO : export/import logs "/>
+    <tasks totalLoad="72" name="OAO : palliatif IDM "/>
+    <tasks totalLoad="160" name="Dbg.exe ne compile plus"/>
+    <tasks name="Que devient BAS ? "/>
+  </categories>
+  <categories name="Banalisation">
+    <tasks totalLoad="20" name="Etude Banalisation"/>
+    <tasks totalLoad="16" name="Env vars set au runtime"/>
+    <tasks totalLoad="64" name="Conf tux dans ldap"/>
+    <tasks totalLoad="64" name="Lien user-conf"/>
+    <tasks totalLoad="200" name="Admin conf. LDAP/OAO"/>
+    <tasks totalLoad="24" name="Conf 1-n"/>
+    <tasks totalLoad="200" name="Env switcher"/>
+    <tasks name="DLLs et EXE dans la même arbo "/>
+    <tasks name="Install readonly + APPDATA + conf poste"/>
+    <tasks totalLoad="80" name="AMIPRO ?? "/>
+    <tasks name="Etude utilisation TPs autres que TP8"/>
+    <tasks name="BAS-like"/>
+    <tasks totalLoad="16" name="Doc Banalisation"/>
+  </categories>
+</jeevaneo-naja:Project>

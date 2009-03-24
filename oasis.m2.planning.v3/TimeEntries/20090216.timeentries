@@ -1480,7 +1480,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
     <imputation comment="Documentation HG" date="2009-03-02T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
+      <task href="../M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.36"/>
     </imputation>
   </entries>
@@ -1505,7 +1505,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
     <imputation comment="Documentation HG" date="2009-03-03T00:00:00.000+0100" load="6">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
+      <task href="../M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.0"/>
       <planification href="../M2.naja#//@planifications.36"/>
     </imputation>
   </entries>

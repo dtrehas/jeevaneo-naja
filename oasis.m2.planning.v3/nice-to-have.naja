@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="Les éléments de &quot;confort&quot;">
-  <categories name="Oasis-isation full industrielle">
-    <subcategories name="Proprification">
-      <tasks totalLoad="8" name="Eradiquer prolifération *.bat dans oasis_builder/conf"/>
-      <tasks totalLoad="32" name="CC: gestion dépendances et vetos"/>
-      <tasks totalLoad="4" name="CC: gestion quiet period bien effective"/>
-    </subcategories>
-    <tasks totalLoad="16" name="Envois de mails"/>
-    <tasks totalLoad="30" name="Popup killer">
-      <imputations href="TimeEntries/20090216.timeentries#//@entries.0/@imputation"/>
-      <imputations href="TimeEntries/20090216.timeentries#//@entries.36/@imputation"/>
-      <imputations href="TimeEntries/20090105.timeentries#//@entries.412/@imputation"/>
-      <imputations href="TimeEntries/20090309.timeentries#//@entries.50/@imputation"/>
-    </tasks>
-    <tasks totalLoad="20" name="CC auto update"/>
-    <tasks totalLoad="40" name="BUG CC SVN update KO sur remplacement"/>
-  </categories>
   <categories name="Screeunits">
     <tasks totalLoad="32" name="Finalisation"/>
     <tasks totalLoad="32" name="Run + correctifs"/>

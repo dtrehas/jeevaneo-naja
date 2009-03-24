@@ -81,13 +81,13 @@
     <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.16"/>
   </mappings>
   <mappings externalId="tasks/HorsGAT_LivraisonSofia_008_formation.task">
-    <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.0"/>
+    <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/HorsGAT_LivraisonSofia_008_mecanisme.task">
     <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/HorsGAT_Livraison008_montagePostes.task">
-    <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.2/@subcategories.1/@tasks.2"/>
+    <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/ImpactsM7_compilDbg.task">
     <task href="necessary.naja#//@categories.4/@tasks.6"/>
