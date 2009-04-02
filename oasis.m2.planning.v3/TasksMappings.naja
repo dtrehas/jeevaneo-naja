@@ -13,28 +13,28 @@
     <task href="Other.naja#//@categories.1/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_ApiDelphi_conception.task">
-    <task href="necessary.naja#//@categories.3/@tasks.0"/>
+    <task href="necessary.naja#//@categories.2/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_ApiDelphi_corr.task">
-    <task href="necessary.naja#//@categories.3/@tasks.1"/>
+    <task href="necessary.naja#//@categories.2/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_ApiDelphi_dev.task">
-    <task href="necessary.naja#//@categories.3/@tasks.1"/>
+    <task href="necessary.naja#//@categories.2/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_APIDelphi_diffusion.task">
-    <task href="necessary.naja#//@categories.3/@tasks.3"/>
+    <task href="necessary.naja#//@categories.2/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_ApiDelphi_doc.task">
-    <task href="necessary.naja#//@categories.3/@tasks.3"/>
+    <task href="necessary.naja#//@categories.2/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_APIDelphi_modifTmAccessWeb.task">
-    <task href="necessary.naja#//@categories.3/@tasks.1"/>
+    <task href="necessary.naja#//@categories.2/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_ApiDelphi_support.task">
-    <task href="necessary.naja#//@categories.3/@tasks.3"/>
+    <task href="necessary.naja#//@categories.2/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/GRS_Integration_ApiDelphi_tests.task">
-    <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.0"/>
+    <task href="necessary.naja#//@categories.2/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/MaquettePocEtc.task">
     <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.6"/>
@@ -90,7 +90,7 @@
     <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/ImpactsM7_compilDbg.task">
-    <task href="necessary.naja#//@categories.4/@tasks.6"/>
+    <task href="M7.naja#//@categories.1/@tasks.6"/>
   </mappings>
   <mappings externalId="tasks/Performances_BeOffline_specs.task">
     <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.0"/>
@@ -123,34 +123,34 @@
     <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
   </mappings>
   <mappings externalId="tasks/mutualisationPlugins.task">
-    <task href="necessary.naja#//@categories.9/@tasks.0"/>
+    <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/OAO_doc.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/OAO_droits_affectations.task">
-    <task href="necessary.naja#//@categories.4/@tasks.5"/>
+    <task href="necessary.naja#//@categories.7/@subcategories.0/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_importExportLog_dev.task">
-    <task href="necessary.naja#//@categories.4/@tasks.4"/>
+    <task href="M7.naja#//@categories.1/@tasks.4"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_importExportLog_spec.task">
-    <task href="necessary.naja#//@categories.4/@tasks.4"/>
+    <task href="M7.naja#//@categories.1/@tasks.4"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_creationUserBl.task">
-    <task href="necessary.naja#//@categories.4/@tasks.5"/>
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_creationUserLdap.task">
-    <task href="necessary.naja#//@categories.4/@tasks.5"/>
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_habilitationUserDroit.task">
-    <task href="necessary.naja#//@categories.4/@tasks.5"/>
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_habilitationUserPersp.task">
-    <task href="necessary.naja#//@categories.4/@tasks.5"/>
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/OAO_M7_paliatifIdm_specs.task">
-    <task href="necessary.naja#//@categories.4/@tasks.5"/>
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/OAO_finSpecs.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
@@ -159,7 +159,7 @@
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/OAO_report.task">
-    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.6"/>
+    <task href="necessary.naja#//@categories.7/@subcategories.0/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/OAO_rmoa.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.1"/>
@@ -199,31 +199,31 @@
     <task href="M2.naja#//@categories.1/@subcategories.2/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_adminConf_lot2.task">
-    <task href="necessary.naja#//@categories.2/@tasks.4"/>
+    <task href="M7.naja#//@categories.2/@tasks.4"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_amipro.task">
-    <task href="necessary.naja#//@categories.2/@tasks.9"/>
+    <task href="M7.naja#//@categories.2/@tasks.9"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_conf1n.task">
-    <task href="necessary.naja#//@categories.2/@tasks.5"/>
+    <task href="M7.naja#//@categories.2/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_doc.task">
-    <task href="necessary.naja#//@categories.2/@tasks.12"/>
+    <task href="M7.naja#//@categories.2/@tasks.12"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_etude_post420.task">
-    <task href="necessary.naja#//@categories.2/@tasks.0"/>
+    <task href="M7.naja#//@categories.2/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_lienConfUser.task">
-    <task href="necessary.naja#//@categories.2/@tasks.3"/>
+    <task href="M7.naja#//@categories.2/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_switchEnv_conception.task">
-    <task href="necessary.naja#//@categories.2/@tasks.6"/>
+    <task href="M7.naja#//@categories.2/@tasks.6"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_switchEnv_efEtReal.task">
-    <task href="necessary.naja#//@categories.2/@tasks.6"/>
+    <task href="M7.naja#//@categories.2/@tasks.6"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_Banalisation_envVars.task">
-    <task href="necessary.naja#//@categories.2/@tasks.1"/>
+    <task href="M7.naja#//@categories.2/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/SocleGAT_LivraisonSofia_007.task">
     <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.2/@tasks.2"/>
@@ -254,4 +254,6 @@
   <mappings externalId="pilotage">
     <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
   </mappings>
+  <mappings externalId="tasks/M7.task"/>
+  <mappings externalId="tasks/immersion.task"/>
 </jeevaneo-naja:TaskMappings>
