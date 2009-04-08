@@ -482,6 +482,7 @@
     <imputation comment="Resultat de MSXML different d'un poste a un autre" date="2009-03-12T00:00:00.000+0100" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
   <entries comment="Planning Day II" day="20090312" load="8">

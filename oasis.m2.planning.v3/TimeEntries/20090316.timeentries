@@ -78,6 +78,7 @@
     <imputation comment="Support MEP - fabrication REF_COR : reconstruction d'un package suite a non livraison corrective des aides a la codif dans le precedent " date="2009-03-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
   <entries comment="N3 - recherche cause sur blocage impression logique quand gestor lance dans le BE" day="20090317" load="8">
@@ -234,6 +235,7 @@
     <imputation comment="Mise en place d'un outil de mesure de preformance du cache et des requetes Ldap + mise a jour spec lot 421 pour mettre un warning pour la non prise en compte des suppresion cote Ldap" date="2009-03-20T00:00:00.000+0100" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.138"/>
     </imputation>
   </entries>
   <entries comment="Recherche charge initiale pour SRE + RAF re-estime + calcul budget gloabl" day="20090316" load="8">
@@ -350,6 +352,7 @@
     <imputation comment="Correctif probleme sur maifdata suite a tests de ali" date="2009-03-19T00:00:00.000+0100" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.18"/>
     </imputation>
   </entries>
   <entries comment="N3 - correctif sur adapter win32 (incidents 24080, 24093, 24466, 24526) et qualif" day="20090320" load="6">

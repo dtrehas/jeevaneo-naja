@@ -281,6 +281,7 @@
     <imputation comment="Install Poste OAO MOA + reinitialisation Ldap006" date="2009-03-23T00:00:00.000+0100" load="6">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
   <entries comment="Mise a jour limitations lot421 dans la spec" day="20090324" load="4">
@@ -333,6 +334,7 @@
     <imputation comment="Test Performance Lot421 avec MaifData" date="2009-03-23T00:00:00.000+0100" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.23"/>
     </imputation>
   </entries>
   <entries comment="Test Performance Lot421 avec MaifData" day="20090324" load="4">
@@ -341,6 +343,7 @@
     <imputation comment="Test Performance Lot421 avec MaifData" date="2009-03-24T00:00:00.000+0100" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.23"/>
     </imputation>
   </entries>
   <entries comment="Deploiement + Test VNR du correctif incident 'erreur bloquante'" day="20090327" load="4">
@@ -475,6 +478,7 @@
     <imputation comment="Support MEP correctif erreurs bloquantes DOS. " date="2009-03-27T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.127"/>
     </imputation>
   </entries>
   <entries comment="N Builds - Splitte du pojet socle en 3 + creation de layout specifique pour les applications GAT" day="20090323" load="8">
