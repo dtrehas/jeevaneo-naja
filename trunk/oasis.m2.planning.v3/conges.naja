@@ -144,15 +144,6 @@
   <imputations comment="Vacances Christophe Avril" date="2009-04-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/CGE_97060h.naja#/"/>
   </imputations>
-  <imputations comment="Vacances Mehdi Avril" date="2009-04-14T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/MEL_97302k.naja#/"/>
-  </imputations>
-  <imputations comment="Vacances Mehdi Avril" date="2009-04-15T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/MEL_97302k.naja#/"/>
-  </imputations>
-  <imputations comment="Vacances Mehdi Avril" date="2009-04-16T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/MEL_97302k.naja#/"/>
-  </imputations>
   <imputations comment="Vacances Jean-Louis Avril" date="2009-04-14T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
@@ -191,18 +182,6 @@
   </imputations>
   <imputations comment="Vacances Damien Avril" date="2009-04-30T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/DBR_97261j.naja#/"/>
-  </imputations>
-  <imputations comment="Vacances Ali Mai" date="2009-05-04T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/ALA_97259d.naja#/"/>
-  </imputations>
-  <imputations comment="Vacances Ali Mai" date="2009-05-05T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/ALA_97259d.naja#/"/>
-  </imputations>
-  <imputations comment="Vacances Ali Mai" date="2009-05-06T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/ALA_97259d.naja#/"/>
-  </imputations>
-  <imputations comment="Vacances Ali Mai" date="2009-05-07T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/ALA_97259d.naja#/"/>
   </imputations>
   <imputations comment="Vacances Aurélien Mai" date="2009-05-04T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/AGI_97061a.naja#/"/>
@@ -305,6 +284,9 @@
   </imputations>
   <imputations comment="Absence Christophe 22/06" date="2009-06-22T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/CGE_97060h.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Mehdi 17/04" date="2009-04-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
   <categories name="Absences">
     <tasks totalLoad="812" name="Congés">
@@ -411,12 +393,6 @@
       <imputations href="#//@imputations.93"/>
       <imputations href="#//@imputations.94"/>
       <imputations href="#//@imputations.95"/>
-      <imputations href="#//@imputations.96"/>
-      <imputations href="#//@imputations.97"/>
-      <imputations href="#//@imputations.98"/>
-      <imputations href="#//@imputations.99"/>
-      <imputations href="#//@imputations.100"/>
-      <imputations href="#//@imputations.101"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
