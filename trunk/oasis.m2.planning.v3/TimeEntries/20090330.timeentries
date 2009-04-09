@@ -145,8 +145,8 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_finSpecs.task"/>
     <imputation comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur" date="2009-03-30T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.9"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.5"/>
+      <planification href="../M2.naja#//@planifications.12"/>
     </imputation>
   </entries>
   <entries comment="Habillitations Offline - Mise en place de la persistance des affectations sur le poste de l'utilisateur (test + correctifs)" day="20090331" load="8">
@@ -154,8 +154,7 @@
     <externalId href="../TasksMappings.naja#tasks/Performances_cachesInc_BE.task"/>
     <imputation comment="Habillitations Offline - Mise en place de la persistance des affectations sur le poste de l'utilisateur (test + correctifs)" date="2009-03-31T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.19"/>
+      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.8"/>
     </imputation>
   </entries>
   <entries comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur (mise a jour des tests unitaires + doc)" day="20090401" load="6">
@@ -163,8 +162,8 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_finSpecs.task"/>
     <imputation comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur (mise a jour des tests unitaires + doc)" date="2009-04-01T00:00:00.000+0200" load="6">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.9"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.5"/>
+      <planification href="../M2.naja#//@planifications.12"/>
     </imputation>
   </entries>
   <entries comment="Install OAO sur poste MOA / Pre-recette" day="20090401" load="2">
@@ -173,6 +172,7 @@
     <imputation comment="Install OAO sur poste MOA / Pre-recette" date="2009-04-01T00:00:00.000+0200" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.127"/>
     </imputation>
   </entries>
   <entries comment="Reinstall workspace" day="20090331" load="2">
@@ -327,7 +327,7 @@
     <externalId href="../TasksMappings.naja#tasks/Performances_cachesInc_MaifData.task"/>
     <imputation comment="OffLine Habillitations - Etude possibilites persistance habilitations maifdata + cryptage" date="2009-04-02T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
-      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.3"/>
+      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.8"/>
     </imputation>
   </entries>
   <entries comment="Trigramme - Optimisation perf des requetes a la demande sur les habilitations" day="20090402" load="4">
@@ -344,8 +344,8 @@
     <externalId href="../TasksMappings.naja#tasks/Performances_cachesInc_BE.task"/>
     <imputation comment="Be Offline - Correctif pour ne plus supprimer les fichiers de persistances des donnees si le cache est vide." date="2009-04-02T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.19"/>
+      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.6"/>
+      <planification href="../M2.naja#//@planifications.21"/>
     </imputation>
   </entries>
   <entries comment="N Builds - mise en place svn listener dependant conf de build" day="20090331" load="4">
@@ -371,7 +371,8 @@
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="N3 - Aide BE - mise en place svn listener dependant conf de build" date="2009-04-01T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.6"/>
     </imputation>
   </entries>
   <entries comment="Copie demandée par SRE - extraction info CC dans projet oasis_builder.config" day="20090402" load="4">
@@ -387,7 +388,8 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_finSpecs.task"/>
     <imputation comment="OAO Be draft - integration definition de taches ant a executer dans definition conf de build" date="2009-04-02T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.6"/>
+      <planification href="../M2.naja#//@planifications.13"/>
     </imputation>
   </entries>
   <entries comment="N3 - Aide BE - integration definition de taches ant a executer dans definition conf de build" day="20090403" load="8">
@@ -395,7 +397,8 @@
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="N3 - Aide BE - integration definition de taches ant a executer dans definition conf de build" date="2009-04-03T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.6"/>
     </imputation>
   </entries>
   <entries comment="Doc workflows Livraison - Remise des cles : test de la demo + maj  document workflow HG" day="20090403" load="4">
@@ -446,6 +449,7 @@
     <imputation comment="Re-initialisation des Ldaps INT, RFU, RMOX, PROD" date="2009-04-03T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.127"/>
     </imputation>
   </entries>
   <entries comment="CC: correction d'un probleme de nommage dans les packages et mise a jour de la branche 1_X suite au modif sur le HG" day="20090330" load="8">
@@ -637,6 +641,7 @@
     <imputation comment="Relecture doc NOE sur toutes la semaine" date="2009-04-01T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.4/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.96"/>
     </imputation>
   </entries>
   <entries comment="Planning : tentative de re-estimation de RAF + prise en compte totalite non-budgete + reorganisation M7" day="20090402" load="8">
@@ -654,6 +659,7 @@
     <imputation comment="Suivi Maj LDAP de Prod : divers pb avec Granie et Bea" date="2009-04-03T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
   <entries comment="Suivi re-init LDAP RFU, INT et PRE-PROD" day="20090403" load="4">
@@ -662,6 +668,7 @@
     <imputation comment="Suivi re-init LDAP RFU, INT et PRE-PROD" date="2009-04-03T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>
