@@ -125,9 +125,7 @@
   <mappings externalId="tasks/mutualisationPlugins.task">
     <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
   </mappings>
-  <mappings externalId="tasks/OAO_doc.task">
-    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
-  </mappings>
+  <mappings externalId="tasks/OAO_doc.task"/>
   <mappings externalId="tasks/OAO_droits_affectations.task">
     <task href="necessary.naja#//@categories.7/@subcategories.0/@tasks.0"/>
   </mappings>
@@ -152,9 +150,7 @@
   <mappings externalId="tasks/OAO_M7_paliatifIdm_specs.task">
     <task href="M7.naja#//@categories.1/@tasks.5"/>
   </mappings>
-  <mappings externalId="tasks/OAO_finSpecs.task">
-    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.3"/>
-  </mappings>
+  <mappings externalId="tasks/OAO_finSpecs.task"/>
   <mappings externalId="tasks/OAO_packaging.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
   </mappings>
