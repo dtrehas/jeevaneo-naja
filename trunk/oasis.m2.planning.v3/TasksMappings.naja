@@ -110,9 +110,7 @@
   <mappings externalId="tasks/Performances_cachesInc_BE.task">
     <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.2"/>
   </mappings>
-  <mappings externalId="tasks/Performances_cachesInc_MaifData.task">
-    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.3"/>
-  </mappings>
+  <mappings externalId="tasks/Performances_cachesInc_MaifData.task"/>
   <mappings externalId="tasks/Performances_cachesInc_TNR.task">
     <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
   </mappings>
@@ -250,6 +248,8 @@
   <mappings externalId="pilotage">
     <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
   </mappings>
-  <mappings externalId="tasks/M7.task"/>
+  <mappings externalId="tasks/M7.task">
+    <task href="M7.naja#//@categories.3/@tasks.0"/>
+  </mappings>
   <mappings externalId="tasks/immersion.task"/>
 </jeevaneo-naja:TaskMappings>

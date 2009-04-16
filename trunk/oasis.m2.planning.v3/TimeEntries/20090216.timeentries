@@ -5,7 +5,6 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="popup killer" date="2009-02-16T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../nice-to-have.naja#//@categories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Test sur sldap001 + doc OAO + reunion RMOA" day="20090216" load="4">
