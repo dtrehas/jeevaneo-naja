@@ -70,5 +70,12 @@
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.67/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.66/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.65/@imputation"/>
-  <planifications href="../M2.naja#//@planifications.129"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.42/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.43/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.40/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.41/@imputation"/>
+  <imputations href="../conges.naja#//@imputations.96"/>
+  <imputations href="../conges.naja#//@imputations.97"/>
+  <imputations href="../conges.naja#//@imputations.98"/>
+  <planifications href="../M2.naja#//@planifications.108"/>
 </jeevaneo-naja:Person>

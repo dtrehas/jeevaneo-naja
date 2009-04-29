@@ -288,6 +288,18 @@
   <imputations comment="Absence Mehdi 17/04" date="2009-04-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
+  <imputations comment="Absence ABO 20/04" date="2009-04-20T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence ABO 29/04" date="2009-04-29T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence ABO 30/04" date="2009-04-30T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence demi-journée JLT 21/04" date="2009-04-21T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
+    <resource href="resources/JLT_97940m.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <tasks totalLoad="812" name="Congés">
       <imputations href="#//@imputations.2"/>
@@ -393,6 +405,10 @@
       <imputations href="#//@imputations.93"/>
       <imputations href="#//@imputations.94"/>
       <imputations href="#//@imputations.95"/>
+      <imputations href="#//@imputations.96"/>
+      <imputations href="#//@imputations.97"/>
+      <imputations href="#//@imputations.98"/>
+      <imputations href="#//@imputations.99"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="GENIN Christophe" login="97060h" totalAvailability="976" availabilityStartDate="2009-01-05T00:00:00.000+0100">
+<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="GENIN Christophe" login="97060h" totalAvailability="808" availabilityStartDate="2009-01-05T00:00:00.000+0100">
   <imputations href="../TimeEntries/20090105.timeentries#//@entries.156/@imputation"/>
   <imputations href="../TimeEntries/20090309.timeentries#//@entries.14/@imputation"/>
   <imputations href="../TimeEntries/20090105.timeentries#//@entries.277/@imputation"/>
@@ -146,27 +146,21 @@
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.25/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.23/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.21/@imputation"/>
-  <planifications href="../M2.naja#//@planifications.116"/>
-  <planifications href="../M2.naja#//@planifications.45"/>
-  <planifications href="../M2.naja#//@planifications.36"/>
-  <planifications href="../M2.naja#//@planifications.131"/>
-  <planifications href="../M2.naja#//@planifications.126"/>
-  <planifications href="../M2.naja#//@planifications.142"/>
-  <planifications href="../M2.naja#//@planifications.39"/>
+  <planifications href="../M2.naja#//@planifications.101"/>
   <planifications href="../M2.naja#//@planifications.38"/>
+  <planifications href="../M2.naja#//@planifications.110"/>
+  <planifications href="../M2.naja#//@planifications.105"/>
+  <planifications href="../M2.naja#//@planifications.119"/>
+  <planifications href="../M2.naja#//@planifications.35"/>
+  <planifications href="../M2.naja#//@planifications.34"/>
   <planifications href="../M2.naja#//@planifications.2"/>
-  <planifications href="../M2.naja#//@planifications.134"/>
-  <planifications href="../M2.naja#//@planifications.42"/>
-  <planifications href="../M2.naja#//@planifications.121"/>
-  <planifications href="../M2.naja#//@planifications.127"/>
-  <planifications href="../M2.naja#//@planifications.124"/>
-  <planifications href="../M2.naja#//@planifications.32"/>
+  <planifications href="../M2.naja#//@planifications.112"/>
+  <planifications href="../M2.naja#//@planifications.106"/>
   <planifications href="../M2.naja#//@planifications.23"/>
-  <planifications href="../M2.naja#//@planifications.58"/>
   <planifications href="../M2.naja#//@planifications.15"/>
   <planifications href="../M2.naja#//@planifications.16"/>
-  <planifications href="../M2.naja#//@planifications.90"/>
-  <planifications href="../M2.naja#//@planifications.104"/>
+  <planifications href="../M2.naja#//@planifications.77"/>
+  <planifications href="../M2.naja#//@planifications.91"/>
   <planifications href="../M2.naja#//@planifications.17"/>
-  <planifications href="../M2.naja#//@planifications.29"/>
+  <planifications href="../M2.naja#//@planifications.28"/>
 </jeevaneo-naja:Person>

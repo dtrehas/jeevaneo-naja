@@ -114,6 +114,8 @@
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.36/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.14/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.16/@imputation"/>
-  <planifications href="../M2.naja#//@planifications.120"/>
+  <imputations href="../conges.naja#//@imputations.99"/>
+  <planifications href="../M2.naja#//@planifications.104"/>
   <planifications href="../M2.naja#//@planifications.1"/>
+  <availableSchedules date="2009-05-29T00:00:00.000+0200" load="8"/>
 </jeevaneo-naja:Person>

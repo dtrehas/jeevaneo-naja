@@ -116,50 +116,36 @@
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.60/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.56/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.54/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.39/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.36/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.37/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.38/@imputation"/>
+  <imputations href="../TimeEntries/20090414.timeentries#//@entries.35/@imputation"/>
   <planifications href="../M2.naja#//@planifications.4"/>
+  <planifications href="../M2.naja#//@planifications.30"/>
   <planifications href="../M2.naja#//@planifications.31"/>
+  <planifications href="../M2.naja#//@planifications.32"/>
   <planifications href="../M2.naja#//@planifications.33"/>
-  <planifications href="../M2.naja#//@planifications.34"/>
-  <planifications href="../M2.naja#//@planifications.35"/>
-  <planifications href="../M2.naja#//@planifications.112"/>
-  <planifications href="../M2.naja#//@planifications.43"/>
-  <planifications href="../M2.naja#//@planifications.83"/>
-  <planifications href="../M2.naja#//@planifications.109"/>
+  <planifications href="../M2.naja#//@planifications.70"/>
+  <planifications href="../M2.naja#//@planifications.96"/>
   <planifications href="../M2.naja#//@planifications.18"/>
   <planifications href="../M2.naja#//@planifications.22"/>
-  <planifications href="../M2.naja#//@planifications.66"/>
-  <planifications href="../M2.naja#//@planifications.63"/>
-  <planifications href="../M2.naja#//@planifications.69"/>
-  <planifications href="../M2.naja#//@planifications.139"/>
-  <availableSchedules date="2009-06-10T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-11T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-12T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-15T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-16T00:00:00.000+0200" load="6"/>
+  <planifications href="../M2.naja#//@planifications.55"/>
+  <planifications href="../M2.naja#//@planifications.52"/>
+  <planifications href="../M2.naja#//@planifications.58"/>
+  <planifications href="../M2.naja#//@planifications.116"/>
+  <planifications href="../M2.naja#//@planifications.20"/>
+  <availableSchedules date="2009-06-15T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-06-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-06-17T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-06-18T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-06-19T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-10T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-11T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-12T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-15T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-16T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-10T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-11T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-12T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-15T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-16T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-10T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-11T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-12T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-15T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-16T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
   <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
