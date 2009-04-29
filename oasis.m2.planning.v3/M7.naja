@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <jeevaneo-naja:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="M7">
+  <planifications task="//@categories.3/@tasks.0" load="156" maxLoadPerDay="4">
+    <resource href="resources/MEL_97302k.naja#/"/>
+    <virtualImputation>
+      <schedules date="2009-05-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-11T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-13T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-14T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-18T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-19T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-20T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-25T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-26T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
+    </virtualImputation>
+  </planifications>
   <categories name="TCO à NOE">
     <subcategories name="Lot 2">
       <subcategories name="Ingé hors gat">
@@ -11,29 +54,20 @@
           <imputations href="TimeEntries/20090309.timeentries#//@entries.62/@imputation"/>
           <imputations href="TimeEntries/20090309.timeentries#//@entries.49/@imputation"/>
           <imputations href="TimeEntries/20090309.timeentries#//@entries.59/@imputation"/>
-          <planifications href="M2.naja#//@planifications.36"/>
-          <planifications href="M2.naja#//@planifications.37"/>
         </tasks>
-        <tasks totalLoad="40" name="Support developpeurs HorsGAT sur ingé hors gat">
-          <planifications href="M2.naja#//@planifications.42"/>
-          <planifications href="M2.naja#//@planifications.43"/>
-        </tasks>
+        <tasks totalLoad="40" name="Support developpeurs HorsGAT sur ingé hors gat"/>
         <tasks totalLoad="32" name="Postes devs horsgat sofia (D Blais, Vianney etc.)">
           <imputations href="TimeEntries/20090105.timeentries#//@entries.111/@imputation"/>
           <imputations href="TimeEntries/20090105.timeentries#//@entries.216/@imputation"/>
-          <planifications href="M2.naja#//@planifications.44"/>
         </tasks>
       </subcategories>
       <subcategories name="Oasis-isation : NOE">
         <tasks totalLoad="8" name="Formation Oasis-isation">
-          <planifications href="M2.naja#//@planifications.72"/>
+          <planifications href="M2.naja#//@planifications.61"/>
         </tasks>
       </subcategories>
       <subcategories name="Fabrication :NOE">
-        <tasks totalLoad="20" name="Formation Fabrication NOE">
-          <planifications href="M2.naja#//@planifications.78"/>
-          <planifications href="M2.naja#//@planifications.132"/>
-        </tasks>
+        <tasks totalLoad="20" name="Formation Fabrication NOE"/>
       </subcategories>
       <subcategories name="Industrialisation">
         <subcategories name="Construction par filière">
@@ -57,11 +91,17 @@
           <imputations href="TimeEntries/20090216.timeentries#//@entries.36/@imputation"/>
           <imputations href="TimeEntries/20090105.timeentries#//@entries.412/@imputation"/>
           <imputations href="TimeEntries/20090309.timeentries#//@entries.50/@imputation"/>
+          <imputations href="TimeEntries/20090216.timeentries#//@entries.0/@imputation"/>
         </tasks>
         <tasks totalLoad="20" name="CC auto update"/>
         <tasks totalLoad="40" name="BUG CC SVN update KO sur remplacement"/>
       </subcategories>
       <subcategories name="ET TOUT CE QU'IL FAUT POUR QUE NOE SACHE MAINTENIR LE TRUC"/>
+      <subcategories name="Impacts de la séparation ">
+        <tasks totalLoad="4" name="S'assurer build maifgrsstd50"/>
+      </subcategories>
+      <tasks totalLoad="16" name="Inclure MSXML dans fabrication"/>
+      <tasks totalLoad="16" name="Modop SVN"/>
     </subcategories>
   </categories>
   <categories name="M2-M7">
@@ -96,7 +136,7 @@
     <tasks totalLoad="16" name="Doc Banalisation"/>
   </categories>
   <categories name="pur M7">
-    <tasks totalLoad="40" name="pur M7">
+    <tasks totalLoad="40" name="pur M7" planifications="//@planifications.0">
       <imputations href="TimeEntries/20090323.timeentries#//@entries.63/@imputation"/>
       <imputations href="TimeEntries/20090323.timeentries#//@entries.64/@imputation"/>
       <imputations href="TimeEntries/20090323.timeentries#//@entries.65/@imputation"/>
@@ -124,6 +164,21 @@
       <imputations href="TimeEntries/20090406.timeentries#//@entries.9/@imputation"/>
       <imputations href="TimeEntries/20090406.timeentries#//@entries.11/@imputation"/>
       <imputations href="TimeEntries/20090406.timeentries#//@entries.13/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.15/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.32/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.18/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.33/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.19/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.31/@imputation"/>
+      <imputations href="TimeEntries/20090414.timeentries#//@entries.34/@imputation"/>
     </tasks>
+  </categories>
+  <categories name="Reccurent">
+    <tasks totalLoad="142" name="Admin GCL"/>
+    <tasks totalLoad="88" name="Support Recurrent NOE"/>
+    <tasks totalLoad="8" name="Support livraisons MAGs"/>
+    <tasks totalLoad="8" name="Support livraisons Appli Gat"/>
+    <tasks totalLoad="50" name="Support Fabrication NOE" label="Fabrication : NOE/Support Fabrication NOE"/>
+    <tasks totalLoad="38" name="support OASIS-isation NOE"/>
   </categories>
 </jeevaneo-naja:Project>
