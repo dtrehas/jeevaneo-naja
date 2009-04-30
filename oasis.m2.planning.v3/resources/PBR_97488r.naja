@@ -121,6 +121,13 @@
   <imputations href="../TimeEntries/20090414.timeentries#//@entries.37/@imputation"/>
   <imputations href="../TimeEntries/20090414.timeentries#//@entries.38/@imputation"/>
   <imputations href="../TimeEntries/20090414.timeentries#//@entries.35/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.17/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.22/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.20/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.21/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.18/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.23/@imputation"/>
+  <imputations href="../TimeEntries/20090420.timeentries#//@entries.19/@imputation"/>
   <planifications href="../M2.naja#//@planifications.4"/>
   <planifications href="../M2.naja#//@planifications.30"/>
   <planifications href="../M2.naja#//@planifications.31"/>
@@ -135,18 +142,4 @@
   <planifications href="../M2.naja#//@planifications.58"/>
   <planifications href="../M2.naja#//@planifications.116"/>
   <planifications href="../M2.naja#//@planifications.20"/>
-  <availableSchedules date="2009-06-15T00:00:00.000+0200" load="4"/>
-  <availableSchedules date="2009-06-16T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-06-17T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-06-18T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-06-19T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-17T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-18T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-06-19T00:00:00.000+0200" load="6"/>
 </jeevaneo-naja:Person>
