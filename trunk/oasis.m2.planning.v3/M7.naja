@@ -3,10 +3,6 @@
   <planifications task="//@categories.3/@tasks.0" load="156" maxLoadPerDay="4">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-06T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-11T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-12T00:00:00.000+0200" load="4"/>
       <schedules date="2009-05-13T00:00:00.000+0200" load="4"/>
       <schedules date="2009-05-14T00:00:00.000+0200" load="4"/>
       <schedules date="2009-05-15T00:00:00.000+0200" load="4"/>
@@ -177,6 +173,7 @@
       <imputations href="TimeEntries/20090420.timeentries#//@entries.27/@imputation"/>
       <imputations href="TimeEntries/20090420.timeentries#//@entries.42/@imputation"/>
       <imputations href="TimeEntries/20090420.timeentries#//@entries.33/@imputation"/>
+      <imputations href="TimeEntries/20090427.timeentries#//@entries.41/@imputation"/>
     </tasks>
   </categories>
   <categories name="Reccurent">

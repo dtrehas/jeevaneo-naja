@@ -36,9 +36,6 @@
       <schedules date="2009-06-19T00:00:00.000+0200" load="3"/>
       <schedules date="2009-06-22T00:00:00.000+0200" load="3"/>
       <schedules date="2009-06-23T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="3"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>

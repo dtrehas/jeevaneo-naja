@@ -402,7 +402,7 @@
     <imputation comment="archi be : automatisation de la gestion des binaires dans la boucle de compilation" date="2009-04-22T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.24"/>
+      <planification href="../M2.naja#//@planifications.117"/>
     </imputation>
   </entries>
   <entries comment="archi be : automatisation de la gestion des binaires dans la boucle de compilation" day="20090423" load="4">
@@ -411,7 +411,7 @@
     <imputation comment="archi be : automatisation de la gestion des binaires dans la boucle de compilation" date="2009-04-23T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.24"/>
+      <planification href="../M2.naja#//@planifications.117"/>
     </imputation>
   </entries>
   <entries comment="comparaison GED SOFIA et OASIS" day="20090424" load="8">

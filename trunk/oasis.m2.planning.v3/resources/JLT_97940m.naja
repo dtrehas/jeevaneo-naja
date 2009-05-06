@@ -120,6 +120,18 @@
   <imputations href="../TimeEntries/20090420.timeentries#//@entries.37/@imputation"/>
   <imputations href="../TimeEntries/20090420.timeentries#//@entries.36/@imputation"/>
   <imputations href="../TimeEntries/20090420.timeentries#//@entries.38/@imputation"/>
+  <imputations href="../TimeEntries/20090427.timeentries#//@entries.5/@imputation"/>
+  <imputations href="../TimeEntries/20090427.timeentries#//@entries.36/@imputation"/>
+  <imputations href="../TimeEntries/20090427.timeentries#//@entries.34/@imputation"/>
+  <imputations href="../TimeEntries/20090427.timeentries#//@entries.35/@imputation"/>
   <planifications href="../M2.naja#//@planifications.104"/>
   <planifications href="../M2.naja#//@planifications.1"/>
+  <availableSchedules date="2009-05-26T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-27T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-28T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-29T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-26T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-27T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-28T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-05-29T00:00:00.000+0200" load="8"/>
 </jeevaneo-naja:Person>
