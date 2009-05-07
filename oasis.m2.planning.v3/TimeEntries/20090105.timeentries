@@ -1341,7 +1341,7 @@
     <externalId href="../TasksMappings.naja#tasks/GRS_integration_wrappersGRS.task"/>
     <imputation comment="creation wrapper - ressource siebel" date="2009-01-16T00:00:00.000+0100" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.3/@tasks.8"/>
+      <task href="../M2.naja#//@categories.3/@tasks.7"/>
     </imputation>
   </entries>
   <entries comment="OAO: correctifs (ordre des onglets) + creation perspective pour Grani" day="20090116" load="8">
@@ -1661,7 +1661,7 @@
     <externalId href="../TasksMappings.naja#tasks/Doc_FAL.task"/>
     <imputation comment="FAL (Creation de nouvelles)" date="2009-01-20T00:00:00.000+0100" load="2">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.3/@tasks.8"/>
+      <task href="../M2.naja#//@categories.3/@tasks.7"/>
     </imputation>
   </entries>
   <entries comment="Packaging incremental" day="20090120" load="8">
@@ -2045,7 +2045,7 @@
     <externalId href="../TasksMappings.naja#tasks/Doc_FAL.task"/>
     <imputation comment="FAL (Mise a jour)" date="2009-01-23T00:00:00.000+0100" load="2">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.3/@tasks.8"/>
+      <task href="../M2.naja#//@categories.3/@tasks.7"/>
     </imputation>
   </entries>
   <entries comment="Packging incremental" day="20090123" load="8">
@@ -2093,7 +2093,7 @@
     <externalId href="../TasksMappings.naja#tasks/Doc_FAL.task"/>
     <imputation comment="Relecture FAL" date="2009-01-23T00:00:00.000+0100" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
-      <task href="../M2.naja#//@categories.3/@tasks.8"/>
+      <task href="../M2.naja#//@categories.3/@tasks.7"/>
     </imputation>
   </entries>
   <entries comment="Suivi divers dont RespApp GDI avec Grani + pres. RMOX pour Grani" day="20090123" load="2">
