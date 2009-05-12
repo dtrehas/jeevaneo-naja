@@ -124,22 +124,13 @@
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.36/@imputation"/>
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.34/@imputation"/>
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.35/@imputation"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.36/@imputation"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.33/@imputation"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.35/@imputation"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.34/@imputation"/>
   <planifications href="../M2.naja#//@planifications.101"/>
   <planifications href="../M2.naja#//@planifications.1"/>
   <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-07-31T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-08-03T00:00:00.000+0200" load="8"/>
 </jeevaneo-naja:Person>

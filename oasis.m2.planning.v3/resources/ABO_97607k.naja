@@ -84,5 +84,8 @@
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.43/@imputation"/>
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.42/@imputation"/>
   <imputations href="../conges.naja#//@imputations.102"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.56/@imputation"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.54/@imputation"/>
+  <imputations href="../TimeEntries/20090504.timeentries#//@entries.55/@imputation"/>
   <planifications href="../M2.naja#//@planifications.105"/>
 </jeevaneo-naja:Person>
