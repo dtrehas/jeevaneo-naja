@@ -300,6 +300,24 @@
   <imputations comment="Absence demi-journée JLT 21/04" date="2009-04-21T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
+  <imputations comment="Absence Mehdi 19 Mai" date="2009-05-19T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence Aurélie 05 Mai (1ère écho)" date="2009-05-05T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Absence ABO 06 Mai" date="2009-05-06T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ABO_97607k.naja#/"/>
+  </imputations>
+  <imputations comment="Absence ALI 27 Mai" date="2009-05-27T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Absence ALI 28 Mai" date="2009-05-28T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Absence ALI 29 Mai" date="2009-05-29T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <tasks totalLoad="812" name="Congés">
       <imputations href="#//@imputations.2"/>
@@ -410,6 +428,12 @@
       <imputations href="#//@imputations.98"/>
       <imputations href="#//@imputations.99"/>
       <imputations href="TimeEntries/20090427.timeentries#//@entries.6/@imputation"/>
+      <imputations href="#//@imputations.100"/>
+      <imputations href="#//@imputations.101"/>
+      <imputations href="#//@imputations.102"/>
+      <imputations href="#//@imputations.103"/>
+      <imputations href="#//@imputations.104"/>
+      <imputations href="#//@imputations.105"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>

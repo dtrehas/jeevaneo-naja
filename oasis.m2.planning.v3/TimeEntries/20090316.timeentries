@@ -78,7 +78,7 @@
     <imputation comment="Support MEP - fabrication REF_COR : reconstruction d'un package suite a non livraison corrective des aides a la codif dans le precedent " date="2009-03-18T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.105"/>
+      <planification href="../M2.naja#//@planifications.104"/>
     </imputation>
   </entries>
   <entries comment="N3 - recherche cause sur blocage impression logique quand gestor lance dans le BE" day="20090317" load="8">
@@ -122,7 +122,7 @@
     <imputation comment="RMOX : Livraison  + communication de l'anomalie + reunion avec PMO + Anomalie remonte par la MOA" date="2009-03-17T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.4"/>
-      <planification href="../M2.naja#//@planifications.99"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="Modop shapo - Livraison des cles HG :  debut de la creation du document Shapo" day="20090317" load="4">
@@ -165,7 +165,7 @@
     <imputation comment="Passage de connaissance a Nicolas Couthouis" date="2009-03-19T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.110"/>
+      <planification href="../M2.naja#//@planifications.109"/>
     </imputation>
   </entries>
   <entries comment="Livraison RMOX" day="20090319" load="2">
@@ -174,7 +174,7 @@
     <imputation comment="Livraison RMOX" date="2009-03-19T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.4"/>
-      <planification href="../M2.naja#//@planifications.99"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="Modop shapo - Livraison des cles HG :  suite du document Shapo" day="20090319" load="2">
@@ -191,7 +191,7 @@
     <imputation comment="Livraison RMOX" date="2009-03-20T00:00:00.000+0100" load="2">
       <resource href="../resources/CGE_97060h.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.4"/>
-      <planification href="../M2.naja#//@planifications.99"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="Modop shapo - Livraison des cles HG :  suite du document Shapo + teste de l'outil de AGI pour la conf de build" day="20090320" load="6">
@@ -234,7 +234,7 @@
     <imputation comment="Mise en place d'un outil de mesure de preformance du cache et des requetes Ldap + mise a jour spec lot 421 pour mettre un warning pour la non prise en compte des suppresion cote Ldap" date="2009-03-20T00:00:00.000+0100" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
-      <planification href="../M2.naja#//@planifications.113"/>
+      <planification href="../M2.naja#//@planifications.112"/>
     </imputation>
   </entries>
   <entries comment="Recherche charge initiale pour SRE + RAF re-estime + calcul budget gloabl" day="20090316" load="8">
@@ -279,7 +279,7 @@
     <imputation comment="Point de suivi des anomalies RMOX" date="2009-03-20T00:00:00.000+0100" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.100"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Suivi des incidents, point de situation" day="20090320" load="2">
@@ -315,7 +315,7 @@
     <imputation comment="Refactorisation GCL : deplacement aides dans une url qui lui est propre, deplacement RMOX. Modif des confs de build, communication support noe" date="2009-03-19T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.73"/>
+      <planification href="../M2.naja#//@planifications.72"/>
     </imputation>
   </entries>
   <entries comment="Modop - Livraison des cles HG : outil de conf de build" day="20090319" load="4">
@@ -378,7 +378,7 @@
     <imputation comment="gestion du transfert de session de siebel vers debsiebel" date="2009-03-16T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.100"/>
     </imputation>
   </entries>
   <entries comment="gestion du transfert de session de siebel vers debsiebel" day="20090317" load="8">
@@ -387,7 +387,7 @@
     <imputation comment="gestion du transfert de session de siebel vers debsiebel" date="2009-03-17T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.100"/>
     </imputation>
   </entries>
   <entries comment="gestion du transfert de session de siebel vers debsiebel" day="20090318" load="8">
@@ -396,7 +396,7 @@
     <imputation comment="gestion du transfert de session de siebel vers debsiebel" date="2009-03-18T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.100"/>
     </imputation>
   </entries>
   <entries comment="gestion du transfert de session de siebel vers debsiebel" day="20090319" load="8">
@@ -405,7 +405,7 @@
     <imputation comment="gestion du transfert de session de siebel vers debsiebel" date="2009-03-19T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.100"/>
     </imputation>
   </entries>
   <entries comment="gestion du transfert de session de siebel vers debsiebel" day="20090320" load="8">
@@ -414,7 +414,7 @@
     <imputation comment="gestion du transfert de session de siebel vers debsiebel" date="2009-03-20T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.100"/>
     </imputation>
   </entries>
   <entries comment="N3 - Suivi Coordination et Qualification" day="20090316" load="8">
@@ -503,7 +503,7 @@
     <imputation comment="Rendu cles Hors-GAT" date="2009-03-20T00:00:00.000+0100" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.4/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.81"/>
+      <planification href="../M2.naja#//@planifications.80"/>
     </imputation>
   </entries>
   <entries comment="Support MEP Dep Diff - Suivi deploiment diff" day="20090316" load="4">
