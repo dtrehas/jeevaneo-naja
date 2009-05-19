@@ -58,7 +58,7 @@
     <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
   </mappings>
   <mappings externalId="tasks/Dimos_doc.task">
-    <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.14"/>
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.5/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/Doc_Archi.task">
     <task href="M2.naja#//@categories.3/@tasks.0"/>
@@ -68,7 +68,7 @@
     <task href="M2.naja#//@categories.3/@tasks.7"/>
   </mappings>
   <mappings externalId="tasks/Doc_Gat.task">
-    <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.4"/>
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/Doc_Socle.task"/>
   <mappings externalId="tasks/Doc_STD.task">
@@ -78,7 +78,7 @@
     <task href="M2.naja#//@categories.3/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/GED_doc.task">
-    <task href="M2.naja#//@categories.3/@subcategories.1/@tasks.16"/>
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/HorsGAT_LivraisonSofia_008_formation.task">
     <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.0"/>
