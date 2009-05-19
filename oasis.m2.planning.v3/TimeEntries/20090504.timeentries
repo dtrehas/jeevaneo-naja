@@ -150,29 +150,26 @@
   </entries>
   <entries comment="STG ARCHI BE" day="20090505" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_Archi.task"/>
     <imputation comment="STG ARCHI BE" date="2009-05-05T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.3/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.27"/>
+      <task href="../M2.naja#//@categories.3/@tasks.0"/>
     </imputation>
   </entries>
   <entries comment="STG ARCHI BE" day="20090506" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
     <imputation comment="STG ARCHI BE" date="2009-05-06T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M7.naja#//@categories.3/@tasks.0"/>
-      <planification href="../M7.naja#//@planifications.0"/>
+      <task href="../M2.naja#//@categories.3/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Shapo Dossier integration + integration HTML" day="20090507" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
     <imputation comment="Shapo Dossier integration + integration HTML" date="2009-05-07T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M7.naja#//@categories.3/@tasks.0"/>
-      <planification href="../M7.naja#//@planifications.0"/>
+      <task href="../M2.naja#//@categories.3/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Gestion des anos RMOX" day="20090504" load="8">
