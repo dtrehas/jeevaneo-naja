@@ -65,7 +65,7 @@
   </mappings>
   <mappings externalId="tasks/Doc_DocInt.task"/>
   <mappings externalId="tasks/Doc_FAL.task">
-    <task href="M2.naja#//@categories.3/@tasks.7"/>
+    <task href="M2.naja#//@categories.3/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/Doc_Gat.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
@@ -159,10 +159,10 @@
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/OAO_rmoe.task">
-    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.8"/>
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
   </mappings>
   <mappings externalId="tasks/OAO_tests.task">
-    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.8"/>
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
   </mappings>
   <mappings externalId="tasks/OutilsDev_lot2_partCompil.task">
     <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
