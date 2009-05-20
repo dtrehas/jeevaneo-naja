@@ -6,7 +6,7 @@
     <imputation comment="Depilage d'emails le matin + planning pour integration timeEntries sem.14 dans Naja" date="2009-04-07T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.71"/>
+      <planification href="../M2.naja#//@planifications.69"/>
     </imputation>
   </entries>
   <entries comment="RMOX : dispatche des nouvelles anos + suivis anos pour P.MOMON : fournitures dates de livraison.." day="20090408" load="4">
@@ -15,7 +15,7 @@
     <imputation comment="RMOX : dispatche des nouvelles anos + suivis anos pour P.MOMON : fournitures dates de livraison.." date="2009-04-08T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.103"/>
+      <planification href="../M2.naja#//@planifications.101"/>
     </imputation>
   </entries>
   <entries comment="Planning : fin integration timEntries sem.14 + revues RAF avec ABO.." day="20090408" load="4">
@@ -67,7 +67,7 @@
     <imputation comment="RMOx : application 41C et changement d'onglet (TT 4424)" date="2009-04-07T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.100"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="LI : devs et supports divers sur GCL (NOE et M1); pb de perf sur slsvn002" day="20090406" load="6">
@@ -247,7 +247,7 @@
     <imputation comment="RMOx - poursuite recherches sur appli 41C et changement d'onglet (TT 4424) + probleme des postes figes be a 50%" date="2009-04-08T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.100"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="RMOx - problematique du BE a 50% - fige apres plusieurs enchainements depuis siebel" day="20090409" load="8">
@@ -256,7 +256,7 @@
     <imputation comment="RMOx - problematique du BE a 50% - fige apres plusieurs enchainements depuis siebel" date="2009-04-09T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.100"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="Correctif anomalie vue fictives dans OAO" day="20090406" load="6">
@@ -274,7 +274,7 @@
     <imputation comment="Documentation de charge de persistance des affectations" date="2009-04-06T00:00:00.000+0200" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.46"/>
+      <planification href="../M2.naja#//@planifications.44"/>
     </imputation>
   </entries>
   <entries comment="Extraction du check de la visibilite d'une resource de la couche DAO" day="20090407" load="8">
@@ -301,7 +301,7 @@
     <imputation comment="Mise en place de verrous sur le fichiers de persistance de donnees dans %maif_be_dir%" date="2009-04-09T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.6"/>
-      <planification href="../M2.naja#//@planifications.21"/>
+      <planification href="../M2.naja#//@planifications.19"/>
     </imputation>
   </entries>
   <entries comment="N3 - Suivi Coordination et Qualification(COU Amipro, DEV (TT 24176et25487),..) " day="20090410" load="6">
@@ -328,7 +328,7 @@
     <imputation comment="RMOx - problematique du BE a 50% - fige apres plusieurs enchainements depuis siebel" date="2009-04-10T00:00:00.000+0200" load="6">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.100"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="RMOx - problematique de l'historisation dans DOS (TT 4771)" day="20090410" load="2">
@@ -337,7 +337,7 @@
     <imputation comment="RMOx - problematique de l'historisation dans DOS (TT 4771)" date="2009-04-10T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.100"/>
+      <planification href="../M2.naja#//@planifications.98"/>
     </imputation>
   </entries>
   <entries comment="Correction recherche aide be" day="20090406" load="4">
@@ -346,7 +346,7 @@
     <imputation comment="Correction recherche aide be" date="2009-04-06T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.104"/>
+      <planification href="../M2.naja#//@planifications.102"/>
     </imputation>
   </entries>
   <entries comment="Generation fichier CruiseControl a partir de fichier de conf - gestion de la definition des projets" day="20090406" load="4">
@@ -355,7 +355,7 @@
     <imputation comment="Generation fichier CruiseControl a partir de fichier de conf - gestion de la definition des projets" date="2009-04-06T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.27"/>
+      <planification href="../M2.naja#//@planifications.25"/>
     </imputation>
   </entries>
   <entries comment="Generation fichier CruiseControl a partir de fichier de conf - gestion des dependances entre projets" day="20090407" load="8">
@@ -364,7 +364,7 @@
     <imputation comment="Generation fichier CruiseControl a partir de fichier de conf - gestion des dependances entre projets" date="2009-04-07T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.27"/>
+      <planification href="../M2.naja#//@planifications.25"/>
     </imputation>
   </entries>
   <entries comment="Generation fichier CruiseControl a partir de fichier de conf - validation" day="20090408" load="8">
@@ -373,7 +373,7 @@
     <imputation comment="Generation fichier CruiseControl a partir de fichier de conf - validation" date="2009-04-08T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.27"/>
+      <planification href="../M2.naja#//@planifications.25"/>
     </imputation>
   </entries>
   <entries comment="Documentation javadoc + nettoyage code" day="20090409" load="6">
@@ -382,7 +382,7 @@
     <imputation comment="Documentation javadoc + nettoyage code" date="2009-04-09T00:00:00.000+0200" load="6">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.112"/>
+      <planification href="../M2.naja#//@planifications.110"/>
     </imputation>
   </entries>
   <entries comment="Support Fabrication NOE - Documentation materialization" day="20090409" load="2">
@@ -391,7 +391,7 @@
     <imputation comment="Support Fabrication NOE - Documentation materialization" date="2009-04-09T00:00:00.000+0200" load="2">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.112"/>
+      <planification href="../M2.naja#//@planifications.110"/>
     </imputation>
   </entries>
   <entries comment="Support OASIS-isation NOE - Documentation materialization" day="20090410" load="8">
@@ -400,7 +400,7 @@
     <imputation comment="Support OASIS-isation NOE - Documentation materialization" date="2009-04-10T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.10"/>
-      <planification href="../M2.naja#//@planifications.110"/>
+      <planification href="../M2.naja#//@planifications.108"/>
     </imputation>
   </entries>
   <entries comment="Chantier 4" day="20090406" load="8">
@@ -483,7 +483,7 @@
     <imputation comment="TFormRedim" date="2009-04-08T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.97"/>
+      <planification href="../M2.naja#//@planifications.95"/>
     </imputation>
   </entries>
   <entries comment="CC:Centralisation de la custom Task dans oasis_builder --> pour correction double compil" day="20090407" load="4">
@@ -537,7 +537,7 @@
     <imputation comment="Planning : preparation + reunion avec SRE + consequences" date="2009-04-09T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.71"/>
+      <planification href="../M2.naja#//@planifications.69"/>
     </imputation>
   </entries>
   <entries comment="Plannnng  : suite consequence + reorganisation taches dans les projets, .." day="20090410" load="4">
@@ -546,7 +546,7 @@
     <imputation comment="Plannnng  : suite consequence + reorganisation taches dans les projets, .." date="2009-04-10T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.71"/>
+      <planification href="../M2.naja#//@planifications.69"/>
     </imputation>
   </entries>
   <entries comment="Correction Aide BE : path = noNeed" day="20090410" load="4">
@@ -563,7 +563,7 @@
     <imputation comment="Pilotage ABO" date="2009-04-06T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.109"/>
+      <planification href="../M2.naja#//@planifications.107"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO" day="20090407" load="8">
@@ -572,7 +572,7 @@
     <imputation comment="Pilotage ABO" date="2009-04-07T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.109"/>
+      <planification href="../M2.naja#//@planifications.107"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO" day="20090408" load="8">
@@ -581,7 +581,7 @@
     <imputation comment="Pilotage ABO" date="2009-04-08T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.109"/>
+      <planification href="../M2.naja#//@planifications.107"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO" day="20090409" load="8">
@@ -590,7 +590,7 @@
     <imputation comment="Pilotage ABO" date="2009-04-09T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.109"/>
+      <planification href="../M2.naja#//@planifications.107"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO" day="20090410" load="8">
@@ -599,7 +599,7 @@
     <imputation comment="Pilotage ABO" date="2009-04-10T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.109"/>
+      <planification href="../M2.naja#//@planifications.107"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

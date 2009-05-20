@@ -225,9 +225,6 @@
   <imputations comment="Absence Aurélien Pont Ascension" date="2009-05-22T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/AGI_97061a.naja#/"/>
   </imputations>
-  <imputations comment="Absence Ali Pont Ascension" date="2009-05-22T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/ALA_97259d.naja#/"/>
-  </imputations>
   <imputations comment="Vacances Aurélie Mai" date="2009-05-22T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/AMA_97675t.naja#/"/>
   </imputations>
@@ -609,8 +606,8 @@
       <imputations href="#//@imputations.96"/>
       <imputations href="#//@imputations.97"/>
       <imputations href="#//@imputations.98"/>
-      <imputations href="#//@imputations.99"/>
       <imputations href="TimeEntries/20090427.timeentries#//@entries.6/@imputation"/>
+      <imputations href="#//@imputations.99"/>
       <imputations href="#//@imputations.100"/>
       <imputations href="#//@imputations.101"/>
       <imputations href="#//@imputations.102"/>
@@ -677,7 +674,6 @@
       <imputations href="#//@imputations.163"/>
       <imputations href="#//@imputations.164"/>
       <imputations href="#//@imputations.165"/>
-      <imputations href="#//@imputations.166"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
