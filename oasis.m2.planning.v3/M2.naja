@@ -3,9 +3,6 @@
   <planifications task="//@categories.2/@subcategories.0/@tasks.0" load="172" maxLoadPerDay="1">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="1"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="1"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="1"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="1"/>
@@ -22,11 +19,6 @@
       <schedules date="2009-06-19T00:00:00.000+0200" load="1"/>
       <schedules date="2009-06-22T00:00:00.000+0200" load="1"/>
       <schedules date="2009-06-23T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="1"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.71/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.72/@imputation"/>
@@ -55,20 +47,13 @@
     <imputations href="TimeEntries/20090504.timeentries#//@entries.2/@imputation"/>
     <imputations href="TimeEntries/20090504.timeentries#//@entries.11/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.53/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.14/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.12/@imputation"/>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@tasks.0" load="832">
     <resource href="resources/JLT_97940m.naja#/"/>
     <virtualImputation>
       <schedules date="2009-03-16T00:00:00.000+0100" load="8"/>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="8"/>
@@ -178,6 +163,19 @@
     <imputations href="TimeEntries/20090511.timeentries#//@entries.66/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.69/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.64/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.29/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.31/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.30/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.9/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.10/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.52/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.46/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.45/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.50/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.49/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.51/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.47/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.48/@imputation"/>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="64" maxLoadPerDay="2">
     <resource href="resources/CGE_97060h.naja#/"/>
@@ -200,18 +198,17 @@
     <imputations href="TimeEntries/20090504.timeentries#//@entries.21/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.42/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.44/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.25/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.23/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.29/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.27/@imputation"/>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="228" maxLoadPerDay="2">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.11/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.13/@imputation"/>
@@ -258,6 +255,9 @@
     <imputations href="TimeEntries/20090504.timeentries#//@entries.31/@imputation"/>
     <imputations href="TimeEntries/20090504.timeentries#//@entries.29/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.8/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.7/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.38/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.3/@imputation"/>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="148" maxLoadPerDay="4">
     <resource href="resources/PBR_97488r.naja#/"/>
@@ -297,15 +297,15 @@
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="144" maxLoadPerDay="4">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="4"/>
       <schedules date="2009-05-29T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.154/@imputation"/>
     <imputations href="TimeEntries/20090309.timeentries#//@entries.30/@imputation"/>
@@ -336,25 +336,25 @@
   <planifications task="//@categories.5/@subcategories.0/@tasks.0" load="32">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-09T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-10T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-13T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-10T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.5/@subcategories.0/@tasks.2" load="40">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.137/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.138/@imputation"/>
@@ -382,20 +382,20 @@
   <planifications task="//@categories.5/@subcategories.0/@tasks.6" load="56">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-10T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-11T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-12T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-13T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-14T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-17T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-18T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-25T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-26T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-27T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-28T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-31T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-09-01T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-09-02T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.0/@tasks.0" load="12">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-09-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-04T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090414.timeentries#//@entries.12/@imputation"/>
     <imputations href="TimeEntries/20090414.timeentries#//@entries.20/@imputation"/>
@@ -403,9 +403,9 @@
   <planifications task="//@categories.3/@subcategories.0/@tasks.1" load="28">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-09-10T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-11T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-14T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-09T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090420.timeentries#//@entries.0/@imputation"/>
     <imputations href="TimeEntries/20090420.timeentries#//@entries.1/@imputation"/>
@@ -414,29 +414,30 @@
   <planifications task="//@categories.3/@subcategories.1/@subcategories.0/@tasks.0" load="16">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-09-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-11T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-14T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-18T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.3" load="60" maxLoadPerDay="6">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="6"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="6"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.80/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.145/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.146/@imputation"/>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.39/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.4/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.8/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.39/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.3/@imputation"/>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.2" load="88">
     <resource href="resources/ALA_97259d.naja#/"/>
@@ -454,17 +455,16 @@
     <imputations href="TimeEntries/20090309.timeentries#//@entries.58/@imputation"/>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.3/@imputation"/>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.24/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.28/@imputation"/>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.5" load="24" maxLoadPerDay="6">
     <resource href="resources/DBR_97261j.naja#/"/>
-    <virtualImputation>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
-    </virtualImputation>
+    <virtualImputation/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.71/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.4/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.30/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.31/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.34/@imputation"/>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.6" load="32">
     <resource href="resources/ALA_97259d.naja#/"/>
@@ -479,17 +479,13 @@
   <planifications task="//@categories.6/@subcategories.0/@tasks.7" load="4">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.4" load="64">
     <resource href="resources/CGE_97060h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
@@ -497,9 +493,12 @@
       <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="6"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090323.timeentries#//@entries.37/@imputation"/>
     <imputations href="TimeEntries/20090323.timeentries#//@entries.38/@imputation"/>
@@ -507,10 +506,10 @@
   <planifications task="//@categories.3/@tasks.0" load="48">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="8"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090420.timeentries#//@entries.45/@imputation"/>
     <imputations href="TimeEntries/20090420.timeentries#//@entries.44/@imputation"/>
@@ -518,10 +517,10 @@
   <planifications task="//@categories.3/@tasks.0" load="16">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="3"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="3"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090427.timeentries#//@entries.0/@imputation"/>
     <imputations href="TimeEntries/20090504.timeentries#//@entries.12/@imputation"/>
@@ -529,18 +528,23 @@
   <planifications task="//@categories.3/@tasks.1" load="20" comment="gus">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="3"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="3"/>
       <schedules date="2009-06-09T00:00:00.000+0200" load="3"/>
       <schedules date="2009-06-10T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.1" load="72">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
@@ -551,9 +555,6 @@
       <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090406.timeentries#//@entries.41/@imputation"/>
     <imputations href="TimeEntries/20090406.timeentries#//@entries.42/@imputation"/>
@@ -587,27 +588,27 @@
   <planifications task="//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.4/@subcategories.0/@subcategories.1/@subcategories.2/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.1" load="4">
     <resource href="resources/CGE_97060h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.4/@subcategories.0/@subcategories.1/@subcategories.2/@tasks.1" load="4">
     <resource href="resources/CGE_97060h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2" load="12">
@@ -678,14 +679,14 @@
   <planifications task="//@categories.4/@subcategories.1/@tasks.4" load="32" comment="gus">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-09-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-01T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-02T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-05T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-06T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-07T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-08T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-09T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-12T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-13T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-14T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.0" load="8">
@@ -706,48 +707,45 @@
   <planifications task="//@categories.5/@subcategories.0/@tasks.1" load="40">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-11T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-12T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-13T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-14T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-17T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.2/@tasks.2" load="12" comment="gus">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-30T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-27T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.2/@tasks.3" load="16">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-27T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.2/@tasks.1" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-12T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.2/@tasks.1" load="8">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-09-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-01T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-02T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.4/@subcategories.0/@subcategories.0/@subcategories.2/@tasks.0" load="4">
@@ -760,96 +758,85 @@
   <planifications task="//@categories.3/@subcategories.2/@tasks.0" load="16">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="6"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.2/@tasks.0" load="8">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-09-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.2" load="48">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-25T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-26T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-27T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-28T00:00:00.000+0200" load="8"/>
       <schedules date="2009-08-31T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-09-01T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-09-02T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-09-03T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-09-04T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-09-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-01T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.2" load="40">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-19T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-06T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-08T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-09T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-24T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.2" load="40">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-04T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-05T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-06T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-18T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-19T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-20T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-21T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.2" load="40">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-08-25T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-26T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-27T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-28T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-31T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-01T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-02T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-04T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-08T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.139/@imputation"/>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.5/@tasks.2" load="4">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-22T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-23T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.5/@tasks.1" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-25T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@subcategories.0/@tasks.0" load="8">
@@ -876,41 +863,51 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="40" comment="gus" maxLoadPerDay="4">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="40" maxLoadPerDay="4">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-09T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-10T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="40" maxLoadPerDay="4">
     <resource href="resources/MEL_97302k.naja#/"/>
+    <virtualImputation/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.32/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.33/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.34/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.36/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.37/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.40/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.41/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.42/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.43/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.44/@imputation"/>
+  </planifications>
+  <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="40" maxLoadPerDay="4">
+    <resource href="resources/GBO_97589h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
@@ -919,33 +916,12 @@
       <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-12T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-22T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-23T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="2"/>
-    </virtualImputation>
-  </planifications>
-  <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="40" maxLoadPerDay="4">
-    <resource href="resources/GBO_97589h.naja#/"/>
-    <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="16" maxLoadPerDay="4">
@@ -967,13 +943,11 @@
     <imputations href="TimeEntries/20090216.timeentries#//@entries.101/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.104/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.194/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.55/@imputation"/>
   </planifications>
   <planifications task="//@categories.7/@subcategories.1/@tasks.0" load="314" maxLoadPerDay="4">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
@@ -1000,7 +974,6 @@
       <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.74/@imputation"/>
     <imputations href="TimeEntries/20090216.timeentries#//@entries.75/@imputation"/>
@@ -1040,6 +1013,9 @@
     <imputations href="TimeEntries/20090511.timeentries#//@entries.50/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.52/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.51/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.15/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.11/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.13/@imputation"/>
   </planifications>
   <planifications task="//@categories.7/@subcategories.0/@tasks.0" load="26" maxLoadPerDay="2">
     <resource href="resources/AGI_97061a.naja#/"/>
@@ -1054,61 +1030,63 @@
     <imputations href="TimeEntries/20090309.timeentries#//@entries.44/@imputation"/>
     <imputations href="TimeEntries/20090309.timeentries#//@entries.2/@imputation"/>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.35/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.19/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.18/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.22/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.36/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.38/@imputation"/>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.1/@tasks.0" load="4">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="1"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="3"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.1/@tasks.0" load="12">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-09-21T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-18T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.2/@tasks.0" load="4">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-23T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.2/@tasks.0" load="24">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-20T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-21T00:00:00.000+0200" load="8"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.2/@tasks.0" load="12">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-10-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-19T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-13T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-14T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.5/@tasks.0" load="12">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.6/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.5/@tasks.0" load="4">
@@ -1138,112 +1116,116 @@
   <planifications task="//@categories.3/@subcategories.1/@subcategories.6/@tasks.1" load="4">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-19T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-22T00:00:00.000+0200" load="1"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.3/@tasks.0" load="16">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-25T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-26T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-29T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.3/@tasks.0" load="16">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-10-20T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-10-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-19T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-20T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.3/@tasks.1" load="12">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="1"/>
-      <schedules date="2009-06-12T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="1"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.0/@tasks.1" load="12">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-30T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-24T00:00:00.000+0200" load="8"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.0/@tasks.1" load="16">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-10-22T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-10-21T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-10-26T00:00:00.000+0100" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.4/@tasks.0" load="12">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-27T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.4/@tasks.0" load="16">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-10-26T00:00:00.000+0100" load="8"/>
-      <schedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+      <schedules date="2009-10-27T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-10-28T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-10-29T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-10-30T00:00:00.000+0100" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.4/@tasks.1" load="12" comment="gus">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="3"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.0/@tasks.2" load="12" comment="gus">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.1/@tasks.1" load="28">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-09-21T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-23T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-24T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-25T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-28T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-02T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.2/@tasks.1" load="12">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-28T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-22T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.2/@tasks.1" load="16">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-10-28T00:00:00.000+0100" load="8"/>
-      <schedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+      <schedules date="2009-10-30T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+      <schedules date="2009-11-03T00:00:00.000+0100" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.2/@tasks.2" load="12" comment="gus">
     <resource href="resources/AMA_97675t.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-08T00:00:00.000+0200" load="8"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@subcategories.1/@subcategories.1/@tasks.2" load="12">
@@ -1264,13 +1246,6 @@
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="138" maxLoadPerDay="2">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
@@ -1288,16 +1263,6 @@
       <schedules date="2009-07-06T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-08T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-09T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090406.timeentries#//@entries.55/@imputation"/>
     <imputations href="TimeEntries/20090414.timeentries#//@entries.37/@imputation"/>
@@ -1312,15 +1277,24 @@
     <imputations href="TimeEntries/20090511.timeentries#//@entries.12/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.13/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.14/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.43/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.44/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.46/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.48/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.62/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.64/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.66/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.67/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.68/@imputation"/>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="200" maxLoadPerDay="4">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
       <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-12T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
@@ -1343,12 +1317,6 @@
       <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090427.timeentries#//@entries.15/@imputation"/>
     <imputations href="TimeEntries/20090427.timeentries#//@entries.14/@imputation"/>
@@ -1365,6 +1333,10 @@
     <imputations href="TimeEntries/20090511.timeentries#//@entries.31/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.32/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.70/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.2/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.5/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.32/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.33/@imputation"/>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="14" maxLoadPerDay="2">
     <resource href="resources/ALA_97259d.naja#/"/>
@@ -1496,7 +1468,7 @@
   <planifications task="//@categories.4/@subcategories.2/@tasks.1" load="20">
     <resource href="resources/CGE_97060h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="8"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090330.timeentries#//@entries.47/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.43/@imputation"/>
@@ -1505,10 +1477,6 @@
   <planifications task="//@categories.7/@subcategories.0/@tasks.2" load="40" maxLoadPerDay="2">
     <resource href="resources/CGE_97060h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
@@ -1518,6 +1486,10 @@
       <schedules date="2009-06-12T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090309.timeentries#//@entries.34/@imputation"/>
     <imputations href="TimeEntries/20090323.timeentries#//@entries.53/@imputation"/>
@@ -1527,14 +1499,14 @@
   <planifications task="//@categories.7/@subcategories.0/@tasks.2" load="40" maxLoadPerDay="2">
     <resource href="resources/GBO_97589h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090323.timeentries#//@entries.31/@imputation"/>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.8/@imputation"/>
@@ -1557,15 +1529,6 @@
       <schedules date="2009-03-25T00:00:00.000+0100" load="8"/>
       <schedules date="2009-03-26T00:00:00.000+0100" load="8"/>
       <schedules date="2009-03-27T00:00:00.000+0100" load="8"/>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-02T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-03T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="8"/>
@@ -1726,6 +1689,15 @@
     <imputations href="TimeEntries/20090511.timeentries#//@entries.72/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.74/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.75/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.51/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.52/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.53/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.50/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.58/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.57/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.59/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.60/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.61/@imputation"/>
   </planifications>
   <planifications task="//@categories.7/@subcategories.0/@tasks.10" load="8" maxLoadPerDay="2">
     <resource href="resources/MEL_97302k.naja#/"/>
@@ -1746,10 +1718,6 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="24" maxLoadPerDay="2">
     <resource href="resources/CGE_97060h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
@@ -1757,16 +1725,22 @@
       <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-12T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.18/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.26/@imputation"/>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.1" load="24">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-08-03T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-04T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-05T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-07T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.0" load="4">
@@ -1778,20 +1752,28 @@
   <planifications task="//@categories.6/@subcategories.0/@tasks.4" load="32">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090316.timeentries#//@entries.26/@imputation"/>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.7" load="4">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-24T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-27T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.0" load="16">
@@ -1804,22 +1786,22 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="64" maxLoadPerDay="4">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-19T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-09T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-13T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.4/@subcategories.0/@subcategories.0/@subcategories.2/@tasks.0" load="8">
@@ -1841,38 +1823,27 @@
   <planifications task="//@categories.6/@subcategories.0/@tasks.9" load="40" maxLoadPerDay="6">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-09T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-10T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-12T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
     </virtualImputation>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.0/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.25/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.41/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.0/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.1/@imputation"/>
   </planifications>
   <planifications task="//@categories.5/@subcategories.0/@tasks.8" load="16">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-19T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-22T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-05-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="112" comment="PBR - N3 Corr - post 421" maxLoadPerDay="4">
     <resource href="resources/PBR_97488r.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-19T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
@@ -1887,6 +1858,15 @@
       <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-10T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090504.timeentries#//@entries.45/@imputation"/>
     <imputations href="TimeEntries/20090504.timeentries#//@entries.47/@imputation"/>
@@ -1896,6 +1876,10 @@
   <planifications task="//@categories.6/@subcategories.0/@tasks.11" load="48" maxLoadPerDay="4">
     <resource href="resources/DBR_97261j.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
@@ -1904,38 +1888,28 @@
       <schedules date="2009-06-23T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.6/@subcategories.0/@tasks.11" load="48" maxLoadPerDay="4">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-09T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="160" maxLoadPerDay="4">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-09T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-10T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-12T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
@@ -1970,19 +1944,17 @@
       <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="40" maxLoadPerDay="2">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-05-26T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-05-29T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-08T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-09T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-10T00:00:00.000+0200" load="2"/>
@@ -1995,17 +1967,28 @@
       <schedules date="2009-06-22T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-23T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-24T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="2"/>
     </virtualImputation>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.35/@imputation"/>
   </planifications>
   <planifications task="//@categories.3/@tasks.4" load="40">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-19T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-20T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-21T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-24T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-25T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.4" load="8">
@@ -2022,6 +2005,17 @@
       </subcategories>
       <tasks totalLoad="264" name="TCO NCO" planifications="//@planifications.63 //@planifications.67 //@planifications.64 //@planifications.65 //@planifications.66 //@planifications.112 //@planifications.118">
         <imputations href="TimeEntries/20090316.timeentries#//@entries.18/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.32/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.33/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.34/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.36/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.37/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.26/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.40/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.41/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.42/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.43/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.44/@imputation"/>
       </tasks>
       <tasks totalLoad="24" name="Conf TUX : à Cécile F et François G." planifications="//@planifications.113"/>
       <tasks totalLoad="22" name="TCO JMC">
@@ -2549,6 +2543,34 @@
           <imputations href="TimeEntries/20090511.timeentries#//@entries.70/@imputation"/>
           <imputations href="TimeEntries/20090511.timeentries#//@entries.59/@imputation"/>
           <imputations href="TimeEntries/20090511.timeentries#//@entries.8/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.48/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.7/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.38/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.40/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.5/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.43/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.1/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.46/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.44/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.3/@imputation"/>
+          <imputations href="TimeEntries/20090518.timeentries#//@entries.35/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.5/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.6/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.66/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.25/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.32/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.23/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.68/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.62/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.29/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.8/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.2/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.64/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.54/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.11/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.67/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.27/@imputation"/>
+          <imputations href="TimeEntries/20090525.timeentries#//@entries.33/@imputation"/>
         </tasks>
         <tasks totalLoad="16" name="Aide du BE" planifications="//@planifications.6">
           <imputations href="TimeEntries/20090330.timeentries#//@entries.43/@imputation"/>
@@ -2656,6 +2678,22 @@
         <imputations href="TimeEntries/20090511.timeentries#//@entries.53/@imputation"/>
         <imputations href="TimeEntries/20090511.timeentries#//@entries.69/@imputation"/>
         <imputations href="TimeEntries/20090511.timeentries#//@entries.64/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.29/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.31/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.14/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.30/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.9/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.12/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.16/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.10/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.52/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.46/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.45/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.50/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.49/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.51/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.47/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.48/@imputation"/>
       </tasks>
     </subcategories>
   </categories>
@@ -2770,7 +2808,7 @@
     <subcategories name="TCO à NOE">
       <subcategories name="Lot 0">
         <subcategories name="Sortie MAGs">
-          <tasks totalLoad="4" name="Modop livraison MAGs" planifications="//@planifications.35">
+          <tasks totalLoad="8" name="Modop livraison MAGs" planifications="//@planifications.35">
             <imputations href="TimeEntries/20090323.timeentries#//@entries.48/@imputation"/>
             <imputations href="TimeEntries/20090330.timeentries#//@entries.10/@imputation"/>
           </tasks>
@@ -2783,7 +2821,7 @@
           </tasks>
         </subcategories>
         <subcategories name="Oasis-isation : NOE">
-          <tasks totalLoad="26" name="Modop oasis-isation" planifications="//@planifications.51 //@planifications.119">
+          <tasks totalLoad="42" name="Modop oasis-isation" planifications="//@planifications.51 //@planifications.119">
             <imputations href="TimeEntries/20090202.timeentries#//@entries.72/@imputation"/>
             <imputations href="TimeEntries/20090323.timeentries#//@entries.15/@imputation"/>
             <imputations href="TimeEntries/20090323.timeentries#//@entries.47/@imputation"/>
@@ -2794,7 +2832,7 @@
           </tasks>
         </subcategories>
         <subcategories name="Fabrication :NOE">
-          <tasks totalLoad="60" name="Modop Fabrication" planifications="//@planifications.61 //@planifications.110">
+          <tasks totalLoad="64" name="Modop Fabrication" planifications="//@planifications.61 //@planifications.110">
             <imputations href="TimeEntries/20090216.timeentries#//@entries.122/@imputation"/>
             <imputations href="TimeEntries/20090316.timeentries#//@entries.37/@imputation"/>
             <imputations href="TimeEntries/20090316.timeentries#//@entries.5/@imputation"/>
@@ -2897,7 +2935,7 @@
         <imputations href="TimeEntries/20090216.timeentries#//@entries.181/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.182/@imputation"/>
       </tasks>
-      <tasks totalLoad="8" name="Support MEP Dep Diff" planifications="//@planifications.42" label="Déploiement différentiel/Support MEP Dep Diff">
+      <tasks totalLoad="10" name="Support MEP Dep Diff" planifications="//@planifications.42" label="Déploiement différentiel/Support MEP Dep Diff">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.20/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.58/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.59/@imputation"/>
@@ -3107,7 +3145,7 @@
   </categories>
   <categories name="M2 - MOE - REALISER - Lot 421">
     <subcategories name="Indispensable pour MEP 421">
-      <tasks totalLoad="16" name="Specs 421" planifications="//@planifications.44 //@planifications.45 //@planifications.114">
+      <tasks totalLoad="18" name="Specs 421" planifications="//@planifications.44 //@planifications.45 //@planifications.114">
         <imputations href="TimeEntries/20090323.timeentries#//@entries.32/@imputation"/>
         <imputations href="TimeEntries/20090406.timeentries#//@entries.31/@imputation"/>
         <imputations href="TimeEntries/20090427.timeentries#//@entries.9/@imputation"/>
@@ -3115,7 +3153,7 @@
         <imputations href="TimeEntries/20090427.timeentries#//@entries.7/@imputation"/>
       </tasks>
       <tasks name="################ EX- Coordination 421 (32h)"/>
-      <tasks totalLoad="112" name="Cache inc BE" planifications="//@planifications.17">
+      <tasks totalLoad="116" name="Cache inc BE" planifications="//@planifications.17">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.34/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.93/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.96/@imputation"/>
@@ -3132,6 +3170,7 @@
         <imputations href="TimeEntries/20090309.timeentries#//@entries.58/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.3/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.24/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.28/@imputation"/>
       </tasks>
       <tasks totalLoad="78" name="Cache inc Maifdata" planifications="//@planifications.16">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.80/@imputation"/>
@@ -3143,16 +3182,26 @@
         <imputations href="TimeEntries/20090202.timeentries#//@entries.1/@imputation"/>
         <imputations href="TimeEntries/20090202.timeentries#//@entries.18/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.39/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.4/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.8/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.39/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.3/@imputation"/>
       </tasks>
-      <tasks totalLoad="100" name="Tests, organisation, environnements" planifications="//@planifications.21 //@planifications.115">
+      <tasks totalLoad="110" name="Tests, organisation, environnements" planifications="//@planifications.21 //@planifications.115">
         <imputations href="TimeEntries/20090309.timeentries#//@entries.21/@imputation"/>
         <imputations href="TimeEntries/20090309.timeentries#//@entries.31/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.26/@imputation"/>
         <imputations href="TimeEntries/20090323.timeentries#//@entries.38/@imputation"/>
         <imputations href="TimeEntries/20090323.timeentries#//@entries.37/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.26/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.27/@imputation"/>
       </tasks>
       <tasks totalLoad="24" name="maidata offline" planifications="//@planifications.18">
         <imputations href="TimeEntries/20090511.timeentries#//@entries.71/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.4/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.30/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.31/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.34/@imputation"/>
       </tasks>
       <tasks totalLoad="32" name="BE offline" planifications="//@planifications.19">
         <imputations href="TimeEntries/20090309.timeentries#//@entries.47/@imputation"/>
@@ -3170,7 +3219,7 @@
         <imputations href="TimeEntries/20090406.timeentries#//@entries.3/@imputation"/>
         <imputations href="TimeEntries/20090414.timeentries#//@entries.29/@imputation"/>
       </tasks>
-      <tasks totalLoad="80" name="OffLine Habillitations - Réal" planifications="//@planifications.120 //@planifications.121">
+      <tasks totalLoad="84" name="OffLine Habillitations - Réal" planifications="//@planifications.120 //@planifications.121">
         <imputations href="TimeEntries/20090427.timeentries#//@entries.10/@imputation"/>
         <imputations href="TimeEntries/20090427.timeentries#//@entries.11/@imputation"/>
         <imputations href="TimeEntries/20090504.timeentries#//@entries.37/@imputation"/>
@@ -3178,6 +3227,11 @@
         <imputations href="TimeEntries/20090504.timeentries#//@entries.41/@imputation"/>
         <imputations href="TimeEntries/20090504.timeentries#//@entries.42/@imputation"/>
         <imputations href="TimeEntries/20090511.timeentries#//@entries.60/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.25/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.0/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.41/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.0/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.1/@imputation"/>
       </tasks>
       <tasks totalLoad="24" name="OffLine Habillitations - Specs">
         <imputations href="TimeEntries/20090414.timeentries#//@entries.8/@imputation"/>
@@ -3192,7 +3246,7 @@
   </categories>
   <categories name="Récurrent">
     <subcategories name="M2 - MOE - MàDISPO - Support et logistique">
-      <tasks totalLoad="88" name="Admin GCL" planifications="//@planifications.70">
+      <tasks totalLoad="104" name="Admin GCL" planifications="//@planifications.70">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.3/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.5/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.7/@imputation"/>
@@ -3224,8 +3278,13 @@
         <imputations href="TimeEntries/20090309.timeentries#//@entries.44/@imputation"/>
         <imputations href="TimeEntries/20090309.timeentries#//@entries.2/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.35/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.19/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.18/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.22/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.36/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.38/@imputation"/>
       </tasks>
-      <tasks totalLoad="86" name="Support et logistique">
+      <tasks totalLoad="116" name="Support et logistique">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.43/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.108/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.41/@imputation"/>
@@ -3246,6 +3305,16 @@
         <imputations href="TimeEntries/20090105.timeentries#//@entries.84/@imputation"/>
         <imputations href="TimeEntries/20090316.timeentries#//@entries.56/@imputation"/>
         <imputations href="TimeEntries/20090504.timeentries#//@entries.46/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.21/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.22/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.23/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.47/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.13/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.15/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.24/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.28/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.65/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.69/@imputation"/>
       </tasks>
       <tasks totalLoad="202" name="Support MEP" planifications="//@planifications.106 //@planifications.107">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.118/@imputation"/>
@@ -3302,7 +3371,7 @@
         <imputations href="TimeEntries/20090323.timeentries#//@entries.16/@imputation"/>
         <imputations href="TimeEntries/20090330.timeentries#//@entries.11/@imputation"/>
       </tasks>
-      <tasks totalLoad="76" name="Livraison RMOX" planifications="//@planifications.101">
+      <tasks totalLoad="80" name="Livraison RMOX" planifications="//@planifications.101">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.176/@imputation"/>
         <imputations href="TimeEntries/20090216.timeentries#//@entries.178/@imputation"/>
         <imputations href="TimeEntries/20090309.timeentries#//@entries.1/@imputation"/>
@@ -3329,13 +3398,16 @@
         <imputations href="TimeEntries/20090504.timeentries#//@entries.26/@imputation"/>
         <imputations href="TimeEntries/20090511.timeentries#//@entries.38/@imputation"/>
       </tasks>
-      <tasks totalLoad="22" name="CC Maintenance">
+      <tasks totalLoad="32" name="CC Maintenance">
         <imputations href="TimeEntries/20090105.timeentries#//@entries.191/@imputation"/>
         <imputations href="TimeEntries/20090105.timeentries#//@entries.356/@imputation"/>
         <imputations href="TimeEntries/20090105.timeentries#//@entries.231/@imputation"/>
         <imputations href="TimeEntries/20090309.timeentries#//@entries.39/@imputation"/>
         <imputations href="TimeEntries/20090309.timeentries#//@entries.61/@imputation"/>
         <imputations href="TimeEntries/20090330.timeentries#//@entries.53/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.24/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.17/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.63/@imputation"/>
       </tasks>
       <tasks name="Présentations,POC, etc."/>
       <tasks name="Support livraisons MAGs"/>
@@ -3518,6 +3590,19 @@
         <imputations href="TimeEntries/20090511.timeentries#//@entries.52/@imputation"/>
         <imputations href="TimeEntries/20090511.timeentries#//@entries.75/@imputation"/>
         <imputations href="TimeEntries/20090511.timeentries#//@entries.51/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.15/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.51/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.52/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.53/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.50/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.11/@imputation"/>
+        <imputations href="TimeEntries/20090518.timeentries#//@entries.13/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.58/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.57/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.59/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.60/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.61/@imputation"/>
+        <imputations href="TimeEntries/20090525.timeentries#//@entries.55/@imputation"/>
       </tasks>
       <tasks totalLoad="38" name="Réunions">
         <imputations href="TimeEntries/20090216.timeentries#//@entries.193/@imputation"/>
