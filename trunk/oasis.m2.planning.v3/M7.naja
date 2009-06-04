@@ -3,37 +3,6 @@
   <planifications task="//@categories.3/@tasks.0" load="360" maxLoadPerDay="4">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-09T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-28T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-08-25T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-26T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-27T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-28T00:00:00.000+0200" load="4"/>
@@ -93,162 +62,85 @@
       <schedules date="2009-11-13T00:00:00.000+0100" load="4"/>
       <schedules date="2009-11-16T00:00:00.000+0100" load="4"/>
       <schedules date="2009-11-17T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-18T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-19T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-20T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-23T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-24T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-25T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-26T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-27T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-11-30T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-01T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-02T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-03T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-04T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-07T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-08T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-09T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-10T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-11T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-14T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-15T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-16T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-17T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-18T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-21T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-22T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-23T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-24T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-28T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-29T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-30T00:00:00.000+0100" load="4"/>
+      <schedules date="2009-12-31T00:00:00.000+0100" load="4"/>
     </virtualImputation>
   </planifications>
-  <planifications task="//@categories.3/@tasks.0" load="686" maxLoadPerDay="7">
+  <planifications task="//@categories.3/@tasks.0" load="364" maxLoadPerDay="6">
     <resource href="resources/AGI_97061a.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-02T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-03T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-04T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-05T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-08T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-09T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-10T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-11T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-12T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-19T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-22T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-23T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="5"/>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-02T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-03T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-06T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-07T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-08T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-09T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-10T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-13T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-28T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-30T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-03T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-04T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-05T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-06T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-07T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-10T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-11T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-12T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-13T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-14T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-17T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-18T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-19T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-20T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-21T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-24T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-25T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-26T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-27T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-28T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-08-31T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-01T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-02T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-03T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-04T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-07T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-08T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-09T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-10T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-11T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-14T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-15T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-16T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-17T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-18T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-21T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-22T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-23T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-24T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-25T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-28T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-29T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-09-30T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-01T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-02T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-05T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-06T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-07T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-08T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-09T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-12T00:00:00.000+0200" load="7"/>
-      <schedules date="2009-10-13T00:00:00.000+0200" load="7"/>
-    </virtualImputation>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.19/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.18/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.26/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.47/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.23/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.46/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.1/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.24/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.20/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.27/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.28/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.25/@imputation"/>
-    <imputations href="TimeEntries/20090511.timeentries#//@entries.22/@imputation"/>
-    <imputations href="TimeEntries/20090518.timeentries#//@entries.20/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.21/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.35/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.18/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.14/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.39/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.19/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.12/@imputation"/>
-    <imputations href="TimeEntries/20090525.timeentries#//@entries.16/@imputation"/>
-  </planifications>
-  <planifications task="//@categories.3/@tasks.0" load="360" maxLoadPerDay="4">
-    <resource href="resources/GBO_97589h.naja#/"/>
-    <virtualImputation>
-      <schedules date="2009-06-15T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-18T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-19T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-06T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-07T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-08T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-09T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-10T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-13T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-17T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-21T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-22T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-23T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-03T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-06T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-07T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-08T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-09T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-10T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-13T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-15T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-17T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-20T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-21T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-22T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-24T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-27T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-28T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-29T00:00:00.000+0200" load="3"/>
+      <schedules date="2009-07-30T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-31T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-04T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-05T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-06T00:00:00.000+0200" load="4"/>
@@ -289,12 +181,115 @@
       <schedules date="2009-09-24T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-25T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-28T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-29T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-09-30T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-02T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-05T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-10-06T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-09-29T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-30T00:00:00.000+0200" load="6"/>
+    </virtualImputation>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.19/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.18/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.26/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.47/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.23/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.46/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.1/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.24/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.20/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.27/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.28/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.25/@imputation"/>
+    <imputations href="TimeEntries/20090511.timeentries#//@entries.22/@imputation"/>
+    <imputations href="TimeEntries/20090518.timeentries#//@entries.20/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.21/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.35/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.18/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.14/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.39/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.19/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.12/@imputation"/>
+    <imputations href="TimeEntries/20090525.timeentries#//@entries.16/@imputation"/>
+  </planifications>
+  <planifications task="//@categories.3/@tasks.0" load="544" maxLoadPerDay="6">
+    <resource href="resources/GBO_97589h.naja#/"/>
+    <virtualImputation>
+      <schedules date="2009-06-02T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-03T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-04T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-05T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-08T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-09T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-10T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-11T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-12T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-15T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-16T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-17T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-18T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-19T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-22T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-23T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-25T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-29T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-01T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-03T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-06T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-07T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-08T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-09T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-10T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-13T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-15T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-17T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-20T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-21T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-22T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-23T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-07-24T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-04T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-05T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-06T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-07T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-10T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-11T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-12T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-13T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-14T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-17T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-18T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-19T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-20T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-21T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-24T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-25T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-26T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-27T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-28T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-08-31T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-01T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-02T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-03T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-04T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-07T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-08T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-09T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-10T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-11T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-14T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-15T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-16T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-17T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-18T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-21T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-22T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-23T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-24T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-25T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-28T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-29T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-09-30T00:00:00.000+0200" load="6"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.15/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.16/@imputation"/>
