@@ -106,7 +106,7 @@ public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 					Date end = null;
 					try {
 						start = sdf.parse("20090101");
-						end = sdf.parse("20090314");
+						end = sdf.parse("20091231");
 					} catch (ParseException e) {
 						e.printStackTrace();
 					}
