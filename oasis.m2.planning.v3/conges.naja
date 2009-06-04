@@ -276,12 +276,6 @@
   <imputations comment="Vacances Pierre Juillet" date="2009-07-03T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
   </imputations>
-  <imputations comment="Absence Christophe 19/06" date="2009-06-19T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/CGE_97060h.naja#/"/>
-  </imputations>
-  <imputations comment="Absence Christophe 22/06" date="2009-06-22T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
-    <resource href="resources/CGE_97060h.naja#/"/>
-  </imputations>
   <imputations comment="Absence Mehdi 17/04" date="2009-04-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
@@ -333,43 +327,106 @@
   <imputations comment="Congés été GBO" date="2009-08-03T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/GBO_97589h.naja#/"/>
   </imputations>
+  <imputations comment="congés été AMA" date="2009-07-13T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-15T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-16T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-20T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-21T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-22T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-23T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-24T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-27T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-28T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-29T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-30T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="congés été AMA" date="2009-07-31T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vendredis Septembre AMA" date="2009-09-04T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vendredis Septembre AMA" date="2009-09-11T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vendredis Septembre AMA" date="2009-09-18T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
+  <imputations comment="Vendredis Septembre AMA" date="2009-09-25T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/AMA_97675t.naja#/"/>
+  </imputations>
   <imputations comment="[Supposition] Absence Mehdi 19/06" date="2009-06-19T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Absence Mehdi Juillet" date="2009-07-10T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-07-27T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Absence Mehdi Juillet" date="2009-07-13T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-07-28T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-10T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-07-29T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-11T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-07-30T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-12T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-07-31T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-13T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-03T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-14T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-04T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-05T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-18T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-06T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-19T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-07T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-20T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-10T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Congés Mehdi Août" date="2009-08-21T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Congés Mehdi Août" date="2009-08-11T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Mehdi Août" date="2009-08-12T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Mehdi Août" date="2009-08-13T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
+  <imputations comment="Congés Mehdi Août" date="2009-08-14T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
   <imputations comment="Pont 14 Juillet DBR" date="2009-07-13T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
@@ -438,19 +495,19 @@
   <imputations comment="[Supposition] Pont week-end sept PBR" date="2009-09-21T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] congés paternité JLT" date="2009-06-08T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="congés paternité JLT" date="2009-06-08T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] congés paternité JLT" date="2009-06-09T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="congés paternité JLT" date="2009-06-09T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] congés paternité JLT" date="2009-06-10T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="congés paternité JLT" date="2009-06-10T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] congés paternité JLT" date="2009-06-11T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="congés paternité JLT" date="2009-06-11T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] congés paternité JLT" date="2009-06-12T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="congés paternité JLT" date="2009-06-12T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/JLT_97940m.naja#/"/>
   </imputations>
   <imputations comment="[Supposition] congés été JLT" date="2009-08-10T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
@@ -604,9 +661,9 @@
       <imputations href="#//@imputations.94"/>
       <imputations href="#//@imputations.95"/>
       <imputations href="#//@imputations.96"/>
+      <imputations href="TimeEntries/20090427.timeentries#//@entries.6/@imputation"/>
       <imputations href="#//@imputations.97"/>
       <imputations href="#//@imputations.98"/>
-      <imputations href="TimeEntries/20090427.timeentries#//@entries.6/@imputation"/>
       <imputations href="#//@imputations.99"/>
       <imputations href="#//@imputations.100"/>
       <imputations href="#//@imputations.101"/>
@@ -617,40 +674,17 @@
       <imputations href="#//@imputations.106"/>
       <imputations href="#//@imputations.107"/>
       <imputations href="#//@imputations.108"/>
-      <imputations href="#//@imputations.109"/>
-      <imputations href="#//@imputations.110"/>
-      <imputations href="#//@imputations.111"/>
-      <imputations href="#//@imputations.112"/>
-      <imputations href="#//@imputations.113"/>
-      <imputations href="#//@imputations.114"/>
-      <imputations href="#//@imputations.115"/>
-      <imputations href="#//@imputations.116"/>
-      <imputations href="#//@imputations.117"/>
-      <imputations href="#//@imputations.118"/>
-      <imputations href="#//@imputations.119"/>
-      <imputations href="#//@imputations.120"/>
-      <imputations href="#//@imputations.121"/>
-      <imputations href="#//@imputations.122"/>
-      <imputations href="#//@imputations.123"/>
-      <imputations href="#//@imputations.124"/>
-      <imputations href="#//@imputations.125"/>
-      <imputations href="#//@imputations.126"/>
       <imputations href="#//@imputations.127"/>
-      <imputations href="#//@imputations.128"/>
-      <imputations href="#//@imputations.129"/>
-      <imputations href="#//@imputations.130"/>
-      <imputations href="#//@imputations.131"/>
-      <imputations href="#//@imputations.132"/>
-      <imputations href="#//@imputations.133"/>
-      <imputations href="#//@imputations.134"/>
-      <imputations href="#//@imputations.135"/>
-      <imputations href="#//@imputations.136"/>
-      <imputations href="#//@imputations.137"/>
       <imputations href="#//@imputations.138"/>
       <imputations href="#//@imputations.139"/>
       <imputations href="#//@imputations.140"/>
       <imputations href="#//@imputations.141"/>
       <imputations href="#//@imputations.142"/>
+      <imputations href="#//@imputations.128"/>
+      <imputations href="#//@imputations.129"/>
+      <imputations href="#//@imputations.130"/>
+      <imputations href="#//@imputations.131"/>
+      <imputations href="#//@imputations.132"/>
       <imputations href="#//@imputations.143"/>
       <imputations href="#//@imputations.144"/>
       <imputations href="#//@imputations.145"/>
@@ -674,6 +708,48 @@
       <imputations href="#//@imputations.163"/>
       <imputations href="#//@imputations.164"/>
       <imputations href="#//@imputations.165"/>
+      <imputations href="#//@imputations.166"/>
+      <imputations href="#//@imputations.167"/>
+      <imputations href="#//@imputations.168"/>
+      <imputations href="#//@imputations.169"/>
+      <imputations href="#//@imputations.170"/>
+      <imputations href="#//@imputations.171"/>
+      <imputations href="#//@imputations.172"/>
+      <imputations href="#//@imputations.173"/>
+      <imputations href="#//@imputations.174"/>
+      <imputations href="#//@imputations.175"/>
+      <imputations href="#//@imputations.176"/>
+      <imputations href="#//@imputations.177"/>
+      <imputations href="#//@imputations.178"/>
+      <imputations href="#//@imputations.179"/>
+      <imputations href="#//@imputations.180"/>
+      <imputations href="#//@imputations.181"/>
+      <imputations href="#//@imputations.182"/>
+      <imputations href="#//@imputations.183"/>
+      <imputations href="#//@imputations.184"/>
+      <imputations href="#//@imputations.133"/>
+      <imputations href="#//@imputations.134"/>
+      <imputations href="#//@imputations.135"/>
+      <imputations href="#//@imputations.136"/>
+      <imputations href="#//@imputations.137"/>
+      <imputations href="#//@imputations.109"/>
+      <imputations href="#//@imputations.110"/>
+      <imputations href="#//@imputations.111"/>
+      <imputations href="#//@imputations.112"/>
+      <imputations href="#//@imputations.113"/>
+      <imputations href="#//@imputations.114"/>
+      <imputations href="#//@imputations.115"/>
+      <imputations href="#//@imputations.116"/>
+      <imputations href="#//@imputations.117"/>
+      <imputations href="#//@imputations.118"/>
+      <imputations href="#//@imputations.119"/>
+      <imputations href="#//@imputations.120"/>
+      <imputations href="#//@imputations.121"/>
+      <imputations href="#//@imputations.122"/>
+      <imputations href="#//@imputations.123"/>
+      <imputations href="#//@imputations.124"/>
+      <imputations href="#//@imputations.125"/>
+      <imputations href="#//@imputations.126"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
