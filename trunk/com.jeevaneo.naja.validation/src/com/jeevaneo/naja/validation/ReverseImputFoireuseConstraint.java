@@ -7,6 +7,7 @@ import org.eclipse.emf.validation.AbstractModelConstraint;
 import org.eclipse.emf.validation.IValidationContext;
 
 import com.jeevaneo.naja.Imputation;
+import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Task;
 
 public class ReverseImputFoireuseConstraint extends AbstractModelConstraint {
@@ -17,11 +18,8 @@ public class ReverseImputFoireuseConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		if(!(ctx.getTarget() instanceof Task))
+		if((ctx.getTarget() instanceof Task))
 		{
-			System.out.println("IGNORED: " + ctx.getTarget());
-			return ctx.createSuccessStatus();
-		}
 		Task task = (Task) ctx.getTarget();
 		Iterator<Imputation> imputs = task.getImputations().iterator();
 //		for(Imputation imputation : task.getImputations())
@@ -43,6 +41,39 @@ public class ReverseImputFoireuseConstraint extends AbstractModelConstraint {
 				return ret;
 			}
 				
+		}
+		return ctx.createSuccessStatus();
+
+		
+		} else if((ctx.getTarget() instanceof Person))
+		{
+			Person person = (Person) ctx.getTarget();
+			Iterator<Imputation> imputs = person.getImputations().iterator();
+//			for(Imputation imputation : task.getImputations())
+			while(imputs.hasNext())
+			{
+				Imputation imputation = imputs.next();
+				if(imputation.getResource()==null || !imputation.getResource().equals(person))
+				{
+					IStatus ret =ctx.createFailureStatus(person.getName(), imputation.getResource(), imputation);
+					//try to clean
+					if(imputation.getResource()!=null)
+					{
+						imputs.remove();
+					}
+					else
+					{
+						imputation.setResource(person);
+					}
+					return ret;
+				}
+					
+			}
+			return ctx.createSuccessStatus();
+
+			
+			} else {
+		System.out.println("IGNORED: " + ctx.getTarget());		
 		}
 		return ctx.createSuccessStatus();
 	}

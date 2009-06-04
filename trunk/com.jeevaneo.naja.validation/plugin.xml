@@ -29,64 +29,6 @@
                      class="org.eclipse.emf.ecore.EObject">
                </target>
             </constraint>
-        <constraint
-         lang="OCL"
-         severity="ERROR"
-         mode="Live"
-         name="example2.name"
-         id="example2"
-         statusCode="102">
-      <description>Mon premier test d'OCL</description>
-      <message>Hey! Tu violes mon premier test d'OCL! {0}</message>
-      <target class="com.jeevaneo.naja.Person">
-         <event name="Set">
-            <feature
-                  name="login">
-            </feature>
-         </event>
-      </target>
-      <![CDATA[
-         not self->getlogin()->contains("a")
-      ]]>
-      
-      
-   </constraint>
-            <constraint
-                  class="com.jeevaneo.naja.validation.Pre9thMarchConstraint"
-                  id="com.jeevaneo.naja.validation.constraint2"
-                  lang="Java"
-                  mode="Batch"
-                  name="After 14th March"
-                  severity="ERROR"
-                  statusCode="com.jeevaneo.naja.validation.constraint2">
-               <message>
-                  Imputation on {0} is after march, 14th. Resource={1} load={2} comment={3}.
-               </message>
-               <description>
-                  Every resource should have a positive left availability.
-               </description>
-               <target
-                     class="org.eclipse.emf.ecore.EObject">
-               </target>
-            </constraint>
-            <constraint
-                  class="com.jeevaneo.naja.validation.LostWeekConstraint"
-                  id="com.jeevaneo.naja.validation.constraint3"
-                  lang="Java"
-                  mode="Batch"
-                  name="Lost week"
-                  severity="WARNING"
-                  statusCode="com.jeevaneo.naja.validation.constraint3">
-               <message>
-                  Imputation on {0} is in lost week (2feb). Resource={1} load={2} comment={3}.
-               </message>
-               <description>
-                  Every resource should have a positive left availability.
-               </description>
-               <target
-                     class="org.eclipse.emf.ecore.EObject">
-               </target>
-            </constraint>
             <constraint
                   class="com.jeevaneo.naja.validation.ReverseImputFoireuseConstraint"
                   id="com.jeevaneo.naja.validation.constraint4"
@@ -100,6 +42,24 @@
                </message>
                <description>
                   Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.ResourceOwnsItsImputationsConstraint"
+                  id="com.jeevaneo.naja.validation.constraint5"
+                  lang="Java"
+                  mode="Batch"
+                  name="Imputations reverse foireuse pour resource"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint4">
+               <message>
+                  Imputation on resource {0} is present in other resource&apos;s imputations! Other resource={1} imputation={2}
+               </message>
+               <description>
+                  resource.imputations.resource must == resource
                </description>
                <target
                      class="org.eclipse.emf.ecore.EObject">
