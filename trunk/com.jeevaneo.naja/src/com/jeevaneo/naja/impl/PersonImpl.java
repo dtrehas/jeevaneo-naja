@@ -13,6 +13,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.SortedSet;
 
+import org.eclipse.emf.common.EMFPlugin;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.notify.impl.AdapterImpl;
@@ -606,6 +607,12 @@ public class PersonImpl extends EObjectImpl implements Person {
 	public Date getLastDate() {
 		Date last = null;
 		for (Imputation imputation : getImputations()) {
+			if(null==imputation)
+			{
+				//TODO log!
+				System.err.println("Null imputation found in " + this);
+				continue;
+			}
 			if (null == last || last.before(imputation.getDate())) {
 				last = imputation.getDate();
 			}
@@ -613,6 +620,8 @@ public class PersonImpl extends EObjectImpl implements Person {
 		for (Planification planification : getPlanifications()) {
 			Date planifLast = planification.getLastDate();
 			if (null == planifLast) {
+				//TODO log!
+				System.err.println("Null planif found in " + this);
 				continue;
 			}
 			if (null == last) {
