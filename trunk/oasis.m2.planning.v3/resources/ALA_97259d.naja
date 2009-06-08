@@ -246,4 +246,38 @@
   <availableSchedules date="2009-09-23T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-09-24T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-09-25T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-09-03T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-09-04T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-10T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-11T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-17T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-18T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-24T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-25T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-09-03T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-09-04T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-10T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-11T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-17T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-18T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-24T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-09-25T00:00:00.000+0200" load="4"/>
 </jeevaneo-naja:Person>
