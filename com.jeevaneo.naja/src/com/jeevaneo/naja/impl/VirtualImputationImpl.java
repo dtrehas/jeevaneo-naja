@@ -249,10 +249,15 @@ public class VirtualImputationImpl extends EObjectImpl implements
 				what=task.getName();
 			}
 		}
-		return String
+		String ret = String
 				.format(
 						"%s : %d hours left on %s between %4$tY-%4$tm-%4$td and %5$tY-%5$tm-%5$td",
 						who, getTotalLoad(), what, firstDate, lastDate);
+		if(null!=getPlanification() && null!=getPlanification().getComment())
+		{
+			ret += String.format(" (%s)", getPlanification().getComment());
+		}
+		return ret;
 	}
 
 	/**
