@@ -7,10 +7,10 @@
 package com.jeevaneo.naja.impl;
 
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-import java.util.Date;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
@@ -24,9 +24,9 @@ import org.eclipse.emf.ecore.util.InternalEList;
 
 import com.jeevaneo.naja.Category;
 import com.jeevaneo.naja.Imputation;
+import com.jeevaneo.naja.NajaPackage;
 import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Task;
-import com.jeevaneo.naja.NajaPackage;
 
 
 /**

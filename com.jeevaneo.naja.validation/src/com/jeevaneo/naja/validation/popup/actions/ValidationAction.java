@@ -11,7 +11,6 @@ import org.eclipse.emf.validation.model.EvaluationMode;
 import org.eclipse.emf.validation.service.IBatchValidator;
 import org.eclipse.emf.validation.service.ModelValidationService;
 import org.eclipse.jface.action.IAction;
-import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.StructuredSelection;
 import org.eclipse.swt.widgets.Shell;
@@ -26,6 +25,7 @@ import com.jeevaneo.naja.validation.ClientSelector;
 
 public class ValidationAction implements IObjectActionDelegate {
 
+	@SuppressWarnings("unused")
 	private Shell shell;
 	private StructuredSelection selection;
 

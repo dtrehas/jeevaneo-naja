@@ -6,17 +6,15 @@
  */
 package com.jeevaneo.naja.impl;
 
-import com.jeevaneo.naja.NajaPackage;
-import com.jeevaneo.naja.Schedule;
-
 import java.util.Date;
 
 import org.eclipse.emf.common.notify.Notification;
-
 import org.eclipse.emf.ecore.EClass;
-
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
+
+import com.jeevaneo.naja.NajaPackage;
+import com.jeevaneo.naja.Schedule;
 
 /**
  * <!-- begin-user-doc -->

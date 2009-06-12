@@ -5,10 +5,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 import org.eclipse.emf.common.command.Command;
-import org.eclipse.emf.edit.command.CommandParameter;
 import org.eclipse.emf.edit.command.CreateChildCommand;
-import org.eclipse.emf.edit.command.RemoveCommand;
-import org.eclipse.emf.edit.domain.EditingDomain;
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.StructuredSelection;
@@ -25,9 +22,9 @@ import com.jeevaneo.naja.timeentries.presentation.TimeentriesEditor;
 public class EditorActionDelegate1 implements IEditorActionDelegate {
 
 	TimeentriesEditor editor = null;
-	
+
 	StructuredSelection selection = null;
-	
+
 	@Override
 	public void setActiveEditor(IAction action, IEditorPart targetEditor) {
 		this.editor = (TimeentriesEditor) targetEditor;
@@ -35,20 +32,15 @@ public class EditorActionDelegate1 implements IEditorActionDelegate {
 
 	@Override
 	public void run(IAction action) {
-		for(Object o: selection.toList())
-		{
-			if(o instanceof TimeEntries)
-			{
-				TimeEntries ties = (TimeEntries)o;
-				for(TimeEntry ty : ties.getEntries())
-				{
+		for (Object o : selection.toList()) {
+			if (o instanceof TimeEntries) {
+				TimeEntries ties = (TimeEntries) o;
+				for (TimeEntry ty : ties.getEntries()) {
 					recompute(ty);
 				}
+			} else if (o instanceof TimeEntry) {
+				recompute((TimeEntry) o);
 			}
-			else if(o instanceof TimeEntry)
-			{
-				recompute((TimeEntry)o);
-			} 
 		}
 	}
 
@@ -61,39 +53,38 @@ public class EditorActionDelegate1 implements IEditorActionDelegate {
 	}
 
 	private void recompute(TimeEntry ty) {
-		if(null!=ty.getImputation())
-		{
+		if (null != ty.getImputation()) {
 			ty.getImputation().setPlanification(null);
 			ty.getImputation().setResource(null);
 			ty.getImputation().setTask(null);
 			ty.setImputation(null);
 		}
 		Imputation imputation = NajaFactory.eINSTANCE.createImputation();
-		imputation.setComment(ty.getComment() + " | generated at " + new Date());
+		imputation
+				.setComment(ty.getComment() + " | generated at " + new Date());
 		imputation.setDate(computeDate(ty.getDay()));
 		imputation.setLoad(ty.getLoad());
 		imputation.setResource(ty.getResource());
 		imputation.setTask(ty.getExternalId().getTask());
-		Command command = new CreateChildCommand(editor.getEditingDomain(), ty, TimeentriesPackage.Literals.TIME_ENTRY__IMPUTATION, imputation,Collections.emptyList())
-		{
+		Command command = new CreateChildCommand(editor.getEditingDomain(), ty,
+				TimeentriesPackage.Literals.TIME_ENTRY__IMPUTATION, imputation,
+				Collections.emptyList()) {
 
 			@Override
 			public void execute() {
 				super.execute();
-				Imputation imput= (Imputation)this.child;
+				Imputation imput = (Imputation) this.child;
 				TimeEntry ty = (TimeEntry) this.owner;
 				ty.setImputation(imput);
 			}
-			
+
 		};
 		editor.getEditingDomain().getCommandStack().execute(command);
 	}
 
 	@Override
 	public void selectionChanged(IAction action, ISelection selection) {
-		this.selection=(StructuredSelection) selection;
+		this.selection = (StructuredSelection) selection;
 	}
-	
-
 
 }

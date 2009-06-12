@@ -25,7 +25,6 @@ import org.eclipse.swt.widgets.FileDialog;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
-import org.eclipse.ui.progress.UIJob;
 
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.NajaPackage;
@@ -53,9 +52,9 @@ public class CleanPlanificationImputationsForIvoleAction implements
 	@Override
 	public void run(IAction action) {
 
-		final Shell shell = part.getSite()
-		.getShell();
-		final boolean performClean = MessageDialog.openQuestion(shell, "Naja for Ïvô|€",
+		final Shell shell = part.getSite().getShell();
+		final boolean performClean = MessageDialog.openQuestion(shell,
+				"Naja for Ïvô|€",
 				"Perform the cleaning or report only? Yes to clean.");
 
 		FileDialog fd = new FileDialog(shell);
@@ -107,7 +106,7 @@ public class CleanPlanificationImputationsForIvoleAction implements
 						for (String log : cleaned) {
 							out.println(log);
 						}
-						
+
 						shell.getDisplay().asyncExec(new Runnable() {
 							public void run() {
 								MessageDialog.openInformation(shell,
@@ -168,25 +167,24 @@ public class CleanPlanificationImputationsForIvoleAction implements
 			}
 
 			if (clean && performClean) {
-				Command command = new RemoveCommand(editingDomain,
-//						planification.getImputations(),
+				Command command = new RemoveCommand(
+						editingDomain,
+						// planification.getImputations(),
 						planification,
 						NajaPackage.Literals.PLANIFICATION__IMPUTATIONS,
-						imputation)
-				{
+						imputation) {
 
 					@Override
 					protected boolean prepare() {
 						return true;
 					}
-					
+
 				};
 				commands.add(command);
 			}
 		}
-		
-		for(Command command : commands)
-		{
+
+		for (Command command : commands) {
 			editingDomain.getCommandStack().execute(command);
 		}
 	}
