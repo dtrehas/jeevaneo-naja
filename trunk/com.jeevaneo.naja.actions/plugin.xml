@@ -21,6 +21,13 @@
                label="Export Categories &amp; Tasks as CSV"
                menubarPath="com.jeevaneo.naja.menu1/group1">
          </action>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportActivityTableAsCsvAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.newAction"
+               label="ExportActivity Table as CSV"
+               menubarPath="com.jeevaneo.naja.menu1/group1">
+         </action>
          <visibility>
             <or>
                <objectClass

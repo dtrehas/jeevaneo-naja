@@ -543,7 +543,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 	private void reserveSchedule(Imputation imputation) {
 		Date date = imputation.getDate();
 		if (null == date) {
-			System.err.println("Imputation with null date will be ignored!");
+			System.err.println("Imputation with null date will be ignored! " + imputation);
 			return;
 		}
 

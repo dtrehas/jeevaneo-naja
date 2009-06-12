@@ -65,6 +65,60 @@
                      class="org.eclipse.emf.ecore.EObject">
                </target>
             </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.PositiveUnimputedLoadsConstraint"
+                  id="com.jeevaneo.naja.validation.constraint6"
+                  lang="Java"
+                  mode="Batch"
+                  name="Positive unimputed loads"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint6">
+               <message>
+                  Planification {0} is over imputed : {1} hours.
+               </message>
+               <description>
+                  Planifications total load should be more than or equal to its total imputations.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.OverPlanifiedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint7"
+                  lang="Java"
+                  mode="Batch"
+                  name="Over-planified tasks"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint7">
+               <message>
+                  Task {0} is over planified - planified {1} hours vs total {2}
+               </message>
+               <description>
+                  Tasks total load should be more than or equal to their total planifications.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.OverImputedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint8"
+                  lang="Java"
+                  mode="Batch"
+                  name="Over-imputed tasks"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint8">
+               <message>
+                  Task {0} is over imputed - imputations {1}h vs total {2}h
+               </message>
+               <description>
+                  Tasks total load should be more than or equal to their total imputations.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
 </constraints>
       </constraintProvider>
       <category
