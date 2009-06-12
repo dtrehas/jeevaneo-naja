@@ -112,16 +112,15 @@ public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 					} catch (ParseException e) {
 						e.printStackTrace();
 					}
-					
-					//clean imputations doublons
+
+					// clean imputations doublons
 					for (Person person : people) {
 						Set<Imputation> imputs = new HashSet<Imputation>();
 						imputs.addAll(person.getImputations());
 						person.getImputations().clear();
 						person.getImputations().addAll(imputs);
 					}
-					
-					
+
 					SortedSet<Date> dates = com.jeevaneo.naja.impl.Utils
 							.findOpenedDates(start, end);
 
@@ -136,56 +135,68 @@ public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 						}
 
 						int monitorIncrement = 0;
-						if(!person.getImputations().isEmpty())
-							{
-							monitorIncrement = 900 / person.getImputations().size();
-							}
-								
+						if (!person.getImputations().isEmpty()
+								&& !person.getPlanifications().isEmpty()) {
+							monitorIncrement = 900 / (person.getImputations()
+									.size() + person.getPlanifications().size());
+						}
+
 						int monitorLeft = 900;
 
 						for (Imputation imputation : person.getImputations()) {
-							if(null!=imputation.getPlanification())
-							{
+							monitor.worked(monitorIncrement);
+							monitorLeft -= monitorIncrement;
+							if (null != imputation.getPlanification()) {
 								continue;
 							}
 							int load = imputation.getLoad();
 							Date date = imputation.getDate();
-							if(null==date)
-							{
-								System.err.println("IGNORED imputation with null date!!! " + imputation);
-								continue;
+							if (null == date) {
+								System.err
+										.println("IGNORED imputation with null date!!! "
+												+ imputation);
 							}
-							if(date.after(start) && date.before(end))
-							{
-								loadsPerDay.put(date, load + loadsPerDay.get(date));
+							if (null != date && date.after(start)
+									&& date.before(end)) {
+								loadsPerDay.put(date, load
+										+ loadsPerDay.get(date));
 							}
-							monitor.worked(monitorIncrement);
-							monitorLeft -= monitorIncrement;
-							
-							if(!imputation.getResource().equals(person))
-							{
-								System.err.println("WARNING choucroute - imputation is in wrong resource :" + imputation + " : " + imputation.getResource());
+
+							if (!imputation.getResource().equals(person)) {
+								System.err
+										.println("WARNING choucroute - imputation is in wrong resource :"
+												+ imputation
+												+ " : "
+												+ imputation.getResource());
 							}
 						}
 
-						for (Planification planification : person.getPlanifications()) {
-							if(null==planification.getVirtualImputation())
-							{
-								System.err.println("IGNORED: planification with null VirtualImputation " + planification);
+						for (Planification planification : person
+								.getPlanifications()) {
+							if (null == planification.getVirtualImputation()) {
+								System.err
+										.println("IGNORED: planification with null VirtualImputation "
+												+ planification);
 								continue;
 							}
-							for(Schedule schedule : planification.getVirtualImputation().getSchedules()){
-							
-							int load = schedule.getLoad();
-							Date date = schedule.getDate();
-							if(date.after(start) && date.before(end))
-							{
-								loadsPerDay.put(date, load + loadsPerDay.get(date));
+							for (Schedule schedule : planification
+									.getVirtualImputation().getSchedules()) {
+
+								int load = schedule.getLoad();
+								Date date = schedule.getDate();
+								if (null == date) {
+									System.err
+											.println("IGNORED schedule with null date!!! "
+													+ schedule);
+								}
+								if (date.after(start) && date.before(end)) {
+									loadsPerDay.put(date, load
+											+ loadsPerDay.get(date));
+								}
+								monitor.worked(monitorIncrement);
+								monitorLeft -= monitorIncrement;
 							}
-							monitor.worked(monitorIncrement);
-							monitorLeft -= monitorIncrement;
 						}
-					}
 						monitor.worked(monitorLeft);
 
 					}
@@ -228,8 +239,14 @@ public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 							System.out.println("\t" + day);
 							for (Imputation imputation : person
 									.getImputations()) {
-								if(imputation.getDate().equals(day))
-								{
+								Date date = imputation.getDate();
+								if (null == date) {
+									System.err
+											.println("IGNORED imputation with null date!!! "
+													+ imputation);
+									continue;
+								}
+								if (null!=date && imputation.getDate().equals(day)) {
 									System.out.println("\t\t" + imputation);
 								}
 							}

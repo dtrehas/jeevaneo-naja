@@ -1,6 +1,5 @@
 package com.jeevaneo.naja.validation.startup;
 
-import java.util.List;
 import java.util.Map;
 
 import org.eclipse.core.runtime.IStatus;
@@ -12,8 +11,6 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.util.EObjectValidator;
-import org.eclipse.emf.validation.internal.service.AbstractValidationContext;
-import org.eclipse.emf.validation.internal.service.GetBatchConstraintsOperation;
 import org.eclipse.emf.validation.model.EvaluationMode;
 import org.eclipse.emf.validation.model.IConstraintStatus;
 import org.eclipse.emf.validation.service.IBatchValidator;
@@ -51,7 +48,7 @@ public class EValidatorAdapter extends EObjectValidator {
 	 * Implements validation by delegation to the EMF validation framework.
 	 */
 	public boolean validate(EClass eClass, EObject eObject,
-			DiagnosticChain diagnostics, Map<Object,Object> context) {
+			DiagnosticChain diagnostics, Map<Object, Object> context) {
 		// first, do whatever the basic EcoreValidator does
 		super.validate(eClass, eObject, diagnostics, context);
 
@@ -98,7 +95,8 @@ public class EValidatorAdapter extends EObjectValidator {
 	 * @param status
 	 *            the element's validation status
 	 */
-	private void processed(EObject eObject, Map<Object, Object> context, IStatus status) {
+	private void processed(EObject eObject, Map<Object, Object> context,
+			IStatus status) {
 		if (context != null) {
 			context.put(eObject, status);
 		}

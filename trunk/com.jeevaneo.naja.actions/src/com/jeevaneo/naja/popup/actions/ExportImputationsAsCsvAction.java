@@ -23,10 +23,8 @@ import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
-import com.jeevaneo.naja.Category;
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.Project;
-import com.jeevaneo.naja.Task;
 import com.jeevaneo.naja.timeentries.TimeEntries;
 import com.jeevaneo.naja.timeentries.TimeEntry;
 
@@ -104,14 +102,16 @@ public class ExportImputationsAsCsvAction implements IObjectActionDelegate {
 						if (monitor.isCanceled()) {
 							break;
 						}
-						if(null==imputation.getResource())
-						{
-							System.err.println("ERROR: Imputation with no resource! " + imputation);
+						if (null == imputation.getResource()) {
+							System.err
+									.println("ERROR: Imputation with no resource! "
+											+ imputation);
 							continue;
 						}
-						if(null==imputation.getTask())
-						{
-							System.err.println("ERROR: Imputation with no task! " + imputation);
+						if (null == imputation.getTask()) {
+							System.err
+									.println("ERROR: Imputation with no task! "
+											+ imputation);
 							continue;
 						}
 						print(imputation.getTask().getName(), imputation
@@ -169,22 +169,6 @@ public class ExportImputationsAsCsvAction implements IObjectActionDelegate {
 		format += "\n";
 		out.printf(format, task, res, daysAndHours(load), load, date);
 		return format;
-	}
-
-	private String fullname(Task task) {
-		String ret = task.getName();
-		if (null != task.getCategory()) {
-			ret = fullname(task.getCategory()) + "/" + ret;
-		}
-		return ret;
-	}
-
-	private String fullname(Category cat) {
-		String ret = cat.getName();
-		if (null != cat.getParentCategory()) {
-			ret = fullname(cat.getParentCategory()) + "/" + ret;
-		}
-		return ret;
 	}
 
 	/**

@@ -6,15 +6,24 @@
  */
 package com.jeevaneo.naja.impl;
 
-import com.jeevaneo.naja.*;
-
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
-
 import org.eclipse.emf.ecore.impl.EFactoryImpl;
-
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
+
+import com.jeevaneo.naja.Category;
+import com.jeevaneo.naja.Imputation;
+import com.jeevaneo.naja.NajaFactory;
+import com.jeevaneo.naja.NajaPackage;
+import com.jeevaneo.naja.Person;
+import com.jeevaneo.naja.Planification;
+import com.jeevaneo.naja.Project;
+import com.jeevaneo.naja.Schedule;
+import com.jeevaneo.naja.Task;
+import com.jeevaneo.naja.TaskMapping;
+import com.jeevaneo.naja.TaskMappings;
+import com.jeevaneo.naja.VirtualImputation;
 
 /**
  * <!-- begin-user-doc -->

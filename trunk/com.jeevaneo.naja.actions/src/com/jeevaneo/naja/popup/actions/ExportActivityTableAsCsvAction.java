@@ -290,31 +290,6 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 
 	}
 
-	private String print(String task, String res, int load, Date date,
-			PrintStream out) {
-		String format = "%s;%s;%s;";
-		format += null == date ? "N/A;" : "%5$tY-%5$tm-%5$td;";
-		format += "\n";
-		out.printf(format, task, res, daysAndHours(load), load, date);
-		return format;
-	}
-
-	private String fullname(Task task) {
-		String ret = task.getName();
-		if (null != task.getCategory()) {
-			ret = fullname(task.getCategory()) + "/" + ret;
-		}
-		return ret;
-	}
-
-	private String fullname(Category cat) {
-		String ret = cat.getName();
-		if (null != cat.getParentCategory()) {
-			ret = fullname(cat.getParentCategory()) + "/" + ret;
-		}
-		return ret;
-	}
-
 	/**
 	 * @see IActionDelegate#selectionChanged(IAction, ISelection)
 	 */
@@ -322,23 +297,6 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 		if (selection instanceof StructuredSelection) {
 			this.selection = (StructuredSelection) selection;
 		}
-	}
-
-	private static String daysAndHours(int hours) {
-		int days = hours / 8;
-		int hrs = hours % 8;
-		String day = "";
-		if (days > 0) {
-			day = String.format("%dj", days);
-			if (hrs > 0) {
-				day += " ";
-			}
-		}
-		String hour = "";
-		if (hrs > 0) {
-			hour = String.format("%dh", hrs);
-		}
-		return day + hour;
 	}
 
 	public static void main(String[] args) {

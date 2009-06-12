@@ -13,3 +13,4 @@ Require-Bundle: org.eclipse.ui,
  com.jeevaneo.naja.timeentries;bundle-version="1.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
+Export-Package: com.jeevaneo.naja.validation.startup

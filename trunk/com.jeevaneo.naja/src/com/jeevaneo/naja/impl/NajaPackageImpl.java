@@ -6,6 +6,12 @@
  */
 package com.jeevaneo.naja.impl;
 
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EReference;
+import org.eclipse.emf.ecore.impl.EPackageImpl;
+
 import com.jeevaneo.naja.Category;
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.NajaFactory;
@@ -15,16 +21,9 @@ import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Project;
 import com.jeevaneo.naja.Schedule;
 import com.jeevaneo.naja.Task;
-
 import com.jeevaneo.naja.TaskMapping;
 import com.jeevaneo.naja.TaskMappings;
 import com.jeevaneo.naja.VirtualImputation;
-import org.eclipse.emf.ecore.EAttribute;
-import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EPackage;
-import org.eclipse.emf.ecore.EReference;
-
-import org.eclipse.emf.ecore.impl.EPackageImpl;
 
 /**
  * <!-- begin-user-doc -->

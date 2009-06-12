@@ -3,12 +3,12 @@ package com.jeevaneo.naja.validation;
 import java.util.Iterator;
 
 import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.MultiStatus;
 import org.eclipse.emf.validation.AbstractModelConstraint;
 import org.eclipse.emf.validation.IValidationContext;
 
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.Person;
-import com.jeevaneo.naja.Task;
 
 public class ResourceOwnsItsImputationsConstraint extends AbstractModelConstraint {
 
@@ -23,24 +23,39 @@ public class ResourceOwnsItsImputationsConstraint extends AbstractModelConstrain
 			Person person = (Person) ctx.getTarget();
 		Iterator<Imputation> imputs = person.getImputations().iterator();
 //		for(Imputation imputation : task.getImputations())
+		MultiStatus ret = null;
 		while(imputs.hasNext())
 		{
 			Imputation imputation = imputs.next();
 			if(imputation.getResource()==null || !imputation.getResource().equals(person))
 			{
-				IStatus ret =ctx.createFailureStatus(person.getName(), imputation.getResource(), imputation);
+				if(null==ret)
+				{
+					ret = new MultiStatus("test", IStatus.ERROR, "test2", null);
+				}
+				ret.add(ctx.createFailureStatus(person.getName(), imputation.getResource(), imputation));
 				//try to clean
 				if(imputation.getResource()!=null)
 				{
+					Person other = imputation.getResource();
 					imputs.remove();
+					
+					System.err.println("Imputation pointing to " + other.getName() + " but found in " + person.getName());
+					
+					imputation.setResource(null);
+					imputation.setResource(other);
 				}
 				else
 				{
+					//should I really do that??
 					imputation.setResource(person);
 				}
-				return ret;
 			}
 				
+		}
+		if(null!=ret)
+		{
+			return ret;
 		}
 		return ctx.createSuccessStatus();
 

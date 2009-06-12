@@ -54,7 +54,7 @@
                   mode="Batch"
                   name="Imputations reverse foireuse pour resource"
                   severity="ERROR"
-                  statusCode="com.jeevaneo.naja.validation.constraint4">
+                  statusCode="com.jeevaneo.naja.validation.constraint5">
                <message>
                   Imputation on resource {0} is present in other resource&apos;s imputations! Other resource={1} imputation={2}
                </message>
@@ -137,6 +137,24 @@
                      class="org.eclipse.emf.ecore.EObject">
                </target>
             </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.TestMultiConstraint"
+                  id="com.jeevaneo.naja.validation.constraint10"
+                  lang="Java"
+                  mode="Batch"
+                  name="Test"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint10">
+               <message>
+                  Test {0}
+               </message>
+               <description>
+                  test
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
 </constraints>
       </constraintProvider>
       <category
@@ -144,35 +162,6 @@
             mandatory="true"
             name="Naja constraints">
       </category>
-      <constraintProvider
-            cache="true"
-            mode="Batch">
-         <package
-               namespaceUri="http://naja.jeevaneo.com/timeentries/1.0">
-         </package>
-         <constraints
-               categories="com.jeevaneo.naja.validation.category2">
-            <constraint
-                  class="com.jeevaneo.naja.validation.TimeEntryImputationsHavePlanificationConstraint"
-                  id="com.jeevaneo.naja.validation.constraint2"
-                  lang="Java"
-                  mode="Batch"
-                  name="TimeEntry Imputations have Planifications"
-                  severity="WARNING"
-                  statusCode="com.jeevaneo.naja.validation.constraint2">
-               <message>
-                  Time entry {0} has no imputation or its imputation has no planification
-               </message>
-               <description>
-                  TimeEntrys must eventually have a generated imputation. 
-TimeEntry generated imputations may have a planification.
-               </description>
-               <target
-                     class="java.lang.Object">
-               </target>
-            </constraint>
-         </constraints>
-      </constraintProvider>
    </extension>
    <extension
          point="org.eclipse.emf.validation.constraintBindings">
@@ -189,24 +178,10 @@ TimeEntry generated imputations may have a planification.
       </binding>
    </extension>
    <extension
-         point="org.eclipse.emf.validation.constraintBindings">
-      <clientContext
-            default="false"
-            id="com.jeevaneo.naja.validation.context2">
-         <selector
-               class="com.jeevaneo.naja.validation.ClientSelector">
-         </selector>
-      </clientContext>
-      <binding
-            category="com.jeevaneo.naja.validation.category2"
-            context="com.jeevaneo.naja.validation.context2">
-      </binding>
-   </extension>
-   <extension
          point="org.eclipse.ui.popupMenus">
       <objectContribution
             id="com.jeevaneo.naja.validation.contribution1"
-            objectClass="com.jeevaneo.naja.EObject">
+            objectClass="org.eclipse.emf.ecore.EObject">
          <menu
                id="com.jeevaneo.naja.validation.menu"
                label="Naja"
@@ -230,20 +205,6 @@ TimeEntry generated imputations may have a planification.
       <startup
             class="com.jeevaneo.naja.validation.startup.ValidatorRegisterer">
       </startup>
-   </extension>
-   <extension
-         point="org.eclipse.emf.validation.constraintBindings">
-      <clientContext
-            default="false"
-            id="com.jeevaneo.naja.validation.context2">
-         <selector
-               class="com.jeevaneo.naja.validation.ClientSelector">
-         </selector>
-      </clientContext>
-      <binding
-            category="com.jeevaneo.naja.validation.category2"
-            context="com.jeevaneo.naja.validation.context2">
-      </binding>
    </extension>
 
 </plugin>

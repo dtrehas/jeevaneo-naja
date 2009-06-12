@@ -5,7 +5,6 @@ import org.eclipse.emf.validation.AbstractModelConstraint;
 import org.eclipse.emf.validation.IValidationContext;
 
 import com.jeevaneo.naja.Imputation;
-import com.jeevaneo.naja.Person;
 
 public class NonNullDateOfImputationConstraint extends AbstractModelConstraint {
 
@@ -16,7 +15,6 @@ public class NonNullDateOfImputationConstraint extends AbstractModelConstraint {
 	public IStatus validate(IValidationContext ctx) {
 		if(!(ctx.getTarget() instanceof Imputation))
 		{
-			System.out.println("IGNORED: " + ctx.getTarget());
 			return ctx.createSuccessStatus();
 		}
 		Imputation imputation = (Imputation) ctx.getTarget();
