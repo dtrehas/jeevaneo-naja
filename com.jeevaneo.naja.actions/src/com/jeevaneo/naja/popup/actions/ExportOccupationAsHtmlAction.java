@@ -31,7 +31,9 @@ import org.eclipse.ui.IWorkbenchPart;
 
 import com.jeevaneo.naja.Imputation;
 import com.jeevaneo.naja.Person;
+import com.jeevaneo.naja.Planification;
 import com.jeevaneo.naja.Project;
+import com.jeevaneo.naja.Schedule;
 
 public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 
@@ -141,9 +143,18 @@ public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 								
 						int monitorLeft = 900;
 
-						for (Imputation imputation : person.getImputations()) {							
+						for (Imputation imputation : person.getImputations()) {
+							if(null!=imputation.getPlanification())
+							{
+								continue;
+							}
 							int load = imputation.getLoad();
 							Date date = imputation.getDate();
+							if(null==date)
+							{
+								System.err.println("IGNORED imputation with null date!!! " + imputation);
+								continue;
+							}
 							if(date.after(start) && date.before(end))
 							{
 								loadsPerDay.put(date, load + loadsPerDay.get(date));
@@ -156,6 +167,25 @@ public class ExportOccupationAsHtmlAction implements IObjectActionDelegate {
 								System.err.println("WARNING choucroute - imputation is in wrong resource :" + imputation + " : " + imputation.getResource());
 							}
 						}
+
+						for (Planification planification : person.getPlanifications()) {
+							if(null==planification.getVirtualImputation())
+							{
+								System.err.println("IGNORED: planification with null VirtualImputation " + planification);
+								continue;
+							}
+							for(Schedule schedule : planification.getVirtualImputation().getSchedules()){
+							
+							int load = schedule.getLoad();
+							Date date = schedule.getDate();
+							if(date.after(start) && date.before(end))
+							{
+								loadsPerDay.put(date, load + loadsPerDay.get(date));
+							}
+							monitor.worked(monitorIncrement);
+							monitorLeft -= monitorIncrement;
+						}
+					}
 						monitor.worked(monitorLeft);
 
 					}
