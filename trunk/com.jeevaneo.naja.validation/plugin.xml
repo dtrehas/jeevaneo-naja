@@ -119,6 +119,24 @@
                      class="org.eclipse.emf.ecore.EObject">
                </target>
             </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.NonNullDateOfImputationConstraint"
+                  id="com.jeevaneo.naja.validation.constraint9"
+                  lang="Java"
+                  mode="Batch"
+                  name="Null date of imputation"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint9">
+               <message>
+                  Imputation has null date
+               </message>
+               <description>
+                  Date of imputation cannot be null
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
 </constraints>
       </constraintProvider>
       <category
