@@ -241,13 +241,13 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 								totalLoadPerMonth.put(month, totalLoadPerMonth
 										.get(month)
 										+ load);
-								out.printf("%s;", load);
+								out.printf("%s;", formatToDays(load));
 							} else {
 								out.print(";");
 							}
 							monitor.worked(1000);
 						}
-						out.printf("%s;", totalLoad);
+						out.printf("%s;", formatToDays(totalLoad));
 						out.println();
 
 					}
@@ -258,9 +258,9 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 					for (String month : monthes) {
 						int totalLoad = totalLoadPerMonth.get(month);
 						totalTotalLoad += totalLoad;
-						out.printf("%s;", totalLoad);
+						out.printf("%s;", formatToDays(totalLoad));
 					}
-					out.printf("%s;", totalTotalLoad);
+					out.printf("%s;", formatToDays(totalTotalLoad));
 					out.println();
 					monitor.worked(1000);
 					monitor.done();
@@ -289,6 +289,12 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 		}
 
 	}
+	
+	private static String formatToDays(int hours)
+	{
+		String ret = String.format("%.2f\n", (float) hours/8).replaceAll("\\,0?+$", "");
+		return ret;
+	}
 
 	/**
 	 * @see IActionDelegate#selectionChanged(IAction, ISelection)
@@ -300,7 +306,10 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 	}
 
 	public static void main(String[] args) {
-		System.out.printf("%2$tY-%2$tm-%2$td\n", "john", new Date());
+		for(int i=80;i<90;i++)
+		{
+			System.out.println(formatToDays(i));
+		}
 	}
 
 }
