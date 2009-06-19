@@ -317,7 +317,6 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="modification pop killer" date="2009-02-17T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../nice-to-have.naja#//@categories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Reunion environnement et filiere (Mais, qui va demeler cet echeveau ??)" day="20090218" load="2">
