@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Views Plug-in
+Bundle-SymbolicName: com.jeevaneo.naja.views; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.jeevaneo.naja.views.Activator
+Bundle-Vendor: JEEVANEO
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.jeevaneo.naja;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
