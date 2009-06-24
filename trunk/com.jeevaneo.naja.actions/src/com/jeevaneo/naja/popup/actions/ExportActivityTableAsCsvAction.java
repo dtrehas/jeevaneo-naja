@@ -292,7 +292,7 @@ public class ExportActivityTableAsCsvAction implements IObjectActionDelegate {
 	
 	private static String formatToDays(int hours)
 	{
-		String ret = String.format("%.2f\n", (float) hours/8).replaceAll("\\,0?+$", "");
+		String ret = String.format("%.2f", (float) hours/8).replaceAll("\\,0?+$", "");
 		return ret;
 	}
 

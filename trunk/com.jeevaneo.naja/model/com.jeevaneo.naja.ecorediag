@@ -31,6 +31,14 @@
         <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/maxLoadPerDay"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_DK5d0Q8UEd6p5fdKn6-kmg"/>
       </children>
+      <children xmi:type="notation:Node" xmi:id="_03jbEVmxEd69W86E5l9aew" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/dailyCost"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_03jbElmxEd69W86E5l9aew"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_fVjnUFmzEd69W86E5l9aew" type="2001">
+        <element xmi:type="ecore:EAttribute" href="com.jeevaneo.naja.ecore#//Person/totalCost"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fVjnUVmzEd69W86E5l9aew"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_R-CxofqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_R-CxovqSEd2_8NSLID6Jxg"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_R-Cxo_qSEd2_8NSLID6Jxg"/>

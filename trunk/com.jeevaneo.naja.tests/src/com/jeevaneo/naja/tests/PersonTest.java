@@ -23,6 +23,7 @@ import junit.textui.TestRunner;
  *   <li>{@link com.jeevaneo.naja.Person#getLeftAvailability() <em>Left Availability</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getAvailableSchedules() <em>Available Schedules</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getLastDate() <em>Last Date</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Person#getTotalCost() <em>Total Cost</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -145,6 +146,19 @@ public class PersonTest extends TestCase {
 	 * @generated
 	 */
 	public void testGetLastDate() {
+		// TODO: implement this feature getter test method
+		// Ensure that you remove @generated or mark it @generated NOT
+		fail();
+	}
+
+	/**
+	 * Tests the '{@link com.jeevaneo.naja.Person#getTotalCost() <em>Total Cost</em>}' feature getter.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.jeevaneo.naja.Person#getTotalCost()
+	 * @generated
+	 */
+	public void testGetTotalCost() {
 		// TODO: implement this feature getter test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();

@@ -74,6 +74,8 @@ public class PersonItemProvider
 			addAvailabilityStartDatePropertyDescriptor(object);
 			addLastDatePropertyDescriptor(object);
 			addMaxLoadPerDayPropertyDescriptor(object);
+			addDailyCostPropertyDescriptor(object);
+			addTotalCostPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -277,6 +279,50 @@ public class PersonItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Daily Cost feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addDailyCostPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Person_dailyCost_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Person_dailyCost_feature", "_UI_Person_type"),
+				 NajaPackage.Literals.PERSON__DAILY_COST,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Total Cost feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addTotalCostPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Person_totalCost_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Person_totalCost_feature", "_UI_Person_type"),
+				 NajaPackage.Literals.PERSON__TOTAL_COST,
+				 false,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -350,6 +396,8 @@ public class PersonItemProvider
 			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
 			case NajaPackage.PERSON__LAST_DATE:
 			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
+			case NajaPackage.PERSON__DAILY_COST:
+			case NajaPackage.PERSON__TOTAL_COST:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case NajaPackage.PERSON__AVAILABLE_SCHEDULES:

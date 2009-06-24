@@ -27,10 +27,9 @@ import com.jeevaneo.naja.NajaPackage;
 import com.jeevaneo.naja.TaskMappings;
 
 /**
- * This is the item provider adapter for a
- * {@link com.jeevaneo.naja.TaskMappings} object. <!-- begin-user-doc --> <!--
+ * This is the item provider adapter for a {@link com.jeevaneo.naja.TaskMappings} object.
+ * <!-- begin-user-doc --> <!--
  * end-user-doc -->
- * 
  * @generated
  */
 public class TaskMappingsItemProvider extends ItemProviderAdapter implements
@@ -62,13 +61,10 @@ public class TaskMappingsItemProvider extends ItemProviderAdapter implements
 	}
 
 	/**
-	 * This specifies how to implement {@link #getChildren} and is used to
-	 * deduce an appropriate feature for an
-	 * {@link org.eclipse.emf.edit.command.AddCommand},
-	 * {@link org.eclipse.emf.edit.command.RemoveCommand} or
-	 * {@link org.eclipse.emf.edit.command.MoveCommand} in
-	 * {@link #createCommand}. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
+	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
+	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
+	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
@@ -83,13 +79,11 @@ public class TaskMappingsItemProvider extends ItemProviderAdapter implements
 
 	/**
 	 * <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
 	protected EStructuralFeature getChildFeature(Object object, Object child) {
-		// Check the type of the specified child object and return the proper
-		// feature to use for
+		// Check the type of the specified child object and return the proper feature to use for
 		// adding (see {@link AddCommand}) it as a child.
 
 		return super.getChildFeature(object, child);
@@ -103,14 +97,13 @@ public class TaskMappingsItemProvider extends ItemProviderAdapter implements
 	 */
 	@Override
 	public Object getImage(Object object) {
-		return overlayImage(object, getResourceLocator().getImage(
-				"full/obj16/TaskMappings"));
+		return overlayImage(object, getResourceLocator().getImage("full/obj16/TaskMappings"));
 	}
 
 	/**
-	 * This returns the label text for the adapted class. <!-- begin-user-doc
+	 * This returns the label text for the adapted class.
+	 * <!-- begin-user-doc
 	 * --> <!-- end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
@@ -119,11 +112,10 @@ public class TaskMappingsItemProvider extends ItemProviderAdapter implements
 	}
 
 	/**
-	 * This handles model notifications by calling {@link #updateChildren} to
-	 * update any cached children and by creating a viewer notification, which
-	 * it passes to {@link #fireNotifyChanged}. <!-- begin-user-doc --> <!--
+	 * This handles model notifications by calling {@link #updateChildren} to update any cached
+	 * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
 	 * @generated
 	 */
 	@Override
@@ -131,10 +123,9 @@ public class TaskMappingsItemProvider extends ItemProviderAdapter implements
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(TaskMappings.class)) {
-		case NajaPackage.TASK_MAPPINGS__MAPPINGS:
-			fireNotifyChanged(new ViewerNotification(notification, notification
-					.getNotifier(), true, false));
-			return;
+			case NajaPackage.TASK_MAPPINGS__MAPPINGS:
+				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
+				return;
 		}
 		super.notifyChanged(notification);
 	}
@@ -151,9 +142,10 @@ public class TaskMappingsItemProvider extends ItemProviderAdapter implements
 			Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add(createChildParameter(
-				NajaPackage.Literals.TASK_MAPPINGS__MAPPINGS,
-				NajaFactory.eINSTANCE.createTaskMapping()));
+		newChildDescriptors.add
+			(createChildParameter
+				(NajaPackage.Literals.TASK_MAPPINGS__MAPPINGS,
+				 NajaFactory.eINSTANCE.createTaskMapping()));
 	}
 
 	/**
