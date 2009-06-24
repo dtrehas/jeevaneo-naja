@@ -250,4 +250,7 @@
     <task href="M7.naja#//@categories.3/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/immersion.task"/>
+  <mappings externalId="tasks/supportDSII.task">
+    <task href="M2.naja#//@categories.7/@subcategories.2/@tasks.0"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
