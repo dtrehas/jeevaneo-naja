@@ -29,6 +29,8 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link com.jeevaneo.naja.Person#getAvailableSchedules <em>Available Schedules</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getLastDate <em>Last Date</em>}</li>
  *   <li>{@link com.jeevaneo.naja.Person#getMaxLoadPerDay <em>Max Load Per Day</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Person#getDailyCost <em>Daily Cost</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.Person#getTotalCost <em>Total Cost</em>}</li>
  * </ul>
  * </p>
  *
@@ -262,5 +264,47 @@ public interface Person extends EObject {
 	 * @generated
 	 */
 	void setMaxLoadPerDay(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Daily Cost</b></em>' attribute.
+	 * The default value is <code>"0"</code>.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Daily Cost</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Daily Cost</em>' attribute.
+	 * @see #setDailyCost(int)
+	 * @see com.jeevaneo.naja.NajaPackage#getPerson_DailyCost()
+	 * @model default="0" unique="false" required="true" ordered="false"
+	 * @generated
+	 */
+	int getDailyCost();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.Person#getDailyCost <em>Daily Cost</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Daily Cost</em>' attribute.
+	 * @see #getDailyCost()
+	 * @generated
+	 */
+	void setDailyCost(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Total Cost</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Total Cost</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Total Cost</em>' attribute.
+	 * @see com.jeevaneo.naja.NajaPackage#getPerson_TotalCost()
+	 * @model unique="false" transient="true" changeable="false" volatile="true" derived="true" ordered="false"
+	 * @generated
+	 */
+	int getTotalCost();
 
 } // Person

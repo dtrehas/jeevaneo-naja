@@ -33,6 +33,7 @@
       <plugin id="com.jeevaneo.naja.timeentries.edit"/>
       <plugin id="com.jeevaneo.naja.timeentries.editor"/>
       <plugin id="com.jeevaneo.naja.validation"/>
+      <plugin id="com.jeevaneo.naja.views"/>
       <plugin id="javax.servlet"/>
       <plugin id="org.apache.ant"/>
       <plugin id="org.apache.commons.logging"/>

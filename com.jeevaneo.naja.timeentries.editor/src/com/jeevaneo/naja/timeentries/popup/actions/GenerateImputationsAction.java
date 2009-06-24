@@ -243,7 +243,7 @@ public class GenerateImputationsAction implements IObjectActionDelegate {
 						continue;
 					}
 					if (planifTask.equals(imputation.getTask())
-							&& planifResource.equals(imputation.getResource())) {
+							&& planifResource.equals(imputation.getResource()) && planification.getUnimputedLoad()>=imputation.getLoad()) {
 						return planification;
 					}
 				}

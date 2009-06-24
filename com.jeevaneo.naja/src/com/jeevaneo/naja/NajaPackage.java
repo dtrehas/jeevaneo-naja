@@ -160,13 +160,31 @@ public interface NajaPackage extends EPackage {
 	int PERSON__MAX_LOAD_PER_DAY = 9;
 
 	/**
+	 * The feature id for the '<em><b>Daily Cost</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__DAILY_COST = 10;
+
+	/**
+	 * The feature id for the '<em><b>Total Cost</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__TOTAL_COST = 11;
+
+	/**
 	 * The number of structural features of the '<em>Person</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PERSON_FEATURE_COUNT = 10;
+	int PERSON_FEATURE_COUNT = 12;
 
 	/**
 	 * The meta object id for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.
@@ -1038,6 +1056,28 @@ public interface NajaPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getPerson_MaxLoadPerDay();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Person#getDailyCost <em>Daily Cost</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Daily Cost</em>'.
+	 * @see com.jeevaneo.naja.Person#getDailyCost()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_DailyCost();
+
+	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.Person#getTotalCost <em>Total Cost</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Total Cost</em>'.
+	 * @see com.jeevaneo.naja.Person#getTotalCost()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_TotalCost();
 
 	/**
 	 * Returns the meta object for class '{@link com.jeevaneo.naja.Task <em>Task</em>}'.
@@ -1944,6 +1984,22 @@ public interface NajaPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute PERSON__MAX_LOAD_PER_DAY = eINSTANCE.getPerson_MaxLoadPerDay();
+
+		/**
+		 * The meta object literal for the '<em><b>Daily Cost</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__DAILY_COST = eINSTANCE.getPerson_DailyCost();
+
+		/**
+		 * The meta object literal for the '<em><b>Total Cost</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__TOTAL_COST = eINSTANCE.getPerson_TotalCost();
 
 		/**
 		 * The meta object literal for the '{@link com.jeevaneo.naja.impl.TaskImpl <em>Task</em>}' class.

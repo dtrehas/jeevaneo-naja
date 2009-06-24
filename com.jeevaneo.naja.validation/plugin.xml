@@ -155,6 +155,24 @@
                      class="org.eclipse.emf.ecore.EObject">
                </target>
             </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.UnderPlanifiedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint11"
+                  lang="Java"
+                  mode="Batch"
+                  name="Under-planified tasks"
+                  severity="WARNING"
+                  statusCode="com.jeevaneo.naja.validation.constraint11">
+               <message>
+                  Task {0} is under planified - imputed/planified {1} hours vs total {2}
+               </message>
+               <description>
+                  Tasks total load should be fully dispatched into imputations and planifications.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
 </constraints>
       </constraintProvider>
       <category

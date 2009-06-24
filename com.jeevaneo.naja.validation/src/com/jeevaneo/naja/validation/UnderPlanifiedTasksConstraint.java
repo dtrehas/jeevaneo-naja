@@ -6,9 +6,9 @@ import org.eclipse.emf.validation.IValidationContext;
 
 import com.jeevaneo.naja.Task;
 
-public class OverLoadedTasksConstraint extends AbstractModelConstraint {
+public class UnderPlanifiedTasksConstraint extends AbstractModelConstraint {
 
-	public OverLoadedTasksConstraint() {
+	public UnderPlanifiedTasksConstraint() {
 	}
 
 	@Override
@@ -18,9 +18,9 @@ public class OverLoadedTasksConstraint extends AbstractModelConstraint {
 			return ctx.createSuccessStatus();
 		}
 		Task task = (Task) ctx.getTarget();
-		if (task.getUnaffectedLoad() > 0) {
+		if (task.getImputedLoad() > task.getTotalLoad()) {
 			return ctx.createFailureStatus(task.getLabel(), task
-					.getUnaffectedLoad(), task.getTotalLoad());
+					.getImputedLoad(), task.getTotalLoad());
 		}
 		return ctx.createSuccessStatus();
 	}
