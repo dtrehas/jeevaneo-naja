@@ -85,7 +85,7 @@
     <imputation comment="plan formation ant + exos" date="2009-06-15T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.138"/>
+      <planification href="../M2.naja#//@planifications.159"/>
     </imputation>
   </entries>
   <entries comment="maj planning" day="20090616" load="2">
@@ -94,7 +94,7 @@
     <imputation comment="maj planning" date="2009-06-16T00:00:00.000+0200" load="2">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.159"/>
     </imputation>
   </entries>
   <entries comment="lecture code - methodes integration applis natives dans BE" day="20090616" load="4">

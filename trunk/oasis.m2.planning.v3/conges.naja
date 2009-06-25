@@ -381,7 +381,7 @@
   <imputations comment="Vendredis Septembre AMA 2009-09-25" date="2009-09-25T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/AMA_97675t.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Absence Mehdi 19/06" date="2009-06-19T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Absence Mehdi 19/06" date="2009-06-19T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
   <imputations comment="Congés Mehdi Août" date="2009-07-27T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
@@ -714,7 +714,13 @@
   <imputations comment="Absence NCO P1 Conficker" date="2009-06-24T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
+  <imputations comment="Absence ALI cause réunion plénière MAIF" date="2009-06-24T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="4">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
   <categories name="Absences">
+    <subcategories name="Non OASIS">
+      <tasks name="DI" imputations="//@imputations.238"/>
+    </subcategories>
     <tasks totalLoad="1868" name="Congés">
       <imputations href="#//@imputations.2"/>
       <imputations href="#//@imputations.3"/>
