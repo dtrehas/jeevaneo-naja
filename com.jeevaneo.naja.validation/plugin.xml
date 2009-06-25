@@ -156,13 +156,31 @@
                </target>
             </constraint>
             <constraint
-                  class="com.jeevaneo.naja.validation.UnderPlanifiedTasksConstraint"
+                  class="com.jeevaneo.naja.validation.OverLoadedTasksConstraint"
                   id="com.jeevaneo.naja.validation.constraint11"
+                  lang="Java"
+                  mode="Batch"
+                  name="Over-loaded tasks"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint11">
+               <message>
+                  Task {0} is over loaded - imputations {1}h +unimputed planified {2}h == {3}h vs total {4}h
+               </message>
+               <description>
+                  Tasks total load should be more than or equal to their total imputations+unimputed plnaifications.
+               </description>
+               <target
+                     class="org.eclipse.emf.ecore.EObject">
+               </target>
+            </constraint>
+             <constraint
+                  class="com.jeevaneo.naja.validation.UnderPlanifiedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint12"
                   lang="Java"
                   mode="Batch"
                   name="Under-planified tasks"
                   severity="WARNING"
-                  statusCode="com.jeevaneo.naja.validation.constraint11">
+                  statusCode="com.jeevaneo.naja.validation.constraint12">
                <message>
                   Task {0} is under planified - imputed/planified {1} hours vs total {2}
                </message>

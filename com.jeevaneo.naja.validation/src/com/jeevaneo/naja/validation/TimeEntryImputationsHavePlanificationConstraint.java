@@ -14,6 +14,8 @@ public class TimeEntryImputationsHavePlanificationConstraint extends
 	}
 
 	public IStatus validate(IValidationContext ctx, TimeEntry timeEntry) {
+		System.out
+				.println("TimeEntryImputationsHavePlanificationConstraint.validate()");
 		if (null == timeEntry.getImputation()
 				|| null == timeEntry.getImputation().getPlanification()) {
 			ctx.addResult(timeEntry);
@@ -29,7 +31,6 @@ public class TimeEntryImputationsHavePlanificationConstraint extends
 		if (o instanceof TimeEntry) {
 			return validate(ctx, (TimeEntry) o);
 		} else {
-			System.err.println("Ignored : " + o);
 			return ctx.createSuccessStatus();
 		}
 

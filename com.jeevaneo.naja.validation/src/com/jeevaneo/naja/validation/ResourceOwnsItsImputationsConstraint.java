@@ -18,6 +18,7 @@ public class ResourceOwnsItsImputationsConstraint extends AbstractModelConstrain
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
+		System.out.println("ResourceOwnsItsImputationsConstraint.validate()");
 		if((ctx.getTarget() instanceof Person))
 		{
 			Person person = (Person) ctx.getTarget();

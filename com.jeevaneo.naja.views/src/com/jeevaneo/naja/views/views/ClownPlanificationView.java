@@ -1,7 +1,11 @@
 package com.jeevaneo.naja.views.views;
 
 import java.text.DateFormat;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IMenuListener;
@@ -9,7 +13,6 @@ import org.eclipse.jface.action.IMenuManager;
 import org.eclipse.jface.action.IToolBarManager;
 import org.eclipse.jface.action.MenuManager;
 import org.eclipse.jface.action.Separator;
-import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.DoubleClickEvent;
 import org.eclipse.jface.viewers.IDoubleClickListener;
 import org.eclipse.jface.viewers.ISelection;
@@ -28,6 +31,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.ui.IActionBars;
+import org.eclipse.ui.IEditorPart;
 import org.eclipse.ui.ISelectionListener;
 import org.eclipse.ui.ISharedImages;
 import org.eclipse.ui.IWorkbenchActionConstants;
@@ -35,8 +39,12 @@ import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.ViewPart;
 
+import com.jeevaneo.naja.Category;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
+import com.jeevaneo.naja.Task;
+import com.jeevaneo.naja.impl.Utils;
+import com.jeevaneo.naja.presentation.NajaEditor;
 
 /**
  * This sample class demonstrates how to plug-in a new workbench view. The view
@@ -54,9 +62,26 @@ import com.jeevaneo.naja.Planification;
  */
 
 public class ClownPlanificationView extends ViewPart {
+	public class SelectInEditorAction extends Action {
+		public void run() {
+			selectInEditor();
+		}
+
+		private void selectInEditor() {
+			ISelection selection = viewer.getSelection();
+			Object obj = ((IStructuredSelection) selection).getFirstElement();
+
+			IEditorPart editor = getSite().getWorkbenchWindow().getActivePage()
+					.getActiveEditor();
+			if (null != editor && editor instanceof NajaEditor) {
+				((NajaEditor) editor).setSelectionToViewer(Collections
+						.singleton(obj));
+			}
+		}
+	}
+
 	private TableViewer viewer;
 	private Action action1;
-	private Action action2;
 	private Action doubleClickAction;
 
 	// the listener we register with the selection service
@@ -73,7 +98,21 @@ public class ClownPlanificationView extends ViewPart {
 					} else {
 						Object selected = sselection.getFirstElement();
 						if (selected instanceof Person) {
-							display((Person) selected);
+							Person person = (Person) selected;
+							display(person.getName(), person
+									.getPlanifications());
+						} else if (selected instanceof Task) {
+							Task task = (Task) selected;
+							display(task.getName(), task.getPlanifications());
+						} else if (selected instanceof Category) {
+							Category category = (Category) selected;
+							Collection<Task> subtasks = Utils
+									.recursiveFindTasks(category);
+							Set<Planification> planifs = new HashSet<Planification>();
+							for (Task task : subtasks) {
+								planifs.addAll(task.getPlanifications());
+							}
+							display(category.getName(), planifs);
 						} else {
 							cleanDisplay();
 						}
@@ -105,23 +144,25 @@ public class ClownPlanificationView extends ViewPart {
 	 */
 
 	class ViewContentProvider implements IStructuredContentProvider {
-		private Person person = null;
+		// private Person person = null;
 
 		public void inputChanged(Viewer v, Object oldInput, Object newInput) {
-			if (newInput instanceof Person) {
-				person = (Person) newInput;
-			} else {
-				person = null;
-			}
+			// if (newInput instanceof Person) {
+			// person = (Person) newInput;
+			// } else {
+			// person = null;
+			// }
 		}
 
 		public void dispose() {
 		}
 
 		public Object[] getElements(Object parent) {
-			if (null == person)
+			System.out.println("parent=" + parent);
+			if (null == parent || !(parent.getClass().isArray())) {
 				return new Object[] {};
-			return person.getPlanifications().toArray();
+			}
+			return (Object[]) parent;
 		}
 	}
 
@@ -138,18 +179,21 @@ public class ClownPlanificationView extends ViewPart {
 				return planification.getTask() == null ? "Nothing!?" : ""
 						+ planification.getTask().getName();
 			case 1:
-				return "" + planification.getLoad() + "h";
+				return planification.getResource() == null ? "Nobody!?" : ""
+						+ planification.getResource().getName();
 			case 2:
-				return "" + planification.getImputedLoad() + "h";
+				return "" + planification.getLoad() + "h";
 			case 3:
-				return "" + planification.getUnimputedLoad() + "h";
+				return "" + planification.getImputedLoad() + "h";
 			case 4:
-				return df.format(planification.getFirstDate());
+				return "" + planification.getUnimputedLoad() + "h";
 			case 5:
-				return df.format(planification.getLastDate());
+				return df.format(planification.getFirstDate());
 			case 6:
-				return "" + planification.getMaxLoadPerDay() + "h/day";
+				return df.format(planification.getLastDate());
 			case 7:
+				return "" + planification.getMaxLoadPerDay() + "h/day";
+			case 8:
 				return planification.getComment();
 			}
 			return getText(obj);
@@ -172,20 +216,24 @@ public class ClownPlanificationView extends ViewPart {
 
 		@Override
 		public int compare(Viewer viewer, Object e1, Object e2) {
-			if(e1 instanceof Planification && e2 instanceof Planification)
-			{
+			if (e1 instanceof Planification && e2 instanceof Planification) {
 				Planification p1 = (Planification) e1;
 				Planification p2 = (Planification) e2;
-				
+
 				Date d1 = p1.getFirstDate();
 				Date d2 = p2.getFirstDate();
 
-				return super.compare(viewer, d1, d2);
-				
+				if (null != d1 && null != d2) {
+					int ret = d1.compareTo(d2);
+					return ret;
+				} else if (null == d1) {
+					return 1;
+				} else {
+					return -1;
+				}
 			}
 			return super.compare(viewer, e1, e2);
 		}
-		
 	}
 
 	/**
@@ -194,18 +242,20 @@ public class ClownPlanificationView extends ViewPart {
 	public ClownPlanificationView() {
 	}
 
-	protected void display(Person selected) {
-		if(null!=selected) 
-		{
-			setPartName(selected.getName() + "'s left planifications");
+	protected void display(String name, Collection<Planification> selected) {
+		if (null != selected) {
+			setPartName(name + "'s left planifications");
 		}
-		viewer.setInput(selected);
+		if (null == selected) {
+			viewer.setInput(null);
+		} else {
+			viewer.setInput(selected.toArray());
+		}
 		// viewer.refresh();
 	}
 
 	protected void cleanDisplay() {
-		display(null);
-		System.out.println("clean");
+		display("Invisible man", null);
 	}
 
 	/**
@@ -225,6 +275,10 @@ public class ClownPlanificationView extends ViewPart {
 		TableColumn column = new TableColumn(viewer.getTable(), SWT.NONE);
 		column.setWidth(350);
 		column.setText("Task");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(150);
+		column.setText("Resource");
 
 		column = new TableColumn(viewer.getTable(), SWT.NONE);
 		column.setWidth(50);
@@ -288,49 +342,26 @@ public class ClownPlanificationView extends ViewPart {
 	private void fillLocalPullDown(IMenuManager manager) {
 		manager.add(action1);
 		manager.add(new Separator());
-		manager.add(action2);
 	}
 
 	private void fillContextMenu(IMenuManager manager) {
 		manager.add(action1);
-		manager.add(action2);
 		// Other plug-ins can contribute there actions here
 		manager.add(new Separator(IWorkbenchActionConstants.MB_ADDITIONS));
 	}
 
 	private void fillLocalToolBar(IToolBarManager manager) {
 		manager.add(action1);
-		manager.add(action2);
 	}
 
 	private void makeActions() {
-		action1 = new Action() {
-			public void run() {
-				showMessage("Action 1 executed");
-			}
-		};
-		action1.setText("Action 1");
-		action1.setToolTipText("Action 1 tooltip");
+		action1 = new SelectInEditorAction();
+		action1.setText("Go to");
+		action1.setToolTipText("Select in editor");
 		action1.setImageDescriptor(PlatformUI.getWorkbench().getSharedImages()
 				.getImageDescriptor(ISharedImages.IMG_OBJS_INFO_TSK));
 
-		action2 = new Action() {
-			public void run() {
-				showMessage("Action 2 executed");
-			}
-		};
-		action2.setText("Action 2");
-		action2.setToolTipText("Action 2 tooltip");
-		action2.setImageDescriptor(PlatformUI.getWorkbench().getSharedImages()
-				.getImageDescriptor(ISharedImages.IMG_OBJS_INFO_TSK));
-		doubleClickAction = new Action() {
-			public void run() {
-				ISelection selection = viewer.getSelection();
-				Object obj = ((IStructuredSelection) selection)
-						.getFirstElement();
-				showMessage("Double-click detected on " + obj.toString());
-			}
-		};
+		doubleClickAction = new SelectInEditorAction();
 	}
 
 	private void hookDoubleClickAction() {
@@ -339,11 +370,6 @@ public class ClownPlanificationView extends ViewPart {
 				doubleClickAction.run();
 			}
 		});
-	}
-
-	private void showMessage(String message) {
-		MessageDialog.openInformation(viewer.getControl().getShell(),
-				"Clown's planifications", message);
 	}
 
 	/**

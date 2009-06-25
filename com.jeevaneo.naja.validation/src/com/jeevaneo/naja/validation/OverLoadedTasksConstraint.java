@@ -13,15 +13,20 @@ public class OverLoadedTasksConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
+		System.out.print("OverLoadedTasksConstraint.validate() ");
 		if (!(ctx.getTarget() instanceof Task)) {
-			System.out.println("IGNORED: " + ctx.getTarget());
+			System.out.println();
 			return ctx.createSuccessStatus();
 		}
 		Task task = (Task) ctx.getTarget();
-		if (task.getUnaffectedLoad() > 0) {
-			return ctx.createFailureStatus(task.getLabel(), task
-					.getUnaffectedLoad(), task.getTotalLoad());
-		}
+		System.out.println(task);		
+			if (task.getImputedLoad()+task.getUnimputedPlanifiedLoad() > task.getTotalLoad()) {
+				return ctx.createFailureStatus(task.getLabel(), task
+						.getImputedLoad(),task
+						.getUnimputedPlanifiedLoad(),task
+						.getImputedLoad()+task
+						.getUnimputedPlanifiedLoad(), task.getTotalLoad());
+			}
 		return ctx.createSuccessStatus();
 	}
 
