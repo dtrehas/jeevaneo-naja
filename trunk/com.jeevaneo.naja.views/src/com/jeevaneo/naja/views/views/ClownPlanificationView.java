@@ -1,7 +1,7 @@
 package com.jeevaneo.naja.views.views;
 
-
 import java.text.DateFormat;
+import java.util.Date;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IMenuListener;
@@ -20,6 +20,7 @@ import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.jface.viewers.StructuredSelection;
 import org.eclipse.jface.viewers.TableViewer;
 import org.eclipse.jface.viewers.Viewer;
+import org.eclipse.jface.viewers.ViewerFilter;
 import org.eclipse.jface.viewers.ViewerSorter;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.Image;
@@ -37,22 +38,18 @@ import org.eclipse.ui.part.ViewPart;
 import com.jeevaneo.naja.Person;
 import com.jeevaneo.naja.Planification;
 
-
 /**
- * This sample class demonstrates how to plug-in a new
- * workbench view. The view shows data obtained from the
- * model. The sample creates a dummy model on the fly,
- * but a real implementation would connect to the model
- * available either in this or another plug-in (e.g. the workspace).
- * The view is connected to the model using a content provider.
+ * This sample class demonstrates how to plug-in a new workbench view. The view
+ * shows data obtained from the model. The sample creates a dummy model on the
+ * fly, but a real implementation would connect to the model available either in
+ * this or another plug-in (e.g. the workspace). The view is connected to the
+ * model using a content provider.
  * <p>
- * The view uses a label provider to define how model
- * objects should be presented in the view. Each
- * view can present the same model objects using
- * different labels and icons, if needed. Alternatively,
- * a single label provider can be shared between views
- * in order to ensure that objects of the same type are
- * presented in the same way everywhere.
+ * The view uses a label provider to define how model objects should be
+ * presented in the view. Each view can present the same model objects using
+ * different labels and icons, if needed. Alternatively, a single label provider
+ * can be shared between views in order to ensure that objects of the same type
+ * are presented in the same way everywhere.
  * <p>
  */
 
@@ -62,95 +59,133 @@ public class ClownPlanificationView extends ViewPart {
 	private Action action2;
 	private Action doubleClickAction;
 
-
-	
-	// the listener we register with the selection service 
+	// the listener we register with the selection service
 	private ISelectionListener listener = new ISelectionListener() {
-		public void selectionChanged(IWorkbenchPart sourcepart, ISelection selection) {
+		public void selectionChanged(IWorkbenchPart sourcepart,
+				ISelection selection) {
 			// we ignore our own selections
 			if (sourcepart != ClownPlanificationView.this) {
-			    if(selection instanceof StructuredSelection && !selection.isEmpty())
-			    {
-			    	StructuredSelection sselection = (StructuredSelection) selection;
-			    	if(sselection.size()>1)
-			    	{
-			    		cleanDisplay();
-			    	}
-			    	else
-			    	{
-			    		Object selected = sselection.getFirstElement();
-			    		if(selected instanceof Person)
-			    		{
-			    			display((Person) selected);
-			    		}
-			    		else
-			    		{
-			    			cleanDisplay();
-			    		}
-			    	}
-			    	
-			    }
+				if (selection instanceof StructuredSelection
+						&& !selection.isEmpty()) {
+					StructuredSelection sselection = (StructuredSelection) selection;
+					if (sselection.size() > 1) {
+						cleanDisplay();
+					} else {
+						Object selected = sselection.getFirstElement();
+						if (selected instanceof Person) {
+							display((Person) selected);
+						} else {
+							cleanDisplay();
+						}
+					}
+
+				}
 			}
 		}
 	};
-	
+	private ViewerFilter positiveUnimputedPlanifications = new ViewerFilter() {
+
+		@Override
+		public boolean select(Viewer viewer, Object parentElement,
+				Object element) {
+			if (null != element && element instanceof Planification) {
+				Planification planif = (Planification) element;
+				return planif.getUnimputedLoad() > 0;
+			}
+			return false;
+		}
+	};
+
 	/*
-	 * The content provider class is responsible for
-	 * providing objects to the view. It can wrap
-	 * existing objects in adapters or simply return
-	 * objects as-is. These objects may be sensitive
-	 * to the current input of the view, or ignore
-	 * it and always show the same content 
-	 * (like Task List, for example).
+	 * The content provider class is responsible for providing objects to the
+	 * view. It can wrap existing objects in adapters or simply return objects
+	 * as-is. These objects may be sensitive to the current input of the view,
+	 * or ignore it and always show the same content (like Task List, for
+	 * example).
 	 */
-	 
+
 	class ViewContentProvider implements IStructuredContentProvider {
 		private Person person = null;
+
 		public void inputChanged(Viewer v, Object oldInput, Object newInput) {
-			if(newInput instanceof Person)
-			{
+			if (newInput instanceof Person) {
 				person = (Person) newInput;
-			}
-			else
-			{
+			} else {
 				person = null;
 			}
 		}
+
 		public void dispose() {
 		}
+
 		public Object[] getElements(Object parent) {
-			System.out.println("getElements("+parent+")");
-			if(null==person) return new Object[]{};
+			if (null == person)
+				return new Object[] {};
 			return person.getPlanifications().toArray();
 		}
 	}
-	class ViewLabelProvider extends LabelProvider implements ITableLabelProvider {
+
+	class ViewLabelProvider extends LabelProvider implements
+			ITableLabelProvider {
 		private DateFormat df = DateFormat.getDateInstance();
+
 		public String getColumnText(Object obj, int index) {
-			if(null==obj || !(obj instanceof Planification)) return "";
+			if (null == obj || !(obj instanceof Planification))
+				return "";
 			Planification planification = (Planification) obj;
-			switch(index)
-			{
-			case 0: return planification.getTask()==null?"Nothing!?":""+planification.getTask().getName();
-			case 1: return ""+planification.getLoad() + "hours";
-			case 2: return ""+planification.getImputedLoad() + "hours";
-			case 3: return ""+planification.getUnimputedLoad() + "hours";
-			case 4: return df.format(planification.getFirstDate());
-			case 5: return df.format(planification.getLastDate());
-			case 6: return ""+planification.getMaxLoadPerDay() + "hours/day";
-			case 7: return planification.getComment(); 
+			switch (index) {
+			case 0:
+				return planification.getTask() == null ? "Nothing!?" : ""
+						+ planification.getTask().getName();
+			case 1:
+				return "" + planification.getLoad() + "h";
+			case 2:
+				return "" + planification.getImputedLoad() + "h";
+			case 3:
+				return "" + planification.getUnimputedLoad() + "h";
+			case 4:
+				return df.format(planification.getFirstDate());
+			case 5:
+				return df.format(planification.getLastDate());
+			case 6:
+				return "" + planification.getMaxLoadPerDay() + "h/day";
+			case 7:
+				return planification.getComment();
 			}
 			return getText(obj);
 		}
+
 		public Image getColumnImage(Object obj, int index) {
-			return index==0?getImage(obj):null;
+			return index == 0 ? getImage(obj) : null;
 		}
+
 		public Image getImage(Object obj) {
-			return PlatformUI.getWorkbench().
-					getSharedImages().getImage(ISharedImages.IMG_OBJ_ELEMENT);
+			return PlatformUI.getWorkbench().getSharedImages().getImage(
+					ISharedImages.IMG_OBJ_ELEMENT);
 		}
 	}
+
 	class NameSorter extends ViewerSorter {
+	}
+
+	class FirstDateSorter extends ViewerSorter {
+
+		@Override
+		public int compare(Viewer viewer, Object e1, Object e2) {
+			if(e1 instanceof Planification && e2 instanceof Planification)
+			{
+				Planification p1 = (Planification) e1;
+				Planification p2 = (Planification) e2;
+				
+				Date d1 = p1.getFirstDate();
+				Date d2 = p2.getFirstDate();
+
+				return super.compare(viewer, d1, d2);
+				
+			}
+			return super.compare(viewer, e1, e2);
+		}
+		
 	}
 
 	/**
@@ -160,8 +195,12 @@ public class ClownPlanificationView extends ViewPart {
 	}
 
 	protected void display(Person selected) {
+		if(null!=selected) 
+		{
+			setPartName(selected.getName() + "'s left planifications");
+		}
 		viewer.setInput(selected);
-//		viewer.refresh();
+		// viewer.refresh();
 	}
 
 	protected void cleanDisplay() {
@@ -170,40 +209,61 @@ public class ClownPlanificationView extends ViewPart {
 	}
 
 	/**
-	 * This is a callback that will allow us
-	 * to create the viewer and initialize it.
+	 * This is a callback that will allow us to create the viewer and initialize
+	 * it.
 	 */
 	public void createPartControl(Composite parent) {
-		viewer = new TableViewer(parent, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL | SWT.FULL_SELECTION);
+		viewer = new TableViewer(parent, SWT.MULTI | SWT.H_SCROLL
+				| SWT.V_SCROLL | SWT.FULL_SELECTION);
 		viewer.setContentProvider(new ViewContentProvider());
 		viewer.setLabelProvider(new ViewLabelProvider());
-		viewer.setSorter(new NameSorter());
+		viewer.setSorter(new FirstDateSorter());
 		viewer.setInput(getViewSite());
-		
-		TableColumn column = new TableColumn(viewer.getTable(),SWT.NONE);
-		column.setWidth(100);
-		column.setText("task");
-		
-		column = new TableColumn(viewer.getTable(),SWT.NONE);
-		column.setWidth(100);
+		viewer
+				.setFilters(new ViewerFilter[] { positiveUnimputedPlanifications });
+
+		TableColumn column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(350);
+		column.setText("Task");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(50);
 		column.setText("Load");
-		
-		for(int i=2;i<8;i++)
-		{
-		column = new TableColumn(viewer.getTable(),SWT.NONE);
-		column.setWidth(100);
-		column.setText("Col"+i);
-		}
-		
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(50);
+		column.setText("Imputed");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(50);
+		column.setText("Unimputed");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(85);
+		column.setText("First date");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(85);
+		column.setText("Last date");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(60);
+		column.setText("Max per day");
+
+		column = new TableColumn(viewer.getTable(), SWT.NONE);
+		column.setWidth(300);
+		column.setText("Comment");
+
 		viewer.getTable().setLinesVisible(true);
 		viewer.getTable().setHeaderVisible(true);
-		
+
 		makeActions();
 		hookContextMenu();
 		hookDoubleClickAction();
 		contributeToActionBars();
-		
-		getSite().getWorkbenchWindow().getSelectionService().addSelectionListener(listener);
+
+		getSite().getWorkbenchWindow().getSelectionService()
+				.addSelectionListener(listener);
 	}
 
 	private void hookContextMenu() {
@@ -237,7 +297,7 @@ public class ClownPlanificationView extends ViewPart {
 		// Other plug-ins can contribute there actions here
 		manager.add(new Separator(IWorkbenchActionConstants.MB_ADDITIONS));
 	}
-	
+
 	private void fillLocalToolBar(IToolBarManager manager) {
 		manager.add(action1);
 		manager.add(action2);
@@ -251,9 +311,9 @@ public class ClownPlanificationView extends ViewPart {
 		};
 		action1.setText("Action 1");
 		action1.setToolTipText("Action 1 tooltip");
-		action1.setImageDescriptor(PlatformUI.getWorkbench().getSharedImages().
-			getImageDescriptor(ISharedImages.IMG_OBJS_INFO_TSK));
-		
+		action1.setImageDescriptor(PlatformUI.getWorkbench().getSharedImages()
+				.getImageDescriptor(ISharedImages.IMG_OBJS_INFO_TSK));
+
 		action2 = new Action() {
 			public void run() {
 				showMessage("Action 2 executed");
@@ -261,13 +321,14 @@ public class ClownPlanificationView extends ViewPart {
 		};
 		action2.setText("Action 2");
 		action2.setToolTipText("Action 2 tooltip");
-		action2.setImageDescriptor(PlatformUI.getWorkbench().getSharedImages().
-				getImageDescriptor(ISharedImages.IMG_OBJS_INFO_TSK));
+		action2.setImageDescriptor(PlatformUI.getWorkbench().getSharedImages()
+				.getImageDescriptor(ISharedImages.IMG_OBJS_INFO_TSK));
 		doubleClickAction = new Action() {
 			public void run() {
 				ISelection selection = viewer.getSelection();
-				Object obj = ((IStructuredSelection)selection).getFirstElement();
-				showMessage("Double-click detected on "+obj.toString());
+				Object obj = ((IStructuredSelection) selection)
+						.getFirstElement();
+				showMessage("Double-click detected on " + obj.toString());
 			}
 		};
 	}
@@ -279,11 +340,10 @@ public class ClownPlanificationView extends ViewPart {
 			}
 		});
 	}
+
 	private void showMessage(String message) {
-		MessageDialog.openInformation(
-			viewer.getControl().getShell(),
-			"Clown's planifications",
-			message);
+		MessageDialog.openInformation(viewer.getControl().getShell(),
+				"Clown's planifications", message);
 	}
 
 	/**
@@ -294,8 +354,10 @@ public class ClownPlanificationView extends ViewPart {
 	}
 
 	public void dispose() {
-		// important: We need do unregister our listener when the view is disposed
-		getSite().getWorkbenchWindow().getSelectionService().removeSelectionListener(listener);
+		// important: We need do unregister our listener when the view is
+		// disposed
+		getSite().getWorkbenchWindow().getSelectionService()
+				.removeSelectionListener(listener);
 		super.dispose();
 	}
 }
