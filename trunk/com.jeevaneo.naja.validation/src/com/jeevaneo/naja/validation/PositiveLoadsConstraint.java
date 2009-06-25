@@ -13,9 +13,9 @@ public class PositiveLoadsConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
+		System.out.println("PositiveLoadsConstraint.validate()");
 		if(!(ctx.getTarget() instanceof Person))
 		{
-			System.out.println("IGNORED: " + ctx.getTarget());
 			return ctx.createSuccessStatus();
 		}
 		Person person = (Person) ctx.getTarget();

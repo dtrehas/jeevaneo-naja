@@ -13,8 +13,8 @@ public class PositiveUnimputedLoadsConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
+		System.out.println("PositiveUnimputedLoadsConstraint.validate()");
 		if (!(ctx.getTarget() instanceof Planification)) {
-			System.out.println("IGNORED: " + ctx.getTarget());
 			return ctx.createSuccessStatus();
 		}
 		Planification planif = (Planification) ctx.getTarget();
