@@ -239,7 +239,7 @@
     <imputation comment="TCO (planning + ecriture test catalogue + test ali java)" date="2009-06-09T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.129"/>
     </imputation>
   </entries>
   <entries comment="architecture integration applications natives dans be" day="20090610" load="4">
@@ -392,7 +392,7 @@
     <imputation comment="Assistance a livraison socle 1.50.1.2.2 en KLIF OASIS - rollback sur 4011, formation a livraison dans GCL OASIS. Deplacement GCLs SOCLE OASIS et SOFIA vers CE." date="2009-06-09T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.133"/>
+      <planification href="../M2.naja#//@planifications.132"/>
     </imputation>
   </entries>
   <entries comment="Suivi livraison REF_COR (Support sur CC)." day="20090609" load="2">
@@ -410,7 +410,7 @@
     <imputation comment="CDB + CC vicodr" date="2009-06-09T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.132"/>
+      <planification href="../M2.naja#//@planifications.131"/>
     </imputation>
   </entries>
   <entries comment="Docs GCLs Socle. Preparation presentation GCLs." day="20090610" load="8">
@@ -587,7 +587,7 @@
     <imputation comment="TCO : format description formation + integration n1" date="2009-06-12T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.161"/>
+      <planification href="../M2.naja#//@planifications.160"/>
     </imputation>
   </entries>
   <entries comment="Documentation : lecture code hook" day="20090612" load="4">
@@ -614,7 +614,7 @@
     <imputation comment="Test et Kalif Vicodr" date="2009-06-12T00:00:00.000+0200" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.129"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 08/06/2009" day="20090608" load="8">
@@ -711,7 +711,7 @@
     <imputation comment="test java" date="2009-06-08T00:00:00.000+0200" load="4">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.162"/>
+      <planification href="../M2.naja#//@planifications.161"/>
     </imputation>
   </entries>
   <entries comment="test catalogue" day="20090610" load="4">
@@ -720,7 +720,7 @@
     <imputation comment="test catalogue" date="2009-06-10T00:00:00.000+0200" load="4">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.137"/>
+      <planification href="../M2.naja#//@planifications.136"/>
     </imputation>
   </entries>
   <entries comment="redaction doc catalogue xml" day="20090610" load="4">
@@ -729,7 +729,7 @@
     <imputation comment="redaction doc catalogue xml" date="2009-06-10T00:00:00.000+0200" load="4">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.137"/>
+      <planification href="../M2.naja#//@planifications.136"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

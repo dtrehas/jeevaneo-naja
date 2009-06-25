@@ -253,4 +253,10 @@
   <mappings externalId="tasks/supportDSII.task">
     <task href="M2.naja#//@categories.7/@subcategories.2/@tasks.0"/>
   </mappings>
+  <mappings externalId="tasks/adminOao.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.12"/>
+  </mappings>
+  <mappings externalId="tasks/supportReccurentNOE.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>

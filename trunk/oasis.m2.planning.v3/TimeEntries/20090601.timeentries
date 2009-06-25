@@ -87,7 +87,7 @@
     <imputation comment="micro planning TCO (redaction exercices)" date="2009-06-02T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.129"/>
     </imputation>
   </entries>
   <entries comment="micro planning TCO (redaction exercices)" day="20090603" load="4">
@@ -96,7 +96,7 @@
     <imputation comment="micro planning TCO (redaction exercices)" date="2009-06-03T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.129"/>
     </imputation>
   </entries>
   <entries comment="test 421" day="20090604" load="4">
@@ -114,7 +114,7 @@
     <imputation comment="documentation + test java TCO" date="2009-06-05T00:00:00.000+0200" load="6">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.129"/>
     </imputation>
   </entries>
   <entries comment="archi : integration GAT dans le BE" day="20090605" load="2">
@@ -132,7 +132,7 @@
     <imputation comment="assistance mise en place env dev" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.129"/>
     </imputation>
   </entries>
   <entries comment="assistance mise en place env dev" day="20090603" load="4">
@@ -141,7 +141,7 @@
     <imputation comment="assistance mise en place env dev" date="2009-06-03T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.130"/>
+      <planification href="../M2.naja#//@planifications.129"/>
     </imputation>
   </entries>
   <entries comment="421 - tests et correctifs" day="20090605" load="4">
@@ -362,7 +362,7 @@
     <imputation comment="Initialisation etoile+CC POC GED (ANTARES) + Reinit Canopus a partir de trunk" date="2009-06-02T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.132"/>
+      <planification href="../M2.naja#//@planifications.131"/>
     </imputation>
   </entries>
   <entries comment="Vu Slsvn002 avec Didier Charriere (pb sauvegarde), Point avec Regis sur lots evolutifs, initialisation lots 4001 et 4011" day="20090602" load="2">
@@ -389,7 +389,7 @@
     <imputation comment="Support/suivi livraison 27791" date="2009-06-03T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.132"/>
+      <planification href="../M2.naja#//@planifications.131"/>
     </imputation>
   </entries>
   <entries comment="  Com avec KLIF-T sur livraison du 12/06 ( Marc Guibert, Alain Courbez)" day="20090603" load="4">
@@ -416,7 +416,7 @@
     <imputation comment="Atterissage portail decisionnel en qualif : Support sur merges dans Trunk, com Valerie Descout" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.132"/>
+      <planification href="../M2.naja#//@planifications.131"/>
     </imputation>
   </entries>
   <entries comment="Problematique livraison socle 1.50.1.3. Come vers CetE, Support, initialisation branche 1.50.1.3" day="20090604" load="4">
@@ -425,7 +425,7 @@
     <imputation comment="Problematique livraison socle 1.50.1.3. Come vers CetE, Support, initialisation branche 1.50.1.3" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.132"/>
+      <planification href="../M2.naja#//@planifications.131"/>
     </imputation>
   </entries>
   <entries comment="Pb CC trunk SOFIA : qualification de l'anomalie (bug SVN)" day="20090605" load="2">
