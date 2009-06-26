@@ -355,7 +355,7 @@
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="144" maxLoadPerDay="4">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="2"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
@@ -1831,10 +1831,11 @@
   <planifications task="//@categories.5/@subcategories.0/@tasks.8" load="16">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="2"/>
       <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
       <schedules date="2009-06-30T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-01T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-02T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.2/@subcategories.0/@subcategories.0/@tasks.0" load="228" comment="PBR - N3 Corr - post 421" maxLoadPerDay="4">
@@ -2305,9 +2306,9 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.3" load="24" comment="NCO - TCO Tests JLT">
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-07-16T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-17T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090608.timeentries#//@entries.80/@imputation"/>
     <imputations href="TimeEntries/20090608.timeentries#//@entries.81/@imputation"/>
@@ -2323,9 +2324,9 @@
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
       <schedules date="2009-06-15T00:00:00.000+0200" load="4"/>
-      <schedules date="2009-06-25T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-26T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-29T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-30T00:00:00.000+0200" load="8"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="8" comment="AGI - TCO NCO Svn">
@@ -2338,7 +2339,8 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.3" load="8" comment="NCO - TCO Svn AGI">
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-03T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-15T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-07-16T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="56" comment="DBR - TCO Win32-Delphi">
@@ -2357,7 +2359,6 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.3" load="128" comment="NCO - TCO Win32-Delphi DBR">
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-20T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-21T00:00:00.000+0200" load="8"/>
       <schedules date="2009-07-22T00:00:00.000+0200" load="8"/>
       <schedules date="2009-07-23T00:00:00.000+0200" load="8"/>
@@ -2375,6 +2376,7 @@
       <schedules date="2009-08-17T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-18T00:00:00.000+0200" load="8"/>
       <schedules date="2009-08-19T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-20T00:00:00.000+0200" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="32" comment="AGI - TCO NCO GCL">
@@ -2450,15 +2452,16 @@
     <virtualImputation>
       <schedules date="2009-05-29T00:00:00.000+0200" load="8"/>
       <schedules date="2009-06-18T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-06-26T00:00:00.000+0200" load="6"/>
+      <schedules date="2009-06-24T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-06-26T00:00:00.000+0200" load="2"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.3" load="24" comment="NCO - TCO Spring ALI">
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-06-30T00:00:00.000+0200" load="8"/>
       <schedules date="2009-07-01T00:00:00.000+0200" load="8"/>
       <schedules date="2009-07-02T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-07-03T00:00:00.000+0200" load="8"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.0" load="12" comment="DBR - TCO DAO delphi">
@@ -2508,7 +2511,6 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.3" load="40" comment="NCO - TCO framework be MEL">
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-27T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-28T00:00:00.000+0200" load="8"/>
       <schedules date="2009-08-31T00:00:00.000+0200" load="4"/>
       <schedules date="2009-09-01T00:00:00.000+0200" load="8"/>
@@ -2602,12 +2604,12 @@
   <planifications task="//@categories.0/@subcategories.0/@tasks.3" load="40" comment="NCO - TCO IHM eclipse ALI">
     <resource href="resources/NCO_09444n.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-20T00:00:00.000+0200" load="8"/>
+      <schedules date="2009-08-20T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-21T00:00:00.000+0200" load="8"/>
       <schedules date="2009-08-24T00:00:00.000+0200" load="4"/>
       <schedules date="2009-08-25T00:00:00.000+0200" load="8"/>
       <schedules date="2009-08-26T00:00:00.000+0200" load="8"/>
-      <schedules date="2009-08-27T00:00:00.000+0200" load="4"/>
+      <schedules date="2009-08-27T00:00:00.000+0200" load="8"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.0/@subcategories.0/@tasks.2" load="8" comment="PBR - TCO CC">
@@ -2642,6 +2644,7 @@
   <planifications task="//@categories.5/@subcategories.0/@tasks.9" load="80">
     <resource href="resources/ALA_97259d.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-07-02T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-03T00:00:00.000+0200" load="4"/>
       <schedules date="2009-07-06T00:00:00.000+0200" load="8"/>
       <schedules date="2009-07-07T00:00:00.000+0200" load="8"/>
