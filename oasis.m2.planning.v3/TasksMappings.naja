@@ -153,7 +153,7 @@
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/OAO_report.task">
-    <task href="necessary.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
   </mappings>
   <mappings externalId="tasks/OAO_rmoa.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.1"/>
@@ -258,5 +258,8 @@
   </mappings>
   <mappings externalId="tasks/supportReccurentNOE.task">
     <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/conficker.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.11"/>
   </mappings>
 </jeevaneo-naja:TaskMappings>
