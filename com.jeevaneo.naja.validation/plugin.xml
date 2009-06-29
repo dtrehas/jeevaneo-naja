@@ -9,6 +9,9 @@
          <package
                namespaceUri="http://naja.jeevaneo.com/1.0">
          </package>
+         <package
+               namespaceUri="http://naja.jeevaneo.com/timeentries/1.0">
+         </package>
          <constraints
                categories="com.jeevaneo.naja.validation.category">
             <constraint
@@ -26,7 +29,25 @@
                   Every resource should have a positive left availability.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="EObject">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.ReverseTaskFoireuseConstraint"
+                  id="com.jeevaneo.naja.validation.constraint2"
+                  lang="Java"
+                  mode="Batch"
+                  name="imput.planif.task==imput.task"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint2">
+               <message>
+                  Imputation {0} : imput.planif.task!=imput.task
+               </message>
+               <description>
+                  imput.planif.task should equal imput.task
+               </description>
+               <target
+                     class="Imputation">
                </target>
             </constraint>
             <constraint
@@ -44,7 +65,7 @@
                   Every resource should have a positive left availability.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="EObject">
                </target>
             </constraint>
             <constraint
@@ -62,7 +83,7 @@
                   resource.imputations.resource must == resource
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="EObject">
                </target>
             </constraint>
             <constraint
@@ -80,7 +101,7 @@
                   Planifications total load should be more than or equal to its total imputations.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="EObject">
                </target>
             </constraint>
             <constraint
@@ -98,7 +119,7 @@
                   Tasks total load should be more than or equal to their total planifications.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="EObject">
                </target>
             </constraint>
             <constraint
@@ -116,7 +137,7 @@
                   Tasks total load should be more than or equal to their total imputations.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="EObject">
                </target>
             </constraint>
             <constraint
@@ -138,21 +159,21 @@
                </target>
             </constraint>
             <constraint
-                  class="com.jeevaneo.naja.validation.TestMultiConstraint"
+                  class="com.jeevaneo.naja.validation.TimeEntryImputationsHavePlanificationConstraint"
                   id="com.jeevaneo.naja.validation.constraint10"
                   lang="Java"
                   mode="Batch"
-                  name="Test"
-                  severity="ERROR"
+                  name="timeEntry.imputation!=null &amp;&amp; timeEntry.imputation.planification!=null"
+                  severity="WARNING"
                   statusCode="com.jeevaneo.naja.validation.constraint10">
                <message>
-                  Test {0}
+                  TimeEntry has no imputation or its imputation has no planification : {0}
                </message>
                <description>
-                  test
+                  TimeEntry should have an imputation and its imputation should have a planification.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="TimeEntry">
                </target>
             </constraint>
             <constraint
@@ -202,7 +223,7 @@
    <extension
          point="org.eclipse.emf.validation.constraintBindings">
       <clientContext
-            default="false"
+            default="true"
             id="com.jeevaneo.naja.validation.context">
          <selector
                class="com.jeevaneo.naja.validation.ClientSelector">
@@ -210,6 +231,7 @@
       </clientContext>
       <binding
             category="com.jeevaneo.naja.validation.category"
+            constraint="com.jeevaneo.naja.validation.constraint2"
             context="com.jeevaneo.naja.validation.context">
       </binding>
    </extension>
