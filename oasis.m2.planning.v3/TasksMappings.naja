@@ -262,4 +262,7 @@
   <mappings externalId="tasks/conficker.task">
     <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.11"/>
   </mappings>
+  <mappings externalId="tasks/OAO_teledistrib_etude.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.11"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
