@@ -13,7 +13,6 @@ public class OverPlanifiedTasksConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		System.out.println("OverPlanifiedTasksConstraint.validate()");
 		if (!(ctx.getTarget() instanceof Task)) {
 			return ctx.createSuccessStatus();
 		}
