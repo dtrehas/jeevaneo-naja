@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Chantier 4" day="20090626" load="4">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 4" date="2009-06-26T00:00:00.000+0200" load="4">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="Ano DEC/Test .." day="20090626" load="4">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Ano DEC/Test .." date="2009-06-26T00:00:00.000+0200" load="4">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.128"/>
+    </imputation>
+  </entries>
+  <entries comment="Mise a jour du catalogue et des LDAP" day="20090626" load="2">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/adminOao.task"/>
+    <imputation comment="Mise a jour du catalogue et des LDAP" date="2009-06-26T00:00:00.000+0200" load="2">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.12"/>
+    </imputation>
+  </entries>
+  <entries comment="integration OAO dans le BE" day="20090626" load="4">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_teledistrib_etude.task"/>
+    <imputation comment="integration OAO dans le BE" date="2009-06-26T00:00:00.000+0200" load="4">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.11"/>
+    </imputation>
+  </entries>
+  <entries comment="Correctif double affectations AdminBe sur un Droit (mise a dispo des repository)" day="20090626" load="2">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Correctif double affectations AdminBe sur un Droit (mise a dispo des repository)" date="2009-06-26T00:00:00.000+0200" load="2">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.5"/>
+    </imputation>
+  </entries>
+  <entries comment="Recherche solution sur problematique DEC" day="20090626" load="8">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Recherche solution sur problematique DEC" date="2009-06-26T00:00:00.000+0200" load="8">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.93"/>
+    </imputation>
+  </entries>
+  <entries comment="Preparation TP + TP CE" day="20090626" load="8">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Preparation TP + TP CE" date="2009-06-26T00:00:00.000+0200" load="8">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="revues generale +prise en compte commentaires snorky" day="20090626" load="2">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_Archi.task"/>
+    <imputation comment="revues generale +prise en compte commentaires snorky" date="2009-06-26T00:00:00.000+0200" load="2">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.22"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi et qualification incidents " day="20090626" load="8">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi et qualification incidents " date="2009-06-26T00:00:00.000+0200" load="8">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage ABO 26/06" day="20090626" load="6">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage ABO 26/06" date="2009-06-26T00:00:00.000+0200" load="6">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.104"/>
+    </imputation>
+  </entries>
+  <entries comment="Conficker" day="20090626" load="2">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/conficker.task"/>
+    <imputation comment="Conficker" date="2009-06-26T00:00:00.000+0200" load="2">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.11"/>
+    </imputation>
+  </entries>
+  <entries comment="Planning fin integration et synthese de l'avant-veille + integration de la veille + validation timeEntries pour saisie Ariane le vendredi soir" day="20090626" load="6">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Planning.task"/>
+    <imputation comment="Planning fin integration et synthese de l'avant-veille + integration de la veille + validation timeEntries pour saisie Ariane le vendredi soir" date="2009-06-26T00:00:00.000+0200" load="6">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.65"/>
+    </imputation>
+  </entries>
+  <entries comment="fin relecture Archi" day="20090626" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_Archi.task"/>
+    <imputation comment="fin relecture Archi" date="2009-06-26T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.23"/>
+    </imputation>
+  </entries>
+  <entries comment="revues generale +prise en compte commentaires snorky" day="20090626" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <imputation comment="revues generale +prise en compte commentaires snorky" date="2009-06-26T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.83"/>
+    </imputation>
+  </entries>
+  <entries comment="TCO SPE" day="20090626" load="2">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transComp.task"/>
+    <imputation comment="TCO SPE" date="2009-06-26T00:00:00.000+0200" load="2">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.4"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
