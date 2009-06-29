@@ -13,7 +13,6 @@ public class OverImputedTasksConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		System.out.println("OverImputedTasksConstraint.validate()");
 		if (!(ctx.getTarget() instanceof Task)) {
 			return ctx.createSuccessStatus();
 		}
