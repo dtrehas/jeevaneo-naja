@@ -6,9 +6,9 @@ import org.eclipse.emf.validation.IValidationContext;
 
 import com.jeevaneo.naja.Person;
 
-public class PositiveLoadsConstraint extends AbstractModelConstraint {
+public class PositiveAvailabilitiesConstraint extends AbstractModelConstraint {
 
-	public PositiveLoadsConstraint() {
+	public PositiveAvailabilitiesConstraint() {
 	}
 
 	@Override
