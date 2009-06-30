@@ -16,7 +16,7 @@ public class TimeEntryImputationsHavePlanificationConstraint extends
 		if (null == timeEntry.getImputation()
 				|| null == timeEntry.getImputation().getPlanification()) {
 			// ctx.addResult(timeEntry);
-			return ctx.createFailureStatus(timeEntry);
+			return ctx.createFailureStatus(timeEntry, timeEntry.getLoad(), timeEntry.getResource()!=null?timeEntry.getResource().getName():"somebody(!)", timeEntry.getDay());
 		}
 		return ctx.createSuccessStatus();
 	}

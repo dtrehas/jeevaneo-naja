@@ -17,9 +17,9 @@ public class OverImputedTasksConstraint extends AbstractModelConstraint {
 			return ctx.createSuccessStatus();
 		}
 		Task task = (Task) ctx.getTarget();
-		if (task.getImputedLoad() > task.getTotalLoad()) {
+		if (task.getUnaffectedLoad() > task.getTotalLoad()) {
 			return ctx.createFailureStatus(task.getLabel(), task
-					.getImputedLoad(), task.getTotalLoad());
+					.getUnaffectedLoad(), task.getTotalLoad());
 		}
 		return ctx.createSuccessStatus();
 	} 
