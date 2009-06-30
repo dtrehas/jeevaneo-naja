@@ -17,7 +17,6 @@ public class ReverseImputFoireuseConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		System.out.println("ReverseImputFoireuseConstraint.validate()");
 		if ((ctx.getTarget() instanceof Task)) {
 			Task task = (Task) ctx.getTarget();
 			Iterator<Imputation> imputs = task.getImputations().iterator();
@@ -36,11 +35,8 @@ public class ReverseImputFoireuseConstraint extends AbstractModelConstraint {
 					}
 					return ret;
 				}
-
 			}
-
 		}
 		return ctx.createSuccessStatus();
 	}
-
 }

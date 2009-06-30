@@ -14,7 +14,6 @@ public class UnderPlanifiedTasksConstraint extends AbstractModelConstraint {
 	@Override
 	public IStatus validate(IValidationContext ctx) {
 		if (!(ctx.getTarget() instanceof Task)) {
-			System.out.println("IGNORED: " + ctx.getTarget());
 			return ctx.createSuccessStatus();
 		}
 		Task task = (Task) ctx.getTarget();
@@ -24,5 +23,4 @@ public class UnderPlanifiedTasksConstraint extends AbstractModelConstraint {
 		}
 		return ctx.createSuccessStatus();
 	}
-
 }

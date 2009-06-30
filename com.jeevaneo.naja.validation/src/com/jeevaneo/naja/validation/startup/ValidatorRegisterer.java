@@ -28,6 +28,7 @@ public class ValidatorRegisterer implements IStartup {
 		EValidator eValidator = new EValidatorAdapter(); 
 		EValidator.Registry.INSTANCE.put(TimeentriesPackage.eINSTANCE,
 				eValidator);
+//		EValidator eValidator2 = new EValidatorAdapter();
 		EValidator.Registry.INSTANCE.put(NajaPackage.eINSTANCE,
 				eValidator);
 

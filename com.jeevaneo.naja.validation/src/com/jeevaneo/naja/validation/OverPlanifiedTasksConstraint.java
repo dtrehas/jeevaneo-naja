@@ -23,5 +23,4 @@ public class OverPlanifiedTasksConstraint extends AbstractModelConstraint {
 		}
 		return ctx.createSuccessStatus();
 	}
-
 }
