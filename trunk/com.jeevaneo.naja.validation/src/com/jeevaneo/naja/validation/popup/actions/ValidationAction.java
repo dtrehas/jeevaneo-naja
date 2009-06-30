@@ -18,8 +18,6 @@ import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
-import com.jeevaneo.naja.timeentries.TimeEntries;
-import com.jeevaneo.naja.timeentries.TimeEntry;
 import com.jeevaneo.naja.validation.Activator;
 import com.jeevaneo.naja.validation.ClientSelector;
 
@@ -59,13 +57,13 @@ public class ValidationAction implements IObjectActionDelegate {
 		for (Object o : selection.toList()) {
 			if (o instanceof EObject) {
 				eObjects.add((EObject)o);
-				if(o instanceof TimeEntries)
-				{
-					for(TimeEntry ty : ((TimeEntries)o).getEntries())
-					{
-						eObjects.add(ty);
-					}
-				}
+//				if(o instanceof TimeEntries)
+//				{
+//					for(TimeEntry ty : ((TimeEntries)o).getEntries())
+//					{
+//						eObjects.add(ty);
+//					}
+//				}
 			}
 		}
 			

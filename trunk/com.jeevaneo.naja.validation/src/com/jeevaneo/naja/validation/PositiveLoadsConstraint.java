@@ -13,7 +13,6 @@ public class PositiveLoadsConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		System.out.println("PositiveLoadsConstraint.validate()");
 		if(!(ctx.getTarget() instanceof Person))
 		{
 			return ctx.createSuccessStatus();
@@ -25,5 +24,4 @@ public class PositiveLoadsConstraint extends AbstractModelConstraint {
 		}
 		return ctx.createSuccessStatus();
 	}
-
 }

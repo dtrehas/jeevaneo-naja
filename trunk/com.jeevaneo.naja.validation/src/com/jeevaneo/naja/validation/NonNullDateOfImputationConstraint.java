@@ -13,7 +13,6 @@ public class NonNullDateOfImputationConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		System.out.println("NonNullDateOfImputationConstraint.validate()");
 		if(!(ctx.getTarget() instanceof Imputation))
 		{
 			return ctx.createSuccessStatus();
@@ -23,7 +22,7 @@ public class NonNullDateOfImputationConstraint extends AbstractModelConstraint {
 		{
 			return ctx.createFailureStatus(imputation);
 		}
-		return ctx.createSuccessStatus();
+	 	return ctx.createSuccessStatus();
 	}
 
 }

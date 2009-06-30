@@ -13,26 +13,24 @@ public class OverLoadedTasksConstraint extends AbstractModelConstraint {
 
 	@Override
 	public IStatus validate(IValidationContext ctx) {
-		System.out.print("OverLoadedTasksConstraint.validate() ");
 		if (!(ctx.getTarget() instanceof Task)) {
-
-			System.out.println();
 			return ctx.createSuccessStatus();
 		}
 		Task task = (Task) ctx.getTarget();
-		System.out.println(task);				
-		if(task.getImputedLoad()>task.getTotalLoad())
-		{
-			//that case is already checked by the overimputed constraint
+
+		if (task.getImputedLoad() > task.getTotalLoad()
+				|| task.getTotalPlanifiedLoad() > task.getTotalLoad()) {
+			// that case is already checked by the overimputed and/or
+			// overplanified constraints
 			return ctx.createSuccessStatus();
 		}
-			if (task.getImputedLoad()+task.getUnimputedPlanifiedLoad() > task.getTotalLoad()) {
-				return ctx.createFailureStatus(task.getLabel(), task
-						.getImputedLoad(),task
-						.getUnimputedPlanifiedLoad(),task
-						.getImputedLoad()+task
-						.getUnimputedPlanifiedLoad(), task.getTotalLoad());
-			}
+		if (task.getImputedLoad() + task.getUnimputedPlanifiedLoad() > task
+				.getTotalLoad()) {
+			return ctx.createFailureStatus(task.getLabel(), task
+					.getImputedLoad(), task.getUnimputedPlanifiedLoad(), task
+					.getImputedLoad()
+					+ task.getUnimputedPlanifiedLoad(), task.getTotalLoad());
+		}
 		return ctx.createSuccessStatus();
 	}
 

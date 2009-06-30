@@ -3,14 +3,11 @@
 <plugin>
    <extension
          point="org.eclipse.emf.validation.constraintProviders">
-      <constraintProvider
-            cache="true"
+      <!--constraintProvider
+            cache="false"
             mode="Batch">
          <package
                namespaceUri="http://naja.jeevaneo.com/1.0">
-         </package>
-         <package
-               namespaceUri="http://naja.jeevaneo.com/timeentries/1.0">
          </package>
          <constraints
                categories="com.jeevaneo.naja.validation.category">
@@ -29,7 +26,7 @@
                   Every resource should have a positive left availability.
                </description>
                <target
-                     class="EObject">
+                     class="Person">
                </target>
             </constraint>
             <constraint
@@ -65,7 +62,7 @@
                   Every resource should have a positive left availability.
                </description>
                <target
-                     class="EObject">
+                     class="Task">
                </target>
             </constraint>
             <constraint
@@ -83,7 +80,7 @@
                   resource.imputations.resource must == resource
                </description>
                <target
-                     class="EObject">
+                     class="Person">
                </target>
             </constraint>
             <constraint
@@ -101,7 +98,7 @@
                   Planifications total load should be more than or equal to its total imputations.
                </description>
                <target
-                     class="EObject">
+                     class="Planification">
                </target>
             </constraint>
             <constraint
@@ -119,7 +116,7 @@
                   Tasks total load should be more than or equal to their total planifications.
                </description>
                <target
-                     class="EObject">
+                     class="Task">
                </target>
             </constraint>
             <constraint
@@ -137,7 +134,7 @@
                   Tasks total load should be more than or equal to their total imputations.
                </description>
                <target
-                     class="EObject">
+                     class="Task">
                </target>
             </constraint>
             <constraint
@@ -155,7 +152,7 @@
                   Date of imputation cannot be null
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="Imputation">
                </target>
             </constraint>
             <constraint
@@ -191,7 +188,7 @@
                   Tasks total load should be more than or equal to their total imputations+unimputed plnaifications.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="Task">
                </target>
             </constraint>
              <constraint
@@ -209,10 +206,221 @@
                   Tasks total load should be fully dispatched into imputations and planifications.
                </description>
                <target
-                     class="org.eclipse.emf.ecore.EObject">
+                     class="Task">
                </target>
             </constraint>
 </constraints>
+      </constraintProvider-->
+      <constraintProvider
+            cache="true"
+            mode="Batch">
+         <package
+               namespaceUri="http://naja.jeevaneo.com/1.0">
+         </package>
+         <package
+               namespaceUri="http://naja.jeevaneo.com/timeentries/1.0">
+         </package>
+         <constraints
+               categories="com.jeevaneo.naja.validation.category">
+            <constraint
+                  class="com.jeevaneo.naja.validation.PositiveLoadsConstraint"
+                  id="com.jeevaneo.naja.validation.constraint1"
+                  lang="Java"
+                  mode="Batch"
+                  name="Positive loads"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint1">
+               <message>
+                  Resource {0} is over imputed by {1} hours.
+               </message>
+               <description>
+                  Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="Person">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.ReverseTaskFoireuseConstraint"
+                  id="com.jeevaneo.naja.validation.constraint2"
+                  lang="Java"
+                  mode="Batch"
+                  name="imput.planif.task==imput.task"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint2">
+               <message>
+                  Imputation {0} : imput.planif.task!=imput.task
+               </message>
+               <description>
+                  imput.planif.task should equal imput.task
+               </description>
+               <target
+                     class="Imputation">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.ReverseImputFoireuseConstraint"
+                  id="com.jeevaneo.naja.validation.constraint4"
+                  lang="Java"
+                  mode="Batch"
+                  name="Imputations reverse foireuse"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint4">
+               <message>
+                  Imputation on task {0} is present in other task&apos;s imputations! Other task={1} imputation={2}
+               </message>
+               <description>
+                  Every resource should have a positive left availability.
+               </description>
+               <target
+                     class="Task">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.ResourceOwnsItsImputationsConstraint"
+                  id="com.jeevaneo.naja.validation.constraint5"
+                  lang="Java"
+                  mode="Batch"
+                  name="Imputations reverse foireuse pour resource"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint5">
+               <message>
+                  Imputation on resource {0} is present in other resource&apos;s imputations! Other resource={1} imputation={2}
+               </message>
+               <description>
+                  resource.imputations.resource must == resource
+               </description>
+               <target
+                     class="Person">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.PositiveUnimputedLoadsConstraint"
+                  id="com.jeevaneo.naja.validation.constraint6"
+                  lang="Java"
+                  mode="Batch"
+                  name="Positive unimputed loads"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint6">
+               <message>
+                  Planification {0} is over imputed : {1} hours.
+               </message>
+               <description>
+                  Planifications total load should be more than or equal to its total imputations.
+               </description>
+               <target
+                     class="Planification">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.OverPlanifiedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint7"
+                  lang="Java"
+                  mode="Batch"
+                  name="Over-planified tasks"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint7">
+               <message>
+                  Task {0} is over planified - planified {1} hours vs total {2}
+               </message>
+               <description>
+                  Tasks total load should be more than or equal to their total planifications.
+               </description>
+               <target
+                     class="Task">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.OverImputedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint8"
+                  lang="Java"
+                  mode="Batch"
+                  name="Over-imputed tasks"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint8">
+               <message>
+                  Task {0} is over imputed - imputations {1}h vs total {2}h
+               </message>
+               <description>
+                  Tasks total load should be more than or equal to their total imputations.
+               </description>
+               <target
+                     class="Task">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.NonNullDateOfImputationConstraint"
+                  id="com.jeevaneo.naja.validation.constraint9"
+                  lang="Java"
+                  mode="Batch"
+                  name="Null date of imputation"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint9">
+               <message>
+                  Imputation has null date
+               </message>
+               <description>
+                  Date of imputation cannot be null
+               </description>
+               <target
+                     class="Imputation">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.TimeEntryImputationsHavePlanificationConstraint"
+                  id="com.jeevaneo.naja.validation.constraint10"
+                  lang="Java"
+                  mode="Batch"
+                  name="timeEntry.imputation!=null &amp;&amp; timeEntry.imputation.planification!=null"
+                  severity="WARNING"
+                  statusCode="com.jeevaneo.naja.validation.constraint10">
+               <message>
+                  TimeEntry has no imputation or its imputation has no planification : {0}
+               </message>
+               <description>
+                  TimeEntry should have an imputation and its imputation should have a planification.
+               </description>
+               <target
+                     class="TimeEntry">
+               </target>
+            </constraint>
+            <constraint
+                  class="com.jeevaneo.naja.validation.OverLoadedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint11"
+                  lang="Java"
+                  mode="Batch"
+                  name="Over-loaded tasks"
+                  severity="ERROR"
+                  statusCode="com.jeevaneo.naja.validation.constraint11">
+               <message>
+                  Task {0} is over loaded - imputations {1}h +unimputed planified {2}h == {3}h vs total {4}h
+               </message>
+               <description>
+                  Tasks total load should be more than or equal to their total imputations+unimputed plnaifications.
+               </description>
+               <target
+                     class="Task">
+               </target>
+            </constraint>
+             <constraint
+                  class="com.jeevaneo.naja.validation.UnderPlanifiedTasksConstraint"
+                  id="com.jeevaneo.naja.validation.constraint12"
+                  lang="Java"
+                  mode="Batch"
+                  name="Under-planified tasks"
+                  severity="WARNING"
+                  statusCode="com.jeevaneo.naja.validation.constraint12">
+               <message>
+                  Task {0} is under planified - imputed/planified {1} hours vs total {2}
+               </message>
+               <description>
+                  Tasks total load should be fully dispatched into imputations and planifications.
+               </description>
+               <target
+                     class="Task">
+               </target>
+            </constraint>
+         </constraints>
       </constraintProvider>
       <category
             id="com.jeevaneo.naja.validation.category"
@@ -231,7 +439,6 @@
       </clientContext>
       <binding
             category="com.jeevaneo.naja.validation.category"
-            constraint="com.jeevaneo.naja.validation.constraint2"
             context="com.jeevaneo.naja.validation.context">
       </binding>
    </extension>

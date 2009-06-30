@@ -10,15 +10,12 @@ public class TimeEntryImputationsHavePlanificationConstraint extends
 		AbstractModelConstraint {
 
 	public TimeEntryImputationsHavePlanificationConstraint() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public IStatus validate(IValidationContext ctx, TimeEntry timeEntry) {
-		System.out
-				.println("TimeEntryImputationsHavePlanificationConstraint.validate()");
 		if (null == timeEntry.getImputation()
 				|| null == timeEntry.getImputation().getPlanification()) {
-			ctx.addResult(timeEntry);
+			// ctx.addResult(timeEntry);
 			return ctx.createFailureStatus(timeEntry);
 		}
 		return ctx.createSuccessStatus();
@@ -28,12 +25,11 @@ public class TimeEntryImputationsHavePlanificationConstraint extends
 	public IStatus validate(IValidationContext ctx) {
 
 		Object o = ctx.getTarget();
+
 		if (o instanceof TimeEntry) {
 			return validate(ctx, (TimeEntry) o);
 		} else {
 			return ctx.createSuccessStatus();
 		}
-
 	}
-
 }
