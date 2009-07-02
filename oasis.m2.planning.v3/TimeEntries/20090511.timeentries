@@ -298,7 +298,7 @@
   </entries>
   <entries comment="Dossier integration HTML" day="20090511" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="Dossier integration HTML" date="2009-05-11T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
@@ -306,7 +306,7 @@
   </entries>
   <entries comment="Dossier integration GAT" day="20090512" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="Dossier integration GAT" date="2009-05-12T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
@@ -314,7 +314,7 @@
   </entries>
   <entries comment="Dossier integration DELPHI" day="20090513" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="Dossier integration DELPHI" date="2009-05-13T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.1"/>
@@ -322,7 +322,7 @@
   </entries>
   <entries comment="Dossier integration WIN32" day="20090514" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="Dossier integration WIN32" date="2009-05-14T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
@@ -330,7 +330,7 @@
   </entries>
   <entries comment="Shapo Integration BE" day="20090515" load="8">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="Shapo Integration BE" date="2009-05-15T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
