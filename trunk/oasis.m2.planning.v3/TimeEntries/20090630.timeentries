@@ -46,7 +46,7 @@
   </entries>
   <entries comment="Dossier integration " day="20090630" load="4">
     <resource href="../resources/AMA_97675t.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="Dossier integration " date="2009-06-30T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>

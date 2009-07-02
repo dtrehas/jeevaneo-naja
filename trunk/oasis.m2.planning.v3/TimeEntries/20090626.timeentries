@@ -115,7 +115,7 @@
   </entries>
   <entries comment="revues generale +prise en compte commentaires snorky" day="20090626" load="4">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="revues generale +prise en compte commentaires snorky" date="2009-06-26T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>

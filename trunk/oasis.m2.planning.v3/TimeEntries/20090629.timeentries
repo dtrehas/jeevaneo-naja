@@ -117,7 +117,7 @@
   </entries>
   <entries comment="doc" day="20090629" load="4">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="doc" date="2009-06-29T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>

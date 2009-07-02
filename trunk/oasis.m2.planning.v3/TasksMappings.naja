@@ -57,13 +57,15 @@
   <mappings externalId="tasks/DistribM5_deploiementPatch.task">
     <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
   </mappings>
-  <mappings externalId="tasks/Dimos_doc.task">
+  <mappings externalId="tasks/Dimos_docW.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.5/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/Doc_Archi.task">
     <task href="M2.naja#//@categories.3/@tasks.0"/>
   </mappings>
-  <mappings externalId="tasks/Doc_DocInt.task"/>
+  <mappings externalId="tasks/Doc_DocIntShapoR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.1"/>
+  </mappings>
   <mappings externalId="tasks/Doc_FAL.task">
     <task href="M2.naja#//@categories.3/@tasks.3"/>
   </mappings>
@@ -77,7 +79,7 @@
   <mappings externalId="tasks/Doc_STG.task">
     <task href="M2.naja#//@categories.3/@tasks.1"/>
   </mappings>
-  <mappings externalId="tasks/GED_doc.task">
+  <mappings externalId="tasks/GED_docW.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/HorsGAT_LivraisonSofia_008_formation.task">
@@ -267,5 +269,56 @@
   </mappings>
   <mappings externalId="tasks/DI.task">
     <task href="conges.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/transCompNCO.task">
+    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/transCompSPE.task">
+    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/transCompToNCO.task">
+    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntShapoW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntHTMLW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntHTMLR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntGATW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntGATR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntDelphiAPIW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntDelphiW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntDelphiR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntHTMLAPIW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntGATAPIW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntWin32W.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntWin32R.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Dimos_docR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.5/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/GED_docR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.1"/>
   </mappings>
 </jeevaneo-naja:TaskMappings>

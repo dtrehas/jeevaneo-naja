@@ -69,7 +69,7 @@
   </entries>
   <entries comment="exos hook win32 et wndproc" day="20090625" load="6">
     <resource href="../resources/MEL_97302k.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_DocInt.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
     <imputation comment="exos hook win32 et wndproc" date="2009-06-25T00:00:00.000+0200" load="6">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
