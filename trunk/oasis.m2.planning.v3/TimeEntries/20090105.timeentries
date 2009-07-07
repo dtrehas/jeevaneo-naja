@@ -3301,7 +3301,6 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="Killer de popup" date="2009-02-13T00:00:00.000+0100" load="4">
       <resource href="../resources/CGE_97060h.naja#/"/>
-      <task href="../nice-to-have.naja#//@categories.0/@tasks.1"/>
     </imputation>
   </entries>
   <entries comment="Livraison de RMOX" day="20090213" load="4">

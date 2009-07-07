@@ -355,4 +355,7 @@
   <mappings externalId="tasks/OAO_BeDraft.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.8"/>
   </mappings>
+  <mappings externalId="tasks/M7supportReccurentNOE.task">
+    <task href="M7.naja#//@categories.0/@subcategories.1/@tasks.0"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
