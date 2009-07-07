@@ -743,9 +743,10 @@
   </imputations>
   <categories name="Absences">
     <subcategories name="Non OASIS">
-      <tasks name="DI">
+      <tasks totalLoad="8" name="DI">
         <imputations href="#//@imputations.245"/>
         <imputations href="TimeEntries/20090701.timeentries#//@entries.6/@imputation"/>
+        <imputations href="TimeEntries/20090706.timeentries#//@entries.2/@imputation"/>
       </tasks>
     </subcategories>
     <tasks totalLoad="1868" name="Congés">
