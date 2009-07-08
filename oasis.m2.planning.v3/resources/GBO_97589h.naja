@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="BOBEFF Gustavo" login="97589h" totalAvailability="1850" availabilityStartDate="2009-01-05T00:00:00.000+0100">
+<jeevaneo-naja:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0" name="BOBEFF Gustavo" login="97589h" totalAvailability="1858" availabilityStartDate="2009-01-05T00:00:00.000+0100">
   <imputations href="../TimeEntries/20090525.timeentries#//@entries.10/@imputation"/>
   <imputations href="../TimeEntries/20090504.timeentries#//@entries.14/@imputation"/>
   <imputations href="../TimeEntries/20090504.timeentries#//@entries.15/@imputation"/>
@@ -296,7 +296,8 @@
   <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="2"/>
   <availableSchedules date="2009-08-06T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-07T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-10T00:00:00.000+0200" load="2"/>
@@ -381,7 +382,8 @@
   <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="2"/>
   <availableSchedules date="2009-08-06T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-07T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-10T00:00:00.000+0200" load="2"/>
@@ -466,7 +468,8 @@
   <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="2"/>
   <availableSchedules date="2009-08-06T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-07T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-10T00:00:00.000+0200" load="2"/>
@@ -551,7 +554,8 @@
   <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="2"/>
   <availableSchedules date="2009-08-06T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-07T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-08-10T00:00:00.000+0200" load="2"/>
@@ -593,7 +597,7 @@
   <availableSchedules date="2009-09-29T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-09-30T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-10-01T00:00:00.000+0200" load="2"/>
-  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="2"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
@@ -636,5 +640,6 @@
   <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="2"/>
 </jeevaneo-naja:Person>
