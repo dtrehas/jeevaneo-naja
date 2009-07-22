@@ -41,6 +41,13 @@
                </objectClass>
             </or>
          </visibility>
+         <action
+               class="com.jeevaneo.naja.popup.actions.ExportRAFsAsCsvAction"
+               enablesFor="*"
+               id="com.jeevaneo.naja.popup.actions.ExportRAFsAsCsvAction"
+               label="Export RàF as CSV"
+               menubarPath="com.jeevaneo.naja.menu1/group1">
+         </action>
       </objectContribution>
       <objectContribution
             id="com.jeevaneo.naja.actons.projects"
