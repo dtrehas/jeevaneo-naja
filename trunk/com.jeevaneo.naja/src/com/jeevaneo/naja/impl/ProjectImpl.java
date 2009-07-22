@@ -366,13 +366,13 @@ public class ProjectImpl extends EObjectImpl implements Project {
 			case NajaPackage.PROJECT__CATEGORIES:
 				return getCategories();
 			case NajaPackage.PROJECT__TOTAL_LOAD:
-				return new Integer(getTotalLoad());
+				return getTotalLoad();
 			case NajaPackage.PROJECT__UNAFFECTED_LOAD:
-				return new Integer(getUnaffectedLoad());
+				return getUnaffectedLoad();
 			case NajaPackage.PROJECT__TASKS:
 				return getTasks();
 			case NajaPackage.PROJECT__IMPUTED_LOAD:
-				return new Integer(getImputedLoad());
+				return getImputedLoad();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}

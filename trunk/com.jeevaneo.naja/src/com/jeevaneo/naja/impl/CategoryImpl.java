@@ -390,7 +390,7 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	 * @generated
 	 */
 	public Category getParentCategory() {
-		if (eContainerFeatureID != NajaPackage.CATEGORY__PARENT_CATEGORY) return null;
+		if (eContainerFeatureID() != NajaPackage.CATEGORY__PARENT_CATEGORY) return null;
 		return (Category)eContainer();
 	}
 
@@ -409,7 +409,7 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	 * @generated
 	 */
 	public void setParentCategory(Category newParentCategory) {
-		if (newParentCategory != eInternalContainer() || (eContainerFeatureID != NajaPackage.CATEGORY__PARENT_CATEGORY && newParentCategory != null)) {
+		if (newParentCategory != eInternalContainer() || (eContainerFeatureID() != NajaPackage.CATEGORY__PARENT_CATEGORY && newParentCategory != null)) {
 			if (EcoreUtil.isAncestor(this, newParentCategory))
 				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
 			NotificationChain msgs = null;
@@ -481,7 +481,7 @@ public class CategoryImpl extends EObjectImpl implements Category {
 	@Override
 	public NotificationChain eBasicRemoveFromContainerFeature(
 			NotificationChain msgs) {
-		switch (eContainerFeatureID) {
+		switch (eContainerFeatureID()) {
 			case NajaPackage.CATEGORY__PARENT_CATEGORY:
 				return eInternalContainer().eInverseRemove(this, NajaPackage.CATEGORY__SUBCATEGORIES, Category.class, msgs);
 		}
@@ -504,21 +504,21 @@ public class CategoryImpl extends EObjectImpl implements Category {
 			case NajaPackage.CATEGORY__TASKS:
 				return getTasks();
 			case NajaPackage.CATEGORY__TOTAL_LOAD:
-				return new Integer(getTotalLoad());
+				return getTotalLoad();
 			case NajaPackage.CATEGORY__UNAFFECTED_LOAD:
-				return new Integer(getUnaffectedLoad());
+				return getUnaffectedLoad();
 			case NajaPackage.CATEGORY__PRIORITY:
-				return new Integer(getPriority());
+				return getPriority();
 			case NajaPackage.CATEGORY__FIRST_DATE:
 				return getFirstDate();
 			case NajaPackage.CATEGORY__LAST_DATE:
 				return getLastDate();
 			case NajaPackage.CATEGORY__IMPUTED_LOAD:
-				return new Integer(getImputedLoad());
+				return getImputedLoad();
 			case NajaPackage.CATEGORY__TOTAL_PLANIFIED_LOAD:
-				return new Integer(getTotalPlanifiedLoad());
+				return getTotalPlanifiedLoad();
 			case NajaPackage.CATEGORY__UNIMPUTED_PLANIFIED_LOAD:
-				return new Integer(getUnimputedPlanifiedLoad());
+				return getUnimputedPlanifiedLoad();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -546,7 +546,7 @@ public class CategoryImpl extends EObjectImpl implements Category {
 				getTasks().addAll((Collection<? extends Task>)newValue);
 				return;
 			case NajaPackage.CATEGORY__PRIORITY:
-				setPriority(((Integer)newValue).intValue());
+				setPriority((Integer)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);

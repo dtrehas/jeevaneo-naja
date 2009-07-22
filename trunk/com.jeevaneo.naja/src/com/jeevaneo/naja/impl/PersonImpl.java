@@ -755,9 +755,9 @@ public class PersonImpl extends EObjectImpl implements Person {
 			case NajaPackage.PERSON__IMPUTATIONS:
 				return getImputations();
 			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
-				return new Integer(getTotalAvailability());
+				return getTotalAvailability();
 			case NajaPackage.PERSON__LEFT_AVAILABILITY:
-				return new Integer(getLeftAvailability());
+				return getLeftAvailability();
 			case NajaPackage.PERSON__PLANIFICATIONS:
 				return getPlanifications();
 			case NajaPackage.PERSON__AVAILABILITY_START_DATE:
@@ -767,11 +767,11 @@ public class PersonImpl extends EObjectImpl implements Person {
 			case NajaPackage.PERSON__LAST_DATE:
 				return getLastDate();
 			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
-				return new Integer(getMaxLoadPerDay());
+				return getMaxLoadPerDay();
 			case NajaPackage.PERSON__DAILY_COST:
-				return new Integer(getDailyCost());
+				return getDailyCost();
 			case NajaPackage.PERSON__TOTAL_COST:
-				return new Integer(getTotalCost());
+				return getTotalCost();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -795,7 +795,7 @@ public class PersonImpl extends EObjectImpl implements Person {
 				getImputations().addAll((Collection<? extends Imputation>)newValue);
 				return;
 			case NajaPackage.PERSON__TOTAL_AVAILABILITY:
-				setTotalAvailability(((Integer)newValue).intValue());
+				setTotalAvailability((Integer)newValue);
 				return;
 			case NajaPackage.PERSON__PLANIFICATIONS:
 				getPlanifications().clear();
@@ -809,10 +809,10 @@ public class PersonImpl extends EObjectImpl implements Person {
 				getAvailableSchedules().addAll((Collection<? extends Schedule>)newValue);
 				return;
 			case NajaPackage.PERSON__MAX_LOAD_PER_DAY:
-				setMaxLoadPerDay(((Integer)newValue).intValue());
+				setMaxLoadPerDay((Integer)newValue);
 				return;
 			case NajaPackage.PERSON__DAILY_COST:
-				setDailyCost(((Integer)newValue).intValue());
+				setDailyCost((Integer)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);

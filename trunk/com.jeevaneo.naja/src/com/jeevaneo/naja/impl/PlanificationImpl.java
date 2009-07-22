@@ -616,7 +616,7 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				if (resolve) return getTask();
 				return basicGetTask();
 			case NajaPackage.PLANIFICATION__LOAD:
-				return new Integer(getLoad());
+				return getLoad();
 			case NajaPackage.PLANIFICATION__COMMENT:
 				return getComment();
 			case NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION:
@@ -626,13 +626,13 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 			case NajaPackage.PLANIFICATION__LAST_DATE:
 				return getLastDate();
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
-				return new Integer(getMaxLoadPerDay());
+				return getMaxLoadPerDay();
 			case NajaPackage.PLANIFICATION__IMPUTATIONS:
 				return getImputations();
 			case NajaPackage.PLANIFICATION__UNIMPUTED_LOAD:
-				return new Integer(getUnimputedLoad());
+				return getUnimputedLoad();
 			case NajaPackage.PLANIFICATION__IMPUTED_LOAD:
-				return new Integer(getImputedLoad());
+				return getImputedLoad();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -652,7 +652,7 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				setTask((Task)newValue);
 				return;
 			case NajaPackage.PLANIFICATION__LOAD:
-				setLoad(((Integer)newValue).intValue());
+				setLoad((Integer)newValue);
 				return;
 			case NajaPackage.PLANIFICATION__COMMENT:
 				setComment((String)newValue);
@@ -661,7 +661,7 @@ public class PlanificationImpl extends EObjectImpl implements Planification {
 				setVirtualImputation((VirtualImputation)newValue);
 				return;
 			case NajaPackage.PLANIFICATION__MAX_LOAD_PER_DAY:
-				setMaxLoadPerDay(((Integer)newValue).intValue());
+				setMaxLoadPerDay((Integer)newValue);
 				return;
 			case NajaPackage.PLANIFICATION__IMPUTATIONS:
 				getImputations().clear();

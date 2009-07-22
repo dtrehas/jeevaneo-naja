@@ -6,7 +6,6 @@
  */
 package com.jeevaneo.naja.util;
 
-import com.jeevaneo.naja.*;
 import java.util.List;
 
 import org.eclipse.emf.ecore.EClass;

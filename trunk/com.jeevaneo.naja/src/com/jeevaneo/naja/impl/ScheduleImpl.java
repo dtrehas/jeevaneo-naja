@@ -163,7 +163,7 @@ public class ScheduleImpl extends EObjectImpl implements Schedule {
 			case NajaPackage.SCHEDULE__DATE:
 				return getDate();
 			case NajaPackage.SCHEDULE__LOAD:
-				return new Integer(getLoad());
+				return getLoad();
 			case NajaPackage.SCHEDULE__LABEL:
 				return getLabel();
 		}
@@ -182,7 +182,7 @@ public class ScheduleImpl extends EObjectImpl implements Schedule {
 				setDate((Date)newValue);
 				return;
 			case NajaPackage.SCHEDULE__LOAD:
-				setLoad(((Integer)newValue).intValue());
+				setLoad((Integer)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);

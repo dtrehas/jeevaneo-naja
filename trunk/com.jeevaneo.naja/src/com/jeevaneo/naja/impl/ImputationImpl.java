@@ -495,7 +495,7 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				if (resolve) return getTask();
 				return basicGetTask();
 			case NajaPackage.IMPUTATION__LOAD:
-				return new Integer(getLoad());
+				return getLoad();
 			case NajaPackage.IMPUTATION__PLANIFICATION:
 				if (resolve) return getPlanification();
 				return basicGetPlanification();
@@ -524,7 +524,7 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				setTask((Task)newValue);
 				return;
 			case NajaPackage.IMPUTATION__LOAD:
-				setLoad(((Integer)newValue).intValue());
+				setLoad((Integer)newValue);
 				return;
 			case NajaPackage.IMPUTATION__PLANIFICATION:
 				setPlanification((Planification)newValue);

@@ -184,7 +184,7 @@ public class VirtualImputationImpl extends EObjectImpl implements
 	 * @generated
 	 */
 	public Planification getPlanification() {
-		if (eContainerFeatureID != NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION) return null;
+		if (eContainerFeatureID() != NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION) return null;
 		return (Planification)eContainer();
 	}
 
@@ -203,7 +203,7 @@ public class VirtualImputationImpl extends EObjectImpl implements
 	 * @generated
 	 */
 	public void setPlanification(Planification newPlanification) {
-		if (newPlanification != eInternalContainer() || (eContainerFeatureID != NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION && newPlanification != null)) {
+		if (newPlanification != eInternalContainer() || (eContainerFeatureID() != NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION && newPlanification != null)) {
 			if (EcoreUtil.isAncestor(this, newPlanification))
 				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
 			NotificationChain msgs = null;
@@ -299,7 +299,7 @@ public class VirtualImputationImpl extends EObjectImpl implements
 	@Override
 	public NotificationChain eBasicRemoveFromContainerFeature(
 			NotificationChain msgs) {
-		switch (eContainerFeatureID) {
+		switch (eContainerFeatureID()) {
 			case NajaPackage.VIRTUAL_IMPUTATION__PLANIFICATION:
 				return eInternalContainer().eInverseRemove(this, NajaPackage.PLANIFICATION__VIRTUAL_IMPUTATION, Planification.class, msgs);
 		}
@@ -314,7 +314,7 @@ public class VirtualImputationImpl extends EObjectImpl implements
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case NajaPackage.VIRTUAL_IMPUTATION__TOTAL_LOAD:
-				return new Integer(getTotalLoad());
+				return getTotalLoad();
 			case NajaPackage.VIRTUAL_IMPUTATION__FIRST_DATE:
 				return getFirstDate();
 			case NajaPackage.VIRTUAL_IMPUTATION__LAST_DATE:
