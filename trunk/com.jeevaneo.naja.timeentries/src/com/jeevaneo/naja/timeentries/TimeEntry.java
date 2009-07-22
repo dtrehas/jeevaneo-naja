@@ -15,23 +15,20 @@ import com.jeevaneo.naja.TaskMapping;
 /**
  * <!-- begin-user-doc --> A representation of the model object '
  * <em><b>Time Entry</b></em>'. <!-- end-user-doc -->
- * 
+ *
  * <p>
  * The following features are supported:
  * <ul>
- * <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getComment <em>Comment
- * </em>}</li>
- * <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getDay <em>Day</em>}</li>
- * <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getLoad <em>Load</em>}</li>
- * <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getResource <em>Resource
- * </em>}</li>
- * <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getExternalId <em>External
- * Id</em>}</li>
- * <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation <em>
- * Imputation</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getComment <em>Comment</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getDay <em>Day</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getLoad <em>Load</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getResource <em>Resource</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getExternalId <em>External Id</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation <em>Imputation</em>}</li>
+ *   <li>{@link com.jeevaneo.naja.timeentries.TimeEntry#getWasPlanified <em>Was Planified</em>}</li>
  * </ul>
  * </p>
- * 
+ *
  * @see com.jeevaneo.naja.timeentries.TimeentriesPackage#getTimeEntry()
  * @model
  * @generated
@@ -85,12 +82,9 @@ public interface TimeEntry extends EObject {
 	int getDay();
 
 	/**
-	 * Sets the value of the '
-	 * {@link com.jeevaneo.naja.timeentries.TimeEntry#getDay <em>Day</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @param value
-	 *            the new value of the '<em>Day</em>' attribute.
+	 * Sets the value of the '{@link com.jeevaneo.naja.timeentries.TimeEntry#getDay <em>Day</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Day</em>' attribute.
 	 * @see #getDay()
 	 * @generated
 	 */
@@ -114,12 +108,9 @@ public interface TimeEntry extends EObject {
 	int getLoad();
 
 	/**
-	 * Sets the value of the '
-	 * {@link com.jeevaneo.naja.timeentries.TimeEntry#getLoad <em>Load</em>}'
-	 * attribute. <!-- begin-user-doc --> <!-- end-user-doc -->
-	 * 
-	 * @param value
-	 *            the new value of the '<em>Load</em>' attribute.
+	 * Sets the value of the '{@link com.jeevaneo.naja.timeentries.TimeEntry#getLoad <em>Load</em>}' attribute.
+	 * <!-- begin-user-doc --> <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Load</em>' attribute.
 	 * @see #getLoad()
 	 * @generated
 	 */
@@ -173,27 +164,23 @@ public interface TimeEntry extends EObject {
 	TaskMapping getExternalId();
 
 	/**
-	 * Sets the value of the '
-	 * {@link com.jeevaneo.naja.timeentries.TimeEntry#getExternalId
-	 * <em>External Id</em>}' reference. <!-- begin-user-doc --> <!--
+	 * Sets the value of the '{@link com.jeevaneo.naja.timeentries.TimeEntry#getExternalId <em>External Id</em>}' reference.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
-	 * @param value
-	 *            the new value of the '<em>External Id</em>' reference.
+	 * @param value the new value of the '<em>External Id</em>' reference.
 	 * @see #getExternalId()
 	 * @generated
 	 */
 	void setExternalId(TaskMapping value);
 
 	/**
-	 * Returns the value of the '<em><b>Imputation</b></em>' containment
-	 * reference. <!-- begin-user-doc -->
+	 * Returns the value of the '<em><b>Imputation</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Imputation</em>' containment reference isn't
 	 * clear, there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * 
 	 * @return the value of the '<em>Imputation</em>' containment reference.
 	 * @see #setImputation(Imputation)
 	 * @see com.jeevaneo.naja.timeentries.TimeentriesPackage#getTimeEntry_Imputation()
@@ -203,17 +190,39 @@ public interface TimeEntry extends EObject {
 	Imputation getImputation();
 
 	/**
-	 * Sets the value of the '
-	 * {@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation
-	 * <em>Imputation</em>}' containment reference. <!-- begin-user-doc --> <!--
+	 * Sets the value of the '{@link com.jeevaneo.naja.timeentries.TimeEntry#getImputation <em>Imputation</em>}' containment reference.
+	 * <!-- begin-user-doc --> <!--
 	 * end-user-doc -->
-	 * 
-	 * @param value
-	 *            the new value of the '<em>Imputation</em>' containment
-	 *            reference.
+	 * @param value the new value of the '<em>Imputation</em>' containment reference.
 	 * @see #getImputation()
 	 * @generated
 	 */
 	void setImputation(Imputation value);
+
+	/**
+	 * Returns the value of the '<em><b>Was Planified</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Was Planified</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Was Planified</em>' attribute.
+	 * @see #setWasPlanified(Boolean)
+	 * @see com.jeevaneo.naja.timeentries.TimeentriesPackage#getTimeEntry_WasPlanified()
+	 * @model unique="false"
+	 * @generated
+	 */
+	Boolean getWasPlanified();
+
+	/**
+	 * Sets the value of the '{@link com.jeevaneo.naja.timeentries.TimeEntry#getWasPlanified <em>Was Planified</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Was Planified</em>' attribute.
+	 * @see #getWasPlanified()
+	 * @generated
+	 */
+	void setWasPlanified(Boolean value);
 
 } // TimeEntry
