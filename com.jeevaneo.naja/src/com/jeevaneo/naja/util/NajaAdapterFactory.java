@@ -6,7 +6,6 @@
  */
 package com.jeevaneo.naja.util;
 
-import com.jeevaneo.naja.*;
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
 import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;

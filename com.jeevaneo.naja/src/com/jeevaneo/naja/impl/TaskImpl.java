@@ -338,7 +338,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 * @generated
 	 */
 	public Category getCategory() {
-		if (eContainerFeatureID != NajaPackage.TASK__CATEGORY) return null;
+		if (eContainerFeatureID() != NajaPackage.TASK__CATEGORY) return null;
 		return (Category)eContainer();
 	}
 
@@ -357,7 +357,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 * @generated
 	 */
 	public void setCategory(Category newCategory) {
-		if (newCategory != eInternalContainer() || (eContainerFeatureID != NajaPackage.TASK__CATEGORY && newCategory != null)) {
+		if (newCategory != eInternalContainer() || (eContainerFeatureID() != NajaPackage.TASK__CATEGORY && newCategory != null)) {
 			if (EcoreUtil.isAncestor(this, newCategory))
 				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
 			NotificationChain msgs = null;
@@ -549,7 +549,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	@Override
 	public NotificationChain eBasicRemoveFromContainerFeature(
 			NotificationChain msgs) {
-		switch (eContainerFeatureID) {
+		switch (eContainerFeatureID()) {
 			case NajaPackage.TASK__CATEGORY:
 				return eInternalContainer().eInverseRemove(this, NajaPackage.CATEGORY__TASKS, Category.class, msgs);
 		}
@@ -564,7 +564,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case NajaPackage.TASK__TOTAL_LOAD:
-				return new Integer(getTotalLoad());
+				return getTotalLoad();
 			case NajaPackage.TASK__NAME:
 				return getName();
 			case NajaPackage.TASK__IMPUTATIONS:
@@ -572,9 +572,9 @@ public class TaskImpl extends EObjectImpl implements Task {
 			case NajaPackage.TASK__PLANIFICATIONS:
 				return getPlanifications();
 			case NajaPackage.TASK__UNAFFECTED_LOAD:
-				return new Integer(getUnaffectedLoad());
+				return getUnaffectedLoad();
 			case NajaPackage.TASK__PRIORITY:
-				return new Integer(getPriority());
+				return getPriority();
 			case NajaPackage.TASK__LABEL:
 				return getLabel();
 			case NajaPackage.TASK__CATEGORY:
@@ -584,11 +584,11 @@ public class TaskImpl extends EObjectImpl implements Task {
 			case NajaPackage.TASK__LAST_DATE:
 				return getLastDate();
 			case NajaPackage.TASK__IMPUTED_LOAD:
-				return new Integer(getImputedLoad());
+				return getImputedLoad();
 			case NajaPackage.TASK__TOTAL_PLANIFIED_LOAD:
-				return new Integer(getTotalPlanifiedLoad());
+				return getTotalPlanifiedLoad();
 			case NajaPackage.TASK__UNIMPUTED_PLANIFIED_LOAD:
-				return new Integer(getUnimputedPlanifiedLoad());
+				return getUnimputedPlanifiedLoad();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -602,7 +602,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case NajaPackage.TASK__TOTAL_LOAD:
-				setTotalLoad(((Integer)newValue).intValue());
+				setTotalLoad((Integer)newValue);
 				return;
 			case NajaPackage.TASK__NAME:
 				setName((String)newValue);
@@ -616,7 +616,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 				getPlanifications().addAll((Collection<? extends Planification>)newValue);
 				return;
 			case NajaPackage.TASK__PRIORITY:
-				setPriority(((Integer)newValue).intValue());
+				setPriority((Integer)newValue);
 				return;
 			case NajaPackage.TASK__LABEL:
 				setLabel((String)newValue);

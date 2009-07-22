@@ -73,6 +73,7 @@ public class TimeEntryItemProvider
 			addLoadPropertyDescriptor(object);
 			addResourcePropertyDescriptor(object);
 			addExternalIdPropertyDescriptor(object);
+			addWasPlanifiedPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -188,6 +189,28 @@ public class TimeEntryItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Was Planified feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addWasPlanifiedPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_TimeEntry_wasPlanified_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_TimeEntry_wasPlanified_feature", "_UI_TimeEntry_type"),
+				 TimeentriesPackage.Literals.TIME_ENTRY__WAS_PLANIFIED,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -258,6 +281,7 @@ public class TimeEntryItemProvider
 			case TimeentriesPackage.TIME_ENTRY__DAY:
 			case TimeentriesPackage.TIME_ENTRY__LOAD:
 			case TimeentriesPackage.TIME_ENTRY__EXTERNAL_ID:
+			case TimeentriesPackage.TIME_ENTRY__WAS_PLANIFIED:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case TimeentriesPackage.TIME_ENTRY__IMPUTATION:

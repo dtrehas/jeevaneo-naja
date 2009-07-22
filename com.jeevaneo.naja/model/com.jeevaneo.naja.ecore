@@ -18,8 +18,8 @@
         eType="#//Planification" eOpposite="#//Planification/resource"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="availabilityStartDate"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="availableSchedules" unique="false"
-        upperBound="-1" eType="#//Schedule" derived="true" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="availableSchedules" upperBound="-1"
+        eType="#//Schedule" derived="true" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"
         changeable="false" volatile="true" transient="true" derived="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxLoadPerDay" lowerBound="1"
