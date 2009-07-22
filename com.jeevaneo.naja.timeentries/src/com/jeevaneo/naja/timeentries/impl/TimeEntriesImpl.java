@@ -164,7 +164,7 @@ public class TimeEntriesImpl extends EObjectImpl implements TimeEntries {
 			case TimeentriesPackage.TIME_ENTRIES__COMMENT:
 				return getComment();
 			case TimeentriesPackage.TIME_ENTRIES__TOTAL_LOAD:
-				return new Integer(getTotalLoad());
+				return getTotalLoad();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}

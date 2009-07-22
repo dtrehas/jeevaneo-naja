@@ -170,13 +170,22 @@ public interface TimeentriesPackage extends EPackage {
 	int TIME_ENTRY__IMPUTATION = 5;
 
 	/**
+	 * The feature id for the '<em><b>Was Planified</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TIME_ENTRY__WAS_PLANIFIED = 6;
+
+	/**
 	 * The number of structural features of the '<em>Time Entry</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TIME_ENTRY_FEATURE_COUNT = 6;
+	int TIME_ENTRY_FEATURE_COUNT = 7;
 
 
 	/**
@@ -299,6 +308,17 @@ public interface TimeentriesPackage extends EPackage {
 	EReference getTimeEntry_Imputation();
 
 	/**
+	 * Returns the meta object for the attribute '{@link com.jeevaneo.naja.timeentries.TimeEntry#getWasPlanified <em>Was Planified</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Was Planified</em>'.
+	 * @see com.jeevaneo.naja.timeentries.TimeEntry#getWasPlanified()
+	 * @see #getTimeEntry()
+	 * @generated
+	 */
+	EAttribute getTimeEntry_WasPlanified();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -411,6 +431,14 @@ public interface TimeentriesPackage extends EPackage {
 		 * @generated
 		 */
 		EReference TIME_ENTRY__IMPUTATION = eINSTANCE.getTimeEntry_Imputation();
+
+		/**
+		 * The meta object literal for the '<em><b>Was Planified</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TIME_ENTRY__WAS_PLANIFIED = eINSTANCE.getTimeEntry_WasPlanified();
 
 	}
 
