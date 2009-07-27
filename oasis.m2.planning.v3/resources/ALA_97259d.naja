@@ -219,6 +219,8 @@
   <imputations href="../TimeEntries/20090721.timeentries#//@entries.8/@imputation"/>
   <imputations href="../TimeEntries/20090722.timeentries#//@entries.11/@imputation"/>
   <imputations href="../TimeEntries/20090722.timeentries#//@entries.10/@imputation"/>
+  <imputations href="../TimeEntries/20090723.timeentries#//@entries.7/@imputation"/>
+  <imputations href="../TimeEntries/20090723.timeentries#//@entries.6/@imputation"/>
   <planifications href="../M2.naja#//@planifications.94"/>
   <planifications href="../M2.naja#//@planifications.9"/>
   <planifications href="../M2.naja#//@planifications.10"/>
@@ -242,6 +244,7 @@
   <planifications href="../M2.naja#//@planifications.55"/>
   <planifications href="../M2.naja#//@planifications.12"/>
   <planifications href="../M2.naja#//@planifications.156"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
