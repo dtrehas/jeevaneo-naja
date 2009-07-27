@@ -18,7 +18,7 @@
       <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
-  <entries comment="Mise a jour du catalogue et des LDAP" day="20090626" load="2">
+  <entries comment="Mise a jour du catalogue et des LDAP" day="20090626" load="2" wasPlanified="false">
     <resource href="../resources/ALA_97259d.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/adminOao.task"/>
     <imputation comment="Mise a jour du catalogue et des LDAP" date="2009-06-26T00:00:00.000+0200" load="2">
@@ -87,7 +87,7 @@
       <planification href="../M2.naja#//@planifications.104"/>
     </imputation>
   </entries>
-  <entries comment="Conficker" day="20090626" load="2">
+  <entries comment="Conficker" day="20090626" load="2" wasPlanified="false">
     <resource href="../resources/ABO_97607k.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/conficker.task"/>
     <imputation comment="Conficker" date="2009-06-26T00:00:00.000+0200" load="2">
