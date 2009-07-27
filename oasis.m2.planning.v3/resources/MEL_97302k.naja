@@ -207,6 +207,8 @@
   <imputations href="../TimeEntries/20090722.timeentries#//@entries.0/@imputation"/>
   <imputations href="../TimeEntries/20090723.timeentries#//@entries.11/@imputation"/>
   <imputations href="../TimeEntries/20090723.timeentries#//@entries.12/@imputation"/>
+  <imputations href="../TimeEntries/20090724.timeentries#//@entries.0/@imputation"/>
+  <imputations href="../TimeEntries/20090724.timeentries#//@entries.1/@imputation"/>
   <planifications href="../M2.naja#//@planifications.37"/>
   <planifications href="../M2.naja#//@planifications.99"/>
   <planifications href="../M2.naja#//@planifications.107"/>
@@ -245,7 +247,7 @@
   <planifications href="../M2.naja#//@planifications.133"/>
   <planifications href="../M7.naja#//@planifications.0"/>
   <planifications href="../M2.naja#//@planifications.42"/>
-  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-10-27T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-10-28T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-10-29T00:00:00.000+0100" load="4"/>
@@ -279,7 +281,7 @@
   <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-12-10T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-12-11T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-12-14T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-14T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-12-15T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-16T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-12-17T00:00:00.000+0100" load="8"/>
