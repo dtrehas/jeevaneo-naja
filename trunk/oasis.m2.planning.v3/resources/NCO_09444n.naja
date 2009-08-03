@@ -50,22 +50,40 @@
   <imputations href="../TimeEntries/20090722.timeentries#//@entries.2/@imputation"/>
   <imputations href="../TimeEntries/20090723.timeentries#//@entries.10/@imputation"/>
   <imputations href="../TimeEntries/20090724.timeentries#//@entries.2/@imputation"/>
-  <planifications href="../M2.naja#//@planifications.138"/>
-  <planifications href="../M2.naja#//@planifications.152"/>
   <planifications href="../M2.naja#//@planifications.140"/>
-  <planifications href="../M2.naja#//@planifications.136"/>
+  <planifications href="../M2.naja#//@planifications.154"/>
   <planifications href="../M2.naja#//@planifications.142"/>
+  <planifications href="../M2.naja#//@planifications.138"/>
+  <planifications href="../M2.naja#//@planifications.144"/>
+  <planifications href="../M2.naja#//@planifications.170"/>
+  <planifications href="../M2.naja#//@planifications.161"/>
+  <planifications href="../M2.naja#//@planifications.148"/>
+  <planifications href="../M2.naja#//@planifications.150"/>
+  <planifications href="../M2.naja#//@planifications.163"/>
+  <planifications href="../M2.naja#//@planifications.165"/>
   <planifications href="../M2.naja#//@planifications.168"/>
+  <planifications href="../M2.naja#//@planifications.152"/>
+  <planifications href="../M2.naja#//@planifications.136"/>
   <planifications href="../M2.naja#//@planifications.159"/>
   <planifications href="../M2.naja#//@planifications.146"/>
-  <planifications href="../M2.naja#//@planifications.148"/>
-  <planifications href="../M2.naja#//@planifications.161"/>
-  <planifications href="../M2.naja#//@planifications.163"/>
-  <planifications href="../M2.naja#//@planifications.166"/>
-  <planifications href="../M2.naja#//@planifications.150"/>
-  <planifications href="../M2.naja#//@planifications.134"/>
-  <planifications href="../M2.naja#//@planifications.157"/>
-  <planifications href="../M2.naja#//@planifications.144"/>
-  <planifications href="../M2.naja#//@planifications.154"/>
+  <planifications href="../M2.naja#//@planifications.156"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
 </jeevaneo-naja:Person>
