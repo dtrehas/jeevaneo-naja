@@ -669,7 +669,7 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_tests.task"/>
     <imputation comment="tests divers et varies sur OAO" date="2009-01-12T00:00:00.000+0100" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
     </imputation>
   </entries>
   <entries comment="Cobaye pour Medhi (installation d'un poste de dev avec buckminster)" day="20090112" load="2">
@@ -1045,7 +1045,7 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_packaging.task"/>
     <imputation comment="mise en place oao updateable" date="2009-01-14T00:00:00.000+0100" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
     </imputation>
   </entries>
   <entries comment="Rollback synchro Ldap->Xml" day="20090114" load="4">
@@ -1205,7 +1205,7 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_packaging.task"/>
     <imputation comment="mise en place oao updateable" date="2009-01-15T00:00:00.000+0100" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
     </imputation>
   </entries>
   <entries comment="recherche pourquoi le transformer factory utilise en mode buck utilise saxon au lieu de xalan" day="20090115" load="4">
@@ -1301,7 +1301,7 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_tests.task"/>
     <imputation comment="Tests OAO divers" date="2009-01-16T00:00:00.000+0100" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
     </imputation>
   </entries>
   <entries comment="MAJ de la doc 'livraison de composants en GCL' pour support.noe" day="20090116" load="2">
@@ -1333,7 +1333,7 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_packaging.task"/>
     <imputation comment="mise en place oao updateable" date="2009-01-16T00:00:00.000+0100" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
     </imputation>
   </entries>
   <entries comment="creation wrapper - ressource siebel" day="20090116" load="4">
@@ -1437,7 +1437,7 @@
     <externalId href="../TasksMappings.naja#tasks/OAO_tests.task"/>
     <imputation comment="fin des tests OAO (notamment vues fictives) + test des ACI" date="2009-01-19T00:00:00.000+0100" load="6">
       <resource href="../resources/AGI_97061a.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
     </imputation>
   </entries>
   <entries comment="Echanges avec support noe sur oasisisation" day="20090119" load="2">

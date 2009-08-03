@@ -221,25 +221,313 @@
   <imputations href="../TimeEntries/20090723.timeentries#//@entries.8/@imputation"/>
   <imputations href="../TimeEntries/20090724.timeentries#//@entries.10/@imputation"/>
   <planifications href="../M2.naja#//@planifications.4"/>
-  <planifications href="../M2.naja#//@planifications.27"/>
   <planifications href="../M2.naja#//@planifications.28"/>
   <planifications href="../M2.naja#//@planifications.29"/>
   <planifications href="../M2.naja#//@planifications.30"/>
-  <planifications href="../M2.naja#//@planifications.174"/>
-  <planifications href="../M2.naja#//@planifications.92"/>
-  <planifications href="../M2.naja#//@planifications.118"/>
-  <planifications href="../M2.naja#//@planifications.20"/>
+  <planifications href="../M2.naja#//@planifications.31"/>
+  <planifications href="../M2.naja#//@planifications.176"/>
+  <planifications href="../M2.naja#//@planifications.94"/>
+  <planifications href="../M2.naja#//@planifications.120"/>
+  <planifications href="../M2.naja#//@planifications.21"/>
+  <planifications href="../M2.naja#//@planifications.50"/>
+  <planifications href="../M2.naja#//@planifications.53"/>
+  <planifications href="../M2.naja#//@planifications.114"/>
+  <planifications href="../M2.naja#//@planifications.56"/>
   <planifications href="../M2.naja#//@planifications.48"/>
-  <planifications href="../M2.naja#//@planifications.51"/>
-  <planifications href="../M2.naja#//@planifications.112"/>
-  <planifications href="../M2.naja#//@planifications.54"/>
-  <planifications href="../M2.naja#//@planifications.46"/>
-  <planifications href="../M2.naja#//@planifications.165"/>
-  <planifications href="../M2.naja#//@planifications.109"/>
-  <planifications href="../M2.naja#//@planifications.164"/>
-  <planifications href="../M2.naja#//@planifications.169"/>
-  <planifications href="../M2.naja#//@planifications.170"/>
+  <planifications href="../M2.naja#//@planifications.167"/>
+  <planifications href="../M2.naja#//@planifications.111"/>
+  <planifications href="../M2.naja#//@planifications.166"/>
   <planifications href="../M2.naja#//@planifications.171"/>
+  <planifications href="../M2.naja#//@planifications.172"/>
+  <planifications href="../M2.naja#//@planifications.173"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-12T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-12T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-12T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-12T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-12T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-08T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-09T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-12T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-06T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-10-05T00:00:00.000+0200" load="4"/>
   <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>

@@ -3,6 +3,7 @@
   <planifications task="//@categories.3/@tasks.0" load="172" maxLoadPerDay="4">
     <resource href="resources/MEL_97302k.naja#/"/>
     <virtualImputation>
+      <schedules date="2009-10-13T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-14T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-15T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-16T00:00:00.000+0200" load="4"/>
@@ -45,7 +46,6 @@
       <schedules date="2009-12-09T00:00:00.000+0100" load="4"/>
       <schedules date="2009-12-10T00:00:00.000+0100" load="4"/>
       <schedules date="2009-12-11T00:00:00.000+0100" load="4"/>
-      <schedules date="2009-12-14T00:00:00.000+0100" load="4"/>
     </virtualImputation>
   </planifications>
   <planifications task="//@categories.3/@tasks.0" load="364" maxLoadPerDay="6">
@@ -95,7 +95,6 @@
       <schedules date="2009-10-20T00:00:00.000+0200" load="4"/>
       <schedules date="2009-10-21T00:00:00.000+0200" load="6"/>
       <schedules date="2009-10-22T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-10-23T00:00:00.000+0200" load="6"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.19/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.18/@imputation"/>
@@ -208,7 +207,6 @@
       <schedules date="2009-09-28T00:00:00.000+0200" load="6"/>
       <schedules date="2009-09-29T00:00:00.000+0200" load="6"/>
       <schedules date="2009-09-30T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-10-01T00:00:00.000+0200" load="6"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.15/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.16/@imputation"/>

@@ -109,7 +109,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="correction oao update auto" date="2009-02-02T00:00:00.000+0100" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
     </imputation>
   </entries>
   <entries comment="Correctif OAO mode Draft pour corriger un Overflow lors de la creation des perspectives Draft avec les 7000 utilisateurs" day="20090202" load="8">
@@ -229,7 +229,7 @@
     <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
     <imputation comment="correction oao update auto" date="2009-02-03T00:00:00.000+0100" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
-      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
     </imputation>
   </entries>
   <entries comment="Correction aide be" day="20090203" load="4">
