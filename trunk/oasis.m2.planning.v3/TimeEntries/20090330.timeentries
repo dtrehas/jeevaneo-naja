@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Chantier 4" day="20090330" load="6">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 4" date="2009-03-30T00:00:00.000+0200" load="6">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Test smartupdator" day="20090330" load="2">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Test smartupdator" date="2009-03-30T00:00:00.000+0200" load="2">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Qualif RMOx probleme conso memoire et CPU" day="20090330" load="8">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Qualif RMOx probleme conso memoire et CPU" date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise des cles : documents GCF + Oasis-isation " day="20090330" load="8">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Remise des cles : documents GCF + Oasis-isation " date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise des cles : documents GCF + Oasis-isation " day="20090331" load="4">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Remise des cles : documents GCF + Oasis-isation " date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise des cles : creation du produit GCF + outils de pose de tag" day="20090331" load="4">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Remise des cles : creation du produit GCF + outils de pose de tag" date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.2/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Livraison en RMOA pour test CIREC + REF_COR" day="20090401" load="4">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Livraison en RMOA pour test CIREC + REF_COR" date="2009-04-01T00:00:00.000+0200" load="4">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise des cles : preparation de la demo + maj des docs" day="20090401" load="4">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Remise des cles : preparation de la demo + maj des docs" date="2009-04-01T00:00:00.000+0200" load="4">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Realisation MAGs - Remise des cles : maj des docs + correctif d'une ano GCF detectee" day="20090330" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Realisation MAGs - Remise des cles : maj des docs + correctif d'une ano GCF detectee" date="2009-03-30T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.3/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.35"/>
+    </imputation>
+  </entries>
+  <entries comment="Livraison RMOX : GCL : tag vagues RMOX en retard + refactoring des URLs MAGs (Aides devient MAGs, suppression du repertoire intermediaire dans les layout..) + com NOE" day="20090330" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
+    <imputation comment="Livraison RMOX : GCL : tag vagues RMOX en retard + refactoring des URLs MAGs (Aides devient MAGs, suppression du repertoire intermediaire dans les layout..) + com NOE" date="2009-03-30T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.4"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise des cles : maj doc MAGs" day="20090331" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Remise des cles : maj doc MAGs" date="2009-03-31T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.0/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Support recc NOE - com NOE sur refactoring des URLs MAGs" day="20090331" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Support recc NOE - com NOE sur refactoring des URLs MAGs" date="2009-03-31T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.95"/>
+    </imputation>
+  </entries>
+  <entries comment="TCO NOE - Realisation AppGat - Modop Oasis-isation - Remontee de l'etape check MAccessWeb dans oasisisation" day="20090331" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="TCO NOE - Realisation AppGat - Modop Oasis-isation - Remontee de l'etape check MAccessWeb dans oasisisation" date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.4/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Chantier 4" day="20090401" load="4">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 4" date="2009-04-01T00:00:00.000+0200" load="4">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Analyse Incident EIS" day="20090401" load="4">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Analyse Incident EIS" date="2009-04-01T00:00:00.000+0200" load="4">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Chantier 4" day="20090331" load="6">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 4" date="2009-03-31T00:00:00.000+0200" load="6">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="COMO 2" day="20090331" load="2">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Como.task"/>
+    <imputation comment="COMO 2" date="2009-03-31T00:00:00.000+0200" load="2">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur" day="20090330" load="8">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_finSpecs.task"/>
+    <imputation comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur" date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.10"/>
+    </imputation>
+  </entries>
+  <entries comment="Habillitations Offline - Mise en place de la persistance des affectations sur le poste de l'utilisateur (test + correctifs)" day="20090331" load="8">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Performances_cachesInc_BE.task"/>
+    <imputation comment="Habillitations Offline - Mise en place de la persistance des affectations sur le poste de l'utilisateur (test + correctifs)" date="2009-03-31T00:00:00.000+0200" load="8">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.8"/>
+    </imputation>
+  </entries>
+  <entries comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur (mise a jour des tests unitaires + doc)" day="20090401" load="6">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_finSpecs.task"/>
+    <imputation comment="Affectations Draft - Mise en place de la persistance des affectations sur le poste de l'utilisateur (mise a jour des tests unitaires + doc)" date="2009-04-01T00:00:00.000+0200" load="6">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.10"/>
+    </imputation>
+  </entries>
+  <entries comment="Install OAO sur poste MOA / Pre-recette" day="20090401" load="2">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Install OAO sur poste MOA / Pre-recette" date="2009-04-01T00:00:00.000+0200" load="2">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="Reinstall workspace" day="20090331" load="2">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Reinstall workspace" date="2009-03-31T00:00:00.000+0200" load="2">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="Qualif RMOx probleme conso memoire et CPU + probleme de focus" day="20090331" load="6">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Qualif RMOx probleme conso memoire et CPU + probleme de focus" date="2009-03-31T00:00:00.000+0200" load="6">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="Qualif RMOx probleme conso memoire et CPU + probleme de focus" day="20090401" load="6">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Qualif RMOx probleme conso memoire et CPU + probleme de focus" date="2009-04-01T00:00:00.000+0200" load="6">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="Reinstall workspace" day="20090401" load="2">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Reinstall workspace" date="2009-04-01T00:00:00.000+0200" load="2">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi Coordination et Qualification" day="20090330" load="8">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi Coordination et Qualification" date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi Coordination et Qualification" day="20090331" load="8">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi Coordination et Qualification" date="2009-03-31T00:00:00.000+0200" load="8">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi Coordination et Qualification " day="20090401" load="8">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi Coordination et Qualification " date="2009-04-01T00:00:00.000+0200" load="8">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi Coordination et Qualification" day="20090402" load="8">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi Coordination et Qualification" date="2009-04-02T00:00:00.000+0200" load="8">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="tests sur Deplacement check tmlanceur + suppression projet CC applications_oasis_TMLanceurBE" day="20090401" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="tests sur Deplacement check tmlanceur + suppression projet CC applications_oasis_TMLanceurBE" date="2009-04-01T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Preparation couloir demo : conf de build, confs et installations des CC" day="20090401" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Preparation couloir demo : conf de build, confs et installations des CC" date="2009-04-01T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise des cles : Modops" day="20090401" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Remise des cles : Modops" date="2009-04-01T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Preparation presentation noe : Scenarios, derniers correctifs sur modops et confs CC" day="20090402" load="6">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Preparation presentation noe : Scenarios, derniers correctifs sur modops et confs CC" date="2009-04-02T00:00:00.000+0200" load="6">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Presentation noe" day="20090402" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Presentation noe" date="2009-04-02T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Formation NOE - Remise des cles : preparation de la demo + maj des docs" day="20090402" load="6">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Formation NOE - Remise des cles : preparation de la demo + maj des docs" date="2009-04-02T00:00:00.000+0200" load="6">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Livraison RMOX" day="20090402" load="2">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
+    <imputation comment="Livraison RMOX" date="2009-04-02T00:00:00.000+0200" load="2">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.96"/>
+    </imputation>
+  </entries>
+  <entries comment="Recherche probleme crash ACC suite a reinstall workspace" day="20090402" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Recherche probleme crash ACC suite a reinstall workspace" date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="Correctif pour ano RMOx probleme perte de focus (TT 4428)" day="20090402" load="2">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Correctif pour ano RMOx probleme perte de focus (TT 4428)" date="2009-04-02T00:00:00.000+0200" load="2">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="OffLine Habillitations - Etude possibilites persistance habilitations maifdata + cryptage" day="20090402" load="2">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Performances_cachesInc_MaifData.task"/>
+    <imputation comment="OffLine Habillitations - Etude possibilites persistance habilitations maifdata + cryptage" date="2009-04-02T00:00:00.000+0200" load="2">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.8"/>
+    </imputation>
+  </entries>
+  <entries comment="Trigramme - Optimisation perf des requetes a la demande sur les habilitations" day="20090402" load="4">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Trigramme - Optimisation perf des requetes a la demande sur les habilitations" date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.5"/>
+    </imputation>
+  </entries>
+  <entries comment="Be Offline - Correctif pour ne plus supprimer les fichiers de persistances des donnees si le cache est vide." day="20090402" load="4">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Performances_cachesInc_BE.task"/>
+    <imputation comment="Be Offline - Correctif pour ne plus supprimer les fichiers de persistances des donnees si le cache est vide." date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.6"/>
+      <planification href="../M2.naja#//@planifications.19"/>
+    </imputation>
+  </entries>
+  <entries comment="N Builds - mise en place svn listener dependant conf de build" day="20090331" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="N Builds - mise en place svn listener dependant conf de build" date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.0/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.26"/>
+    </imputation>
+  </entries>
+  <entries comment="N Builds - nettoyage impacts sur projets de type 'builder' en vue de decoupe du workspace eclipse en n workspaces" day="20090331" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="N Builds - nettoyage impacts sur projets de type 'builder' en vue de decoupe du workspace eclipse en n workspaces" date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.0/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.26"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Aide BE - mise en place svn listener dependant conf de build" day="20090401" load="8">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="N3 - Aide BE - mise en place svn listener dependant conf de build" date="2009-04-01T00:00:00.000+0200" load="8">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.6"/>
+    </imputation>
+  </entries>
+  <entries comment="Copie demandée par SRE - extraction info CC dans projet oasis_builder.config" day="20090402" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Copie demandée par SRE - extraction info CC dans projet oasis_builder.config" date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="OAO Be draft - integration definition de taches ant a executer dans definition conf de build" day="20090402" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_finSpecs.task"/>
+    <imputation comment="OAO Be draft - integration definition de taches ant a executer dans definition conf de build" date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.5"/>
+      <planification href="../M2.naja#//@planifications.11"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Aide BE - integration definition de taches ant a executer dans definition conf de build" day="20090403" load="8">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="N3 - Aide BE - integration definition de taches ant a executer dans definition conf de build" date="2009-04-03T00:00:00.000+0200" load="8">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.6"/>
+    </imputation>
+  </entries>
+  <entries comment="Doc workflows Livraison - Remise des cles : test de la demo + maj  document workflow HG" day="20090403" load="4">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Doc workflows Livraison - Remise des cles : test de la demo + maj  document workflow HG" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.2/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.100"/>
+    </imputation>
+  </entries>
+  <entries comment="Test de la version des correctifs - N3 pour le 07/04" day="20090403" load="4">
+    <resource href="../resources/CGE_97060h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Test de la version des correctifs - N3 pour le 07/04" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/CGE_97060h.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="COMO M7" day="20090402" load="2">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="COMO M7" date="2009-04-02T00:00:00.000+0200" load="2">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Chantier 4" day="20090402" load="6">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 4" date="2009-04-02T00:00:00.000+0200" load="6">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Chantier 4" day="20090403" load="8">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 4" date="2009-04-03T00:00:00.000+0200" load="8">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Re-initialisation des Ldaps INT, RFU, RMOX, PROD" day="20090403" load="8">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Re-initialisation des Ldaps INT, RFU, RMOX, PROD" date="2009-04-03T00:00:00.000+0200" load="8">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="CC: correction d'un probleme de nommage dans les packages et mise a jour de la branche 1_X suite au modif sur le HG" day="20090330" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/ccMaint.task"/>
+    <imputation comment="CC: correction d'un probleme de nommage dans les packages et mise a jour de la branche 1_X suite au modif sur le HG" date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
+    </imputation>
+  </entries>
+  <entries comment="Analyse du comportement d'Amipro sur le S785000" day="20090331" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M5_COUPDF.task"/>
+    <imputation comment="Analyse du comportement d'Amipro sur le S785000" date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../Other.naja#//@categories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Modification du comportement de la Task Dcc32 pour qu'elle fasse une double compilation lors de la 1ere generation du binaire." day="20090331" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Modification du comportement de la Task Dcc32 pour qu'elle fasse une double compilation lors de la 1ere generation du binaire." date="2009-03-31T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.4"/>
+    </imputation>
+  </entries>
+  <entries comment="Livraison RMOX - Creation des conf RMOA et RMOX + Montage du CC RMOX. On ne va plus chercher les applications GAT et les aides sur le slsvn004 mais sur le slsvn002" day="20090401" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
+    <imputation comment="Livraison RMOX - Creation des conf RMOA et RMOX + Montage du CC RMOX. On ne va plus chercher les applications GAT et les aides sur le slsvn004 mais sur le slsvn002" date="2009-04-01T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.4"/>
+    </imputation>
+  </entries>
+  <entries comment="Transfert de competences" day="20090402" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M5_COUPDF.task"/>
+    <imputation comment="Transfert de competences" date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../Other.naja#//@categories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Formation NOE - Support pour la demonstration Support NOE" day="20090402" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_real.task"/>
+    <imputation comment="Formation NOE - Support pour la demonstration Support NOE" date="2009-04-02T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Correction de la TFormRedim" day="20090403" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Correction de la TFormRedim" date="2009-04-03T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.4"/>
+    </imputation>
+  </entries>
+  <entries comment="Correction probleme de focus ano RMOx (TT 4428)" day="20090403" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_corr.task"/>
+    <imputation comment="Correction probleme de focus ano RMOx (TT 4428)" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.94"/>
+    </imputation>
+  </entries>
+  <entries comment="Correction probleme prise en compte touches accentuees dans gat panel (TT 24280)" day="20090403" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Correction probleme prise en compte touches accentuees dans gat panel (TT 24280)" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.3"/>
+    </imputation>
+  </entries>
+  <entries comment="Reunion Point de la Campagne de Test M1etM5 du moteur SSO" day="20090403" load="2">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Reunion Point de la Campagne de Test M1etM5 du moteur SSO" date="2009-04-03T00:00:00.000+0200" load="2">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Tests de correctifs des incidents a livrer le 08/04" day="20090403" load="2">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Tests de correctifs des incidents a livrer le 08/04" date="2009-04-03T00:00:00.000+0200" load="2">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi Coordination et Qualification" day="20090403" load="4">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi Coordination et Qualification" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Investigations PB de perfs sur slsvn002 et slsvn003" day="20090403" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/LI.task"/>
+    <imputation comment="Investigations PB de perfs sur slsvn002 et slsvn003" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../Other.naja#//@categories.1/@tasks.0"/>
+      <planification href="../Other.naja#//@planifications.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Livraison des cles NOE (Presentation du process) " day="20090403" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Livraison des cles NOE (Presentation du process) " date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage" day="20090330" load="8">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage" date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.103"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage" day="20090331" load="8">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage" date="2009-03-31T00:00:00.000+0200" load="8">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.103"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage" day="20090401" load="8">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage" date="2009-04-01T00:00:00.000+0200" load="8">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.103"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage" day="20090402" load="8">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage" date="2009-04-02T00:00:00.000+0200" load="8">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.103"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage" day="20090403" load="8">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage" date="2009-04-03T00:00:00.000+0200" load="8">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.103"/>
+    </imputation>
+  </entries>
+  <entries comment="Integration timeEntries Sem. 13 + depilage d'e-mails.." day="20090330" load="8">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Planning.task"/>
+    <imputation comment="Integration timeEntries Sem. 13 + depilage d'e-mails.." date="2009-03-30T00:00:00.000+0200" load="8">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.65"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi RMOX : point sur les anos existantes + traitement nouvelles anos" day="20090331" load="8">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/RMOX_cord.task"/>
+    <imputation comment="Suivi RMOX : point sur les anos existantes + traitement nouvelles anos" date="2009-03-31T00:00:00.000+0200" load="8">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.1/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.97"/>
+    </imputation>
+  </entries>
+  <entries comment="Relecture doc NOE sur toutes la semaine" day="20090401" load="8">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OutilsDev_lot3_etude.task"/>
+    <imputation comment="Relecture doc NOE sur toutes la semaine" date="2009-04-01T00:00:00.000+0200" load="8">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.4/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.74"/>
+    </imputation>
+  </entries>
+  <entries comment="Planning : tentative de re-estimation de RAF + prise en compte totalite non-budgete + reorganisation M7" day="20090402" load="8">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Planning.task"/>
+    <imputation comment="Planning : tentative de re-estimation de RAF + prise en compte totalite non-budgete + reorganisation M7" date="2009-04-02T00:00:00.000+0200" load="8">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.65"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi Maj LDAP de Prod : divers pb avec Granie et Bea" day="20090403" load="4">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Suivi Maj LDAP de Prod : divers pb avec Granie et Bea" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.102"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi re-init LDAP RFU, INT et PRE-PROD" day="20090403" load="4">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Suivi re-init LDAP RFU, INT et PRE-PROD" date="2009-04-03T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.102"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jeevaneo-naja:TaskMappings xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:jeevaneo-naja="http://naja.jeevaneo.com/1.0">
+  <mappings externalId="tasks/conges.task">
+    <task href="conges.naja#//@categories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/ccMaint.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/GCLAdmin.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/LI.task">
+    <task href="Other.naja#//@categories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_ApiDelphi_conception.task">
+    <task href="necessary.naja#//@categories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_ApiDelphi_corr.task">
+    <task href="necessary.naja#//@categories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_ApiDelphi_dev.task">
+    <task href="necessary.naja#//@categories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_APIDelphi_diffusion.task">
+    <task href="necessary.naja#//@categories.2/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_ApiDelphi_doc.task">
+    <task href="necessary.naja#//@categories.2/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_APIDelphi_modifTmAccessWeb.task">
+    <task href="necessary.naja#//@categories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_ApiDelphi_support.task">
+    <task href="necessary.naja#//@categories.2/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/GRS_Integration_ApiDelphi_tests.task">
+    <task href="necessary.naja#//@categories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/MaquettePocEtc.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.6"/>
+  </mappings>
+  <mappings externalId="tasks/M5_COUPDF.task">
+    <task href="Other.naja#//@categories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/MTPh0_SupportGrs.task">
+    <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/N3-ProjetMajeur-Corr.task">
+    <task href="M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/N3-ProjetMajeur-Supervis.task">
+    <task href="M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Como.task">
+    <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/DistribM5_deploiementPatch.task">
+    <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/Dimos_docW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.5/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_Archi.task">
+    <task href="M2.naja#//@categories.3/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntShapoR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_FAL.task">
+    <task href="M2.naja#//@categories.3/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_Gat.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_SocleAPRE.task">
+    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_STD.task">
+    <task href="M2.naja#//@categories.3/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_STG.task">
+    <task href="M2.naja#//@categories.3/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/GED_docW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/HorsGAT_LivraisonSofia_008_formation.task">
+    <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/HorsGAT_LivraisonSofia_008_mecanisme.task">
+    <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/HorsGAT_Livraison008_montagePostes.task">
+    <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/ImpactsM7_compilDbg.task">
+    <task href="M7.naja#//@categories.1/@tasks.6"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_BeOffline_specs.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_BE_Offline_Dev.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.6"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_BE_Offline_EF.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.6"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_BE_Offline_rmoeEtRmoa.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.11"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_BeOffline_TNR.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_cachesInc_BE.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_cachesInc_MaifData.task"/>
+  <mappings externalId="tasks/Performances_cachesInc_TNR.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_cachesInc_specs.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Performances_optimRequetes.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/mutualisationPlugins.task">
+    <task href="M7.naja#//@categories.0/@subcategories.0/@subcategories.3/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_doc.task">
+    <task href="M2.naja#//@categories.3/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_droits_affectations.task">
+    <task href="necessary.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_importExportLog_dev.task">
+    <task href="M7.naja#//@categories.1/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_importExportLog_spec.task">
+    <task href="M7.naja#//@categories.1/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_creationUserBl.task">
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_creationUserLdap.task">
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_habilitationUserDroit.task">
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_paliatifIdm_dev_habilitationUserPersp.task">
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_M7_paliatifIdm_specs.task">
+    <task href="M7.naja#//@categories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_finSpecs.task"/>
+  <mappings externalId="tasks/OAO_packaging.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_report.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_rmoa.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_tmoe.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_tests.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.7"/>
+  </mappings>
+  <mappings externalId="tasks/OutilsDev_lot2_partCompil.task">
+    <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/OutilsDev_lot3_etude.task">
+    <task href="M2.naja#//@categories.4/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/OutilsDev_lot3_real.task"/>
+  <mappings externalId="tasks/OutilsDev_realTransverse.task">
+    <task href="M2.naja#//@categories.4/@subcategories.1/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/Planning.task">
+    <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Prefs_persp_etude.task">
+    <task href="necessary.naja#//@categories.1/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Prefs_persp.task">
+    <task href="necessary.naja#//@categories.1/@subcategories.0/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Recette MOA_coord.task">
+    <task href="M2.naja#//@categories.1/@subcategories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Recette MOA_corr.task">
+    <task href="M2.naja#//@categories.1/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/RecetteMOA_TNR_Qualif_SuiviCorr.task">
+    <task href="M2.naja#//@categories.1/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_adminConf_lot2.task">
+    <task href="M7.naja#//@categories.2/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_amipro.task">
+    <task href="M7.naja#//@categories.2/@tasks.9"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_conf1n.task">
+    <task href="M7.naja#//@categories.2/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_doc.task">
+    <task href="M7.naja#//@categories.2/@tasks.12"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_etude_post420.task">
+    <task href="M7.naja#//@categories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_lienConfUser.task">
+    <task href="M7.naja#//@categories.2/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_switchEnv_conception.task">
+    <task href="M7.naja#//@categories.2/@tasks.6"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_switchEnv_efEtReal.task">
+    <task href="M7.naja#//@categories.2/@tasks.6"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_Banalisation_envVars.task">
+    <task href="M7.naja#//@categories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_LivraisonSofia_007.task">
+    <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_maifDataOffline_coord.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/SocleGAT_maifDataOffline_real.task">
+    <task href="M2.naja#//@categories.6/@subcategories.0/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/transComp.task"/>
+  <mappings externalId="tasks/RMOX_cord.task">
+    <task href="M2.naja#//@categories.1/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/RMOX_corr.task">
+    <task href="M2.naja#//@categories.1/@subcategories.1/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/SupportMEP.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/aideBe.task">
+    <task href="M2.naja#//@categories.1/@subcategories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/supportEtLogistique.task"/>
+  <mappings externalId="tasks/GRS_integration_wrappersGRS.task"/>
+  <mappings externalId="pilotage">
+    <task href="M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/M7.task">
+    <task href="M7.naja#//@categories.3/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/immersion.task"/>
+  <mappings externalId="tasks/supportDSII.task">
+    <task href="M2.naja#//@categories.7/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/adminOao.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.12"/>
+  </mappings>
+  <mappings externalId="tasks/supportReccurentNOE.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/conficker.task">
+    <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.11"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_teledistrib_etude.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.11"/>
+  </mappings>
+  <mappings externalId="tasks/DI.task">
+    <task href="conges.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/transCompNCO.task">
+    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/transCompSPE.task">
+    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/transCompToNCO.task">
+    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntShapoW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntHTMLW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntHTMLR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntGATW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntGATR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntDelphiAPIW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntDelphiW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntDelphiR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntHTMLAPIW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntGATAPIW.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntWin32W.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_DocIntWin32R.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Dimos_docR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.5/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/GED_docR.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Indus_SynchroSocle.task">
+    <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.2/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Indus_SynchroHG.task">
+    <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_SocleImpactsDelphi.task">
+    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_SocleConfTux.task">
+    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_SocleNormeDev.task">
+    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.3"/>
+  </mappings>
+  <mappings externalId="tasks/CRTU_Corr.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/CRTU_Complete.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@subcategories.0/@tasks.1"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_rmoe.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.0"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_autoupdate.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
+  </mappings>
+  <mappings externalId="tasks/OAO_BeDraft.task">
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.8"/>
+  </mappings>
+  <mappings externalId="tasks/M7supportReccurentNOE.task">
+    <task href="M7.naja#//@categories.0/@subcategories.1/@tasks.0"/>
+  </mappings>
+</jeevaneo-naja:TaskMappings>
