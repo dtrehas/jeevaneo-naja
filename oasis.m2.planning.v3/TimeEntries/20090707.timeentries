@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Synthese quotidienne et suivi de l'equipe : qq question sur 421 notamment" day="20090707" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Planning.task"/>
+    <imputation comment="Synthese quotidienne et suivi de l'equipe : qq question sur 421 notamment" date="2009-07-07T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.65"/>
+    </imputation>
+  </entries>
+  <entries comment="1ere relecture du dossier HTML" day="20090707" load="4">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntHTMLR.task"/>
+    <imputation comment="1ere relecture du dossier HTML" date="2009-07-07T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.90"/>
+    </imputation>
+  </entries>
+  <entries comment="1ere relecture du dossier GAT" day="20090707" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntGATR.task"/>
+    <imputation comment="1ere relecture du dossier GAT" date="2009-07-07T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.89"/>
+    </imputation>
+  </entries>
+  <entries comment="Problematique de desynchro ldap de test / poste de test + recherche correctif pour probleme de l'utilisation de maifPaveDeci=TRUE dans la requete ldap" day="20090707" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Problematique de desynchro ldap de test / poste de test + recherche correctif pour probleme de l'utilisation de maifPaveDeci=TRUE dans la requete ldap" date="2009-07-07T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.93"/>
+    </imputation>
+  </entries>
+  <entries comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" day="20090707" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" date="2009-07-07T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.93"/>
+    </imputation>
+  </entries>
+  <entries comment="Fin montage des postes CetE" day="20090707" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Fin montage des postes CetE" date="2009-07-07T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Reports incidents socle pour vsi 1707" day="20090707" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Reports incidents socle pour vsi 1707" date="2009-07-07T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi REF_INT + support SPE pour livraison PRD Banque" day="20090707" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7supportReccurentNOE.task"/>
+    <imputation comment="Suivi REF_INT + support SPE pour livraison PRD Banque" date="2009-07-07T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.0/@subcategories.1/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.3"/>
+    </imputation>
+  </entries>
+  <entries comment="Passe SFD OAO + Tests" day="20090707" load="8">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_report.task"/>
+    <imputation comment="Passe SFD OAO + Tests" date="2009-07-07T00:00:00.000+0200" load="8">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
+      <planification href="../M2.naja#//@planifications.172"/>
+    </imputation>
+  </entries>
+  <entries comment="Preparation livraison de l'evol (421 + Correctifs reportes du socle et eclipse)" day="20090707" load="4">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Preparation livraison de l'evol (421 + Correctifs reportes du socle et eclipse)" date="2009-07-07T00:00:00.000+0200" load="4">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 - Suivi et Qualification incidents" day="20090707" load="4">
+    <resource href="../resources/JLT_97940m.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi et Qualification incidents" date="2009-07-07T00:00:00.000+0200" load="4">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="correction dossier integration shapo" day="20090707" load="8">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoW.task"/>
+    <imputation comment="correction dossier integration shapo" date="2009-07-07T00:00:00.000+0200" load="8">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.78"/>
+    </imputation>
+  </entries>
+  <entries comment="Test des incidents avec les correctifs de DBR, comparaison entre SOFIA et OASIS sur la gestion de la tabulation " day="20090707" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Test des incidents avec les correctifs de DBR, comparaison entre SOFIA et OASIS sur la gestion de la tabulation " date="2009-07-07T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.92"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
