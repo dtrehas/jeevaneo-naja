@@ -274,15 +274,11 @@
   <mappings externalId="tasks/DI.task">
     <task href="conges.naja#//@categories.0/@subcategories.0/@tasks.0"/>
   </mappings>
-  <mappings externalId="tasks/transCompNCO.task">
-    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-  </mappings>
+  <mappings externalId="tasks/transCompNCO.task"/>
   <mappings externalId="tasks/transCompSPE.task">
     <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.4"/>
   </mappings>
-  <mappings externalId="tasks/transCompToNCO.task">
-    <task href="M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-  </mappings>
+  <mappings externalId="tasks/transCompToNCO.task"/>
   <mappings externalId="tasks/Doc_DocIntShapoW.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
   </mappings>
