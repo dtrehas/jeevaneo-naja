@@ -55,6 +55,9 @@
   <imputations href="../TimeEntries/20090729.timeentries#//@entries.4/@imputation"/>
   <imputations href="../TimeEntries/20090730.timeentries#//@entries.4/@imputation"/>
   <imputations href="../TimeEntries/20090731.timeentries#//@entries.4/@imputation"/>
+  <imputations href="../TimeEntries/20090803.timeentries#//@entries.15/@imputation"/>
+  <imputations href="../TimeEntries/20090803.timeentries#//@entries.14/@imputation"/>
+  <imputations href="../TimeEntries/20090804.timeentries#//@entries.11/@imputation"/>
   <planifications href="../M2.naja#//@planifications.138"/>
   <planifications href="../M2.naja#//@planifications.152"/>
   <planifications href="../M2.naja#//@planifications.140"/>
@@ -72,11 +75,4 @@
   <planifications href="../M2.naja#//@planifications.157"/>
   <planifications href="../M2.naja#//@planifications.144"/>
   <planifications href="../M2.naja#//@planifications.154"/>
-  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-11-03T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-11-04T00:00:00.000+0100" load="4"/>
 </jeevaneo-naja:Person>
