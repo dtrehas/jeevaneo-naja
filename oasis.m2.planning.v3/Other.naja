@@ -3,11 +3,7 @@
   <planifications task="//@categories.1/@tasks.0" load="320" maxLoadPerDay="2">
     <resource href="resources/AGI_97061a.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-07-27T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-28T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-29T00:00:00.000+0200" load="2"/>
       <schedules date="2009-07-30T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-07-31T00:00:00.000+0200" load="2"/>
       <schedules date="2009-08-03T00:00:00.000+0200" load="2"/>
       <schedules date="2009-08-04T00:00:00.000+0200" load="2"/>
       <schedules date="2009-08-05T00:00:00.000+0200" load="2"/>
@@ -78,6 +74,10 @@
       <schedules date="2009-11-20T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-23T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-24T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-11-25T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-11-26T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-11-27T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-11-30T00:00:00.000+0100" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>

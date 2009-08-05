@@ -237,12 +237,23 @@
   <imputations href="../TimeEntries/20090723.timeentries#//@entries.13/@imputation"/>
   <imputations href="../TimeEntries/20090724.timeentries#//@entries.7/@imputation"/>
   <imputations href="../TimeEntries/20090724.timeentries#//@entries.6/@imputation"/>
+  <imputations href="../TimeEntries/20090727.timeentries#//@entries.5/@imputation"/>
+  <imputations href="../TimeEntries/20090727.timeentries#//@entries.6/@imputation"/>
+  <imputations href="../TimeEntries/20090728.timeentries#//@entries.4/@imputation"/>
+  <imputations href="../TimeEntries/20090728.timeentries#//@entries.3/@imputation"/>
+  <imputations href="../TimeEntries/20090729.timeentries#//@entries.8/@imputation"/>
+  <imputations href="../TimeEntries/20090729.timeentries#//@entries.7/@imputation"/>
+  <imputations href="../TimeEntries/20090730.timeentries#//@entries.1/@imputation"/>
+  <imputations href="../TimeEntries/20090730.timeentries#//@entries.2/@imputation"/>
+  <imputations href="../TimeEntries/20090731.timeentries#//@entries.11/@imputation"/>
+  <imputations href="../TimeEntries/20090731.timeentries#//@entries.12/@imputation"/>
   <planifications href="../M2.naja#//@planifications.100"/>
   <planifications href="../M2.naja#//@planifications.126"/>
   <planifications href="../M2.naja#//@planifications.135"/>
   <planifications href="../M2.naja#//@planifications.1"/>
   <planifications href="../M2.naja#//@planifications.127"/>
-  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="6"/>
+  <availableSchedules date="2009-10-01T00:00:00.000+0200" load="6"/>
+  <availableSchedules date="2009-10-02T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-06T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-07T00:00:00.000+0200" load="8"/>
