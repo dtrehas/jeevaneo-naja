@@ -35,9 +35,8 @@
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.33/@imputation"/>
   <imputations href="../TimeEntries/20090316.timeentries#//@entries.68/@imputation"/>
   <imputations href="../TimeEntries/20090316.timeentries#//@entries.61/@imputation"/>
-  <imputations href="../conges.naja#//@imputations.163"/>
+  <imputations href="../conges.naja#//@imputations.161"/>
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.63/@imputation"/>
-  <imputations href="../conges.naja#//@imputations.162"/>
   <imputations href="../TimeEntries/20090601.timeentries#//@entries.19/@imputation"/>
   <imputations href="../TimeEntries/20090518.timeentries#//@entries.42/@imputation"/>
   <imputations href="../TimeEntries/20090420.timeentries#//@entries.18/@imputation"/>
@@ -93,7 +92,7 @@
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.62/@imputation"/>
   <imputations href="../conges.naja#//@imputations.24"/>
   <imputations href="../TimeEntries/20090525.timeentries#//@entries.69/@imputation"/>
-  <imputations href="../conges.naja#//@imputations.160"/>
+  <imputations href="../conges.naja#//@imputations.159"/>
   <imputations href="../TimeEntries/20090323.timeentries#//@entries.57/@imputation"/>
   <imputations href="../TimeEntries/20090601.timeentries#//@entries.24/@imputation"/>
   <imputations href="../TimeEntries/20090504.timeentries#//@entries.48/@imputation"/>
@@ -135,13 +134,12 @@
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.156/@imputation"/>
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.109/@imputation"/>
   <imputations href="../TimeEntries/20090316.timeentries#//@entries.69/@imputation"/>
-  <imputations href="../conges.naja#//@imputations.159"/>
   <imputations href="../TimeEntries/20090420.timeentries#//@entries.22/@imputation"/>
   <imputations href="../conges.naja#//@imputations.84"/>
   <imputations href="../TimeEntries/20090427.timeentries#//@entries.32/@imputation"/>
   <imputations href="../TimeEntries/20090105.timeentries#//@entries.429/@imputation"/>
   <imputations href="../TimeEntries/20090105.timeentries#//@entries.60/@imputation"/>
-  <imputations href="../conges.naja#//@imputations.164"/>
+  <imputations href="../conges.naja#//@imputations.162"/>
   <imputations href="../TimeEntries/20090105.timeentries#//@entries.24/@imputation"/>
   <imputations href="../TimeEntries/20090414.timeentries#//@entries.37/@imputation"/>
   <imputations href="../TimeEntries/20090518.timeentries#//@entries.45/@imputation"/>
@@ -168,7 +166,7 @@
   <imputations href="../TimeEntries/20090414.timeentries#//@entries.36/@imputation"/>
   <imputations href="../TimeEntries/20090309.timeentries#//@entries.40/@imputation"/>
   <imputations href="../TimeEntries/20090406.timeentries#//@entries.57/@imputation"/>
-  <imputations href="../conges.naja#//@imputations.161"/>
+  <imputations href="../conges.naja#//@imputations.160"/>
   <imputations href="../TimeEntries/20090316.timeentries#//@entries.67/@imputation"/>
   <imputations href="../TimeEntries/20090216.timeentries#//@entries.157/@imputation"/>
   <imputations href="../conges.naja#//@imputations.65"/>
@@ -248,7 +246,8 @@
   <planifications href="../M2.naja#//@planifications.169"/>
   <planifications href="../M2.naja#//@planifications.170"/>
   <planifications href="../M2.naja#//@planifications.171"/>
-  <availableSchedules date="2009-09-30T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-09-29T00:00:00.000+0200" load="4"/>
+  <availableSchedules date="2009-09-30T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-01T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-02T00:00:00.000+0200" load="8"/>
   <availableSchedules date="2009-10-05T00:00:00.000+0200" load="8"/>

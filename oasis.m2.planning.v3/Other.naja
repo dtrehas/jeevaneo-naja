@@ -43,8 +43,6 @@
       <schedules date="2009-10-07T00:00:00.000+0200" load="2"/>
       <schedules date="2009-10-08T00:00:00.000+0200" load="2"/>
       <schedules date="2009-10-09T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-10-12T00:00:00.000+0200" load="2"/>
-      <schedules date="2009-10-13T00:00:00.000+0200" load="2"/>
       <schedules date="2009-10-14T00:00:00.000+0200" load="2"/>
       <schedules date="2009-10-15T00:00:00.000+0200" load="2"/>
       <schedules date="2009-10-16T00:00:00.000+0200" load="2"/>
@@ -63,10 +61,6 @@
       <schedules date="2009-11-04T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-05T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-06T00:00:00.000+0100" load="2"/>
-      <schedules date="2009-11-09T00:00:00.000+0100" load="2"/>
-      <schedules date="2009-11-10T00:00:00.000+0100" load="2"/>
-      <schedules date="2009-11-12T00:00:00.000+0100" load="2"/>
-      <schedules date="2009-11-13T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-16T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-17T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-18T00:00:00.000+0100" load="2"/>
@@ -78,6 +72,12 @@
       <schedules date="2009-11-26T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-27T00:00:00.000+0100" load="2"/>
       <schedules date="2009-11-30T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-12-01T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-12-02T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-12-03T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-12-04T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-12-07T00:00:00.000+0100" load="2"/>
+      <schedules date="2009-12-08T00:00:00.000+0100" load="2"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.8/@imputation"/>
     <imputations href="TimeEntries/20090105.timeentries#//@entries.51/@imputation"/>
