@@ -756,6 +756,48 @@
   <imputations comment="Vacances AGI Nov" date="2009-11-16T00:00:00.000+0100" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/AGI_97061a.naja#/"/>
   </imputations>
+  <imputations comment="Réunion DI ALA - Point milieu période d'essai" date="2009-09-02T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Présentation DS2I aux nouveaux arrivants du DI" date="2009-09-09T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Présentation DCE aux nouveaux collaborateurs" date="2009-09-10T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Presentation CSI" date="2009-09-11T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Présentation de DSP" date="2009-09-16T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de service" date="2009-09-16T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Entretien individuel" date="2009-09-18T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de secteur" date="2009-09-22T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de service" date="2009-10-06T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - stage &quot;Présentation MAIF&quot;" date="2009-10-15T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="8">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de secteur" date="2009-10-20T00:00:00.000+0200" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de service" date="2009-11-03T00:00:00.000+0100" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de secteur" date="2009-11-17T00:00:00.000+0100" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
+  <imputations comment="Réunion DI ALA - Réunion de secteur" date="2009-12-15T00:00:00.000+0100" task="//@categories.0/@subcategories.0/@tasks.0" load="2">
+    <resource href="resources/ALA_97259d.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <subcategories name="Non OASIS">
       <tasks totalLoad="10" name="DI">
@@ -763,6 +805,20 @@
         <imputations href="TimeEntries/20090701.timeentries#//@entries.6/@imputation"/>
         <imputations href="TimeEntries/20090706.timeentries#//@entries.2/@imputation"/>
         <imputations href="TimeEntries/20090710.timeentries#//@entries.5/@imputation"/>
+        <imputations href="#//@imputations.252"/>
+        <imputations href="#//@imputations.253"/>
+        <imputations href="#//@imputations.254"/>
+        <imputations href="#//@imputations.255"/>
+        <imputations href="#//@imputations.256"/>
+        <imputations href="#//@imputations.257"/>
+        <imputations href="#//@imputations.258"/>
+        <imputations href="#//@imputations.259"/>
+        <imputations href="#//@imputations.260"/>
+        <imputations href="#//@imputations.261"/>
+        <imputations href="#//@imputations.262"/>
+        <imputations href="#//@imputations.263"/>
+        <imputations href="#//@imputations.264"/>
+        <imputations href="#//@imputations.265"/>
       </tasks>
     </subcategories>
     <tasks totalLoad="1972" name="Congés">
