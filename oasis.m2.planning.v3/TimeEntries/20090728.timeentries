@@ -9,22 +9,20 @@
       <planification href="../M2.naja#//@planifications.141"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Correctifs sur VISU/PRD (27270) et sur PRD (30705)" day="20090728" load="2">
+  <entries comment="[CetE] Correctifs sur VISU/PRD (27270) et sur PRD (30705)" day="20090728" load="2" wasPlanified="false">
     <resource href="../resources/DBR_97261j.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[CetE] Correctifs sur VISU/PRD (27270) et sur PRD (30705)" date="2009-07-28T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.3"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Recherche correctifs problematique Popups multiples 'Invalid Window Handle'" day="20090728" load="2">
+  <entries comment="[CetE] Recherche correctifs problematique Popups multiples 'Invalid Window Handle'" day="20090728" load="2" wasPlanified="false">
     <resource href="../resources/DBR_97261j.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[CetE] Recherche correctifs problematique Popups multiples 'Invalid Window Handle'" date="2009-07-28T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.3"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Suivi et qualification N3" day="20090728" load="6">
@@ -36,13 +34,12 @@
       <planification href="../M2.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="[CetE]Preparation livraison lot correctif du 06/08" day="20090728" load="2">
+  <entries comment="[CetE]Preparation livraison lot correctif du 06/08" day="20090728" load="2" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="[CetE]Preparation livraison lot correctif du 06/08" date="2009-07-28T00:00:00.000+0200" load="2">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Test et correctif OAO suite test DBR et PBR" day="20090728" load="8">

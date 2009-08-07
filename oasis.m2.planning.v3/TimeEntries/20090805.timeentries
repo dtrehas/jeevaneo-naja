@@ -54,13 +54,12 @@
       <planification href="../M7.naja#//@planifications.3"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] N3 Validation des correctifs du lot du 30/07 aupres des utilisateurs (Suite et Fin)" day="20090805" load="4">
+  <entries comment="[CetE] N3 Validation des correctifs du lot du 30/07 aupres des utilisateurs (Suite et Fin)" day="20090805" load="4" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="[CetE] N3 Validation des correctifs du lot du 30/07 aupres des utilisateurs (Suite et Fin)" date="2009-08-05T00:00:00.000+0200" load="4">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="N3 Suivi et qualification" day="20090805" load="4">

@@ -53,13 +53,12 @@
       <planification href="../M2.naja#//@planifications.172"/>
     </imputation>
   </entries>
-  <entries comment="Incident DER + probleme de token" day="20090716" load="4">
+  <entries comment="Incident DER + probleme de token" day="20090716" load="4" wasPlanified="false">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="Incident DER + probleme de token" date="2009-07-16T00:00:00.000+0200" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.92"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="CC: suppression de la pop up lorsque eclipse faile + ajout de svn:ignore + suppression des editeurs par default pour les .pas" day="20090716" load="4">
@@ -97,13 +96,12 @@
       <planification href="../M7.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="Preparation livraisons (Non reg livraison eventuelle du 20/07 + Validation prise en charge encours corriges sur socle et HG pour livraison le 30/07)" day="20090716" load="6">
+  <entries comment="Preparation livraisons (Non reg livraison eventuelle du 20/07 + Validation prise en charge encours corriges sur socle et HG pour livraison le 30/07)" day="20090716" load="6" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="Preparation livraisons (Non reg livraison eventuelle du 20/07 + Validation prise en charge encours corriges sur socle et HG pour livraison le 30/07)" date="2009-07-16T00:00:00.000+0200" load="6">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="N3 (Suivi qualification Incidents)" day="20090716" load="2">
