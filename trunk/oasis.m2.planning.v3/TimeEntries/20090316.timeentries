@@ -420,6 +420,11 @@
   <entries comment="N3 - Suivi Coordination et Qualification" day="20090316" load="8">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 - Suivi Coordination et Qualification" date="2009-03-16T00:00:00.000+0100" load="8">
+      <resource href="../resources/JLT_97940m.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.1"/>
+    </imputation>
   </entries>
   <entries comment="N3 - Suivi Coordination et Qualification" day="20090317" load="8">
     <resource href="../resources/JLT_97940m.naja#/"/>

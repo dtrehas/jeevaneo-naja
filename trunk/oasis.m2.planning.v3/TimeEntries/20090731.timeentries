@@ -9,13 +9,12 @@
       <planification href="../M2.naja#//@planifications.172"/>
     </imputation>
   </entries>
-  <entries comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." day="20090731" load="4">
+  <entries comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." day="20090731" load="4" wasPlanified="false">
     <resource href="../resources/ALA_97259d.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." date="2009-07-31T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.121"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="Support sur KLIF pb fabrication REF_COR + com avec G. de bony sur objets mails de workflow de livraison d'incident + migration mags et oasisisation sur slsvn004 " day="20090731" load="8">
@@ -45,13 +44,12 @@
       <planification href="../M2.naja#//@planifications.142"/>
     </imputation>
   </entries>
-  <entries comment="[CE] couleur des note au sommaire dans DOS" day="20090731" load="8">
+  <entries comment="[CE] couleur des note au sommaire dans DOS" day="20090731" load="8" wasPlanified="false">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[CE] couleur des note au sommaire dans DOS" date="2009-07-31T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="migration mags et oasisisation sur slsvn004 + overview perimetre M7/packaging avec MRO " day="20090731" load="4">
@@ -81,13 +79,12 @@
       <planification href="../M7.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="[GEODE] ZoopZoop magique" day="20090731" load="4">
+  <entries comment="[GEODE] ZoopZoop magique" day="20090731" load="4" wasPlanified="false">
     <resource href="../resources/DBR_97261j.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[GEODE] ZoopZoop magique" date="2009-07-31T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.3"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="Passage incidents / recap / mails" day="20090731" load="2">
@@ -108,22 +105,20 @@
       <planification href="../M2.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="[CetE]Livraison du 30/07 - Validation du lot correctif aupres des utilisateurs" day="20090731" load="2">
+  <entries comment="[CetE]Livraison du 30/07 - Validation du lot correctif aupres des utilisateurs" day="20090731" load="2" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="[CetE]Livraison du 30/07 - Validation du lot correctif aupres des utilisateurs" date="2009-07-31T00:00:00.000+0200" load="2">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
-  <entries comment="Pilotage M2 - aos CetE en particulier - Geode" day="20090731" load="8">
+  <entries comment="Pilotage M2 - aos CetE en particulier - Geode" day="20090731" load="8" wasPlanified="false">
     <resource href="../resources/ABO_97607k.naja#/"/>
     <externalId href="../TasksMappings.naja#pilotage"/>
     <imputation comment="Pilotage M2 - aos CetE en particulier - Geode" date="2009-07-31T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
-      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.104"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

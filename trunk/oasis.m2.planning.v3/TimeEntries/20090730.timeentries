@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
-  <entries comment="[GEODE] Test et correctif OAO suite test DBR et PBR" day="20090730" load="8">
+  <entries comment="[GEODE] Test et correctif OAO suite test DBR et PBR" day="20090730" load="8" wasPlanified="false">
     <resource href="../resources/ALA_97259d.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[GEODE] Test et correctif OAO suite test DBR et PBR" date="2009-07-30T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.121"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Suivi et validation aupres des utilisateurs correctifs MEP le 30/07/09" day="20090730" load="4">
+  <entries comment="[CetE] Suivi et validation aupres des utilisateurs correctifs MEP le 30/07/09" day="20090730" load="4" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="[CetE] Suivi et validation aupres des utilisateurs correctifs MEP le 30/07/09" date="2009-07-30T00:00:00.000+0200" load="4">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Suivi et qualification incidents encours" day="20090730" load="4">
@@ -54,22 +52,20 @@
       <planification href="../M2.naja#//@planifications.141"/>
     </imputation>
   </entries>
-  <entries comment="[GEODE] ZoopZoop magique" day="20090730" load="2">
+  <entries comment="[GEODE] ZoopZoop magique" day="20090730" load="2" wasPlanified="false">
     <resource href="../resources/DBR_97261j.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[GEODE] ZoopZoop magique" date="2009-07-30T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.3"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Correctifs / Passage en revue liste incidents urgent Thierry Blain" day="20090730" load="2">
+  <entries comment="[CetE] Correctifs / Passage en revue liste incidents urgent Thierry Blain" day="20090730" load="2" wasPlanified="false">
     <resource href="../resources/DBR_97261j.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[CetE] Correctifs / Passage en revue liste incidents urgent Thierry Blain" date="2009-07-30T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.3"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Recherche probleme de creation du fichier be.log en prod + relecture doc" day="20090730" load="2">
@@ -81,31 +77,28 @@
       <planification href="../M2.naja#//@planifications.3"/>
     </imputation>
   </entries>
-  <entries comment="[CE]com avec LTE pour la suppression des macro icones + [CE] couleur des note au sommaire dans DOS + Prise en compte des remarques de DBR sur la doc d'impact" day="20090730" load="4">
+  <entries comment="[CE]com avec LTE pour la suppression des macro icones + [CE] couleur des note au sommaire dans DOS + Prise en compte des remarques de DBR sur la doc d'impact" day="20090730" load="4" wasPlanified="false">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[CE]com avec LTE pour la suppression des macro icones + [CE] couleur des note au sommaire dans DOS + Prise en compte des remarques de DBR sur la doc d'impact" date="2009-07-30T00:00:00.000+0200" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
-  <entries comment="[GEODE] Preparation des postes pwf70030 et pwf70031 pour demo/tests en RMOE " day="20090730" load="2">
+  <entries comment="[GEODE] Preparation des postes pwf70030 et pwf70031 pour demo/tests en RMOE " day="20090730" load="2" wasPlanified="false">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[GEODE] Preparation des postes pwf70030 et pwf70031 pour demo/tests en RMOE " date="2009-07-30T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.92"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
-  <entries comment="Pilotage M2 - aos CetE en particulier - Geode" day="20090730" load="8">
+  <entries comment="Pilotage M2 - aos CetE en particulier - Geode" day="20090730" load="8" wasPlanified="false">
     <resource href="../resources/ABO_97607k.naja#/"/>
     <externalId href="../TasksMappings.naja#pilotage"/>
     <imputation comment="Pilotage M2 - aos CetE en particulier - Geode" date="2009-07-30T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
-      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.104"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

@@ -27,13 +27,12 @@
       <planification href="../M7.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Qualification des incidents 'Urgents' (Liste de TBL)" day="20090803" load="4">
+  <entries comment="[CetE] Qualification des incidents 'Urgents' (Liste de TBL)" day="20090803" load="4" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="[CetE] Qualification des incidents 'Urgents' (Liste de TBL)" date="2009-08-03T00:00:00.000+0200" load="4">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="N3 Suivi et qualification" day="20090803" load="2">
@@ -71,13 +70,12 @@
       <planification href="../M2.naja#//@planifications.141"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Evolution PRD" day="20090803" load="4">
+  <entries comment="[CetE] Evolution PRD" day="20090803" load="4" wasPlanified="false">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[CetE] Evolution PRD" date="2009-08-03T00:00:00.000+0200" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Ajout des test OASIS au doc d'impact GAT" day="20090803" load="2" wasPlanified="false">
@@ -93,8 +91,7 @@
     <externalId href="../TasksMappings.naja#pilotage"/>
     <imputation comment="[CetE] Suivi pour communication prise en compte, .." date="2009-08-03T00:00:00.000+0200" load="4">
       <resource href="../resources/ABO_97607k.naja#/"/>
-      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.104"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Pilotage" day="20090803" load="4">

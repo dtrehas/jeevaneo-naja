@@ -63,13 +63,12 @@
       <planification href="../M2.naja#//@planifications.3"/>
     </imputation>
   </entries>
-  <entries comment="[CetE] Support a KLIF pour la recette du lot correctif de OM2 a MEP le 30/03" day="20090729" load="6">
+  <entries comment="[CetE] Support a KLIF pour la recette du lot correctif de OM2 a MEP le 30/03" day="20090729" load="6" wasPlanified="false">
     <resource href="../resources/JLT_97940m.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
     <imputation comment="[CetE] Support a KLIF pour la recette du lot correctif de OM2 a MEP le 30/03" date="2009-07-29T00:00:00.000+0200" load="6">
       <resource href="../resources/JLT_97940m.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.1"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="N3 - Suivi et qualification " day="20090729" load="2">
@@ -81,13 +80,12 @@
       <planification href="../M2.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." day="20090729" load="4">
+  <entries comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." day="20090729" load="4" wasPlanified="false">
     <resource href="../resources/ALA_97259d.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." date="2009-07-29T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.121"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.3"/>
     </imputation>
   </entries>
   <entries comment="Test et correctif OAO suite test DBR et PBR" day="20090729" load="4">

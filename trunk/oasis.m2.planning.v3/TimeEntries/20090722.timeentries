@@ -62,13 +62,12 @@
       <planification href="../M2.naja#//@planifications.93"/>
     </imputation>
   </entries>
-  <entries comment="Incident 26634" day="20090722" load="4">
+  <entries comment="Incident 26634" day="20090722" load="4" wasPlanified="false">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
     <imputation comment="Incident 26634" date="2009-07-22T00:00:00.000+0200" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.92"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
   <entries comment="Doc d'impact gat" day="20090722" load="2">
