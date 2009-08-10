@@ -354,4 +354,7 @@
   <mappings externalId="tasks/M7supportReccurentNOE.task">
     <task href="M7.naja#//@categories.0/@subcategories.1/@tasks.0"/>
   </mappings>
+  <mappings externalId="tasks/N3-ProjetMajeur-Corr-CE.task">
+    <task href="M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
