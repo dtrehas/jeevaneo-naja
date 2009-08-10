@@ -78,12 +78,13 @@
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
     </imputation>
   </entries>
-  <entries comment="Ajout des test OASIS au doc d'impact GAT" day="20090803" load="2" wasPlanified="false">
+  <entries comment="Ajout des test OASIS au doc d'impact GAT" day="20090803" load="2" wasPlanified="true">
     <resource href="../resources/PBR_97488r.naja#/"/>
-    <externalId href="../TasksMappings.naja#tasks/Doc_SocleImpactsDelphi.task"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleNormeDev.task"/>
     <imputation comment="Ajout des test OASIS au doc d'impact GAT" date="2009-08-03T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.3/@subcategories.2/@tasks.1"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.2/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.47"/>
     </imputation>
   </entries>
   <entries comment="[CetE] Suivi pour communication prise en compte, .." day="20090803" load="4">

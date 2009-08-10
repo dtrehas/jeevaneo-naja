@@ -27,13 +27,13 @@
       <planification href="../M7.naja#//@planifications.1"/>
     </imputation>
   </entries>
-  <entries comment="Incident 3096, demande d'info, de le log " day="20090804" load="8">
+  <entries comment="[CetE] Incident 3096, demande d'info, de le log " day="20090804" load="8">
     <resource href="../resources/PBR_97488r.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
-    <imputation comment="Incident 3096, demande d'info, de le log " date="2009-08-04T00:00:00.000+0200" load="8">
+    <imputation comment="[CetE] Incident 3096, demande d'info, de le log " date="2009-08-04T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
-      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.189"/>
     </imputation>
   </entries>
   <entries comment="[CetE] Suivi pour communication prise en compte, .." day="20090804" load="6" wasPlanified="false">
