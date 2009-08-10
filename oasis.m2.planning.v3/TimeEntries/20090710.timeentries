@@ -42,7 +42,7 @@
     <imputation comment="Incident 29575" date="2009-07-10T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.92"/>
+      <planification href="../M2.naja#//@planifications.90"/>
     </imputation>
   </entries>
   <entries comment="Reunion" day="20090710" load="2">
@@ -59,7 +59,7 @@
     <imputation comment="Test OAO" date="2009-07-10T00:00:00.000+0200" load="6">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.172"/>
+      <planification href="../M2.naja#//@planifications.170"/>
     </imputation>
   </entries>
   <entries comment="Identification des acteurs sur chantier 4 + lecture docs divers" day="20090710" load="4">
@@ -104,7 +104,7 @@
     <imputation comment="Synthese quotidienne + synthese du vendredi + point resume ABO + suivi equipe" date="2009-07-10T00:00:00.000+0200" load="6">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.65"/>
+      <planification href="../M2.naja#//@planifications.63"/>
     </imputation>
   </entries>
   <entries comment="N3 : divers sujets sur la semaine + reunion avec JLT" day="20090710" load="2">
@@ -122,7 +122,7 @@
     <imputation comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" date="2009-07-10T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.93"/>
+      <planification href="../M2.naja#//@planifications.91"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

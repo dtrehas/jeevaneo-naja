@@ -6,7 +6,7 @@
     <imputation comment="TCO NCO Memoire/Injection DLL" date="2009-07-28T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.141"/>
+      <planification href="../M2.naja#//@planifications.139"/>
     </imputation>
   </entries>
   <entries comment="[CetE] Correctifs sur VISU/PRD (27270) et sur PRD (30705)" day="20090728" load="2" wasPlanified="false">
@@ -48,7 +48,7 @@
     <imputation comment="Test et correctif OAO suite test DBR et PBR" date="2009-07-28T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.172"/>
+      <planification href="../M2.naja#//@planifications.170"/>
     </imputation>
   </entries>
   <entries comment="Document de specifications sur chantier de decoupage fabrication par filiere" day="20090728" load="8">
@@ -66,7 +66,7 @@
     <imputation comment="Depillage de mail (suite et tuojours pas fin) - COPRO - suivi de la livraison corrective - calage des roles sur livraison corrective hors gat avec Bibi et Ludo - point sur TCO socle oasis" date="2009-07-28T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.104"/>
+      <planification href="../M2.naja#//@planifications.102"/>
     </imputation>
   </entries>
   <entries comment="TCO NCO Memoire/Injection DLL" day="20090728" load="6">
@@ -75,7 +75,7 @@
     <imputation comment="TCO NCO Memoire/Injection DLL" date="2009-07-28T00:00:00.000+0200" load="6">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.142"/>
+      <planification href="../M2.naja#//@planifications.140"/>
     </imputation>
   </entries>
   <entries comment="[CetE] Anomalie de la TFormRedim sur le changement de signature de PRD" day="20090728" load="8">
@@ -84,7 +84,7 @@
     <imputation comment="[CetE] Anomalie de la TFormRedim sur le changement de signature de PRD" date="2009-07-28T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.189"/>
+      <planification href="../M2.naja#//@planifications.187"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

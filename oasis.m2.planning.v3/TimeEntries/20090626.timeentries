@@ -15,7 +15,7 @@
     <imputation comment="Ano DEC/Test .." date="2009-06-26T00:00:00.000+0200" load="4">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="Mise a jour du catalogue et des LDAP" day="20090626" load="2" wasPlanified="false">
@@ -49,7 +49,7 @@
     <imputation comment="Recherche solution sur problematique DEC" date="2009-06-26T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.93"/>
+      <planification href="../M2.naja#//@planifications.91"/>
     </imputation>
   </entries>
   <entries comment="Preparation TP + TP CE" day="20090626" load="8">
@@ -84,7 +84,7 @@
     <imputation comment="Pilotage ABO 26/06" date="2009-06-26T00:00:00.000+0200" load="6">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.104"/>
+      <planification href="../M2.naja#//@planifications.102"/>
     </imputation>
   </entries>
   <entries comment="Conficker" day="20090626" load="2" wasPlanified="false">
@@ -101,7 +101,7 @@
     <imputation comment="Planning fin integration et synthese de l'avant-veille + integration de la veille + validation timeEntries pour saisie Ariane le vendredi soir" date="2009-06-26T00:00:00.000+0200" load="6">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.65"/>
+      <planification href="../M2.naja#//@planifications.63"/>
     </imputation>
   </entries>
   <entries comment="fin relecture Archi" day="20090626" load="2">
@@ -119,7 +119,7 @@
     <imputation comment="revues generale +prise en compte commentaires snorky" date="2009-06-26T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.83"/>
+      <planification href="../M2.naja#//@planifications.81"/>
     </imputation>
   </entries>
   <entries comment="TCO SPE" day="20090626" load="2">
