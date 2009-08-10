@@ -6,7 +6,7 @@
     <imputation comment="Test et correctif OAO suite test DBR et PBR" date="2009-07-31T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.172"/>
+      <planification href="../M2.naja#//@planifications.170"/>
     </imputation>
   </entries>
   <entries comment="[GEODE] Evolution du wrapper geode pour maximiser la vue lors d'un changement d'url." day="20090731" load="4" wasPlanified="false">
@@ -32,7 +32,7 @@
     <imputation comment="TCO NCO Hook/ActiveX" date="2009-07-31T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.141"/>
+      <planification href="../M2.naja#//@planifications.139"/>
     </imputation>
   </entries>
   <entries comment="TCO NCO Hook/ActiveX" day="20090731" load="8">
@@ -41,7 +41,7 @@
     <imputation comment="TCO NCO Hook/ActiveX" date="2009-07-31T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.142"/>
+      <planification href="../M2.naja#//@planifications.140"/>
     </imputation>
   </entries>
   <entries comment="[CE] couleur des note au sommaire dans DOS" day="20090731" load="8" wasPlanified="false">

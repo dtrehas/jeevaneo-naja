@@ -6,7 +6,7 @@
     <imputation comment="Synthese quotidienne" date="2009-07-08T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.65"/>
+      <planification href="../M2.naja#//@planifications.63"/>
     </imputation>
   </entries>
   <entries comment="Test + ajout des vues fictives dans la description XML des perspectives + export datas via OAO avec selection des attributs" day="20090708" load="8">
@@ -15,7 +15,7 @@
     <imputation comment="Test + ajout des vues fictives dans la description XML des perspectives + export datas via OAO avec selection des attributs" date="2009-07-08T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.172"/>
+      <planification href="../M2.naja#//@planifications.170"/>
     </imputation>
   </entries>
   <entries comment="Suivi equipe et divers sujets : OAO questions avec Stephane, N3 livraison incidents CetE : echange avec SRE, diverses discussions avec Grani sur livraison OAO de Decisionnel en KLIF" day="20090708" load="4">
@@ -32,7 +32,7 @@
     <imputation comment="1ere relecture du dossier Delphi" date="2009-07-08T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.85"/>
+      <planification href="../M2.naja#//@planifications.83"/>
     </imputation>
   </entries>
   <entries comment="Mise a disposition de postes pour tests de SPE et tests perf sur Dimos/GAT" day="20090708" load="2">
@@ -68,7 +68,7 @@
     <imputation comment="Problematique temps de lancement GRS" date="2009-07-08T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.93"/>
+      <planification href="../M2.naja#//@planifications.91"/>
     </imputation>
   </entries>
   <entries comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" day="20090708" load="4">
@@ -77,7 +77,7 @@
     <imputation comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" date="2009-07-08T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.93"/>
+      <planification href="../M2.naja#//@planifications.91"/>
     </imputation>
   </entries>
   <entries comment="Incident sur les labels de l'application 111 + incident sur la combo de VIC" day="20090708" load="6">
@@ -86,7 +86,7 @@
     <imputation comment="Incident sur les labels de l'application 111 + incident sur la combo de VIC" date="2009-07-08T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.92"/>
+      <planification href="../M2.naja#//@planifications.90"/>
     </imputation>
   </entries>
   <entries comment="le plugin rgo.be.systemtray bloque le process des TU" day="20090708" load="2">
@@ -95,7 +95,7 @@
     <imputation comment="le plugin rgo.be.systemtray bloque le process des TU" date="2009-07-08T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.92"/>
+      <planification href="../M2.naja#//@planifications.90"/>
     </imputation>
   </entries>
   <entries comment="correction dossier integration shapo" day="20090708" load="6">
@@ -104,7 +104,7 @@
     <imputation comment="correction dossier integration shapo" date="2009-07-08T00:00:00.000+0200" load="6">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.78"/>
+      <planification href="../M2.naja#//@planifications.76"/>
     </imputation>
   </entries>
   <entries comment="correction dossier integration HTML" day="20090708" load="2">
@@ -113,7 +113,7 @@
     <imputation comment="correction dossier integration HTML" date="2009-07-08T00:00:00.000+0200" load="2">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.86"/>
+      <planification href="../M2.naja#//@planifications.84"/>
     </imputation>
   </entries>
   <entries comment="Chantier 3 lot 2.2" day="20090708" load="4">
