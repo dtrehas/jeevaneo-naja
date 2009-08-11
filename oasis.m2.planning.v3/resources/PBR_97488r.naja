@@ -263,6 +263,20 @@
   <planifications href="../M2.naja#//@planifications.200"/>
   <planifications href="../M2.naja#//@planifications.203"/>
   <planifications href="../M2.naja#//@planifications.191"/>
+  <availableSchedules date="2009-11-20T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-11-23T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-26T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-27T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-30T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-01T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-03T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-04T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-07T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-08T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-12-09T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-11-23T00:00:00.000+0100" load="2"/>
   <availableSchedules date="2009-11-24T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-11-25T00:00:00.000+0100" load="8"/>
