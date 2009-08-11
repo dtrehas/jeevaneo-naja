@@ -6,7 +6,7 @@
     <imputation comment="Planning : integration timeEntries + synthese pour SRE" date="2009-06-29T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.63"/>
+      <planification href="../M2.naja#//@planifications.62"/>
     </imputation>
   </entries>
   <entries comment="COMO II" day="20090629" load="2">
@@ -32,7 +32,7 @@
     <imputation comment="Pilotage" date="2009-06-29T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.102"/>
+      <planification href="../M2.naja#//@planifications.101"/>
     </imputation>
   </entries>
   <entries comment="Pose BLS et com vers KLIF lot correctif S27 + Analyse et com pb REF_INT qui s'est declenche tout seul + Support ALI sur lock SVN + Analyse pb auto-update SOFIA" day="20090629" load="4">
@@ -41,7 +41,7 @@
     <imputation comment="Pose BLS et com vers KLIF lot correctif S27 + Analyse et com pb REF_INT qui s'est declenche tout seul + Support ALI sur lock SVN + Analyse pb auto-update SOFIA" date="2009-06-29T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.129"/>
+      <planification href="../M2.naja#//@planifications.128"/>
     </imputation>
   </entries>
   <entries comment="Point validation TCO CetE" day="20090629" load="2">
@@ -68,7 +68,7 @@
     <imputation comment="Qualification incidents, recherche correctifs" date="2009-06-29T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.91"/>
+      <planification href="../M2.naja#//@planifications.90"/>
     </imputation>
   </entries>
   <entries comment="documentation " day="20090629" load="2">
@@ -103,7 +103,7 @@
     <imputation comment="Integration Oao dans le BE" date="2009-06-29T00:00:00.000+0200" load="6">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.11"/>
-      <planification href="../M2.naja#//@planifications.173"/>
+      <planification href="../M2.naja#//@planifications.172"/>
     </imputation>
   </entries>
   <entries comment="Mise en place des lock et des reverts dans le CC Ldap->Xml" day="20090629" load="2">
@@ -121,7 +121,7 @@
     <imputation comment="doc" date="2009-06-29T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.84"/>
+      <planification href="../M2.naja#//@planifications.83"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

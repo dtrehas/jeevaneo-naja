@@ -132,21 +132,26 @@
   <imputations href="../TimeEntries/20090804.timeentries#//@entries.4/@imputation"/>
   <imputations href="../TimeEntries/20090806.timeentries#//@entries.10/@imputation"/>
   <imputations href="../TimeEntries/20090807.timeentries#//@entries.8/@imputation"/>
-  <planifications href="../M2.naja#//@planifications.102"/>
-  <planifications href="../M2.naja#//@planifications.193"/>
-  <planifications href="../M2.naja#//@planifications.200"/>
+  <planifications href="../M2.naja#//@planifications.101"/>
+  <planifications href="../M2.naja#//@planifications.192"/>
+  <planifications href="../M2.naja#//@planifications.199"/>
+  <planifications href="../M2.naja#//@planifications.205"/>
   <planifications href="../M2.naja#//@planifications.206"/>
   <planifications href="../M2.naja#//@planifications.207"/>
-  <availableSchedules date="2009-10-13T00:00:00.000+0200" load="6"/>
-  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-20T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-21T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-22T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="8"/>
-  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
+  <planifications href="../M2.naja#//@planifications.208"/>
+  <planifications href="../M2.naja#//@planifications.209"/>
+  <planifications href="../M2.naja#//@planifications.210"/>
+  <planifications href="../M2.naja#//@planifications.201"/>
+  <planifications href="../M2.naja#//@planifications.196"/>
+  <planifications href="../M2.naja#//@planifications.211"/>
+  <planifications href="../M2.naja#//@planifications.189"/>
+  <planifications href="../M2.naja#//@planifications.212"/>
+  <planifications href="../M2.naja#//@planifications.213"/>
+  <planifications href="../M2.naja#//@planifications.214"/>
+  <planifications href="../M2.naja#//@planifications.215"/>
+  <planifications href="../M2.naja#//@planifications.216"/>
+  <planifications href="../M2.naja#//@planifications.217"/>
+  <availableSchedules date="2009-10-26T00:00:00.000+0100" load="2"/>
   <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>

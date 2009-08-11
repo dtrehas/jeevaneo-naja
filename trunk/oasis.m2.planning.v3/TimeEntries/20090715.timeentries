@@ -6,7 +6,7 @@
     <imputation comment="Test + correctifs Vue fictive OAO (cas des suppressions" date="2009-07-15T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.170"/>
+      <planification href="../M2.naja#//@planifications.169"/>
     </imputation>
   </entries>
   <entries comment="Suivi recherche correctifs incidents wndprocex  (27554, 28068, 26883, 28550) + vic et pave envoi desactive (29957, 27933, 29595)" day="20090715" load="8">
@@ -15,7 +15,7 @@
     <imputation comment="Suivi recherche correctifs incidents wndprocex  (27554, 28068, 26883, 28550) + vic et pave envoi desactive (29957, 27933, 29595)" date="2009-07-15T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.91"/>
+      <planification href="../M2.naja#//@planifications.90"/>
     </imputation>
   </entries>
   <entries comment="Creation de 12 Ressources decisionnelles dans le LDAP de prod" day="20090715" load="4" wasPlanified="false">
