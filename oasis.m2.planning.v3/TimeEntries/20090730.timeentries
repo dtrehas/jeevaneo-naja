@@ -31,7 +31,7 @@
     <imputation comment="[CetE] Probleme de la fabrication de REF_COR (update --force foireux + import de projet eclipse)" date="2009-07-30T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.187"/>
+      <planification href="../M2.naja#//@planifications.186"/>
     </imputation>
   </entries>
   <entries comment="TCO NCO WndProc/Hook" day="20090730" load="8">
@@ -40,7 +40,7 @@
     <imputation comment="TCO NCO WndProc/Hook" date="2009-07-30T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.140"/>
+      <planification href="../M2.naja#//@planifications.139"/>
     </imputation>
   </entries>
   <entries comment="TCO NCO WndProc/Hook" day="20090730" load="2">
@@ -49,7 +49,7 @@
     <imputation comment="TCO NCO WndProc/Hook" date="2009-07-30T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.139"/>
+      <planification href="../M2.naja#//@planifications.138"/>
     </imputation>
   </entries>
   <entries comment="[GEODE] ZoopZoop magique" day="20090730" load="2" wasPlanified="false">
