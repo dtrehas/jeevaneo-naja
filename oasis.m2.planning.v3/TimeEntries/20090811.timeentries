@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Junit WidthSplitter (zoop zoop)" day="20090811" load="4">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_report.task"/>
+    <imputation comment="Junit WidthSplitter (zoop zoop)" date="2009-08-11T00:00:00.000+0200" load="4">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
+      <planification href="../M2.naja#//@planifications.169"/>
+    </imputation>
+  </entries>
+  <entries comment="Incident 31584: Verification de la conf de tous les wrappers + test CAR2 + check catalogue apres mise a jour (L'application 'Calculateur presentation couplee' est toujours dans le catalogue et devrait etre supprime. De plus le droit 0 associe existe dans le Ldap de prod mais plus l'application elle-meme)" day="20090811" load="2">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Incident 31584: Verification de la conf de tous les wrappers + test CAR2 + check catalogue apres mise a jour (L'application 'Calculateur presentation couplee' est toujours dans le catalogue et devrait etre supprime. De plus le droit 0 associe existe dans le Ldap de prod mais plus l'application elle-meme)" date="2009-08-11T00:00:00.000+0200" load="2">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.118"/>
+    </imputation>
+  </entries>
+  <entries comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" day="20090811" load="2">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_report.task"/>
+    <imputation comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" date="2009-08-11T00:00:00.000+0200" load="2">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
+      <planification href="../M2.naja#//@planifications.169"/>
+    </imputation>
+  </entries>
+  <entries comment="SWE/GATDebug" day="20090811" load="8">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="SWE/GATDebug" date="2009-08-11T00:00:00.000+0200" load="8">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="Reunion avec Gbad et Sre pour retours sur Archi - estimation : il reste environ 1jh pour boucler le doc." day="20090811" load="2" wasPlanified="false">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_Archi.task"/>
+    <imputation comment="Reunion avec Gbad et Sre pour retours sur Archi - estimation : il reste environ 1jh pour boucler le doc." date="2009-08-11T00:00:00.000+0200" load="2">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage ABO 11/08" day="20090811" load="6">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage ABO 11/08" date="2009-08-11T00:00:00.000+0200" load="6">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="Supervision N3" day="20090811" load="8">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Supervision N3" date="2009-08-11T00:00:00.000+0200" load="8">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Correction N3 + evol PRD" day="20090811" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Correction N3 + evol PRD" date="2009-08-11T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.186"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>

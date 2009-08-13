@@ -8,7 +8,7 @@
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
     </imputation>
   </entries>
-  <entries comment="Doc fichiers ini" day="20090713" load="2">
+  <entries comment="Doc fichiers ini" day="20090713" load="2" wasPlanified="false">
     <resource href="../resources/GBO_97589h.naja#/"/>
     <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
     <imputation comment="Doc fichiers ini" date="2009-07-13T00:00:00.000+0200" load="2">
