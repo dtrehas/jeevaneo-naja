@@ -31,10 +31,8 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
       <plugin id="com.ibm.icu"/>
@@ -42,6 +40,11 @@
       <plugin id="com.jeevaneo.naja.actions"/>
       <plugin id="com.jeevaneo.naja.edit"/>
       <plugin id="com.jeevaneo.naja.editor"/>
+      <plugin id="com.jeevaneo.naja.macrotask.validation"/>
+      <plugin id="com.jeevaneo.naja.macrotasks"/>
+      <plugin id="com.jeevaneo.naja.macrotasks.actions"/>
+      <plugin id="com.jeevaneo.naja.macrotasks.edit"/>
+      <plugin id="com.jeevaneo.naja.macrotasks.editor"/>
       <plugin id="com.jeevaneo.naja.timeentries"/>
       <plugin id="com.jeevaneo.naja.timeentries.edit"/>
       <plugin id="com.jeevaneo.naja.timeentries.editor"/>
@@ -198,6 +201,11 @@
       <plugin id="com.jeevaneo.naja.actions" autoStart="false" startLevel="0" />
       <plugin id="com.jeevaneo.naja.edit" autoStart="false" startLevel="0" />
       <plugin id="com.jeevaneo.naja.editor" autoStart="false" startLevel="0" />
+      <plugin id="com.jeevaneo.naja.macrotask.validation" autoStart="false" startLevel="0" />
+      <plugin id="com.jeevaneo.naja.macrotasks" autoStart="false" startLevel="0" />
+      <plugin id="com.jeevaneo.naja.macrotasks.actions" autoStart="false" startLevel="0" />
+      <plugin id="com.jeevaneo.naja.macrotasks.edit" autoStart="false" startLevel="0" />
+      <plugin id="com.jeevaneo.naja.macrotasks.editor" autoStart="false" startLevel="0" />
       <plugin id="com.jeevaneo.naja.timeentries" autoStart="false" startLevel="0" />
       <plugin id="com.jeevaneo.naja.timeentries.edit" autoStart="false" startLevel="0" />
       <plugin id="com.jeevaneo.naja.timeentries.editor" autoStart="false" startLevel="0" />

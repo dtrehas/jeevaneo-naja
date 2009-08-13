@@ -7,10 +7,11 @@ Bundle-Activator: com.jeevaneo.naja.validation.Activator
 Bundle-Vendor: JEEVANEO
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- com.jeevaneo.naja;bundle-version="1.0.0",
- org.eclipse.emf.validation,
+ com.jeevaneo.naja;bundle-version="1.0.0";visibility:=reexport,
+ org.eclipse.emf.validation;visibility:=reexport,
  org.eclipse.core.resources,
- com.jeevaneo.naja.timeentries;bundle-version="1.0.0"
+ com.jeevaneo.naja.timeentries;bundle-version="1.0.0";visibility:=reexport
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Export-Package: com.jeevaneo.naja.validation.startup
+Export-Package: com.jeevaneo.naja.validation,
+ com.jeevaneo.naja.validation.startup

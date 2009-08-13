@@ -41,7 +41,7 @@
                   severity="ERROR"
                   statusCode="com.jeevaneo.naja.validation.constraint2">
                <message>
-                  Imputation {0} : imput.planif.task!=imput.task
+                  Imputation {0} : imput.planif.task!=imput.task [{1} vs {2}]
                </message>
                <description>
                   imput.planif.task should equal imput.task
@@ -250,7 +250,7 @@
          <action
                class="com.jeevaneo.naja.validation.popup.actions.ValidationAction"
                enablesFor="*"
-               id="com.jeevaneo.naja.validation.newAction"
+               id="com.jeevaneo.naja.validation.validateAction"
                label="Validate!"
                menubarPath="com.jeevaneo.naja.validation.menu/group1">
          </action>
@@ -262,6 +262,63 @@
       <startup
             class="com.jeevaneo.naja.validation.startup.ValidatorRegisterer">
       </startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="com.jeevaneo.naja.validation.commands.category"
+            name="Sample Category">
+      </category>
+      <command
+            categoryId="com.jeevaneo.naja.validation.commands.category"
+            id="com.jeevaneo.naja.validation.commands.sampleCommand"
+            name="Sample Command">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.jeevaneo.naja.validation.handlers.TotalValidationHandler"
+            commandId="com.jeevaneo.naja.validation.commands.sampleCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.jeevaneo.naja.validation.commands.sampleCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+6">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="com.jeevaneo.naja.validation.menus.sampleMenu"
+               label="Sample Menu"
+               mnemonic="M">
+            <command
+                  commandId="com.jeevaneo.naja.validation.commands.sampleCommand"
+                  icon="icons/check.png"
+                  id="com.jeevaneo.naja.validation.menus.sampleCommand"
+                  mnemonic="S">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="com.jeevaneo.naja.validation.toolbars.sampleToolbar">
+            <command
+                  commandId="com.jeevaneo.naja.validation.commands.sampleCommand"
+                  icon="icons/check.png"
+                  id="com.jeevaneo.naja.validation.toolbars.sampleCommand"
+                  tooltip="Say hello world">
+            </command>
+         </toolbar>
+      </menuContribution>
    </extension>
 
 </plugin>

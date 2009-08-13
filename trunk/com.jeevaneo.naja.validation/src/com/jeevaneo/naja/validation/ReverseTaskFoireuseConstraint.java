@@ -1,10 +1,15 @@
 package com.jeevaneo.naja.validation;
 
 import org.eclipse.core.runtime.IStatus;
+import org.eclipse.emf.common.notify.Adapter;
+import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.common.notify.Notifier;
+import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.validation.AbstractModelConstraint;
 import org.eclipse.emf.validation.IValidationContext;
 
 import com.jeevaneo.naja.Imputation;
+import com.jeevaneo.naja.NajaPackage;
 import com.jeevaneo.naja.Task;
 
 public class ReverseTaskFoireuseConstraint extends AbstractModelConstraint {
@@ -33,6 +38,7 @@ public class ReverseTaskFoireuseConstraint extends AbstractModelConstraint {
 						}
 
 					} else {
+						
 						return ctx.createFailureStatus(imputation, task
 								.getLabel(), "no task");
 					}

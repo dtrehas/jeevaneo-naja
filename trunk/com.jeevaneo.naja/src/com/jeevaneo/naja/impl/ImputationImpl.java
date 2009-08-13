@@ -8,8 +8,10 @@ package com.jeevaneo.naja.impl;
 
 import java.util.Date;
 
+import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+import org.eclipse.emf.common.notify.Notifier;
 import org.eclipse.emf.common.notify.impl.AdapterImpl;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
@@ -148,6 +150,9 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 				switch(msg.getFeatureID(Imputation.class))
 				{
 				case NajaPackage.IMPUTATION__LOAD:
+				case NajaPackage.IMPUTATION__DATE:
+				case NajaPackage.IMPUTATION__RESOURCE:
+				case NajaPackage.IMPUTATION__TASK:
 					if(null!=getResource())
 					{
 						((PersonImpl)getResource()).recomputeAvailableSchedules();
@@ -206,6 +211,7 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 	 * @generated
 	 */
 	public void setDate(Date newDate) {
+//		System.out.println("imputation date gets set to " + newDate);
 		Date oldDate = date;
 		date = newDate;
 		if (eNotificationRequired())
@@ -340,6 +346,7 @@ public class ImputationImpl extends EObjectImpl implements Imputation {
 	 * @generated
 	 */
 	public void setTask(Task newTask) {
+		
 		if (newTask != task) {
 			NotificationChain msgs = null;
 			if (task != null)
