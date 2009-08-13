@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension
+         point="org.eclipse.emf.validation.constraintProviders">     
+      <constraintProvider
+            cache="true"
+            mode="Batch">
+         <package
+               namespaceUri="http://naja.jeevaneo.com/1.0">
+         </package>
+         <package
+               namespaceUri="http://naja.jeevaneo.com/macrotasks/1.0">
+         </package>
+         <constraints
+               categories="com.jeevaneo.naja.macrotasks.validation.category">
+            <constraint
+                  class="com.jeevaneo.naja.macrotask.validation.constraints.TaskHasAMacrotask"
+                  id="com.jeevaneo.naja.macrotasks.validation.constraint01"
+                  lang="Java"
+                  mode="Batch"
+                  name="Task has a macrotask"
+                  severity="WARNING"
+                  statusCode="com.jeevaneo.naja.macrotask.validation.constraint01">
+               <message>
+                  Task {0} has no attached macrotask
+               </message>
+               <description>
+                  Every task should be linked to a macrotask
+               </description>
+               <target
+                     class="Task">
+               </target>
+            </constraint>
+         </constraints>
+      </constraintProvider>
+      <category
+            id="com.jeevaneo.naja.macrotasks.validation.category"
+            mandatory="true"
+            name="Naja constraints">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.emf.validation.constraintBindings">
+      <clientContext
+            default="true"
+            id="com.jeevaneo.naja.validation.context">
+         <selector
+               class="com.jeevaneo.naja.validation.ClientSelector">
+         </selector>
+      </clientContext>
+      <binding
+            category="com.jeevaneo.naja.macrotasks.validation.category"
+            context="com.jeevaneo.naja.validation.context">
+      </binding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.jeevaneo.naja.macrotask.validation.startup.ValidatorRegisterer">
+      </startup>
+   </extension>
+</plugin>

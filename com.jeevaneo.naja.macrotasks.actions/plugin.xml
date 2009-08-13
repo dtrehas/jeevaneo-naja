@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="com.jeevaneo.naja.macrotasks.actions.contribution1"
+            objectClass="com.jeevaneo.naja.macrotasks.Macrotask">
+         <menu
+               id="com.jeevaneo.naja.macrotasks.actions.menu1"
+               label="Naja"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="com.jeevaneo.naja.macrotasks.actions.popup.InitializeMacrotaskAction"
+               enablesFor="1"
+               id="com.jeevaneo.naja.macrotasks.actions.newAction"
+               label="Initialize"
+               menubarPath="com.jeevaneo.naja.macrotasks.actions.menu1/group1">
+         </action>
+      </objectContribution>
+   </extension>
+
+
+</plugin>

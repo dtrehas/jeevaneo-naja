@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.jeevaneo.naja.macrotasks;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: 
+ com.jeevaneo.naja.macrotasks,
+ com.jeevaneo.naja.macrotasks.impl,
+ com.jeevaneo.naja.macrotasks.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ com.jeevaneo.naja;bundle-version="1.0.0";visibility:=reexport
+Bundle-ActivationPolicy: lazy
