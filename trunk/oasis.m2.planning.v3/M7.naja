@@ -165,8 +165,6 @@
   <planifications task="//@categories.3/@tasks.0" load="544" maxLoadPerDay="6">
     <resource href="resources/GBO_97589h.naja#/"/>
     <virtualImputation>
-      <schedules date="2009-08-11T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-08-12T00:00:00.000+0200" load="6"/>
       <schedules date="2009-08-13T00:00:00.000+0200" load="6"/>
       <schedules date="2009-08-14T00:00:00.000+0200" load="6"/>
       <schedules date="2009-08-17T00:00:00.000+0200" load="6"/>
@@ -199,7 +197,6 @@
       <schedules date="2009-09-23T00:00:00.000+0200" load="6"/>
       <schedules date="2009-09-24T00:00:00.000+0200" load="6"/>
       <schedules date="2009-09-25T00:00:00.000+0200" load="6"/>
-      <schedules date="2009-09-28T00:00:00.000+0200" load="6"/>
     </virtualImputation>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.15/@imputation"/>
     <imputations href="TimeEntries/20090511.timeentries#//@entries.16/@imputation"/>
@@ -257,6 +254,8 @@
     <imputations href="TimeEntries/20090806.timeentries#//@entries.0/@imputation"/>
     <imputations href="TimeEntries/20090807.timeentries#//@entries.0/@imputation"/>
     <imputations href="TimeEntries/20090810.timeentries#//@entries.5/@imputation"/>
+    <imputations href="TimeEntries/20090811.timeentries#//@entries.3/@imputation"/>
+    <imputations href="TimeEntries/20090812.timeentries#//@entries.0/@imputation"/>
   </planifications>
   <planifications task="//@categories.0/@subcategories.1/@tasks.0" load="130" maxLoadPerDay="2">
     <resource href="resources/AGI_97061a.naja#/"/>
@@ -654,6 +653,8 @@
       <imputations href="TimeEntries/20090806.timeentries#//@entries.0/@imputation"/>
       <imputations href="TimeEntries/20090807.timeentries#//@entries.0/@imputation"/>
       <imputations href="TimeEntries/20090810.timeentries#//@entries.5/@imputation"/>
+      <imputations href="TimeEntries/20090811.timeentries#//@entries.3/@imputation"/>
+      <imputations href="TimeEntries/20090812.timeentries#//@entries.0/@imputation"/>
     </tasks>
   </categories>
   <categories name="Reccurent">
