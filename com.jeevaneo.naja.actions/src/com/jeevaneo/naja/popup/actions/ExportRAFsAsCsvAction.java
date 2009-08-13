@@ -137,12 +137,12 @@ public class ExportRAFsAsCsvAction implements IObjectActionDelegate {
 						String name = null;
 						if (o instanceof Task) {
 							Task task = (Task) o;
-							name = task.getName();
+							name = Utils.fullname(task);
 							monitor.subTask("Task " + name);
 							planifications.addAll(task.getPlanifications());
 						} else {
 							Category category = (Category) o;
-							name = category.getName();
+							name = Utils.fullname(category);
 							monitor.subTask("Category " + name);
 							for (Task task : com.jeevaneo.naja.impl.Utils
 									.recursiveFindTasks(category)) {
@@ -201,7 +201,7 @@ public class ExportRAFsAsCsvAction implements IObjectActionDelegate {
 
 			private void print(PrintStream out, String what, int total, String who,
 					int loadInHours) {
-				if(loadInHours>0) out.printf("%s;%d;%s;%d;%s;\n", what, Utils
+				if(loadInHours>0) out.printf("%s;%s;%s;%s;%s;\n", what, Utils
 						.daysAndHours(total), who, loadInHours, Utils
 						.daysAndHours(loadInHours));
 			}

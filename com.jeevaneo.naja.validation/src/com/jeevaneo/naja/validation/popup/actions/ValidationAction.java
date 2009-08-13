@@ -45,7 +45,7 @@ public class ValidationAction implements IObjectActionDelegate {
 	 * @see IActionDelegate#run(IAction)
 	 */
 	public void run(IAction action) {
-
+		
 		ClientSelector.running = true;
 
 		IBatchValidator validator = (IBatchValidator) ModelValidationService
@@ -56,25 +56,24 @@ public class ValidationAction implements IObjectActionDelegate {
 		List<EObject> eObjects = new ArrayList<EObject>();
 		for (Object o : selection.toList()) {
 			if (o instanceof EObject) {
-				eObjects.add((EObject)o);
-//				if(o instanceof TimeEntries)
-//				{
-//					for(TimeEntry ty : ((TimeEntries)o).getEntries())
-//					{
-//						eObjects.add(ty);
-//					}
-//				}
+				eObjects.add((EObject) o);
+				// if(o instanceof TimeEntries)
+				// {
+				// for(TimeEntry ty : ((TimeEntries)o).getEntries())
+				// {
+				// eObjects.add(ty);
+				// }
+				// }
 			}
 		}
-			
-		for(EObject eo : eObjects)
-		{
-				IStatus status = validator.validate(eo);
-				try {
-					MarkerUtil.createMarkers(status);
-				} catch (CoreException e) {
-					Activator.getDefault().getLog().log(e.getStatus());
-				}
+
+		for (EObject eo : eObjects) {
+			IStatus status = validator.validate(eo);
+			try {
+				MarkerUtil.createMarkers(status);
+			} catch (CoreException e) {
+				Activator.getDefault().getLog().log(e.getStatus());
+			}
 		}
 		ClientSelector.running = false;
 	}

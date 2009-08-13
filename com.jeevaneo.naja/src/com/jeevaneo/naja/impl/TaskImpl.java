@@ -254,6 +254,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 * @generated
 	 */
 	public void setName(String newName) {
+//		System.out.println("task.setName(\""+newName+"\")");
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
@@ -327,6 +328,7 @@ public class TaskImpl extends EObjectImpl implements Task {
 	 * @generated
 	 */
 	public void setLabel(String newLabel) {
+//		System.out.println("task.label gets set to " + newLabel);
 		String oldLabel = label;
 		label = newLabel;
 		if (eNotificationRequired())
