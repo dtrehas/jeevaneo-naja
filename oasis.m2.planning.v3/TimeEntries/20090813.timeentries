@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="SWE/GATDebug" day="20090813" load="8">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="SWE/GATDebug" date="2009-08-13T00:00:00.000+0200" load="8">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="Doc : prise en compte retour et derniers ajustements" day="20090813" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleNormeDev.task"/>
+    <imputation comment="Doc : prise en compte retour et derniers ajustements" date="2009-08-13T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.5/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.191"/>
+    </imputation>
+  </entries>
+  <entries comment="Relecture, corrections et ajouts puis livraison" day="20090813" load="4" wasPlanified="false">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleNormeDev.task"/>
+    <imputation comment="Relecture, corrections et ajouts puis livraison" date="2009-08-13T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.5/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Comme demande par SRE, installation d'un OAO et configuration d'un ldap pour tests lundi prochain" day="20090813" load="2" wasPlanified="true">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_rmoe.task"/>
+    <imputation comment="Comme demande par SRE, installation d'un OAO et configuration d'un ldap pour tests lundi prochain" date="2009-08-13T00:00:00.000+0200" load="2">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.219"/>
+    </imputation>
+  </entries>
+  <entries comment="Point sur la RMOA (qui debutera mardi), reponses a W Balazot, demande de Moumoune pour une livraison de tbo.ini que finalement c'est pas nous .. etc." day="20090813" load="2">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Point sur la RMOA (qui debutera mardi), reponses a W Balazot, demande de Moumoune pour une livraison de tbo.ini que finalement c'est pas nous .. etc." date="2009-08-13T00:00:00.000+0200" load="2">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" day="20090813" load="6">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_rmoe.task"/>
+    <imputation comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" date="2009-08-13T00:00:00.000+0200" load="6">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.7"/>
+    </imputation>
+  </entries>
+  <entries comment="qualif synchro Ldap->Xml et OAO sur les attributs RespMetier RespInfo qui disparaissent" day="20090813" load="2">
+    <resource href="../resources/ALA_97259d.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="qualif synchro Ldap->Xml et OAO sur les attributs RespMetier RespInfo qui disparaissent" date="2009-08-13T00:00:00.000+0200" load="2">
+      <resource href="../resources/ALA_97259d.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.118"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi des incidents : divers qualif, .." day="20090813" load="8">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi des incidents : divers qualif, .." date="2009-08-13T00:00:00.000+0200" load="8">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.0"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
