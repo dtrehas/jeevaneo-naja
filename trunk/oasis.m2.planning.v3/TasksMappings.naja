@@ -73,10 +73,10 @@
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/Doc_SocleAPRE.task">
-    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.0"/>
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/Doc_STD.task">
-    <task href="M2.naja#//@categories.3/@tasks.2"/>
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/Doc_STG.task">
     <task href="M2.naja#//@categories.3/@tasks.1"/>
@@ -328,13 +328,13 @@
     <task href="M2.naja#//@categories.4/@subcategories.0/@subcategories.1/@subcategories.1/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/Doc_SocleImpactsDelphi.task">
-    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.1"/>
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/Doc_SocleConfTux.task">
-    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.2"/>
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.3"/>
   </mappings>
   <mappings externalId="tasks/Doc_SocleNormeDev.task">
-    <task href="M2.naja#//@categories.3/@subcategories.2/@tasks.3"/>
+    <task href="M2.naja#//@categories.3/@subcategories.5/@tasks.0"/>
   </mappings>
   <mappings externalId="tasks/CRTU_Corr.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@subcategories.0/@tasks.0"/>
