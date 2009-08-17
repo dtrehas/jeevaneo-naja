@@ -801,6 +801,9 @@
   <imputations comment="Absence MEL 17/07" date="2009-07-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/MEL_97302k.naja#/"/>
   </imputations>
+  <imputations comment="Congés MEL lundi 24/08" date="2009-08-24T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/MEL_97302k.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <subcategories name="Non OASIS">
       <tasks totalLoad="10" name="DI">
@@ -1085,6 +1088,7 @@
       <imputations href="#//@imputations.250"/>
       <imputations href="#//@imputations.251"/>
       <imputations href="#//@imputations.266"/>
+      <imputations href="#//@imputations.267"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>
