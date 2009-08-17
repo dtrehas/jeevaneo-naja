@@ -286,6 +286,7 @@
   <planifications href="../M2.naja#//@planifications.52"/>
   <planifications href="../M2.naja#//@planifications.12"/>
   <planifications href="../M2.naja#//@planifications.153"/>
+  <availableSchedules date="2009-10-23T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-10-26T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
