@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="correction du document" day="20090819" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntHTMLW.task"/>
+    <imputation comment="correction du document" date="2009-08-19T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.83"/>
+    </imputation>
+  </entries>
+  <entries comment="debut redaction specificites des adapteurs" day="20090819" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
+    <imputation comment="debut redaction specificites des adapteurs" date="2009-08-19T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.25"/>
+    </imputation>
+  </entries>
+  <entries comment="test delphi" day="20090819" load="8">
+    <resource href="../resources/NCO_09444n.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompNCO.task"/>
+    <imputation comment="test delphi" date="2009-08-19T00:00:00.000+0200" load="8">
+      <resource href="../resources/NCO_09444n.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.139"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi livraison redim COU et couleur DOS avec divers aller-retour GDE/BBB.. + tests VNR livraison" day="20090819" load="6">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Suivi livraison redim COU et couleur DOS avec divers aller-retour GDE/BBB.. + tests VNR livraison" date="2009-08-19T00:00:00.000+0200" load="6">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.185"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi livraison du 25/08 : tests VNR, suivi port dans COR puis BL lot.." day="20090819" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi livraison du 25/08 : tests VNR, suivi port dans COR puis BL lot.." date="2009-08-19T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.127"/>
+    </imputation>
+  </entries>
+  <entries comment="[CE] Probleme adresse de PRD et evol de DOS" day="20090819" load="6">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="[CE] Probleme adresse de PRD et evol de DOS" date="2009-08-19T00:00:00.000+0200" load="6">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.186"/>
+    </imputation>
+  </entries>
+  <entries comment="Merge divers et varier" day="20090819" load="2" wasPlanified="false">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Merge divers et varier" date="2009-08-19T00:00:00.000+0200" load="2">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>

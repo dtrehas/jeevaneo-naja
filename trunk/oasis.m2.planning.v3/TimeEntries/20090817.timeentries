@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Absence imprevue" day="20090817" load="4" wasPlanified="false">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/conges.task"/>
+    <imputation comment="Absence imprevue" date="2009-08-17T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../conges.naja#//@categories.0/@tasks.0"/>
+    </imputation>
+  </entries>
+  <entries comment="COMO et integration timeEntries" day="20090817" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Planning.task"/>
+    <imputation comment="COMO et integration timeEntries" date="2009-08-17T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.62"/>
+    </imputation>
+  </entries>
+  <entries comment="GIP : suivi incidents de la journee + suivi debut livraison" day="20090817" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="GIP : suivi incidents de la journee + suivi debut livraison" date="2009-08-17T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.0"/>
+    </imputation>
+  </entries>
+  <entries comment="tco win32 - delphi (aspiration de la fenetre calc dans une fenetre delphi)" day="20090817" load="8">
+    <resource href="../resources/NCO_09444n.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompNCO.task"/>
+    <imputation comment="tco win32 - delphi (aspiration de la fenetre calc dans une fenetre delphi)" date="2009-08-17T00:00:00.000+0200" load="8">
+      <resource href="../resources/NCO_09444n.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.139"/>
+    </imputation>
+  </entries>
+  <entries comment="mise a jour du document excel de suivi du tco" day="20090817" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompToNCO.task"/>
+    <imputation comment="mise a jour du document excel de suivi du tco" date="2009-08-17T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.126"/>
+    </imputation>
+  </entries>
+  <entries comment="correction du dossier integration shapo " day="20090817" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntHTMLW.task"/>
+    <imputation comment="correction du dossier integration shapo " date="2009-08-17T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.83"/>
+    </imputation>
+  </entries>
+  <entries comment="Chantier 3/4" day="20090817" load="8">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 3/4" date="2009-08-17T00:00:00.000+0200" load="8">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="[CE] Test/correctif redim PRD + evol de DOS" day="20090817" load="6">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="[CE] Test/correctif redim PRD + evol de DOS" date="2009-08-17T00:00:00.000+0200" load="6">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.186"/>
+    </imputation>
+  </entries>
+  <entries comment="Deploiement de OAO en RMOA + tests OAO en local : je n'ai pas fait la moitie des tests que je voulais .." day="20090817" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/OAO_rmoe.task"/>
+    <imputation comment="Deploiement de OAO en RMOA + tests OAO en local : je n'ai pas fait la moitie des tests que je voulais .." date="2009-08-17T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.219"/>
+    </imputation>
+  </entries>
+  <entries comment="Tests OAO : il n'existait pas de CC sur le lot 424 !!! Il reste du boulot : deployer le BE 424 en RMOA, et creer la branche 424 (la vraie, pas la fausse qui se trouve dans la filiere OAO !!!!!!!!" day="20090817" load="4" wasPlanified="false">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/ccMaint.task"/>
+    <imputation comment="Tests OAO : il n'existait pas de CC sur le lot 424 !!! Il reste du boulot : deployer le BE 424 en RMOA, et creer la branche 424 (la vraie, pas la fausse qui se trouve dans la filiere OAO !!!!!!!!" date="2009-08-17T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
+    </imputation>
+  </entries>
+  <entries comment="fenetrage reparenting" day="20090817" load="2">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompToNCO.task"/>
+    <imputation comment="fenetrage reparenting" date="2009-08-17T00:00:00.000+0200" load="2">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.138"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
