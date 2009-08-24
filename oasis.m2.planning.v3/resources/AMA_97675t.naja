@@ -271,6 +271,18 @@
   <imputations href="../TimeEntries/20090812.timeentries#//@entries.5/@imputation"/>
   <imputations href="../TimeEntries/20090813.timeentries#//@entries.7/@imputation"/>
   <imputations href="../TimeEntries/20090814.timeentries#//@entries.3/@imputation"/>
+  <imputations href="../TimeEntries/20090817.timeentries#//@entries.0/@imputation"/>
+  <imputations href="../TimeEntries/20090817.timeentries#//@entries.1/@imputation"/>
+  <imputations href="../TimeEntries/20090817.timeentries#//@entries.2/@imputation"/>
+  <imputations href="../TimeEntries/20090818.timeentries#//@entries.3/@imputation"/>
+  <imputations href="../TimeEntries/20090818.timeentries#//@entries.2/@imputation"/>
+  <imputations href="../TimeEntries/20090819.timeentries#//@entries.3/@imputation"/>
+  <imputations href="../TimeEntries/20090819.timeentries#//@entries.4/@imputation"/>
+  <imputations href="../TimeEntries/20090820.timeentries#//@entries.4/@imputation"/>
+  <imputations href="../TimeEntries/20090820.timeentries#//@entries.3/@imputation"/>
+  <imputations href="../TimeEntries/20090820.timeentries#//@entries.2/@imputation"/>
+  <imputations href="../TimeEntries/20090821.timeentries#//@entries.5/@imputation"/>
+  <imputations href="../TimeEntries/20090821.timeentries#//@entries.4/@imputation"/>
   <planifications href="../M2.naja#//@planifications.62"/>
   <planifications href="../M2.naja#//@planifications.95"/>
   <planifications href="../M2.naja#//@planifications.185"/>
@@ -298,7 +310,6 @@
   <planifications href="../M2.naja#//@planifications.56"/>
   <planifications href="../M2.naja#//@planifications.88"/>
   <planifications href="../M2.naja#//@planifications.220"/>
-  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="2"/>
   <availableSchedules date="2009-10-19T00:00:00.000+0200" load="7"/>
   <availableSchedules date="2009-10-20T00:00:00.000+0200" load="7"/>
   <availableSchedules date="2009-10-21T00:00:00.000+0200" load="7"/>
@@ -314,7 +325,7 @@
   <availableSchedules date="2009-11-04T00:00:00.000+0100" load="7"/>
   <availableSchedules date="2009-11-05T00:00:00.000+0100" load="7"/>
   <availableSchedules date="2009-11-06T00:00:00.000+0100" load="7"/>
-  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-11-09T00:00:00.000+0100" load="7"/>
   <availableSchedules date="2009-11-10T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-11-12T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-11-13T00:00:00.000+0100" load="8"/>

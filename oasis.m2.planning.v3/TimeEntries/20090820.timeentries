@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Chantier 3/4" day="20090820" load="8">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 3/4" date="2009-08-20T00:00:00.000+0200" load="8">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="Correction du probleme de svn:ignores + correction du probleme de renommage de rgo.businesshistory" day="20090820" load="4" wasPlanified="false">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/ccMaint.task"/>
+    <imputation comment="Correction du probleme de svn:ignores + correction du probleme de renommage de rgo.businesshistory" date="2009-08-20T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
+    </imputation>
+  </entries>
+  <entries comment="Preparation poste pour Patricia pour tests COU redim et DOS, puis echange avec elle.." day="20090820" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Preparation poste pour Patricia pour tests COU redim et DOS, puis echange avec elle.." date="2009-08-20T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.185"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi livraison : fin tests VNR, dde BLS, echange avec KLIF, correction fiche de tests suite modif BBB sur couleur de DOS" day="20090820" load="4">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi livraison : fin tests VNR, dde BLS, echange avec KLIF, correction fiche de tests suite modif BBB sur couleur de DOS" date="2009-08-20T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.127"/>
+    </imputation>
+  </entries>
+  <entries comment="Relecture Dossier Int. HTML" day="20090820" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntHTMLR.task"/>
+    <imputation comment="Relecture Dossier Int. HTML" date="2009-08-20T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.87"/>
+    </imputation>
+  </entries>
+  <entries comment="Couleurs de DOS, point avec Bea, avec Ghristophe et avec Patricia - redim COU : bug trouve - soucis GCL generation BLS M1 : tout est bien qui finit bien" day="20090820" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Couleurs de DOS, point avec Bea, avec Ghristophe et avec Patricia - redim COU : bug trouve - soucis GCL generation BLS M1 : tout est bien qui finit bien" date="2009-08-20T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="suite redaction" day="20090820" load="6">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
+    <imputation comment="suite redaction" date="2009-08-20T00:00:00.000+0200" load="6">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.25"/>
+    </imputation>
+  </entries>
+  <entries comment="debut tco ant" day="20090820" load="2">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompToNCO.task"/>
+    <imputation comment="debut tco ant" date="2009-08-20T00:00:00.000+0200" load="2">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.134"/>
+    </imputation>
+  </entries>
+  <entries comment="tco ant" day="20090820" load="8">
+    <resource href="../resources/NCO_09444n.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompNCO.task"/>
+    <imputation comment="tco ant" date="2009-08-20T00:00:00.000+0200" load="8">
+      <resource href="../resources/NCO_09444n.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.135"/>
+    </imputation>
+  </entries>
+  <entries comment="Incident 31843" day="20090820" load="6">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Incident 31843" date="2009-08-20T00:00:00.000+0200" load="6">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.186"/>
+    </imputation>
+  </entries>
+  <entries comment="Ajout avec ABO des svn:ignore" day="20090820" load="2">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/ccMaint.task"/>
+    <imputation comment="Ajout avec ABO des svn:ignore" date="2009-08-20T00:00:00.000+0200" load="2">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
+      <planification href="../M2.naja#//@planifications.184"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>

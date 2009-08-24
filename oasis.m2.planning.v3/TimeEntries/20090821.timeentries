@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Chantier 3/4" day="20090821" load="8">
+    <resource href="../resources/GBO_97589h.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="Chantier 3/4" date="2009-08-21T00:00:00.000+0200" load="8">
+      <resource href="../resources/GBO_97589h.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.2"/>
+    </imputation>
+  </entries>
+  <entries comment="Relecture du chapo - pas fini!!" day="20090821" load="2">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntShapoR.task"/>
+    <imputation comment="Relecture du chapo - pas fini!!" date="2009-08-21T00:00:00.000+0200" load="2">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.214"/>
+    </imputation>
+  </entries>
+  <entries comment="Tests de la 5eme ligne : bug trouve + travail avec Pierre sur ST APRE + merge de la vraie branche 424" day="20090821" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Tests de la 5eme ligne : bug trouve + travail avec Pierre sur ST APRE + merge de la vraie branche 424" date="2009-08-21T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="Lot du 25" day="20090821" load="2">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Lot du 25" date="2009-08-21T00:00:00.000+0200" load="2">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.218"/>
+    </imputation>
+  </entries>
+  <entries comment="Support KLIF pour MEP : pose BLS, envoie BLS, divers echanges repartis sur la semaine" day="20090821" load="4" wasPlanified="false">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
+    <imputation comment="Support KLIF pour MEP : pose BLS, envoie BLS, divers echanges repartis sur la semaine" date="2009-08-21T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.1"/>
+    </imputation>
+  </entries>
+  <entries comment="relecture HTML" day="20090821" load="4" wasPlanified="true">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntHTMLR.task"/>
+    <imputation comment="relecture HTML" date="2009-08-21T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.64"/>
+    </imputation>
+  </entries>
+  <entries comment="Documentation APRE" day="20090821" load="8">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleAPRE.task"/>
+    <imputation comment="Documentation APRE" date="2009-08-21T00:00:00.000+0200" load="8">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.51"/>
+    </imputation>
+  </entries>
+  <entries comment="suite redaction" day="20090821" load="8">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
+    <imputation comment="suite redaction" date="2009-08-21T00:00:00.000+0200" load="8">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.25"/>
+    </imputation>
+  </entries>
+  <entries comment="suite TCO ant" day="20090821" load="8">
+    <resource href="../resources/NCO_09444n.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompNCO.task"/>
+    <imputation comment="suite TCO ant" date="2009-08-21T00:00:00.000+0200" load="8">
+      <resource href="../resources/NCO_09444n.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.135"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
