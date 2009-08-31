@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Depilage mails" day="20090824" load="2" wasPlanified="false">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/supportEtLogistique.task"/>
+    <imputation comment="Depilage mails" date="2009-08-24T00:00:00.000+0200" load="2">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Recherche probleme sur fiche reponse non creee application 125 (probleme oasisisation)" day="20090824" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Recherche probleme sur fiche reponse non creee application 125 (probleme oasisisation)" date="2009-08-24T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.187"/>
+    </imputation>
+  </entries>
+  <entries comment="Qualif incidents" day="20090824" load="2">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Qualif incidents" date="2009-08-24T00:00:00.000+0200" load="2">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.187"/>
+    </imputation>
+  </entries>
+  <entries comment="Integration planning sem 34" day="20090824" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Planning.task"/>
+    <imputation comment="Integration planning sem 34" date="2009-08-24T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.62"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 : suivi KLIF de la livraison du 25/08, reception incident IRD, echange avec CetE, maj fichier incidents urgents TBL pour prioriser activite DBR, debut livraison 1/09" day="20090824" load="6">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="N3 : suivi KLIF de la livraison du 25/08, reception incident IRD, echange avec CetE, maj fichier incidents urgents TBL pour prioriser activite DBR, debut livraison 1/09" date="2009-08-24T00:00:00.000+0200" load="6">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.127"/>
+    </imputation>
+  </entries>
+  <entries comment="Pilotage ABO 20090824" day="20090824" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="Pilotage ABO 20090824" date="2009-08-24T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="relecture de l'archi" day="20090824" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_Archi.task"/>
+    <imputation comment="relecture de l'archi" date="2009-08-24T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.206"/>
+    </imputation>
+  </entries>
+  <entries comment="finalisation TCO ANT" day="20090824" load="2">
+    <resource href="../resources/NCO_09444n.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompNCO.task"/>
+    <imputation comment="finalisation TCO ANT" date="2009-08-24T00:00:00.000+0200" load="2">
+      <resource href="../resources/NCO_09444n.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.135"/>
+    </imputation>
+  </entries>
+  <entries comment="TCO - Presentation chantiers M7 a PH" day="20090824" load="8">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="TCO - Presentation chantiers M7 a PH" date="2009-08-24T00:00:00.000+0200" load="8">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Doc APRE" day="20090824" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleAPRE.task"/>
+    <imputation comment="Doc APRE" date="2009-08-24T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.51"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 PRD" day="20090824" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="N3 PRD" date="2009-08-24T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.89"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>

@@ -669,22 +669,16 @@
   <imputations comment="Absence NCO 10% non M2" date="2009-06-29T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
-  <imputations comment="Absence NCO 10% non M2" date="2009-07-15T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/NCO_09444n.naja#/"/>
-  </imputations>
-  <imputations comment="Absence NCO 10% non M2" date="2009-07-20T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
-    <resource href="resources/NCO_09444n.naja#/"/>
-  </imputations>
   <imputations comment="Absence NCO 10% non M2" date="2009-07-27T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
-  <imputations comment="Absence NCO 10% non M2" date="2009-08-03T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
+  <imputations comment="Absence NCO 10% non M2" date="2009-07-28T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="2">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
-  <imputations comment="Absence NCO 10% non M2" date="2009-08-17T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
+  <imputations comment="Absence NCO 10% non M2" date="2009-08-18T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="2">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
-  <imputations comment="Absence NCO 10% non M2" date="2009-08-24T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
+  <imputations comment="Absence NCO 10% non M2" date="2009-08-24T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="6">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
   <imputations comment="Absence NCO 10% non M2" date="2009-08-31T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="4">
@@ -849,13 +843,18 @@
   <imputations comment="Absence ABO 02/09" date="2009-09-02T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/ABO_97607k.naja#/"/>
   </imputations>
+  <imputations comment="Absence NCO 28/08" date="2009-08-28T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/NCO_09444n.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <subcategories name="Non OASIS">
-      <tasks totalLoad="10" name="DI">
-        <imputations href="#//@imputations.243"/>
+      <tasks totalLoad="44" name="DI">
+        <imputations href="#//@imputations.241"/>
         <imputations href="TimeEntries/20090701.timeentries#//@entries.6/@imputation"/>
         <imputations href="TimeEntries/20090706.timeentries#//@entries.2/@imputation"/>
         <imputations href="TimeEntries/20090710.timeentries#//@entries.5/@imputation"/>
+        <imputations href="#//@imputations.250"/>
+        <imputations href="#//@imputations.251"/>
         <imputations href="#//@imputations.252"/>
         <imputations href="#//@imputations.253"/>
         <imputations href="#//@imputations.254"/>
@@ -868,11 +867,9 @@
         <imputations href="#//@imputations.261"/>
         <imputations href="#//@imputations.262"/>
         <imputations href="#//@imputations.263"/>
-        <imputations href="#//@imputations.264"/>
-        <imputations href="#//@imputations.265"/>
       </tasks>
     </subcategories>
-    <tasks totalLoad="1972" name="Congés">
+    <tasks totalLoad="2110" name="Congés">
       <imputations href="#//@imputations.2"/>
       <imputations href="#//@imputations.3"/>
       <imputations href="#//@imputations.7"/>
@@ -1104,10 +1101,10 @@
       <imputations href="#//@imputations.220"/>
       <imputations href="#//@imputations.221"/>
       <imputations href="#//@imputations.222"/>
-      <imputations href="#//@imputations.223"/>
       <imputations href="#//@imputations.224"/>
-      <imputations href="#//@imputations.226"/>
+      <imputations href="#//@imputations.223"/>
       <imputations href="#//@imputations.225"/>
+      <imputations href="#//@imputations.226"/>
       <imputations href="#//@imputations.227"/>
       <imputations href="#//@imputations.228"/>
       <imputations href="#//@imputations.229"/>
@@ -1122,19 +1119,19 @@
       <imputations href="#//@imputations.238"/>
       <imputations href="#//@imputations.239"/>
       <imputations href="#//@imputations.240"/>
-      <imputations href="#//@imputations.241"/>
       <imputations href="#//@imputations.242"/>
+      <imputations href="#//@imputations.243"/>
       <imputations href="#//@imputations.244"/>
       <imputations href="#//@imputations.245"/>
       <imputations href="#//@imputations.246"/>
       <imputations href="#//@imputations.247"/>
       <imputations href="#//@imputations.248"/>
       <imputations href="#//@imputations.249"/>
-      <imputations href="#//@imputations.250"/>
-      <imputations href="#//@imputations.251"/>
+      <imputations href="#//@imputations.264"/>
+      <imputations href="#//@imputations.265"/>
+      <imputations href="TimeEntries/20090817.timeentries#//@entries.0/@imputation"/>
       <imputations href="#//@imputations.266"/>
       <imputations href="#//@imputations.267"/>
-      <imputations href="TimeEntries/20090817.timeentries#//@entries.0/@imputation"/>
       <imputations href="#//@imputations.268"/>
       <imputations href="#//@imputations.269"/>
       <imputations href="#//@imputations.270"/>
@@ -1149,7 +1146,6 @@
       <imputations href="#//@imputations.279"/>
       <imputations href="#//@imputations.280"/>
       <imputations href="#//@imputations.281"/>
-      <imputations href="#//@imputations.282"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>

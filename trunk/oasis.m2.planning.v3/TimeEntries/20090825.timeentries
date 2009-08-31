@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Soucis ged + CAR en preprod - resolu... Meme si Klif n'aura pas teste " day="20090825" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Soucis ged + CAR en preprod - resolu... Meme si Klif n'aura pas teste " date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.218"/>
+    </imputation>
+  </entries>
+  <entries comment="COPRO essentiellement " day="20090825" load="4">
+    <resource href="../resources/ABO_97607k.naja#/"/>
+    <externalId href="../TasksMappings.naja#pilotage"/>
+    <imputation comment="COPRO essentiellement " date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/ABO_97607k.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.101"/>
+    </imputation>
+  </entries>
+  <entries comment="Principalement incident 32251" day="20090825" load="8">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr-CE.task"/>
+    <imputation comment="Principalement incident 32251" date="2009-08-25T00:00:00.000+0200" load="8">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.187"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi livraison du 01/09 tests VNR 1er round : qq retours avec PBR" day="20090825" load="4">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi livraison du 01/09 tests VNR 1er round : qq retours avec PBR" date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.127"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi N3 : qualif. Incidents, suivi incidents IRD avec DBR" day="20090825" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi N3 : qualif. Incidents, suivi incidents IRD avec DBR" date="2009-08-25T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.127"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi livraison du 25/08, KLIF rame (lundi et mardi)" day="20090825" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/SupportMEP.task"/>
+    <imputation comment="Suivi livraison du 25/08, KLIF rame (lundi et mardi)" date="2009-08-25T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
+      <planification href="../M2.naja#//@planifications.122"/>
+    </imputation>
+  </entries>
+  <entries comment="lecture docs STG " day="20090825" load="8" wasPlanified="true">
+    <resource href="../resources/NCO_09444n.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompNCO.task"/>
+    <imputation comment="lecture docs STG " date="2009-08-25T00:00:00.000+0200" load="8">
+      <resource href="../resources/NCO_09444n.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
+      <planification href="../M2.naja#//@planifications.160"/>
+    </imputation>
+  </entries>
+  <entries comment="assistance NCO integration N2" day="20090825" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/transCompToNCO.task"/>
+    <imputation comment="assistance NCO integration N2" date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.159"/>
+    </imputation>
+  </entries>
+  <entries comment="lecture code adapteur GAT" day="20090825" load="4">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STD.task"/>
+    <imputation comment="lecture code adapteur GAT" date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.4"/>
+      <planification href="../M2.naja#//@planifications.194"/>
+    </imputation>
+  </entries>
+  <entries comment="SLSVN002 : analyse post-mortem + contact avec maintenance pour changement disque dur" day="20090825" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/GCLAdmin.task"/>
+    <imputation comment="SLSVN002 : analyse post-mortem + contact avec maintenance pour changement disque dur" date="2009-08-25T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.183"/>
+    </imputation>
+  </entries>
+  <entries comment="SLSVN005 : analyse post-mortem + contact avec LI pour procedure de re-installation" day="20090825" load="2">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/LI.task"/>
+    <imputation comment="SLSVN005 : analyse post-mortem + contact avec LI pour procedure de re-installation" date="2009-08-25T00:00:00.000+0200" load="2">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../Other.naja#//@categories.1/@tasks.0"/>
+      <planification href="../Other.naja#//@planifications.0"/>
+    </imputation>
+  </entries>
+  <entries comment="chantier builders par filiere : conception detaillee" day="20090825" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/M7.task"/>
+    <imputation comment="chantier builders par filiere : conception detaillee" date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M7.naja#//@categories.3/@tasks.0"/>
+      <planification href="../M7.naja#//@planifications.1"/>
+    </imputation>
+  </entries>
+  <entries comment="Doc APRE" day="20090825" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleAPRE.task"/>
+    <imputation comment="Doc APRE" date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.51"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 PRD" day="20090825" load="4">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="N3 PRD" date="2009-08-25T00:00:00.000+0200" load="4">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.89"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
