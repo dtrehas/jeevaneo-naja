@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<naja-te:TimeEntries xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:naja-te="http://naja.jeevaneo.com/timeentries/1.0">
+  <entries comment="Suivi livraison : envoi BLS a KLIF, echange avec Ludo car livraison" day="20090828" load="4">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi livraison : envoi BLS a KLIF, echange avec Ludo car livraison" date="2009-08-28T00:00:00.000+0200" load="4">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.127"/>
+    </imputation>
+  </entries>
+  <entries comment="Suivi N3 : qualif. Et suivi d'Incidents" day="20090828" load="2">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Supervis.task"/>
+    <imputation comment="Suivi N3 : qualif. Et suivi d'Incidents" date="2009-08-28T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.170"/>
+    </imputation>
+  </entries>
+  <entries comment="Suite relecture, pres a apporter correction mais pb absence SVN2, je n'ai pas la derniere revision :(" day="20090828" load="2" wasPlanified="false">
+    <resource href="../resources/AMA_97675t.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_DocIntHTMLR.task"/>
+    <imputation comment="Suite relecture, pres a apporter correction mais pb absence SVN2, je n'ai pas la derniere revision :(" date="2009-08-28T00:00:00.000+0200" load="2">
+      <resource href="../resources/AMA_97675t.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
+    </imputation>
+  </entries>
+  <entries comment="relecture (suite remarque nco)" day="20090828" load="8">
+    <resource href="../resources/MEL_97302k.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STG.task"/>
+    <imputation comment="relecture (suite remarque nco)" date="2009-08-28T00:00:00.000+0200" load="8">
+      <resource href="../resources/MEL_97302k.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.25"/>
+    </imputation>
+  </entries>
+  <entries comment="N3 optim formredim + incident IRD" day="20090828" load="6">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="N3 optim formredim + incident IRD" date="2009-08-28T00:00:00.000+0200" load="6">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.89"/>
+    </imputation>
+  </entries>
+  <entries comment="Doc APRE" day="20090828" load="2">
+    <resource href="../resources/PBR_97488r.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_SocleAPRE.task"/>
+    <imputation comment="Doc APRE" date="2009-08-28T00:00:00.000+0200" load="2">
+      <resource href="../resources/PBR_97488r.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.1"/>
+      <planification href="../M2.naja#//@planifications.51"/>
+    </imputation>
+  </entries>
+  <entries comment="Mise a jour documentation maifdata" day="20090828" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/Doc_STD.task"/>
+    <imputation comment="Mise a jour documentation maifdata" date="2009-08-28T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.7"/>
+      <planification href="../M2.naja#//@planifications.202"/>
+    </imputation>
+  </entries>
+  <entries comment="Incident 32325 (SRI) et 440 + 'veuillez terminer votre enchainement'" day="20090828" load="4">
+    <resource href="../resources/DBR_97261j.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/N3-ProjetMajeur-Corr.task"/>
+    <imputation comment="Incident 32325 (SRI) et 440 + 'veuillez terminer votre enchainement'" date="2009-08-28T00:00:00.000+0200" load="4">
+      <resource href="../resources/DBR_97261j.naja#/"/>
+      <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.3"/>
+    </imputation>
+  </entries>
+  <entries comment="Remise sur pied SLSVN005" day="20090828" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/LI.task"/>
+    <imputation comment="Remise sur pied SLSVN005" date="2009-08-28T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../Other.naja#//@categories.1/@tasks.0"/>
+      <planification href="../Other.naja#//@planifications.0"/>
+    </imputation>
+  </entries>
+  <entries comment="Reinstall SLSVN002" day="20090828" load="4">
+    <resource href="../resources/AGI_97061a.naja#/"/>
+    <externalId href="../TasksMappings.naja#tasks/GCLAdmin.task"/>
+    <imputation comment="Reinstall SLSVN002" date="2009-08-28T00:00:00.000+0200" load="4">
+      <resource href="../resources/AGI_97061a.naja#/"/>
+      <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
+      <planification href="../M2.naja#//@planifications.183"/>
+    </imputation>
+  </entries>
+</naja-te:TimeEntries>
