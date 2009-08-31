@@ -357,4 +357,16 @@
   <mappings externalId="tasks/N3-ProjetMajeur-Corr-CE.task">
     <task href="M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
   </mappings>
+  <mappings externalId="tasks/Doc_STD_NvoGat.task">
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.4"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_STD_JNI.task">
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.5"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_STD_MaifData.task">
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.7"/>
+  </mappings>
+  <mappings externalId="tasks/Doc_STD_SocleOasis.task">
+    <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.6"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
