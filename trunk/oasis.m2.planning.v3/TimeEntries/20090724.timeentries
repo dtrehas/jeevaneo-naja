@@ -6,7 +6,7 @@
     <imputation comment="TCO thread - processus" date="2009-07-24T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.138"/>
+      <planification href="../M2.naja#//@planifications.136"/>
     </imputation>
   </entries>
   <entries comment="Preparation du planning TCO et doc pour suivi pendant mes conges + integration rapport checkstyle dans cruise control" day="20090724" load="4">
@@ -15,7 +15,7 @@
     <imputation comment="Preparation du planning TCO et doc pour suivi pendant mes conges + integration rapport checkstyle dans cruise control" date="2009-07-24T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.126"/>
+      <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
   <entries comment="TCO thread - processus" day="20090724" load="8">
@@ -24,7 +24,7 @@
     <imputation comment="TCO thread - processus" date="2009-07-24T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.139"/>
+      <planification href="../M2.naja#//@planifications.137"/>
     </imputation>
   </entries>
   <entries comment="Test + correctifs OAO: gestion des profils (tache epuisee)" day="20090724" load="8">
@@ -87,7 +87,7 @@
     <imputation comment="Depilage de mails (plus que 95!) + validation des TimeEntries de la veille + point sur la livraison du 30/07 qui ne se fera plus le 30/07 mais le 06/08 :( + point sur la doc (RAFs et planning date par ressource) + point avec TCH sur livraison + intervention sur Citrix qui est bugge" date="2009-07-24T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Anomalie 05019" day="20090724" load="8" wasPlanified="false">

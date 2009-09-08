@@ -58,7 +58,7 @@
     <imputation comment="Correctifs sur la mise a jour d'oao non fonctionnelle lorsque deploye sur d'autre poste." date="2009-08-03T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="TCO NCO" day="20090803" load="2">
@@ -67,7 +67,7 @@
     <imputation comment="TCO NCO" date="2009-08-03T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.138"/>
+      <planification href="../M2.naja#//@planifications.136"/>
     </imputation>
   </entries>
   <entries comment="[CetE] Evolution PRD" day="20090803" load="4" wasPlanified="false">
@@ -101,7 +101,7 @@
     <imputation comment="Pilotage" date="2009-08-03T00:00:00.000+0200" load="4">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="depilage e-mail : 230 e-mails lus et classes" day="20090803" load="6">
@@ -110,7 +110,7 @@
     <imputation comment="depilage e-mail : 230 e-mails lus et classes" date="2009-08-03T00:00:00.000+0200" load="6">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Point ABO pour recup. Donnees de tout ce qui s'est passe" day="20090803" load="2">
@@ -119,7 +119,7 @@
     <imputation comment="Point ABO pour recup. Donnees de tout ce qui s'est passe" date="2009-08-03T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Formation Win32 : ActiveX" day="20090803" load="4">
@@ -128,7 +128,7 @@
     <imputation comment="Formation Win32 : ActiveX" date="2009-08-03T00:00:00.000+0200" load="4">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.139"/>
+      <planification href="../M2.naja#//@planifications.137"/>
     </imputation>
   </entries>
   <entries comment="Auto-formation Delphi" day="20090803" load="4" wasPlanified="false">

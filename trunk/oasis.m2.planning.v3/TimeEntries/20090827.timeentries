@@ -14,7 +14,7 @@
     <imputation comment="Point sur le TCO: 'adapters: c'est trop raide pour Nicolas, il faut plus de temps' - point sur N3: la correction de IRDB impacte beaucoup de composants: long a faire et TRES long a tester .." date="2009-08-27T00:00:00.000+0200" load="2">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="J'aurais pu le mettre dans Pilotage aussi, ou dans SupportetLogistique ,,, : reunion au batiment I avec GRS pour dire que c'est pas nous (le mainteneur de RMOx) .." day="20090827" load="4" wasPlanified="false">
@@ -49,7 +49,7 @@
     <imputation comment="Recherche problemes incident 30289 (crash dans DOS) et incident 30992" date="2009-08-27T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.187"/>
+      <planification href="../M2.naja#//@planifications.185"/>
     </imputation>
   </entries>
   <entries comment="integration n°2 - support NCO adapter GAT (1h le 26 et 1h le 27)" day="20090827" load="2">
@@ -58,7 +58,7 @@
     <imputation comment="integration n°2 - support NCO adapter GAT (1h le 26 et 1h le 27)" date="2009-08-27T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.159"/>
+      <planification href="../M2.naja#//@planifications.157"/>
     </imputation>
   </entries>
   <entries comment="Mise a jour documentation maifdata" day="20090827" load="2">
@@ -67,7 +67,7 @@
     <imputation comment="Mise a jour documentation maifdata" date="2009-08-27T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.7"/>
-      <planification href="../M2.naja#//@planifications.202"/>
+      <planification href="../M2.naja#//@planifications.200"/>
     </imputation>
   </entries>
   <entries comment="lecture code adapteur GAT" day="20090827" load="8">
@@ -76,7 +76,7 @@
     <imputation comment="lecture code adapteur GAT" date="2009-08-27T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.160"/>
+      <planification href="../M2.naja#//@planifications.158"/>
     </imputation>
   </entries>
   <entries comment="redaction STD nouveau GAT" day="20090827" load="8">
@@ -85,7 +85,7 @@
     <imputation comment="redaction STD nouveau GAT" date="2009-08-27T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.4"/>
-      <planification href="../M2.naja#//@planifications.194"/>
+      <planification href="../M2.naja#//@planifications.192"/>
     </imputation>
   </entries>
   <entries comment="Suivi livraison : port dans lot, re-tests, pose BLS.." day="20090827" load="8">
@@ -94,7 +94,7 @@
     <imputation comment="Suivi livraison : port dans lot, re-tests, pose BLS.." date="2009-08-27T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.127"/>
+      <planification href="../M2.naja#//@planifications.125"/>
     </imputation>
   </entries>
   <entries comment="N3 optim formredim + incident IRD" day="20090827" load="8">
@@ -103,7 +103,7 @@
     <imputation comment="N3 optim formredim + incident IRD" date="2009-08-27T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.89"/>
+      <planification href="../M2.naja#//@planifications.87"/>
     </imputation>
   </entries>
   <entries comment="Reunion batiment I sur alimentation environnement GRS" day="20090827" load="2">

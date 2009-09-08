@@ -14,7 +14,7 @@
     <imputation comment="Planning : preparation COMO exprts, .. + validation time entries sem-1 + point synthese glissement + debut integration timeEntries sem-1" date="2009-06-22T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Chantier 4" day="20090622" load="6">
@@ -31,7 +31,7 @@
     <imputation comment="Pres PRD (preparation et comm)" date="2009-06-22T00:00:00.000+0200" load="2">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.125"/>
+      <planification href="../M2.naja#//@planifications.123"/>
     </imputation>
   </entries>
   <entries comment="Qualification des incidents classifies urgent" day="20090622" load="4">
@@ -40,7 +40,7 @@
     <imputation comment="Qualification des incidents classifies urgent" date="2009-06-22T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Debut de recherche de correctifs pour les incidents classifies urgent" day="20090622" load="4">
@@ -49,7 +49,7 @@
     <imputation comment="Debut de recherche de correctifs pour les incidents classifies urgent" date="2009-06-22T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Livraison lot correctif de la semaine 26 (Suite et fin)" day="20090622" load="4">
@@ -112,7 +112,7 @@
     <imputation comment="Mise a jour OAO suite SFD" date="2009-06-22T00:00:00.000+0200" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Install poste OAO RMOA pour Isabelle BAZIREAU" day="20090622" load="2">
@@ -129,7 +129,7 @@
     <imputation comment="Mise a jour OAO suite SFD" date="2009-06-23T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Mise a jour du catalogue + ldap" day="20090623" load="4">
@@ -154,7 +154,7 @@
     <imputation comment="tco : redaction exercices win32-delphi (thread, injection dll, event, jni)" date="2009-06-23T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.80"/>
+      <planification href="../M2.naja#//@planifications.78"/>
     </imputation>
   </entries>
   <entries comment="COR : correction pb de pattern trop precis pour la definition des plugins communs" day="20090622" load="2">
@@ -181,7 +181,7 @@
     <imputation comment="Suivi CC et REF_COR + support sur GCF (pb de droits sur le slsvn004 )" date="2009-06-22T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="TCO CetE : Organisation du TP, tableau Excel perimetre du TCO, Documentation sur demande de dep" day="20090623" load="6">
@@ -199,7 +199,7 @@
     <imputation comment="CC Altair pour SPE" date="2009-06-23T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="Recherche correctifs sur 41Y" day="20090623" load="4">
@@ -208,7 +208,7 @@
     <imputation comment="Recherche correctifs sur 41Y" date="2009-06-23T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Recherche correctifs N3 (de cet crash AcroRead32 au dechargement de dll)" day="20090623" load="4">
@@ -217,7 +217,7 @@
     <imputation comment="Recherche correctifs N3 (de cet crash AcroRead32 au dechargement de dll)" date="2009-06-23T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Correction et point Delphi avec SPE" day="20090624" load="4">
@@ -234,7 +234,7 @@
     <imputation comment="Suite et fin integration timeEntries + synthese des points impactants" date="2009-06-23T00:00:00.000+0200" load="6">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="debut nouvelle organisation avec ABO pour optimisation remontee impacts + initialisation fichier de suivi des points delegues a SRE" day="20090623" load="2">
@@ -243,7 +243,7 @@
     <imputation comment="debut nouvelle organisation avec ABO pour optimisation remontee impacts + initialisation fichier de suivi des points delegues a SRE" date="2009-06-23T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Conficker sem derniere" day="20090622" load="8">
@@ -260,7 +260,7 @@
     <imputation comment="Pilotage ABO 23/06/09" date="2009-06-23T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Anos DEC/41Y" day="20090623" load="8">
@@ -269,7 +269,7 @@
     <imputation comment="Anos DEC/41Y" date="2009-06-23T00:00:00.000+0200" load="8">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.125"/>
+      <planification href="../M2.naja#//@planifications.123"/>
     </imputation>
   </entries>
   <entries comment="Planning : validation timeEntries Lundi et Mardi + synthese points impactants + suite nouvelle organisation pour prise en compte nouvelle orga" day="20090624" load="4">
@@ -287,7 +287,7 @@
     <imputation comment="Validation et test correctif pour 41Y, recherche des impacts sur rustines" date="2009-06-24T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Preparation livrables pour tests de DEC a Bessine" day="20090624" load="6">
@@ -296,7 +296,7 @@
     <imputation comment="Preparation livrables pour tests de DEC a Bessine" date="2009-06-24T00:00:00.000+0200" load="6">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.125"/>
+      <planification href="../M2.naja#//@planifications.123"/>
     </imputation>
   </entries>
   <entries comment="tco win32 - delphi : tests rpc + memoire partagee" day="20090624" load="6">
@@ -313,7 +313,7 @@
     <imputation comment="recherche solution + simple pour cc ldap" date="2009-06-24T00:00:00.000+0200" load="2">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.119"/>
+      <planification href="../M2.naja#//@planifications.117"/>
     </imputation>
   </entries>
   <entries comment="Mise a jour du catalogue.application" day="20090624" load="4">
@@ -393,7 +393,7 @@
     <imputation comment="Pilotage ABO 24/06/2009" date="2009-06-24T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="tco : redaction exercices win32-delphi (thread, injection dll, event, jni)" day="20090623" load="4">
@@ -402,7 +402,7 @@
     <imputation comment="tco : redaction exercices win32-delphi (thread, injection dll, event, jni)" date="2009-06-23T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.155"/>
+      <planification href="../M2.naja#//@planifications.153"/>
     </imputation>
   </entries>
   <entries comment="Planning : validation timeEntries Lundi et Mardi + synthese points impactants + suite nouvelle organisation pour prise en compte nouvelle orga" day="20090624" load="2">
@@ -427,7 +427,7 @@
     <imputation comment="Support MEP de lundi pb livraisons" date="2009-06-22T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.122"/>
+      <planification href="../M2.naja#//@planifications.120"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

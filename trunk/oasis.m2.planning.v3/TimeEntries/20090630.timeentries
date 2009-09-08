@@ -23,7 +23,7 @@
     <imputation comment="redaction exercices html" date="2009-06-30T00:00:00.000+0200" load="2">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.144"/>
+      <planification href="../M2.naja#//@planifications.142"/>
     </imputation>
   </entries>
   <entries comment="N3 (Suivi et qualification incidents + suivi livraison semaine 27)" day="20090630" load="8">
@@ -50,7 +50,7 @@
     <imputation comment="Dossier integration " date="2009-06-30T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.87"/>
+      <planification href="../M2.naja#//@planifications.85"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 30/06" day="20090630" load="8">
@@ -59,7 +59,7 @@
     <imputation comment="Pilotage ABO 30/06" date="2009-06-30T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Synthese quotidienne + tests naja + Conficker : maj poste" day="20090630" load="2">
@@ -68,7 +68,7 @@
     <imputation comment="Synthese quotidienne + tests naja + Conficker : maj poste" date="2009-06-30T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Chantier 4" day="20090629" load="6">
@@ -86,7 +86,7 @@
     <imputation comment="Suivi correctifs" date="2009-06-29T00:00:00.000+0200" load="2">
       <resource href="../resources/GBO_97589h.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.125"/>
+      <planification href="../M2.naja#//@planifications.123"/>
     </imputation>
   </entries>
   <entries comment="Chantier 4/ Banalisation Poste/Chantier 3 (JMT)" day="20090630" load="6">
@@ -113,7 +113,7 @@
     <imputation comment="N3 Qualif incidents et recherche correctifs, particulierement sur problematique vicf" date="2009-06-30T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Reunion Inge HG" day="20090630" load="4">

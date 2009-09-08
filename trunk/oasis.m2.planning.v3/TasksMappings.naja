@@ -159,7 +159,7 @@
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.2"/>
   </mappings>
   <mappings externalId="tasks/OAO_report.task">
-    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
+    <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.12"/>
   </mappings>
   <mappings externalId="tasks/OAO_rmoa.task">
     <task href="M2.naja#//@categories.5/@subcategories.0/@tasks.1"/>
@@ -257,7 +257,7 @@
   </mappings>
   <mappings externalId="tasks/immersion.task"/>
   <mappings externalId="tasks/supportDSII.task">
-    <task href="M2.naja#//@categories.7/@subcategories.2/@tasks.0"/>
+    <task href="M2.naja#//@categories.7/@subcategories.2/@tasks.1"/>
   </mappings>
   <mappings externalId="tasks/adminOao.task">
     <task href="M2.naja#//@categories.7/@subcategories.0/@tasks.12"/>
@@ -315,9 +315,7 @@
   <mappings externalId="tasks/Doc_DocIntWin32R.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.1"/>
   </mappings>
-  <mappings externalId="tasks/Dimos_docR.task">
-    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.5/@tasks.2"/>
-  </mappings>
+  <mappings externalId="tasks/Dimos_docR.task"/>
   <mappings externalId="tasks/GED_docR.task">
     <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.1"/>
   </mappings>

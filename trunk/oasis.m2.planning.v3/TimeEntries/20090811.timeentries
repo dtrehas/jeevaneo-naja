@@ -6,7 +6,7 @@
     <imputation comment="Junit WidthSplitter (zoop zoop)" date="2009-08-11T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Incident 31584: Verification de la conf de tous les wrappers + test CAR2 + check catalogue apres mise a jour (L'application 'Calculateur presentation couplee' est toujours dans le catalogue et devrait etre supprime. De plus le droit 0 associe existe dans le Ldap de prod mais plus l'application elle-meme)" day="20090811" load="2">
@@ -15,7 +15,7 @@
     <imputation comment="Incident 31584: Verification de la conf de tous les wrappers + test CAR2 + check catalogue apres mise a jour (L'application 'Calculateur presentation couplee' est toujours dans le catalogue et devrait etre supprime. De plus le droit 0 associe existe dans le Ldap de prod mais plus l'application elle-meme)" date="2009-08-11T00:00:00.000+0200" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <planification href="../M2.naja#//@planifications.116"/>
     </imputation>
   </entries>
   <entries comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" day="20090811" load="2">
@@ -24,7 +24,7 @@
     <imputation comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" date="2009-08-11T00:00:00.000+0200" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="SWE/GATDebug" day="20090811" load="8">
@@ -50,7 +50,7 @@
     <imputation comment="Pilotage ABO 11/08" date="2009-08-11T00:00:00.000+0200" load="6">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Supervision N3" day="20090811" load="8">
@@ -68,7 +68,7 @@
     <imputation comment="Correction N3 + evol PRD" date="2009-08-11T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.186"/>
+      <planification href="../M2.naja#//@planifications.184"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

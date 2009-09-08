@@ -6,7 +6,7 @@
     <imputation comment="Synthese quotidienne et suivi de l'equipe : qq question sur 421 notamment" date="2009-07-07T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="1ere relecture du dossier HTML" day="20090707" load="4">
@@ -15,7 +15,7 @@
     <imputation comment="1ere relecture du dossier HTML" date="2009-07-07T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.87"/>
+      <planification href="../M2.naja#//@planifications.85"/>
     </imputation>
   </entries>
   <entries comment="1ere relecture du dossier GAT" day="20090707" load="2">
@@ -24,7 +24,7 @@
     <imputation comment="1ere relecture du dossier GAT" date="2009-07-07T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.2/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.86"/>
+      <planification href="../M2.naja#//@planifications.84"/>
     </imputation>
   </entries>
   <entries comment="Problematique de desynchro ldap de test / poste de test + recherche correctif pour probleme de l'utilisation de maifPaveDeci=TRUE dans la requete ldap" day="20090707" load="4">
@@ -33,7 +33,7 @@
     <imputation comment="Problematique de desynchro ldap de test / poste de test + recherche correctif pour probleme de l'utilisation de maifPaveDeci=TRUE dans la requete ldap" date="2009-07-07T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" day="20090707" load="4">
@@ -42,7 +42,7 @@
     <imputation comment="Qualif recherche solutions sur problematique plantages wndprocex (27554, 28068, 26883, 28550)" date="2009-07-07T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Fin montage des postes CetE" day="20090707" load="2">
@@ -77,7 +77,7 @@
     <imputation comment="Passe SFD OAO + Tests" date="2009-07-07T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Preparation livraison de l'evol (421 + Correctifs reportes du socle et eclipse)" day="20090707" load="4">
@@ -104,7 +104,7 @@
     <imputation comment="correction dossier integration shapo" date="2009-07-07T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.75"/>
+      <planification href="../M2.naja#//@planifications.73"/>
     </imputation>
   </entries>
   <entries comment="Test des incidents avec les correctifs de DBR, comparaison entre SOFIA et OASIS sur la gestion de la tabulation " day="20090707" load="8">
@@ -113,7 +113,7 @@
     <imputation comment="Test des incidents avec les correctifs de DBR, comparaison entre SOFIA et OASIS sur la gestion de la tabulation " date="2009-07-07T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.89"/>
+      <planification href="../M2.naja#//@planifications.87"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

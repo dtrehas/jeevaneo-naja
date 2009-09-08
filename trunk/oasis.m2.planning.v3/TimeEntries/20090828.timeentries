@@ -6,7 +6,7 @@
     <imputation comment="Suivi livraison : envoi BLS a KLIF, echange avec Ludo car livraison" date="2009-08-28T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.127"/>
+      <planification href="../M2.naja#//@planifications.125"/>
     </imputation>
   </entries>
   <entries comment="Suivi N3 : qualif. Et suivi d'Incidents" day="20090828" load="2">
@@ -15,7 +15,7 @@
     <imputation comment="Suivi N3 : qualif. Et suivi d'Incidents" date="2009-08-28T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.170"/>
+      <planification href="../M2.naja#//@planifications.168"/>
     </imputation>
   </entries>
   <entries comment="Suite relecture, pres a apporter correction mais pb absence SVN2, je n'ai pas la derniere revision :(" day="20090828" load="2" wasPlanified="false">
@@ -41,7 +41,7 @@
     <imputation comment="N3 optim formredim + incident IRD" date="2009-08-28T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.89"/>
+      <planification href="../M2.naja#//@planifications.87"/>
     </imputation>
   </entries>
   <entries comment="Doc APRE" day="20090828" load="2">
@@ -59,7 +59,7 @@
     <imputation comment="Mise a jour documentation maifdata" date="2009-08-28T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.4/@tasks.7"/>
-      <planification href="../M2.naja#//@planifications.202"/>
+      <planification href="../M2.naja#//@planifications.200"/>
     </imputation>
   </entries>
   <entries comment="Incident 32325 (SRI) et 440 + 'veuillez terminer votre enchainement'" day="20090828" load="4">
@@ -86,7 +86,7 @@
     <imputation comment="Reinstall SLSVN002" date="2009-08-28T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.183"/>
+      <planification href="../M2.naja#//@planifications.181"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>
