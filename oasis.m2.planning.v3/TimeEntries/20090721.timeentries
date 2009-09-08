@@ -33,7 +33,7 @@
     <imputation comment="(Debut de) prise de connaissance au retour de conges - pb FAX/Maifdata" date="2009-07-21T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Klif Ano prod pb conf maifdata" day="20090721" load="2" wasPlanified="false">
@@ -76,7 +76,7 @@
     <imputation comment="Probleme d'affectation a debsiebel mais pas a siebel" date="2009-07-21T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <planification href="../M2.naja#//@planifications.116"/>
     </imputation>
   </entries>
   <entries comment="Regression du au remplacement recherche de wrapper par id de service par id de wrapper" day="20090721" load="4">
@@ -102,7 +102,7 @@
     <imputation comment="CC + TU" date="2009-07-21T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.89"/>
+      <planification href="../M2.naja#//@planifications.87"/>
     </imputation>
   </entries>
   <entries comment="Report correctifs urgents (CE) vers corbis" day="20090721" load="2" wasPlanified="false">
@@ -127,7 +127,7 @@
     <imputation comment="passe le test de pre requis C++" date="2009-07-21T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.139"/>
+      <planification href="../M2.naja#//@planifications.137"/>
     </imputation>
   </entries>
   <entries comment="suivi evaluation c++" day="20090721" load="4">
@@ -136,7 +136,7 @@
     <imputation comment="suivi evaluation c++" date="2009-07-21T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.138"/>
+      <planification href="../M2.naja#//@planifications.136"/>
     </imputation>
   </entries>
   <entries comment="ajout trace au document genere" day="20090721" load="4">
@@ -145,7 +145,7 @@
     <imputation comment="ajout trace au document genere" date="2009-07-21T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.175"/>
+      <planification href="../M2.naja#//@planifications.173"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

@@ -225,47 +225,60 @@
   <imputations href="../TimeEntries/20090826.timeentries#//@entries.5/@imputation"/>
   <imputations href="../TimeEntries/20090827.timeentries#//@entries.9/@imputation"/>
   <imputations href="../TimeEntries/20090828.timeentries#//@entries.3/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.32/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.7/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.51/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.19/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.50/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.30/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.31/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.8/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.18/@imputation"/>
+  <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.20/@imputation"/>
   <planifications href="../M2.naja#//@planifications.37"/>
-  <planifications href="../M2.naja#//@planifications.96"/>
-  <planifications href="../M2.naja#//@planifications.104"/>
+  <planifications href="../M2.naja#//@planifications.94"/>
   <planifications href="../M2.naja#//@planifications.102"/>
+  <planifications href="../M2.naja#//@planifications.100"/>
   <planifications href="../M2.naja#//@planifications.26"/>
   <planifications href="../M2.naja#//@planifications.6"/>
-  <planifications href="../M2.naja#//@planifications.110"/>
-  <planifications href="../M2.naja#//@planifications.11"/>
-  <planifications href="../M2.naja#//@planifications.59"/>
-  <planifications href="../M2.naja#//@planifications.126"/>
-  <planifications href="../M2.naja#//@planifications.173"/>
-  <planifications href="../M2.naja#//@planifications.134"/>
   <planifications href="../M2.naja#//@planifications.108"/>
+  <planifications href="../M2.naja#//@planifications.11"/>
+  <planifications href="../M2.naja#//@planifications.58"/>
+  <planifications href="../M2.naja#//@planifications.124"/>
+  <planifications href="../M2.naja#//@planifications.171"/>
+  <planifications href="../M2.naja#//@planifications.132"/>
+  <planifications href="../M2.naja#//@planifications.106"/>
   <planifications href="../M2.naja#//@planifications.22"/>
   <planifications href="../M2.naja#//@planifications.13"/>
   <planifications href="../M2.naja#//@planifications.14"/>
-  <planifications href="../M2.naja#//@planifications.119"/>
-  <planifications href="../M2.naja#//@planifications.175"/>
-  <planifications href="../M2.naja#//@planifications.176"/>
+  <planifications href="../M2.naja#//@planifications.117"/>
+  <planifications href="../M2.naja#//@planifications.173"/>
+  <planifications href="../M2.naja#//@planifications.174"/>
   <planifications href="../M2.naja#//@planifications.15"/>
-  <planifications href="../M2.naja#//@planifications.65"/>
+  <planifications href="../M2.naja#//@planifications.64"/>
+  <planifications href="../M2.naja#//@planifications.153"/>
+  <planifications href="../M2.naja#//@planifications.81"/>
+  <planifications href="../M2.naja#//@planifications.142"/>
+  <planifications href="../M2.naja#//@planifications.67"/>
   <planifications href="../M2.naja#//@planifications.155"/>
-  <planifications href="../M2.naja#//@planifications.83"/>
-  <planifications href="../M2.naja#//@planifications.144"/>
-  <planifications href="../M2.naja#//@planifications.68"/>
-  <planifications href="../M2.naja#//@planifications.157"/>
-  <planifications href="../M2.naja#//@planifications.75"/>
+  <planifications href="../M2.naja#//@planifications.73"/>
+  <planifications href="../M2.naja#//@planifications.76"/>
   <planifications href="../M2.naja#//@planifications.78"/>
-  <planifications href="../M2.naja#//@planifications.80"/>
-  <planifications href="../M2.naja#//@planifications.85"/>
-  <planifications href="../M2.naja#//@planifications.55"/>
-  <planifications href="../M2.naja#//@planifications.70"/>
-  <planifications href="../M2.naja#//@planifications.69"/>
+  <planifications href="../M2.naja#//@planifications.83"/>
+  <planifications href="../M2.naja#//@planifications.54"/>
+  <planifications href="../M2.naja#//@planifications.68"/>
   <planifications href="../M2.naja#//@planifications.25"/>
   <planifications href="../M2.naja#//@planifications.53"/>
-  <planifications href="../M2.naja#//@planifications.130"/>
+  <planifications href="../M2.naja#//@planifications.128"/>
   <planifications href="../M2.naja#//@planifications.42"/>
   <planifications href="../M7.naja#//@planifications.0"/>
-  <planifications href="../M2.naja#//@planifications.190"/>
-  <planifications href="../M2.naja#//@planifications.195"/>
-  <planifications href="../M2.naja#//@planifications.204"/>
+  <planifications href="../M2.naja#//@planifications.188"/>
+  <planifications href="../M2.naja#//@planifications.193"/>
+  <planifications href="../M2.naja#//@planifications.202"/>
+  <availableSchedules date="2009-10-14T00:00:00.000+0200" load="1"/>
+  <availableSchedules date="2009-10-15T00:00:00.000+0200" load="3"/>
+  <availableSchedules date="2009-10-16T00:00:00.000+0200" load="3"/>
+  <availableSchedules date="2009-10-19T00:00:00.000+0200" load="3"/>
   <availableSchedules date="2009-10-20T00:00:00.000+0200" load="3"/>
   <availableSchedules date="2009-10-21T00:00:00.000+0200" load="3"/>
   <availableSchedules date="2009-10-22T00:00:00.000+0200" load="3"/>
@@ -284,10 +297,10 @@
   <availableSchedules date="2009-11-10T00:00:00.000+0100" load="3"/>
   <availableSchedules date="2009-11-12T00:00:00.000+0100" load="3"/>
   <availableSchedules date="2009-11-13T00:00:00.000+0100" load="3"/>
-  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="4"/>
-  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="4"/>
+  <availableSchedules date="2009-11-16T00:00:00.000+0100" load="3"/>
+  <availableSchedules date="2009-11-17T00:00:00.000+0100" load="3"/>
+  <availableSchedules date="2009-11-18T00:00:00.000+0100" load="3"/>
+  <availableSchedules date="2009-11-19T00:00:00.000+0100" load="3"/>
   <availableSchedules date="2009-11-20T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-11-23T00:00:00.000+0100" load="4"/>
   <availableSchedules date="2009-11-24T00:00:00.000+0100" load="4"/>

@@ -40,7 +40,7 @@
     <imputation comment="prise en compte commentaires ama dossier integration" date="2009-07-13T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.4/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.80"/>
+      <planification href="../M2.naja#//@planifications.78"/>
     </imputation>
   </entries>
   <entries comment="Test + correctifs Vue fictive OAO" day="20090713" load="8">
@@ -49,7 +49,7 @@
     <imputation comment="Test + correctifs Vue fictive OAO" date="2009-07-13T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Contact LLT + Suivi encours incidents 'Urgents' a livrer avant le 10 Août" day="20090713" load="2" wasPlanified="false">

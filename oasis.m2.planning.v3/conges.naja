@@ -483,7 +483,7 @@
   <imputations comment="Pont 15 aout PBR" date="2009-08-14T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
   </imputations>
-  <imputations comment="[Supposition] Pont week-end sept PBR" date="2009-09-18T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+  <imputations comment="Absence PBR le 07/09" date="2009-09-07T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/PBR_97488r.naja#/"/>
   </imputations>
   <imputations comment="[Supposition] Pont week-end sept PBR" date="2009-09-21T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
@@ -846,6 +846,9 @@
   <imputations comment="Absence NCO 28/08" date="2009-08-28T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/NCO_09444n.naja#/"/>
   </imputations>
+  <imputations comment="Absence DBR le 09/09/09" date="2009-09-09T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/DBR_97261j.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <subcategories name="Non OASIS">
       <tasks totalLoad="44" name="DI">
@@ -1146,6 +1149,7 @@
       <imputations href="#//@imputations.279"/>
       <imputations href="#//@imputations.280"/>
       <imputations href="#//@imputations.281"/>
+      <imputations href="#//@imputations.282"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>

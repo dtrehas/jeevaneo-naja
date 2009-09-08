@@ -15,7 +15,7 @@
     <imputation comment="N3 - Recherche impacts modifications MStrToFloatDef (TT 27791) et qualif incident 26946" date="2009-06-02T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="Chantier 4" day="20090602" load="8">
@@ -42,7 +42,7 @@
     <imputation comment="Planning : urgence fournir dates jalons pour livarisons doc ==> cq. Integration timeEntries sem -1 et -2" date="2009-06-02T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Poursuite planning : positionnement documentation, repriorisation tuotes taches + re-estime RAF" day="20090603" load="8">
@@ -51,7 +51,7 @@
     <imputation comment="Poursuite planning : positionnement documentation, repriorisation tuotes taches + re-estime RAF" date="2009-06-03T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Depilage e-mail vacances + planning : retour reunion Abo + poursuite cloturer trajectoire" day="20090604" load="8">
@@ -60,7 +60,7 @@
     <imputation comment="Depilage e-mail vacances + planning : retour reunion Abo + poursuite cloturer trajectoire" date="2009-06-04T00:00:00.000+0200" load="8">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="N3 - qualif incidents" day="20090603" load="8">
@@ -69,7 +69,7 @@
     <imputation comment="N3 - qualif incidents" date="2009-06-03T00:00:00.000+0200" load="8">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="421 - tests et correctifs + amelioration des performances" day="20090604" load="8">
@@ -87,7 +87,7 @@
     <imputation comment="micro planning TCO (redaction exercices)" date="2009-06-02T00:00:00.000+0200" load="8">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.126"/>
+      <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
   <entries comment="micro planning TCO (redaction exercices)" day="20090603" load="4">
@@ -96,7 +96,7 @@
     <imputation comment="micro planning TCO (redaction exercices)" date="2009-06-03T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.126"/>
+      <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
   <entries comment="test 421" day="20090604" load="4">
@@ -105,7 +105,7 @@
     <imputation comment="test 421" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.4"/>
-      <planification href="../M2.naja#//@planifications.108"/>
+      <planification href="../M2.naja#//@planifications.106"/>
     </imputation>
   </entries>
   <entries comment="documentation + test java TCO" day="20090605" load="6">
@@ -114,7 +114,7 @@
     <imputation comment="documentation + test java TCO" date="2009-06-05T00:00:00.000+0200" load="6">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.126"/>
+      <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
   <entries comment="archi : integration GAT dans le BE" day="20090605" load="2">
@@ -132,7 +132,7 @@
     <imputation comment="assistance mise en place env dev" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.126"/>
+      <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
   <entries comment="assistance mise en place env dev" day="20090603" load="4">
@@ -141,7 +141,7 @@
     <imputation comment="assistance mise en place env dev" date="2009-06-03T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.126"/>
+      <planification href="../M2.naja#//@planifications.124"/>
     </imputation>
   </entries>
   <entries comment="421 - tests et correctifs" day="20090605" load="4">
@@ -176,7 +176,7 @@
     <imputation comment=" Incident: 27366 reprise de la memorisation dans DOS" date="2009-06-02T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.115"/>
+      <planification href="../M2.naja#//@planifications.113"/>
     </imputation>
   </entries>
   <entries comment="CC: les projet cpp n'etaient plus compile dans le socle-raw" day="20090603" load="2">
@@ -185,7 +185,7 @@
     <imputation comment="CC: les projet cpp n'etaient plus compile dans le socle-raw" date="2009-06-03T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.115"/>
+      <planification href="../M2.naja#//@planifications.113"/>
     </imputation>
   </entries>
   <entries comment=" Incident: 27366 reprise de la memorisation dans DOS" day="20090603" load="6">
@@ -194,7 +194,7 @@
     <imputation comment=" Incident: 27366 reprise de la memorisation dans DOS" date="2009-06-03T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.115"/>
+      <planification href="../M2.naja#//@planifications.113"/>
     </imputation>
   </entries>
   <entries comment="Preparation des postes pour masterisation" day="20090604" load="2">
@@ -211,7 +211,7 @@
     <imputation comment="ajout de svn:ignore, suppression de branche inutile, cherche d'un correctif pour les erreurs de compilation L470" date="2009-06-04T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.115"/>
+      <planification href="../M2.naja#//@planifications.113"/>
     </imputation>
   </entries>
   <entries comment="CC: correction du labelincrementer, optimisation de l'installation d'un CC lorsqu'il en existe deja un, etc" day="20090605" load="6">
@@ -245,7 +245,7 @@
     <imputation comment="Point avec Mehdi et ABO sur TCO docs (eval, plan, planning)" date="2009-06-05T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.60"/>
+      <planification href="../M2.naja#//@planifications.59"/>
     </imputation>
   </entries>
   <entries comment="Divers suivi equipe : planning suite + suivi 421 + suite depilage e-mail" day="20090605" load="2">
@@ -254,7 +254,7 @@
     <imputation comment="Divers suivi equipe : planning suite + suivi 421 + suite depilage e-mail" date="2009-06-05T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Chantier 4" day="20090604" load="8">
@@ -317,7 +317,7 @@
     <imputation comment="Test et correctifs suite refonte du socle 421" date="2009-06-02T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.112"/>
+      <planification href="../M2.naja#//@planifications.110"/>
     </imputation>
   </entries>
   <entries comment="Test et correctifs suite refonte du socle 421" day="20090603" load="8">
@@ -326,7 +326,7 @@
     <imputation comment="Test et correctifs suite refonte du socle 421" date="2009-06-03T00:00:00.000+0200" load="8">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.6/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.112"/>
+      <planification href="../M2.naja#//@planifications.110"/>
     </imputation>
   </entries>
   <entries comment="Correctif sur l'interaction des vues BE (quickto, businessHistory, ..), la visibilite d'une ressource et la reactivation du cache." day="20090604" load="8">
@@ -362,7 +362,7 @@
     <imputation comment="Initialisation etoile+CC POC GED (ANTARES) + Reinit Canopus a partir de trunk" date="2009-06-02T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="Vu Slsvn002 avec Didier Charriere (pb sauvegarde), Point avec Regis sur lots evolutifs, initialisation lots 4001 et 4011" day="20090602" load="2">
@@ -389,7 +389,7 @@
     <imputation comment="Support/suivi livraison 27791" date="2009-06-03T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="  Com avec KLIF-T sur livraison du 12/06 ( Marc Guibert, Alain Courbez)" day="20090603" load="4">
@@ -416,7 +416,7 @@
     <imputation comment="Atterissage portail decisionnel en qualif : Support sur merges dans Trunk, com Valerie Descout" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="Problematique livraison socle 1.50.1.3. Come vers CetE, Support, initialisation branche 1.50.1.3" day="20090604" load="4">
@@ -425,7 +425,7 @@
     <imputation comment="Problematique livraison socle 1.50.1.3. Come vers CetE, Support, initialisation branche 1.50.1.3" date="2009-06-04T00:00:00.000+0200" load="4">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.128"/>
+      <planification href="../M2.naja#//@planifications.126"/>
     </imputation>
   </entries>
   <entries comment="Pb CC trunk SOFIA : qualification de l'anomalie (bug SVN)" day="20090605" load="2">
@@ -434,7 +434,7 @@
     <imputation comment="Pb CC trunk SOFIA : qualification de l'anomalie (bug SVN)" date="2009-06-05T00:00:00.000+0200" load="2">
       <resource href="../resources/AGI_97061a.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.93"/>
+      <planification href="../M2.naja#//@planifications.91"/>
     </imputation>
   </entries>
   <entries comment="Documentations Hors-GAT" day="20090605" load="6">
@@ -452,7 +452,7 @@
     <imputation comment="Pilotage ABO 02/06/2009" date="2009-06-02T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 03/06/2009" day="20090603" load="8">
@@ -461,7 +461,7 @@
     <imputation comment="Pilotage ABO 03/06/2009" date="2009-06-03T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 04/06/2009" day="20090604" load="8">
@@ -470,7 +470,7 @@
     <imputation comment="Pilotage ABO 04/06/2009" date="2009-06-04T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 05/06/2009" day="20090605" load="8">
@@ -479,7 +479,7 @@
     <imputation comment="Pilotage ABO 05/06/2009" date="2009-06-05T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

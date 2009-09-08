@@ -14,7 +14,7 @@
     <imputation comment="Recherche probleme sur fiche reponse non creee application 125 (probleme oasisisation)" date="2009-08-24T00:00:00.000+0200" load="4">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.187"/>
+      <planification href="../M2.naja#//@planifications.185"/>
     </imputation>
   </entries>
   <entries comment="Qualif incidents" day="20090824" load="2">
@@ -23,7 +23,7 @@
     <imputation comment="Qualif incidents" date="2009-08-24T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.187"/>
+      <planification href="../M2.naja#//@planifications.185"/>
     </imputation>
   </entries>
   <entries comment="Integration planning sem 34" day="20090824" load="2">
@@ -32,7 +32,7 @@
     <imputation comment="Integration planning sem 34" date="2009-08-24T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="N3 : suivi KLIF de la livraison du 25/08, reception incident IRD, echange avec CetE, maj fichier incidents urgents TBL pour prioriser activite DBR, debut livraison 1/09" day="20090824" load="6">
@@ -41,7 +41,7 @@
     <imputation comment="N3 : suivi KLIF de la livraison du 25/08, reception incident IRD, echange avec CetE, maj fichier incidents urgents TBL pour prioriser activite DBR, debut livraison 1/09" date="2009-08-24T00:00:00.000+0200" load="6">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.127"/>
+      <planification href="../M2.naja#//@planifications.125"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 20090824" day="20090824" load="4">
@@ -50,7 +50,7 @@
     <imputation comment="Pilotage ABO 20090824" date="2009-08-24T00:00:00.000+0200" load="4">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="relecture de l'archi" day="20090824" load="4">
@@ -59,7 +59,7 @@
     <imputation comment="relecture de l'archi" date="2009-08-24T00:00:00.000+0200" load="4">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.206"/>
+      <planification href="../M2.naja#//@planifications.204"/>
     </imputation>
   </entries>
   <entries comment="finalisation TCO ANT" day="20090824" load="2">
@@ -68,7 +68,7 @@
     <imputation comment="finalisation TCO ANT" date="2009-08-24T00:00:00.000+0200" load="2">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.135"/>
+      <planification href="../M2.naja#//@planifications.133"/>
     </imputation>
   </entries>
   <entries comment="TCO - Presentation chantiers M7 a PH" day="20090824" load="8">
@@ -95,7 +95,7 @@
     <imputation comment="N3 PRD" date="2009-08-24T00:00:00.000+0200" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.89"/>
+      <planification href="../M2.naja#//@planifications.87"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

@@ -6,7 +6,7 @@
     <imputation comment="correction du document" date="2009-08-19T00:00:00.000+0200" load="4">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.83"/>
+      <planification href="../M2.naja#//@planifications.81"/>
     </imputation>
   </entries>
   <entries comment="debut redaction specificites des adapteurs" day="20090819" load="4">
@@ -24,7 +24,7 @@
     <imputation comment="test delphi" date="2009-08-19T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.139"/>
+      <planification href="../M2.naja#//@planifications.137"/>
     </imputation>
   </entries>
   <entries comment="Suivi livraison redim COU et couleur DOS avec divers aller-retour GDE/BBB.. + tests VNR livraison" day="20090819" load="6">
@@ -33,7 +33,7 @@
     <imputation comment="Suivi livraison redim COU et couleur DOS avec divers aller-retour GDE/BBB.. + tests VNR livraison" date="2009-08-19T00:00:00.000+0200" load="6">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.185"/>
+      <planification href="../M2.naja#//@planifications.183"/>
     </imputation>
   </entries>
   <entries comment="Suivi livraison du 25/08 : tests VNR, suivi port dans COR puis BL lot.." day="20090819" load="2">
@@ -42,7 +42,7 @@
     <imputation comment="Suivi livraison du 25/08 : tests VNR, suivi port dans COR puis BL lot.." date="2009-08-19T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.127"/>
+      <planification href="../M2.naja#//@planifications.125"/>
     </imputation>
   </entries>
   <entries comment="[CE] Probleme adresse de PRD et evol de DOS" day="20090819" load="6">
@@ -51,7 +51,7 @@
     <imputation comment="[CE] Probleme adresse de PRD et evol de DOS" date="2009-08-19T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.186"/>
+      <planification href="../M2.naja#//@planifications.184"/>
     </imputation>
   </entries>
   <entries comment="Merge divers et varier" day="20090819" load="2" wasPlanified="false">

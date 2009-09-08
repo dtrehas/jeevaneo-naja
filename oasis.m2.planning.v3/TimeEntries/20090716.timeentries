@@ -32,7 +32,7 @@
     <imputation comment="Incidents (PRD/COU/257) => F.Giret" date="2009-07-16T00:00:00.000+0200" load="2">
       <resource href="../resources/DBR_97261j.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.90"/>
+      <planification href="../M2.naja#//@planifications.88"/>
     </imputation>
   </entries>
   <entries comment="CC Ldap Bac commit inoperant" day="20090716" load="2">
@@ -50,7 +50,7 @@
     <imputation comment="Test + correctifs Vue fictive OAO" date="2009-07-16T00:00:00.000+0200" load="6">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Incident DER + probleme de token" day="20090716" load="4" wasPlanified="false">
@@ -67,7 +67,7 @@
     <imputation comment="CC: suppression de la pop up lorsque eclipse faile + ajout de svn:ignore + suppression des editeurs par default pour les .pas" date="2009-07-16T00:00:00.000+0200" load="4">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.89"/>
+      <planification href="../M2.naja#//@planifications.87"/>
     </imputation>
   </entries>
   <entries comment="pb oasis_builder couloir cor : le pattern de recherche des plugins communs est trop precis. Tag et modif de la CDB REF_COR pour prendre en compte ce nouvel oasis_builder" day="20090716" load="2">

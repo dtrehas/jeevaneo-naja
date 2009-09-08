@@ -23,7 +23,7 @@
     <imputation comment="Preparation poste pour Patricia pour tests COU redim et DOS, puis echange avec elle.." date="2009-08-20T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.185"/>
+      <planification href="../M2.naja#//@planifications.183"/>
     </imputation>
   </entries>
   <entries comment="Suivi livraison : fin tests VNR, dde BLS, echange avec KLIF, correction fiche de tests suite modif BBB sur couleur de DOS" day="20090820" load="4">
@@ -32,7 +32,7 @@
     <imputation comment="Suivi livraison : fin tests VNR, dde BLS, echange avec KLIF, correction fiche de tests suite modif BBB sur couleur de DOS" date="2009-08-20T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.127"/>
+      <planification href="../M2.naja#//@planifications.125"/>
     </imputation>
   </entries>
   <entries comment="Relecture Dossier Int. HTML" day="20090820" load="2">
@@ -41,7 +41,7 @@
     <imputation comment="Relecture Dossier Int. HTML" date="2009-08-20T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.87"/>
+      <planification href="../M2.naja#//@planifications.85"/>
     </imputation>
   </entries>
   <entries comment="Couleurs de DOS, point avec Bea, avec Ghristophe et avec Patricia - redim COU : bug trouve - soucis GCL generation BLS M1 : tout est bien qui finit bien" day="20090820" load="4">
@@ -50,7 +50,7 @@
     <imputation comment="Couleurs de DOS, point avec Bea, avec Ghristophe et avec Patricia - redim COU : bug trouve - soucis GCL generation BLS M1 : tout est bien qui finit bien" date="2009-08-20T00:00:00.000+0200" load="4">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="suite redaction" day="20090820" load="6">
@@ -68,7 +68,7 @@
     <imputation comment="debut tco ant" date="2009-08-20T00:00:00.000+0200" load="2">
       <resource href="../resources/MEL_97302k.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.134"/>
+      <planification href="../M2.naja#//@planifications.132"/>
     </imputation>
   </entries>
   <entries comment="tco ant" day="20090820" load="8">
@@ -77,7 +77,7 @@
     <imputation comment="tco ant" date="2009-08-20T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.135"/>
+      <planification href="../M2.naja#//@planifications.133"/>
     </imputation>
   </entries>
   <entries comment="Incident 31843" day="20090820" load="6">
@@ -86,7 +86,7 @@
     <imputation comment="Incident 31843" date="2009-08-20T00:00:00.000+0200" load="6">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.186"/>
+      <planification href="../M2.naja#//@planifications.184"/>
     </imputation>
   </entries>
   <entries comment="Ajout avec ABO des svn:ignore" day="20090820" load="2">
@@ -95,7 +95,7 @@
     <imputation comment="Ajout avec ABO des svn:ignore" date="2009-08-20T00:00:00.000+0200" load="2">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.5"/>
-      <planification href="../M2.naja#//@planifications.184"/>
+      <planification href="../M2.naja#//@planifications.182"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

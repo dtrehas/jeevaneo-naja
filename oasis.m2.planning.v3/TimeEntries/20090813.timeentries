@@ -15,7 +15,7 @@
     <imputation comment="Doc : prise en compte retour et derniers ajustements" date="2009-08-13T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.5/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.191"/>
+      <planification href="../M2.naja#//@planifications.189"/>
     </imputation>
   </entries>
   <entries comment="Relecture, corrections et ajouts puis livraison" day="20090813" load="4" wasPlanified="false">
@@ -32,7 +32,7 @@
     <imputation comment="Comme demande par SRE, installation d'un OAO et configuration d'un ldap pour tests lundi prochain" date="2009-08-13T00:00:00.000+0200" load="2">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.219"/>
+      <planification href="../M2.naja#//@planifications.217"/>
     </imputation>
   </entries>
   <entries comment="Point sur la RMOA (qui debutera mardi), reponses a W Balazot, demande de Moumoune pour une livraison de tbo.ini que finalement c'est pas nous .. etc." day="20090813" load="2">
@@ -41,7 +41,7 @@
     <imputation comment="Point sur la RMOA (qui debutera mardi), reponses a W Balazot, demande de Moumoune pour une livraison de tbo.ini que finalement c'est pas nous .. etc." date="2009-08-13T00:00:00.000+0200" load="2">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Junit: Validation des perspectives (cache, ajout/suppression de vue)" day="20090813" load="6">
@@ -59,7 +59,7 @@
     <imputation comment="qualif synchro Ldap->Xml et OAO sur les attributs RespMetier RespInfo qui disparaissent" date="2009-08-13T00:00:00.000+0200" load="2">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.118"/>
+      <planification href="../M2.naja#//@planifications.116"/>
     </imputation>
   </entries>
   <entries comment="Suivi des incidents : divers qualif, .." day="20090813" load="8">

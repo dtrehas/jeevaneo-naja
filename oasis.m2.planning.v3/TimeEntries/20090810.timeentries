@@ -6,7 +6,7 @@
     <imputation comment="Junit Echange de contexte" date="2009-08-10T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
   <entries comment="Suivi livraison du 12/08 a KLIF : pose de BLS, info KLIF, ..+ organisation cette semaine vis-a-vis de CetE" day="20090810" load="4">
@@ -15,7 +15,7 @@
     <imputation comment="Suivi livraison du 12/08 a KLIF : pose de BLS, info KLIF, ..+ organisation cette semaine vis-a-vis de CetE" date="2009-08-10T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.185"/>
+      <planification href="../M2.naja#//@planifications.183"/>
     </imputation>
   </entries>
   <entries comment="Supervision" day="20090810" load="2">
@@ -33,7 +33,7 @@
     <imputation comment="Planning : RAF Doc" date="2009-08-10T00:00:00.000+0200" load="2">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.62"/>
+      <planification href="../M2.naja#//@planifications.61"/>
     </imputation>
   </entries>
   <entries comment="Pilotage ABO 10/08" day="20090810" load="8">
@@ -42,7 +42,7 @@
     <imputation comment="Pilotage ABO 10/08" date="2009-08-10T00:00:00.000+0200" load="8">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="M7" day="20090810" load="8">
@@ -60,7 +60,7 @@
     <imputation comment="Incident 27792" date="2009-08-10T00:00:00.000+0200" load="8">
       <resource href="../resources/PBR_97488r.naja#/"/>
       <task href="../M2.naja#//@categories.2/@subcategories.0/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.186"/>
+      <planification href="../M2.naja#//@planifications.184"/>
     </imputation>
   </entries>
   <entries comment="Junit WidthSplitter (zoop zoop) + incident 31584 (wrapper CAR non genere car conf de wrapper erronee)" day="20090810" load="4">
@@ -69,7 +69,7 @@
     <imputation comment="Junit WidthSplitter (zoop zoop) + incident 31584 (wrapper CAR non genere car conf de wrapper erronee)" date="2009-08-10T00:00:00.000+0200" load="4">
       <resource href="../resources/ALA_97259d.naja#/"/>
       <task href="../M2.naja#//@categories.5/@subcategories.0/@tasks.9"/>
-      <planification href="../M2.naja#//@planifications.169"/>
+      <planification href="../M2.naja#//@planifications.167"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>

@@ -15,7 +15,7 @@
     <imputation comment="Relecture du chapo - pas fini!!" date="2009-08-21T00:00:00.000+0200" load="2">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.3/@tasks.1"/>
-      <planification href="../M2.naja#//@planifications.214"/>
+      <planification href="../M2.naja#//@planifications.212"/>
     </imputation>
   </entries>
   <entries comment="Tests de la 5eme ligne : bug trouve + travail avec Pierre sur ST APRE + merge de la vraie branche 424" day="20090821" load="4">
@@ -24,7 +24,7 @@
     <imputation comment="Tests de la 5eme ligne : bug trouve + travail avec Pierre sur ST APRE + merge de la vraie branche 424" date="2009-08-21T00:00:00.000+0200" load="4">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.101"/>
+      <planification href="../M2.naja#//@planifications.99"/>
     </imputation>
   </entries>
   <entries comment="Lot du 25" day="20090821" load="2">
@@ -33,7 +33,7 @@
     <imputation comment="Lot du 25" date="2009-08-21T00:00:00.000+0200" load="2">
       <resource href="../resources/ABO_97607k.naja#/"/>
       <task href="../M2.naja#//@categories.7/@subcategories.0/@tasks.2"/>
-      <planification href="../M2.naja#//@planifications.218"/>
+      <planification href="../M2.naja#//@planifications.216"/>
     </imputation>
   </entries>
   <entries comment="Support KLIF pour MEP : pose BLS, envoie BLS, divers echanges repartis sur la semaine" day="20090821" load="4" wasPlanified="false">
@@ -50,7 +50,7 @@
     <imputation comment="relecture HTML" date="2009-08-21T00:00:00.000+0200" load="4">
       <resource href="../resources/AMA_97675t.naja#/"/>
       <task href="../M2.naja#//@categories.3/@subcategories.1/@subcategories.1/@tasks.0"/>
-      <planification href="../M2.naja#//@planifications.64"/>
+      <planification href="../M2.naja#//@planifications.63"/>
     </imputation>
   </entries>
   <entries comment="Documentation APRE" day="20090821" load="8">
@@ -77,7 +77,7 @@
     <imputation comment="suite TCO ant" date="2009-08-21T00:00:00.000+0200" load="8">
       <resource href="../resources/NCO_09444n.naja#/"/>
       <task href="../M2.naja#//@categories.0/@subcategories.0/@tasks.3"/>
-      <planification href="../M2.naja#//@planifications.135"/>
+      <planification href="../M2.naja#//@planifications.133"/>
     </imputation>
   </entries>
 </naja-te:TimeEntries>
