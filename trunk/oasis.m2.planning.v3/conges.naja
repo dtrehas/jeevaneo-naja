@@ -849,6 +849,9 @@
   <imputations comment="Absence DBR le 09/09/09" date="2009-09-09T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
     <resource href="resources/DBR_97261j.naja#/"/>
   </imputations>
+  <imputations comment="Absence NCO le 25/09" date="2009-09-25T00:00:00.000+0200" task="//@categories.0/@tasks.0" load="8">
+    <resource href="resources/NCO_09444n.naja#/"/>
+  </imputations>
   <categories name="Absences">
     <subcategories name="Non OASIS">
       <tasks totalLoad="44" name="DI">
@@ -1150,6 +1153,7 @@
       <imputations href="#//@imputations.280"/>
       <imputations href="#//@imputations.281"/>
       <imputations href="#//@imputations.282"/>
+      <imputations href="#//@imputations.283"/>
     </tasks>
   </categories>
 </jeevaneo-naja:Project>

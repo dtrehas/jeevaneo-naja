@@ -268,6 +268,12 @@
   <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.55/@imputation"/>
   <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.34/@imputation"/>
   <imputations href="../TimeEntries/20090831_to_20090904.timeentries#//@entries.81/@imputation"/>
+  <imputations href="../TimeEntries/20090907_to_20090911.timeentries#//@entries.59/@imputation"/>
+  <imputations href="../TimeEntries/20090907_to_20090911.timeentries#//@entries.58/@imputation"/>
+  <imputations href="../TimeEntries/20090907_to_20090911.timeentries#//@entries.56/@imputation"/>
+  <imputations href="../TimeEntries/20090907_to_20090911.timeentries#//@entries.55/@imputation"/>
+  <imputations href="../TimeEntries/20090907_to_20090911.timeentries#//@entries.57/@imputation"/>
+  <imputations href="../TimeEntries/20090907_to_20090911.timeentries#//@entries.60/@imputation"/>
   <planifications href="../M2.naja#//@planifications.89"/>
   <planifications href="../M2.naja#//@planifications.9"/>
   <planifications href="../M2.naja#//@planifications.10"/>
@@ -293,11 +299,9 @@
   <planifications href="../M2.naja#//@planifications.52"/>
   <planifications href="../M2.naja#//@planifications.12"/>
   <planifications href="../M2.naja#//@planifications.151"/>
-  <availableSchedules date="2009-10-27T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-10-28T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="8"/>
-  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="8"/>
+  <availableSchedules date="2009-10-29T00:00:00.000+0100" load="2"/>
+  <availableSchedules date="2009-10-30T00:00:00.000+0100" load="6"/>
+  <availableSchedules date="2009-11-02T00:00:00.000+0100" load="6"/>
   <availableSchedules date="2009-11-03T00:00:00.000+0100" load="6"/>
   <availableSchedules date="2009-11-04T00:00:00.000+0100" load="8"/>
   <availableSchedules date="2009-11-05T00:00:00.000+0100" load="8"/>

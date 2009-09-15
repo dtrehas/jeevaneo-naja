@@ -367,4 +367,7 @@
   <mappings externalId="tasks/Doc_STD_SocleOasis.task">
     <task href="M2.naja#//@categories.3/@subcategories.4/@tasks.6"/>
   </mappings>
+  <mappings externalId="tasks/GED_doc.task">
+    <task href="M2.naja#//@categories.3/@subcategories.1/@subcategories.6/@tasks.0"/>
+  </mappings>
 </jeevaneo-naja:TaskMappings>
